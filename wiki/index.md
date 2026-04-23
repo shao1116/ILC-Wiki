@@ -72,9 +72,9 @@ flowchart TB
 - [ILC3 Working Model](./digests/2026-04-20_ILC3_working_model.md): working synthesis of ILC3 roles in lung IL-22 defense, IL-17/neutrophilic inflammation, steroid-resistant asthma, and stromal niche context.
 - [Role Of ILC In Pulmonary Diseases](./digests/2026-04-20_ILC_pulmonary_disease_roles.md): disease-oriented map of ILC roles across asthma, infection, ARDS/lung injury, repair, and tumor/niche contexts.
 
+---
 The following sections document the underlying source structure, curation workflow, and audit history. Most readers can focus on the sections above.
 
----
 ## Source And Curation Layers
 
 - [Sources README](./sources/README.md): explains source-page conventions and the difference between provisional bulk-ingest notes and focused manual crystallization.
@@ -98,5 +98,3 @@ Audit pages preserve curation history, schema changes, and broad interpretation 
 ## Reading Notes
 
 This wiki is a research synthesis aid, not a clinical guideline. Claim-level confidence refers to biological claims and evidence directness, not to whether a PDF was successfully processed. Mouse perturbation, human lung tissue, sputum, blood, nasal airway, scRNA-seq, and review-level evidence are intentionally kept separate when they imply different levels of confidence.
-
----
