@@ -49,6 +49,10 @@
       
     
     
+      <link rel="stylesheet" href="assets/stylesheets/notion.css">
+    
+      <link rel="stylesheet" href="assets/stylesheets/mermaid.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1370,15 +1374,33 @@
 </table>
 <h2 id="core-knowledge-map">Core Knowledge Map</h2>
 <pre class="mermaid"><code>flowchart TB
-    home["ILC in lung overview"] --&gt; trend["Research trend&lt;br/&gt;from discovery to mechanisms"]
+    accTitle: Core Knowledge Map
+    accDescr: Homepage map showing how readers should move from field orientation into core synthesis, entity hubs, topic pages, and source traceability.
+
+    home["Start&lt;br/&gt;ILC in lung overview"] --&gt; trend["Field history"]
     home --&gt; core["Core evidence synthesis"]
-    core --&gt; ilc2["ILC2 entity hub"]
-    core --&gt; ilc3["ILC3 entity hub"]
-    ilc2 --&gt; ilc2_disease["ILC2 pulmonary disease roles"]
-    ilc2 --&gt; ilc2_reg["ILC2 functional regulation"]
-    ilc3 --&gt; ilc3_disease["ILC3 pulmonary disease roles"]
-    ilc3 --&gt; ilc3_reg["ILC3 functional regulation"]
-    core --&gt; sources["Source notes and audit trail"]</code></pre>
+    core --&gt; ilc2["ILC2 hub"]
+    core --&gt; ilc3["ILC3 hub"]
+    ilc2 --&gt; ilc2_disease["Disease roles"]
+    ilc2 --&gt; ilc2_reg["Regulation map"]
+    ilc3 --&gt; ilc3_disease["Disease roles"]
+    ilc3 --&gt; ilc3_reg["Regulation map"]
+    ilc2_disease --&gt; sources["Source notes"]
+    ilc2_reg --&gt; sources
+    ilc3_disease --&gt; sources
+    ilc3_reg --&gt; sources
+
+    classDef entry fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef synthesis fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef topic fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
+    classDef source fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
+
+    class home entry
+    class trend,core synthesis
+    class ilc2,ilc3 cell
+    class ilc2_disease,ilc2_reg,ilc3_disease,ilc3_reg topic
+    class sources source</code></pre>
 <h2 id="cell-entity-hubs">Cell Entity Hubs</h2>
 <ul>
 <li><a href="entities/ILC2/">ILC2</a>: ILC2 identity, allergic and viral disease branches, repair and macrophage niche effects, neuroimmune and metabolic regulation, stromal/cellular feedback, and IL-17-producing boundary states.</li>

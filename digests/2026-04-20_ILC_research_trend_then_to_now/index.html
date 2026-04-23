@@ -51,6 +51,10 @@
       
     
     
+      <link rel="stylesheet" href="../../assets/stylesheets/notion.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/mermaid.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1528,16 +1532,27 @@
 </tbody>
 </table>
 <h2 id="knowledge-evolution-flowchart">Knowledge Evolution Flowchart</h2>
-<pre class="mermaid"><code>flowchart LR
-    A["Discovery era\nInnate lymphoid cells emerge beyond NK and LTi-like framing"] --&gt; B["2011 lung functional anchoring\nILCs can drive viral AHR and support post-influenza repair"]
-    B --&gt; C["2013-2016 taxonomy and tissue mapping\nILC1, ILC2, ILC3 subsets become practical disease language"]
-    C --&gt; D["2016-2021 plasticity and regulatory control\nMemory-like ILC2s, ILC2-to-ILC1-like shifts, IL-17-producing boundary states, ILC3 identity networks"]
-    D --&gt; E["2022-2025 disease-state and niche mechanisms\nRepair ILC2s, metabolic and neuroimmune control, smoking and steroid-resistant ILC3 programs, stromal SCF/KIT"]
-    E --&gt; F["Current LLM wiki model\nEvidence-aware navigation by subset, state, tissue, disease, assay, species, and confidence"]
+<pre class="mermaid"><code>flowchart TB
+    accTitle: ILC Knowledge Evolution
+    accDescr: Vertical timeline showing how ILC research evolved from discovery into lung functional biology, subset taxonomy, plasticity, niche mechanisms, and the current evidence-aware wiki model.
 
-    R1["Our 2011 contribution\nYa-Jen Chang first-author study: influenza-induced AHR can be mediated by innate lymphoid/natural-helper cells through IL-33/IL-13"] -.-&gt; B
-    R2["Our 2018 contribution\nChristina Li-Ping Thio first-author study: butyrate suppresses ILC2 cytokine output and ILC2-dependent AHR in reported systems"] -.-&gt; D
-    R3["Our 2025 contribution\nJheng-Syuan Shao first-author study: pulmonary fibroblast SCF/KIT augments ILC3 IL-17A and neutrophilic asthma-like inflammation"] -.-&gt; E</code></pre>
+    A["Pre-2011&lt;br/&gt;ILCs emerge beyond NK/LTi framing"] --&gt; B["2011&lt;br/&gt;Lung functional anchoring"]
+    B --&gt; C["2013-2016&lt;br/&gt;Subset taxonomy and tissue mapping"]
+    C --&gt; D["2016-2021&lt;br/&gt;Plasticity, memory, and regulation"]
+    D --&gt; E["2022-2025&lt;br/&gt;Disease states and niche mechanisms"]
+    E --&gt; F["Current wiki&lt;br/&gt;evidence-aware map"]
+
+    R1["Our 2011 role&lt;br/&gt;viral AHR"] -.-&gt; B
+    R2["Our 2018 role&lt;br/&gt;butyrate brake"] -.-&gt; D
+    R3["Our 2025 role&lt;br/&gt;SCF/KIT-ILC3"] -.-&gt; E
+
+    classDef era fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef current fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+    classDef our_work fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+
+    class A,B,C,D,E era
+    class F current
+    class R1,R2,R3 our_work</code></pre>
 <h2 id="how-understanding-changed-over-time">How Understanding Changed Over Time</h2>
 <h3 id="1-from-cell-discovery-to-lung-physiology">1. From cell discovery to lung physiology</h3>
 <p>Early ILC research established that innate lymphoid cells are not simply minor lymphocyte contaminants. They are tissue-integrated immune cells capable of rapid cytokine and repair-mediator production. The lung became a major test bed when influenza studies showed two apparently opposite functions: innate lymphoid/natural-helper-cell pathways can drive airway hyperreactivity through IL-33/IL-13, while lung ILCs can also support epithelial integrity and lung function after influenza injury through amphiregulin-associated repair.</p>
@@ -1559,7 +1574,7 @@
 <ul>
 <li><code>Ya-Jen Chang first-author, 2011</code>: the influenza-induced AHR study helped establish that innate lymphoid/natural-helper-cell pathways can mediate airway physiology independently of adaptive TH2 immunity. In this timeline, it belongs to the lung functional anchoring phase.</li>
 <li><code>Christina Li-Ping Thio first-author, 2018</code>: the butyrate study helped move the field from ILC2 presence and activation toward functional regulation, showing that butyrate can suppress ILC2 cytokine output and ILC2-dependent AHR in reported systems. In this timeline, it belongs to the regulation and plasticity phase.</li>
-<li><code>Christina Li-Ping Thio first-author, 2019</code>: the TLR9-dependent interferon source is currently provisional in this wiki, but it points to a negative regulatory pathway for ILC2-driven AHR.</li>
+<li><code>Christina Li-Ping Thio first-author, 2019</code>: the TLR9-dependent interferon source is now focused-crystallized in this wiki and anchors a negative regulatory pathway in which TLR9/type I IFN/NK-cell IFN-gamma/STAT1 signaling suppresses ILC2-driven AHR.</li>
 <li><code>Jheng-Syuan Shao first-author, 2025</code>: the pulmonary fibroblast-derived SCF study anchors a modern stromal-niche mechanism for ILC3-driven neutrophilic asthma-like inflammation. In this timeline, it belongs to the disease-endotype and tissue-niche mechanism phase.</li>
 </ul>
 <h2 id="beginner-reading-path">Beginner Reading Path</h2>
@@ -1582,7 +1597,7 @@
 <ul>
 <li>Update this page when a newly crystallized source changes the timing or interpretation of an ILC discovery phase.</li>
 <li>Add a new row if human lung, BAL, sputum, bronchial biopsy, or spatial single-cell studies directly connect ILC states to clinical outcomes in asthma, COPD, ARDS, pneumonia, fibrosis, or lung cancer.</li>
-<li>Promote the 2019 TLR9-dependent interferon source from provisional to durable only after focused manual crystallization checks the model system, cell specificity, interferon axis, human relevance, and outcome measures.</li>
+<li>Revisit the 2019 TLR9-dependent interferon axis if new human airway or lung-tissue studies test whether this inhibitory ILC2 pathway is conserved in asthma endotypes.</li>
 </ul>
 <h2 id="crystallized-from">Crystallized from</h2>
 <ul>

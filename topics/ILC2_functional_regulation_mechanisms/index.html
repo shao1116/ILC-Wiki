@@ -51,6 +51,10 @@
       
     
     
+      <link rel="stylesheet" href="../../assets/stylesheets/notion.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/mermaid.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1254,14 +1258,14 @@
     accTitle: ILC2 Regulation Map
     accDescr: Mechanistic regulatory layers controlling ILC2 function in the current wiki source set.
 
-    alarmins["Alarmins and cytokines&lt;br/&gt;IL-33, IL-25, IL-1beta"]
-    lipids["Lipid mediators&lt;br/&gt;CysLTs, PGD2, lipid droplets"]
-    receptors["Costimulation/checkpoints&lt;br/&gt;ICOS, OX40L, DR3, PD-1"]
-    metabolism["Metabolism&lt;br/&gt;autophagy, HIF-1alpha, glycolysis, mTORC1, mitochondria"]
-    neuro["Neuroimmune signals&lt;br/&gt;NMU, CGRP/PAC1, beta2-AR, dopamine"]
-    infection["Viral conditioning&lt;br/&gt;BATF, GM-CSF, macrophage imprinting"]
-    ilc2["ILC2 functional state"]
-    output["Outputs&lt;br/&gt;IL-5, IL-13, AREG, IL-17, GM-CSF"]
+    alarmins["Alarmins&lt;br/&gt;IL-33, IL-25"]
+    lipids["Lipids&lt;br/&gt;CysLTs, PGD2"]
+    receptors["Receptors&lt;br/&gt;ICOS, DR3, PD-1"]
+    metabolism["Metabolism&lt;br/&gt;HIF-1a, mTORC1"]
+    neuro["Neuroimmune&lt;br/&gt;NMU, CGRP, dopamine"]
+    infection["Viral conditioning&lt;br/&gt;BATF, GM-CSF"]
+    ilc2["ILC2 state"]
+    output["Outputs&lt;br/&gt;IL-5, IL-13, AREG"]
 
     alarmins --&gt; ilc2
     lipids --&gt; ilc2
@@ -1269,7 +1273,15 @@
     metabolism --&gt; ilc2
     neuro --&gt; ilc2
     infection --&gt; ilc2
-    ilc2 --&gt; output</code></pre>
+    ilc2 --&gt; output
+
+    classDef input fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef output_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+
+    class alarmins,lipids,receptors,metabolism,neuro,infection input
+    class ilc2 cell
+    class output output_class</code></pre>
 <h2 id="contradiction-and-supersession">Contradiction and supersession</h2>
 <ul>
 <li>Contradiction:

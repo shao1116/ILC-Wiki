@@ -51,6 +51,10 @@
       
     
     
+      <link rel="stylesheet" href="../../assets/stylesheets/notion.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/mermaid.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1238,14 +1242,14 @@
     accTitle: ILC3 Regulation Map
     accDescr: Mechanistic regulatory layers controlling ILC3 identity and inflammatory output.
 
-    identity["Identity and maintenance&lt;br/&gt;RORgammat, AHR, circadian circuits"]
+    identity["Identity&lt;br/&gt;RORgt, AHR"]
     stromal["Stromal niche&lt;br/&gt;IGF1, SCF/KIT"]
-    cytokines["Inflammatory cytokines&lt;br/&gt;IL-1beta, IL-23"]
-    metabolism["Metabolic and stress axes&lt;br/&gt;CD71-iron, IRE1alpha-XBP1"]
-    restraint["Restraint axes&lt;br/&gt;vitamin D, CTLA-4-linked regulation"]
-    resistance["Steroid resistance&lt;br/&gt;GR phosphorylation"]
-    ilc3["ILC3 functional state"]
-    output["Outputs&lt;br/&gt;IL-22, IL-17A, CXCL1, CXCL8"]
+    cytokines["Cytokines&lt;br/&gt;IL-1b, IL-23"]
+    metabolism["Metabolism/stress&lt;br/&gt;CD71, XBP1"]
+    restraint["Restraint&lt;br/&gt;vitamin D, CTLA-4"]
+    resistance["Steroid resistance&lt;br/&gt;GR signaling"]
+    ilc3["ILC3 state"]
+    output["Outputs&lt;br/&gt;IL-22, IL-17A"]
 
     identity --&gt; ilc3
     stromal --&gt; ilc3
@@ -1253,7 +1257,17 @@
     metabolism --&gt; ilc3
     restraint -. limits .-&gt; ilc3
     resistance --&gt; ilc3
-    ilc3 --&gt; output</code></pre>
+    ilc3 --&gt; output
+
+    classDef input fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef restraint_class fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
+    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef output_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+
+    class identity,stromal,cytokines,metabolism,resistance input
+    class restraint restraint_class
+    class ilc3 cell
+    class output output_class</code></pre>
 <h2 id="contradiction-and-supersession">Contradiction and supersession</h2>
 <ul>
 <li>Contradiction:
