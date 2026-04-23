@@ -1,3 +1,21 @@
+---
+tags:
+  - cell/ILC3
+  - tissue/lung
+  - tissue/gut
+  - assay/flow
+  - assay/RNAseq
+  - assay/scRNAseq
+  - assay/in_vivo
+  - assay/in_vitro
+  - outcome/infection
+  - outcome/inflammation
+  - outcome/airway_hyperresponsiveness
+  - axis/ILC_lung_homeostasis
+  - axis/ILC_airway_inflammation
+  - axis/ILC_plasticity
+---
+
 # ILC3 Functional Regulation Mechanisms
 
 ## Scope
@@ -8,7 +26,7 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 
 ## Evidence tags
 
-#cell/ILC3 #tissue/lung #tissue/gut #assay/flow #assay/RNAseq #assay/scRNAseq #assay/in_vivo #assay/in_vitro #outcome/infection #outcome/inflammation #outcome/airway_hyperresponsiveness #axis/ILC_lung_homeostasis #axis/ILC_airway_inflammation #axis/ILC_plasticity
+`#cell/ILC3` `#tissue/lung` `#tissue/gut` `#assay/flow` `#assay/RNAseq` `#assay/scRNAseq` `#assay/in_vivo` `#assay/in_vitro` `#outcome/infection` `#outcome/inflammation` `#outcome/airway_hyperresponsiveness` `#axis/ILC_lung_homeostasis` `#axis/ILC_airway_inflammation` `#axis/ILC_plasticity`
 
 ## Confidence snapshot
 

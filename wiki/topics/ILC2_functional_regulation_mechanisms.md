@@ -1,3 +1,19 @@
+---
+tags:
+  - cell/ILC2
+  - tissue/lung
+  - assay/flow
+  - assay/scRNAseq
+  - assay/in_vivo
+  - assay/in_vitro
+  - outcome/airway_hyperresponsiveness
+  - outcome/infection
+  - outcome/repair
+  - axis/ILC_airway_inflammation
+  - axis/ILC_lung_infection
+  - axis/ILC_plasticity
+---
+
 # ILC2 Functional Regulation Mechanisms
 
 ## Scope
@@ -8,7 +24,7 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 
 ## Evidence tags
 
-#cell/ILC2 #tissue/lung #assay/flow #assay/scRNAseq #assay/in_vivo #assay/in_vitro #outcome/airway_hyperresponsiveness #outcome/infection #outcome/repair #axis/ILC_airway_inflammation #axis/ILC_lung_infection #axis/ILC_plasticity
+`#cell/ILC2` `#tissue/lung` `#assay/flow` `#assay/scRNAseq` `#assay/in_vivo` `#assay/in_vitro` `#outcome/airway_hyperresponsiveness` `#outcome/infection` `#outcome/repair` `#axis/ILC_airway_inflammation` `#axis/ILC_lung_infection` `#axis/ILC_plasticity`
 
 ## Confidence snapshot
 

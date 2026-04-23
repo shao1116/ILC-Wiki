@@ -1,3 +1,16 @@
+---
+tags:
+  - cell/ILC2
+  - tissue/lung
+  - outcome/airway_hyperresponsiveness
+  - outcome/infection
+  - outcome/repair
+  - outcome/inflammation
+  - axis/ILC_lung_infection
+  - axis/ILC_airway_inflammation
+  - axis/ILC_plasticity
+---
+
 # ILC2 Working Model
 
 ## Scope
@@ -8,7 +21,7 @@ This page is a biological working model for lung and airway ILC2 function. It em
 
 ## Evidence tags
 
-#cell/ILC2 #tissue/lung #outcome/airway_hyperresponsiveness #outcome/infection #outcome/repair #outcome/inflammation #axis/ILC_lung_infection #axis/ILC_airway_inflammation #axis/ILC_plasticity
+`#cell/ILC2` `#tissue/lung` `#outcome/airway_hyperresponsiveness` `#outcome/infection` `#outcome/repair` `#outcome/inflammation` `#axis/ILC_lung_infection` `#axis/ILC_airway_inflammation` `#axis/ILC_plasticity`
 
 ## Working model
 

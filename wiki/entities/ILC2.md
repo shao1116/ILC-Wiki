@@ -1,3 +1,13 @@
+---
+tags:
+  - entity/cell_type
+  - cell/ILC2
+  - tissue/lung
+  - topic/pulmonary_disease
+  - topic/regulation
+  - status/working
+---
+
 # ILC2
 
 ## Scope
@@ -6,7 +16,7 @@ This entity page defines group 2 innate lymphoid cells (ILC2s) as they are used 
 
 ## Evidence tags
 
-#entity/cell_type #cell/ILC2 #tissue/lung #topic/pulmonary_disease #topic/regulation #status/working
+`#entity/cell_type` `#cell/ILC2` `#tissue/lung` `#topic/pulmonary_disease` `#topic/regulation` `#status/working`
 
 ## Confidence snapshot
 

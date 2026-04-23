@@ -1,3 +1,25 @@
+---
+tags:
+  - digest/core_evidence
+  - tissue/lung
+  - tissue/airway
+  - cell/ILC2
+  - cell/ILC3
+  - cell/ILC1
+  - cell/fibroblast
+  - cell/eosinophil
+  - cell/macrophage
+  - disease/asthma
+  - disease/infection
+  - disease/ARDS
+  - disease/COPD
+  - axis/ILC_lung_infection
+  - axis/ILC_airway_inflammation
+  - axis/ILC_plasticity
+  - axis/ILC_regulation
+  - axis/human_lung_ILC
+---
+
 # Lung ILC Core Evidence Synthesis
 
 ## Scope
@@ -8,7 +30,7 @@ The digest is designed as a reusable orientation page: a reader should be able t
 
 ## Evidence tags
 
-#digest/core_evidence #tissue/lung #tissue/airway #cell/ILC2 #cell/ILC3 #cell/ILC1 #cell/fibroblast #cell/eosinophil #cell/macrophage #disease/asthma #disease/infection #disease/ARDS #disease/COPD #axis/ILC_lung_infection #axis/ILC_airway_inflammation #axis/ILC_plasticity #axis/ILC_regulation #axis/human_lung_ILC
+`#digest/core_evidence` `#tissue/lung` `#tissue/airway` `#cell/ILC2` `#cell/ILC3` `#cell/ILC1` `#cell/fibroblast` `#cell/eosinophil` `#cell/macrophage` `#disease/asthma` `#disease/infection` `#disease/ARDS` `#disease/COPD` `#axis/ILC_lung_infection` `#axis/ILC_airway_inflammation` `#axis/ILC_plasticity` `#axis/ILC_regulation` `#axis/human_lung_ILC`
 
 ## Working model
 

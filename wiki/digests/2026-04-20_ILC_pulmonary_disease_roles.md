@@ -1,3 +1,19 @@
+---
+tags:
+  - tissue/lung
+  - cell/ILC1
+  - cell/ILC2
+  - cell/ILC3
+  - cell/NK
+  - outcome/airway_hyperresponsiveness
+  - outcome/infection
+  - outcome/inflammation
+  - outcome/repair
+  - axis/ILC_lung_infection
+  - axis/ILC_airway_inflammation
+  - axis/ILC_lung_homeostasis
+---
+
 # Role Of ILC In Pulmonary Diseases
 
 ## Scope
@@ -8,7 +24,7 @@ The page is disease-oriented rather than subset-oriented. For subset-specific sy
 
 ## Evidence tags
 
-#tissue/lung #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #outcome/airway_hyperresponsiveness #outcome/infection #outcome/inflammation #outcome/repair #axis/ILC_lung_infection #axis/ILC_airway_inflammation #axis/ILC_lung_homeostasis
+`#tissue/lung` `#cell/ILC1` `#cell/ILC2` `#cell/ILC3` `#cell/NK` `#outcome/airway_hyperresponsiveness` `#outcome/infection` `#outcome/inflammation` `#outcome/repair` `#axis/ILC_lung_infection` `#axis/ILC_airway_inflammation` `#axis/ILC_lung_homeostasis`
 
 ## Working model
 

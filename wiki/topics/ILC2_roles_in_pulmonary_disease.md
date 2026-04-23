@@ -1,3 +1,16 @@
+---
+tags:
+  - cell/ILC2
+  - tissue/lung
+  - outcome/airway_hyperresponsiveness
+  - outcome/infection
+  - outcome/repair
+  - outcome/inflammation
+  - axis/ILC_lung_infection
+  - axis/ILC_airway_inflammation
+  - axis/ILC_plasticity
+---
+
 # ILC2 Roles In Pulmonary Disease
 
 ## Scope
@@ -8,7 +21,7 @@ This page is more detailed than the [ILC2 Working Model](../digests/2026-04-20_I
 
 ## Evidence tags
 
-#cell/ILC2 #tissue/lung #outcome/airway_hyperresponsiveness #outcome/infection #outcome/repair #outcome/inflammation #axis/ILC_lung_infection #axis/ILC_airway_inflammation #axis/ILC_plasticity
+`#cell/ILC2` `#tissue/lung` `#outcome/airway_hyperresponsiveness` `#outcome/infection` `#outcome/repair` `#outcome/inflammation` `#axis/ILC_lung_infection` `#axis/ILC_airway_inflammation` `#axis/ILC_plasticity`
 
 ## Confidence snapshot
 

@@ -1,3 +1,13 @@
+---
+tags:
+  - entity/cell_type
+  - cell/ILC3
+  - tissue/lung
+  - topic/pulmonary_disease
+  - topic/regulation
+  - status/working
+---
+
 # ILC3
 
 ## Scope
@@ -6,7 +16,7 @@ This entity page defines group 3 innate lymphoid cells (ILC3s) as they are used 
 
 ## Evidence tags
 
-#entity/cell_type #cell/ILC3 #tissue/lung #topic/pulmonary_disease #topic/regulation #status/working
+`#entity/cell_type` `#cell/ILC3` `#tissue/lung` `#topic/pulmonary_disease` `#topic/regulation` `#status/working`
 
 ## Confidence snapshot
 

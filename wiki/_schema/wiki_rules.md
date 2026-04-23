@@ -94,6 +94,13 @@ Preferred tag families include:
 - outcome: `#outcome/inflammation` `#outcome/infection` `#outcome/repair` `#outcome/homeostasis` `#outcome/airway_hyperresponsiveness`
 - project axis: `#axis/ILC_lung_homeostasis` `#axis/ILC_lung_infection` `#axis/ILC_airway_inflammation` `#axis/ILC_plasticity`
 
+Topic, entity, and digest pages should store tags in two compatible layers:
+
+- YAML frontmatter `tags:` without the leading `#`, so Obsidian can index them as page tags.
+- A visible `## Evidence tags` section using inline-code tags, for example `` `#cell/ILC2` `#tissue/lung` ``.
+
+Do not place raw `#tag` text at the start of a line in page body text. MkDocs/Python-Markdown interprets a line-start `#tag` as a heading, causing oversized browser rendering and incorrect document structure.
+
 ## Ingest Rules
 
 1. Confirm the source exists in `RAW/`.

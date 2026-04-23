@@ -1,3 +1,17 @@
+---
+tags:
+  - cell/ILC3
+  - tissue/lung
+  - tissue/gut
+  - outcome/infection
+  - outcome/homeostasis
+  - outcome/inflammation
+  - outcome/airway_hyperresponsiveness
+  - axis/ILC_lung_homeostasis
+  - axis/ILC_airway_inflammation
+  - axis/ILC_plasticity
+---
+
 # ILC3 Working Model
 
 ## Scope
@@ -8,7 +22,7 @@ This page is a biological working model for lung and airway ILC3 function. It em
 
 ## Evidence tags
 
-#cell/ILC3 #tissue/lung #tissue/gut #outcome/infection #outcome/homeostasis #outcome/inflammation #outcome/airway_hyperresponsiveness #axis/ILC_lung_homeostasis #axis/ILC_airway_inflammation #axis/ILC_plasticity
+`#cell/ILC3` `#tissue/lung` `#tissue/gut` `#outcome/infection` `#outcome/homeostasis` `#outcome/inflammation` `#outcome/airway_hyperresponsiveness` `#axis/ILC_lung_homeostasis` `#axis/ILC_airway_inflammation` `#axis/ILC_plasticity`
 
 ## Working model
 

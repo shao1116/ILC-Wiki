@@ -1,3 +1,16 @@
+---
+tags:
+  - guide/beginner
+  - axis/ILC_lung_homeostasis
+  - axis/ILC_lung_infection
+  - axis/ILC_airway_inflammation
+  - axis/ILC_plasticity
+  - tissue/lung
+  - cell/ILC2
+  - cell/ILC3
+  - cell/ILC1
+---
+
 # ILC In Lung
 
 ## Scope
@@ -8,7 +21,7 @@ The wiki emphasizes `ILC2` and `ILC3` biology in pulmonary inflammation, respira
 
 ## Evidence Tags
 
-#guide/beginner #axis/ILC_lung_homeostasis #axis/ILC_lung_infection #axis/ILC_airway_inflammation #axis/ILC_plasticity #tissue/lung #cell/ILC2 #cell/ILC3 #cell/ILC1
+`#guide/beginner` `#axis/ILC_lung_homeostasis` `#axis/ILC_lung_infection` `#axis/ILC_airway_inflammation` `#axis/ILC_plasticity` `#tissue/lung` `#cell/ILC2` `#cell/ILC3` `#cell/ILC1`
 
 ## Wiki Status
 
