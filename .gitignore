@@ -1,0 +1,11 @@
+# Keep the public repo free of private/copyrighted artifacts
+RAW/
+*.pdf
+*.PDF
+wiki/sources/_extracted_text/
+wiki/sources/ingestion_manifest.csv
+wiki/sources/ingestion_manifest.jsonl
+
+# MkDocs build output
+site/
+.mkdocs_tmp/
