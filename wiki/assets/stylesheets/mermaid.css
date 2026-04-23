@@ -1,0 +1,28 @@
+/* Make Mermaid diagrams readable in MkDocs Material and GitHub Pages builds.
+   The diagram source remains Mermaid in Markdown; this only changes browser display. */
+.md-typeset .mermaid {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.75rem 0;
+}
+
+.md-typeset .mermaid svg {
+  display: block;
+  width: 100% !important;
+  min-width: 860px;
+  max-width: none !important;
+  height: auto !important;
+  margin: 0 auto;
+}
+
+.md-typeset .mermaid svg text {
+  font-size: 15px !important;
+}
+
+@media screen and (max-width: 900px) {
+  .md-typeset .mermaid svg {
+    min-width: 720px;
+  }
+}

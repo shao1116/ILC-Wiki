@@ -1,0 +1,162 @@
+/* Notion-style professional reading layer for the public wiki. */
+:root {
+  --md-default-bg-color: #ffffff;
+  --md-default-fg-color: #37352f;
+  --md-default-fg-color--light: #6b6964;
+  --md-primary-fg-color: #ffffff;
+  --md-primary-bg-color: #37352f;
+  --md-accent-fg-color: #2563eb;
+  --md-typeset-a-color: #2563eb;
+}
+
+body {
+  background: #ffffff;
+}
+
+.md-header {
+  background: #ffffff;
+  color: #37352f;
+  box-shadow: none;
+  border-bottom: 1px solid #ededeb;
+}
+
+.md-header__title {
+  font-weight: 600;
+}
+
+.md-search__form {
+  background: #f7f7f5;
+  border: 1px solid #ededeb;
+  border-radius: 8px;
+}
+
+.md-search__form:hover,
+.md-search__form:focus-within {
+  background: #ffffff;
+  border-color: #d8d8d4;
+}
+
+.md-main__inner {
+  margin-top: 0;
+}
+
+.md-content {
+  max-width: 980px;
+}
+
+.md-content__inner {
+  margin: 0 auto;
+  padding-top: 2.2rem;
+}
+
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.72;
+}
+
+.md-typeset h1 {
+  color: #2f3437;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 1.2rem;
+}
+
+.md-typeset h2 {
+  color: #2f3437;
+  font-size: 1.22rem;
+  font-weight: 650;
+  letter-spacing: 0;
+  margin-top: 2.3rem;
+  padding-top: 1.05rem;
+  border-top: 1px solid #ededeb;
+}
+
+.md-typeset h3 {
+  color: #2f3437;
+  font-size: 1rem;
+  font-weight: 650;
+  letter-spacing: 0;
+}
+
+.md-typeset p,
+.md-typeset li {
+  color: #37352f;
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid #ededeb;
+  border-radius: 8px;
+  box-shadow: none;
+  font-size: 0.74rem;
+}
+
+.md-typeset table:not([class]) th {
+  background: #f7f7f5;
+  color: #37352f;
+  font-weight: 650;
+}
+
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  border-color: #ededeb;
+}
+
+.md-typeset code {
+  background: #f1f1ef;
+  border-radius: 5px;
+  color: #44413c;
+}
+
+.md-sidebar {
+  color: #6b6964;
+}
+
+.md-sidebar--primary .md-nav {
+  font-size: 0.72rem;
+}
+
+.md-sidebar--primary .md-nav__title {
+  background: transparent;
+  box-shadow: none;
+  color: #6b6964;
+  font-weight: 600;
+}
+
+.md-sidebar--primary .md-nav__link {
+  border-radius: 7px;
+  color: #5f5e5b;
+  margin: 0.05rem 0;
+  padding: 0.22rem 0.42rem;
+}
+
+.md-sidebar--primary .md-nav__link:hover {
+  background: #f7f7f5;
+  color: #2f3437;
+}
+
+.md-sidebar--primary .md-nav__link--active,
+.md-sidebar--primary .md-nav__item .md-nav__link--active {
+  background: #f1f1ef;
+  color: #2f3437;
+  font-weight: 650;
+}
+
+.md-sidebar--secondary .md-nav {
+  font-size: 0.68rem;
+}
+
+.md-sidebar--secondary .md-nav__title {
+  box-shadow: none;
+  color: #8a8984;
+}
+
+.md-footer {
+  background: #ffffff;
+  color: #6b6964;
+  border-top: 1px solid #ededeb;
+}
+
+.md-footer-meta {
+  background: #ffffff;
+}

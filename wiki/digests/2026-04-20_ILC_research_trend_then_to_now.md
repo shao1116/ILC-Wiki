@@ -24,16 +24,27 @@ For beginners, the safest mental model is: ILCs are tissue-positioned innate lym
 ## Knowledge Evolution Flowchart
 
 ```mermaid
-flowchart LR
-    A["Discovery era\nInnate lymphoid cells emerge beyond NK and LTi-like framing"] --> B["2011 lung functional anchoring\nILCs can drive viral AHR and support post-influenza repair"]
-    B --> C["2013-2016 taxonomy and tissue mapping\nILC1, ILC2, ILC3 subsets become practical disease language"]
-    C --> D["2016-2021 plasticity and regulatory control\nMemory-like ILC2s, ILC2-to-ILC1-like shifts, IL-17-producing boundary states, ILC3 identity networks"]
-    D --> E["2022-2025 disease-state and niche mechanisms\nRepair ILC2s, metabolic and neuroimmune control, smoking and steroid-resistant ILC3 programs, stromal SCF/KIT"]
-    E --> F["Current LLM wiki model\nEvidence-aware navigation by subset, state, tissue, disease, assay, species, and confidence"]
+flowchart TB
+    accTitle: ILC Knowledge Evolution
+    accDescr: Vertical timeline showing how ILC research evolved from discovery into lung functional biology, subset taxonomy, plasticity, niche mechanisms, and the current evidence-aware wiki model.
 
-    R1["Our 2011 contribution\nYa-Jen Chang first-author study: influenza-induced AHR can be mediated by innate lymphoid/natural-helper cells through IL-33/IL-13"] -.-> B
-    R2["Our 2018 contribution\nChristina Li-Ping Thio first-author study: butyrate suppresses ILC2 cytokine output and ILC2-dependent AHR in reported systems"] -.-> D
-    R3["Our 2025 contribution\nJheng-Syuan Shao first-author study: pulmonary fibroblast SCF/KIT augments ILC3 IL-17A and neutrophilic asthma-like inflammation"] -.-> E
+    A["Pre-2011<br/>ILCs emerge beyond NK/LTi framing"] --> B["2011<br/>Lung functional anchoring"]
+    B --> C["2013-2016<br/>Subset taxonomy and tissue mapping"]
+    C --> D["2016-2021<br/>Plasticity, memory, and regulation"]
+    D --> E["2022-2025<br/>Disease states and niche mechanisms"]
+    E --> F["Current wiki<br/>evidence-aware map"]
+
+    R1["Our 2011 role<br/>viral AHR"] -.-> B
+    R2["Our 2018 role<br/>butyrate brake"] -.-> D
+    R3["Our 2025 role<br/>SCF/KIT-ILC3"] -.-> E
+
+    classDef era fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef current fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+    classDef our_work fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+
+    class A,B,C,D,E era
+    class F current
+    class R1,R2,R3 our_work
 ```
 
 ## How Understanding Changed Over Time
@@ -74,7 +85,7 @@ The wiki's "our research" axis is not a side note; it sits at several important 
 
 - `Ya-Jen Chang first-author, 2011`: the influenza-induced AHR study helped establish that innate lymphoid/natural-helper-cell pathways can mediate airway physiology independently of adaptive TH2 immunity. In this timeline, it belongs to the lung functional anchoring phase.
 - `Christina Li-Ping Thio first-author, 2018`: the butyrate study helped move the field from ILC2 presence and activation toward functional regulation, showing that butyrate can suppress ILC2 cytokine output and ILC2-dependent AHR in reported systems. In this timeline, it belongs to the regulation and plasticity phase.
-- `Christina Li-Ping Thio first-author, 2019`: the TLR9-dependent interferon source is currently provisional in this wiki, but it points to a negative regulatory pathway for ILC2-driven AHR.
+- `Christina Li-Ping Thio first-author, 2019`: the TLR9-dependent interferon source is now focused-crystallized in this wiki and anchors a negative regulatory pathway in which TLR9/type I IFN/NK-cell IFN-gamma/STAT1 signaling suppresses ILC2-driven AHR.
 - `Jheng-Syuan Shao first-author, 2025`: the pulmonary fibroblast-derived SCF study anchors a modern stromal-niche mechanism for ILC3-driven neutrophilic asthma-like inflammation. In this timeline, it belongs to the disease-endotype and tissue-niche mechanism phase.
 
 ## Beginner Reading Path
@@ -97,7 +108,7 @@ The wiki's "our research" axis is not a side note; it sits at several important 
 
 - Update this page when a newly crystallized source changes the timing or interpretation of an ILC discovery phase.
 - Add a new row if human lung, BAL, sputum, bronchial biopsy, or spatial single-cell studies directly connect ILC states to clinical outcomes in asthma, COPD, ARDS, pneumonia, fibrosis, or lung cancer.
-- Promote the 2019 TLR9-dependent interferon source from provisional to durable only after focused manual crystallization checks the model system, cell specificity, interferon axis, human relevance, and outcome measures.
+- Revisit the 2019 TLR9-dependent interferon axis if new human airway or lung-tissue studies test whether this inhibitory ILC2 pathway is conserved in asthma endotypes.
 
 ## Crystallized from
 

@@ -20,18 +20,31 @@ ILC3s are best understood as IL-22/IL-17-capable cells whose lung roles split in
 
 ```mermaid
 flowchart TB
-    tissue["Lung and airway tissue context"] --> ilc2["ILC2 states"]
+    accTitle: Lung ILC Core Map
+    accDescr: Compact map separating ILC2 and ILC3 state branches in lung and airway disease. Detailed mediators are described in the prose below the diagram.
+
+    tissue["Lung/airway context"] --> ilc2["ILC2 states"]
     tissue --> ilc3["ILC3 states"]
 
-    ilc2 --> allergic["Allergic/type 2 disease<br/>IL-5, IL-13, memory-like ILC2, eosinophil feedback"]
-    ilc2 --> viral["Respiratory viral outcomes<br/>AHR, repair, macrophage niche imprinting"]
-    ilc2 --> regulation["Regulatory axes<br/>IL-33/IL-25, CysLTs, NMU, mTORC1, HIF-1alpha, PD-1, dopamine, butyrate"]
-    ilc2 --> plasticity["Boundary states<br/>ILC1-like conversion, IL-17+ ST2+ ILC2, c-Kit+ ILC2/ILC3-like states"]
+    ilc2 --> allergic["Type 2 disease"]
+    ilc2 --> viral["Viral outcomes"]
+    ilc2 --> regulation["Regulatory axes"]
+    ilc2 --> plasticity["Boundary states"]
 
-    ilc3 --> defense["Protective/developmental branch<br/>IL-22 defense, neonatal IGF1 niche"]
-    ilc3 --> injury["Inflammatory branch<br/>ARDS IL-17A, neutrophilic asthma, steroid resistance"]
-    ilc3 --> stromal["Stromal licensing<br/>fibroblast SCF/KIT -> ILC3 IL-17A"]
-    ilc3 --> caution["Classification caution<br/>separate bona fide ILC3 from IL-17+ boundary states"]
+    ilc3 --> defense["Defense/development"]
+    ilc3 --> injury["Inflammatory disease"]
+    ilc3 --> stromal["Stromal licensing"]
+    ilc3 --> caution["Classification caution"]
+
+    classDef tissue_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef ilc2_class fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef ilc3_class fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
+    classDef branch fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+
+    class tissue tissue_class
+    class ilc2 ilc2_class
+    class ilc3 ilc3_class
+    class allergic,viral,regulation,plasticity,defense,injury,stromal,caution branch
 ```
 
 ## Core claims

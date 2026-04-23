@@ -88,14 +88,14 @@ flowchart TD
     accTitle: ILC2 Regulation Map
     accDescr: Mechanistic regulatory layers controlling ILC2 function in the current wiki source set.
 
-    alarmins["Alarmins and cytokines<br/>IL-33, IL-25, IL-1beta"]
-    lipids["Lipid mediators<br/>CysLTs, PGD2, lipid droplets"]
-    receptors["Costimulation/checkpoints<br/>ICOS, OX40L, DR3, PD-1"]
-    metabolism["Metabolism<br/>autophagy, HIF-1alpha, glycolysis, mTORC1, mitochondria"]
-    neuro["Neuroimmune signals<br/>NMU, CGRP/PAC1, beta2-AR, dopamine"]
-    infection["Viral conditioning<br/>BATF, GM-CSF, macrophage imprinting"]
-    ilc2["ILC2 functional state"]
-    output["Outputs<br/>IL-5, IL-13, AREG, IL-17, GM-CSF"]
+    alarmins["Alarmins<br/>IL-33, IL-25"]
+    lipids["Lipids<br/>CysLTs, PGD2"]
+    receptors["Receptors<br/>ICOS, DR3, PD-1"]
+    metabolism["Metabolism<br/>HIF-1a, mTORC1"]
+    neuro["Neuroimmune<br/>NMU, CGRP, dopamine"]
+    infection["Viral conditioning<br/>BATF, GM-CSF"]
+    ilc2["ILC2 state"]
+    output["Outputs<br/>IL-5, IL-13, AREG"]
 
     alarmins --> ilc2
     lipids --> ilc2
@@ -104,6 +104,14 @@ flowchart TD
     neuro --> ilc2
     infection --> ilc2
     ilc2 --> output
+
+    classDef input fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef output_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+
+    class alarmins,lipids,receptors,metabolism,neuro,infection input
+    class ilc2 cell
+    class output output_class
 ```
 
 ## Contradiction and supersession

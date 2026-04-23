@@ -79,20 +79,28 @@ flowchart TD
 
     ilc3["Pulmonary ILC3"]
     il22["IL-22 branch"]
-    il17["IL-17A and neutrophil branch"]
-    niche["Developmental stromal niche"]
+    il17["IL-17A branch"]
+    niche["Stromal niche"]
     ach["Acetylcholine branch"]
     bacteria["Bacterial defense<br/>S. pneumoniae"]
-    newborn["Newborn lung development<br/>IGF1-fibroblast niche"]
-    ards["ARDS / acute lung injury"]
-    asthma["Neutrophilic or steroid-resistant asthma"]
-    allergy["Protease-driven allergic pathology"]
+    newborn["Newborn lung<br/>IGF1 niche"]
+    ards["ARDS / injury"]
+    asthma["Neutrophilic asthma"]
+    allergy["Protease allergy"]
 
     ilc3 --> il22 --> bacteria
     ilc3 --> niche --> newborn
     ilc3 --> il17 --> ards
     il17 --> asthma
     ilc3 --> ach --> allergy
+
+    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef branch fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef disease fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+
+    class ilc3 cell
+    class il22,il17,niche,ach branch
+    class bacteria,newborn,ards,asthma,allergy disease
 ```
 
 ## Contradiction and supersession

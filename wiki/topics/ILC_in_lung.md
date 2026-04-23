@@ -1,90 +1,136 @@
-﻿# ILC In Lung
+# ILC In Lung
 
 ## Scope
 
-This is the main topic page for organizing innate lymphoid cell literature relevant to lung biology, with emphasis on ILC2 and ILC3 roles in airway inflammation, infection, repair, tissue niches, stromal regulation, neuroimmune regulation, metabolism, and disease-associated plasticity.
+This page is the beginner-facing guide to the `ILC_in_lung` wiki. It explains how to enter the field, what the main biological questions are, and which pages to read next when learning innate lymphoid cell biology in lung and airway disease.
 
-## Evidence tags
+The wiki emphasizes `ILC2` and `ILC3` biology in pulmonary inflammation, respiratory viral infection, tissue repair, stromal niches, neuroimmune regulation, metabolism, and disease-associated plasticity. It is a source-aware research map, not a complete textbook or clinical guideline.
 
-#axis/ILC_lung_homeostasis #axis/ILC_lung_infection #axis/ILC_airway_inflammation #axis/ILC_plasticity #tissue/lung #cell/ILC2 #cell/ILC3 #cell/ILC1
+## Evidence Tags
 
-## Wiki status
+#guide/beginner #axis/ILC_lung_homeostasis #axis/ILC_lung_infection #axis/ILC_airway_inflammation #axis/ILC_plasticity #tissue/lung #cell/ILC2 #cell/ILC3 #cell/ILC1
 
-- The local source library currently contains 134 processed references, with 40 source pages promoted to `focused manual crystallization mode` and 94 retained as `provisional bulk-ingest mode`.
-- Durable synthesis should come from focused source pages, entity hubs, topic hubs, project pages, and digests. Provisional source pages remain useful for routing, but should not be treated as mature evidence without manual crystallization.
+## Wiki Status
+
+- The local source library currently contains 140 processed references, with 50 source pages promoted to `focused manual crystallization mode` and 90 retained as `provisional bulk-ingest mode`.
+- Focused source pages are the preferred evidence layer for reusable biological claims because they include model context, assay directness, claim-level confidence, and caveats.
+- Provisional source pages are useful for routing and triage, but their biological claims should be manually checked before being reused in manuscripts, figures, grant text, or durable synthesis.
 - Batch provenance belongs in audit and log pages; digest, topic, and entity pages should read as biology-first knowledge nodes.
 
-## Confidence snapshot
+## Beginner Mental Model
 
-- High confidence:
-  the current source set supports ILC2 as a major lung-relevant type 2 effector and regulatory population in allergic airway inflammation, respiratory viral contexts, and repair-associated biology.
-- High confidence:
-  focused sources now support ILC3 as a lung-relevant IL-22/IL-17-capable population in bacterial infection, developmental lung niches, ARDS/lung injury, neutrophilic asthma, steroid-resistant asthma, and fibroblast SCF/KIT-driven IL-17A biology.
-- Medium confidence:
-  ILC2/ILC3 plasticity and IL-17-producing boundary states are biologically important but require marker, tissue, species, and disease-model labels before reuse.
-- Low confidence:
-  broad cross-disease generalizations about all ILC subsets remain weak unless the claim preserves species, tissue, disease model, time point, and assay context.
+For a first pass, think of lung ILCs as tissue-positioned immune response modules. They do not use antigen-specific receptors like T cells and B cells, but they can rapidly sense epithelial, stromal, microbial, metabolic, and neural cues. Their output depends on subset, tissue compartment, activation state, disease trigger, and timing.
 
-## Established observations
+| Subset | Simplest Starting Idea | Lung Disease Meaning | Main Caution |
+|---|---|---|---|
+| ILC2 | Type 2 and repair-capable ILCs | Allergic airway inflammation, viral AHR, epithelial repair, stromal niche feedback, neuroimmune regulation | ILC2s can be pathogenic, reparative, memory-like, or plastic depending on context |
+| ILC3 | IL-22/IL-17-capable ILCs | Bacterial defense, neonatal lung niches, ARDS-like injury, neutrophilic and steroid-resistant asthma | IL-17-producing ILC-like cells require careful marker and lineage interpretation |
+| ILC1/NK-like states | Type 1 inflammatory or cytotoxic-adjacent programs | Important for plasticity, infection, tumor, and mixed inflammation interpretation | Do not merge ILC1, NK cells, and ILC2-to-ILC1-like states without source-specific evidence |
 
-- The ILC2 source set is strongest around asthma/allergic airway inflammation, respiratory viral infection, post-viral repair, metabolic regulation, neuroimmune regulation, and plasticity.
-- The ILC3 source set spans mucosal protection, lung IL-22 responses during bacterial infection, developmental lung niches, ARDS/IL-17A, neutrophilic airway inflammation, steroid-resistant asthma, fibroblast SCF/KIT licensing, and IL-17 classification boundaries.
-- The pulmonary disease map requires outcome-specific annotation because ILC activity can be protective, pathogenic, or niche-modifying depending on disease phase and context.
-- Four detailed topic pages now separate disease roles from regulation mechanisms for ILC2 and ILC3.
-- Two entity hubs, [ILC2](../entities/ILC2.md) and [ILC3](../entities/ILC3.md), now connect disease topics, mechanism topics, working digests, and representative source evidence.
-- The [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) routes the initial source library by intended wiki use so synthesis pages can stay readable without hiding uncited sources.
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md) integrates the manually crystallized evidence that previously lived in batch-oriented digest pages, including direct lung ILC2/ILC3 claims, human lung baseline evidence, COPD/smoke-associated plasticity, neuroimmune and metabolic regulation, stromal mechanisms, and SCF/KIT ILC3 biology.
+## First Reading Path
 
-## Page map
+1. Start with [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md) to understand how the field moved from ILC discovery to lung disease mechanisms.
+2. Read [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md) for the current integrated map across ILC2 and ILC3.
+3. Open [ILC2](../entities/ILC2.md) and [ILC3](../entities/ILC3.md) as entity hubs when you want cell-specific claims.
+4. Use the disease pages when the question is about pathology: [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md) and [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md).
+5. Use the regulation pages when the question is mechanistic: [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md) and [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md).
+6. Go to source notes only when you need citation traceability, model details, or claim-level confidence boundaries.
 
-- [ILC2](../entities/ILC2.md) is the entity hub for ILC2 identity, lung disease branches, regulation, plasticity, and boundary-state cautions.
-- [ILC3](../entities/ILC3.md) is the entity hub for ILC3 identity, lung protective/developmental branches, IL-17/neutrophilic disease branches, stromal licensing, and classification cautions.
-- [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md) separates allergic asthma, respiratory viral AHR/repair, plastic/non-type-2 states, and tumor/NK checkpoint contexts.
-- [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md) separates bacterial defense, neonatal lung development, ARDS/lung injury, neutrophilic/steroid-resistant asthma, and noncanonical mediator branches.
-- [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md) organizes alarmins, lipid mediators, checkpoint/costimulation, metabolism, neuroimmune control, stromal feedback, and infection-conditioned reprogramming.
-- [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md) organizes cytokine activation, stromal niches, transcriptional identity, taxonomy, vitamin D/AHR/STING/nutrition/ER stress, and glucocorticoid resistance.
+## Concept Map
 
-## Interpretation
+```mermaid
+flowchart TB
+    accTitle: Lung ILC Beginner Map
+    accDescr: A beginner-oriented map showing how to enter the ILC-in-lung wiki through history, core synthesis, cell hubs, disease topics, mechanism topics, and source notes.
 
-The safest current interpretation is that lung ILC biology in this wiki is organized by context rather than by a single universal function. ILC2s are usually type 2 amplifiers or repair/niche-modifying cells, but can become memory-like, IL-17-producing, ILC1-like, or tumor/NK-modulating depending on stimulus and disease. ILC3s can support barrier defense and lung development through IL-22 or stromal niche cues, but can also amplify IL-17A, neutrophil chemoattractants, glucocorticoid resistance, and stromal inflammatory loops in severe airway disease.
+    start["Start here<br/>ILC in lung guide"] --> history["Field history"]
+    start --> core["Core synthesis<br/>current model"]
+    core --> ilc2["ILC2 hub<br/>type 2 and repair"]
+    core --> ilc3["ILC3 hub<br/>IL-22 and IL-17"]
+    ilc2 --> ilc2_disease["ILC2 disease roles"]
+    ilc2 --> ilc2_reg["ILC2 regulation mechanisms"]
+    ilc3 --> ilc3_disease["ILC3 disease roles"]
+    ilc3 --> ilc3_reg["ILC3 regulation mechanisms"]
+    ilc2_disease --> sources["Source notes<br/>claim traceability"]
+    ilc2_reg --> sources
+    ilc3_disease --> sources
+    ilc3_reg --> sources
 
-The working model should always preserve four labels: `cell subset`, `tissue compartment`, `disease context`, and `evidence type`. This prevents mouse perturbation data, human sputum associations, scRNA-seq ligand inference, and review-level therapeutic framing from being collapsed into one unsupported claim.
+    classDef start_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef synthesis_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+    classDef cell_class fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef topic_class fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
+    classDef source_class fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
 
-## Contradiction and supersession
+    class start start_class
+    class history,core synthesis_class
+    class ilc2,ilc3 cell_class
+    class ilc2_disease,ilc2_reg,ilc3_disease,ilc3_reg topic_class
+    class sources source_class
+```
 
-- Contradiction:
-  ILC2s and ILC3s can be protective or pathogenic depending on timing and disease context; this is a context-dependent tension, not a true contradiction unless the same model and endpoint disagree.
-- Contradiction:
-  IL-17-producing ILC-like populations can represent bona fide ILC3s or ILC2/ILC3-like boundary states; marker and lineage context should be visible in any reuse.
-- Supersession:
-  no source currently supersedes the broad ILC-in-lung model. Stronger focused sources narrow specific branches, such as fibroblast SCF/KIT for ILC3 IL-17A in neutrophilic asthma, but do not replace unrelated ILC2 SCF/c-Kit or neonatal IGF1 niche claims.
+## Core Biological Threads
 
-## Open questions
+### 1. ILC2s: Allergic Pathology, Repair, And Niche Regulation
 
-- Which ILC subset is the primary project focus: ILC2, ILC3, ILC1/NK-like cells, or cross-subset plasticity?
-- Is the main disease context respiratory virus infection, asthma/allergy, tissue repair, COPD, or broader lung homeostasis?
-- Which evidence types should be prioritized first: flow cytometry, scRNA-seq, perturbation models, human cohorts, or reviews?
+The ILC2 source set is strongest around asthma and allergic airway inflammation, respiratory viral infection, post-viral repair, metabolic regulation, neuroimmune regulation, tissue niches, and plasticity. ILC2s often amplify type 2 inflammation through IL-5 and IL-13, but they can also support epithelial repair through amphiregulin-associated programs and participate in stromal or macrophage niche remodeling.
 
-## Related pages
+Recent focused source notes add an important spatial and regulatory layer: lung ILC2s can sit in adventitial/peribronchovascular niches supported by IL-33/TSLP-producing stromal cells, while IFN-gamma can suppress ILC2 function or constrain type 2 lymphocyte movement during mixed inflammation. See [ILC2 Niche, Interferon Brake, And Type 2 Regulatory Synthesis](../digests/2026-04-23_ILC2_niche_interferon_type2_regulatory_synthesis.md).
+
+### 2. ILC3s: Defense, IL-17 Inflammation, And Severe Asthma Branches
+
+The ILC3 source set spans mucosal protection, lung IL-22 responses during bacterial infection, developmental lung niches, ARDS/IL-17A, neutrophilic airway inflammation, steroid-resistant asthma, fibroblast SCF/KIT licensing, and IL-17 classification boundaries. In this wiki, ILC3s should not be labeled simply as protective or pathogenic. Their role depends on whether the relevant output is IL-22 barrier defense, IL-17A/neutrophilic inflammation, chemokine production, or stromal crosstalk.
+
+### 3. Plasticity Is A Feature, Not A Footnote
+
+ILC subset labels are useful but incomplete. ILC2s can acquire memory-like behavior, become ILC1-like under COPD-associated inflammatory pressure, or show IL-17-producing ILC2/ILC3-like boundary states. ILC3s can also show state changes linked to smoking, steroid resistance, tissue stress, and transcriptional remodeling. Any serious claim should preserve marker set, tissue compartment, species, disease model, and assay type.
+
+### 4. Evidence Type Matters
+
+Mouse perturbation studies are usually strongest for causality. Human lung tissue, sputum, blood, nasal airway, and scRNA-seq studies are essential for relevance but often have different inferential limits. Reviews are useful for conceptual framing, but primary source notes should anchor mechanistic claims.
+
+## How To Use Claim Confidence
+
+| Confidence | How To Interpret It |
+|---|---|
+| High confidence | Source-specific claim is directly supported by the paper's model, assay, and outcome |
+| Medium-high confidence | Mechanism is experimentally supported but translation, tissue generality, or disease breadth needs labels |
+| Medium confidence | Useful working model or cross-source synthesis, but details require source-level checking |
+| Low confidence | Hypothesis, review-level extrapolation, or claim that should not be reused without additional evidence |
+
+## Common Beginner Mistakes To Avoid
+
+- Do not treat `ILC2 activation` as automatically bad; ILC2s can drive airway disease or support repair depending on context.
+- Do not treat `ILC3` as only a gut cell; this wiki includes lung ILC3 evidence in infection, development, ARDS-like injury, and severe asthma.
+- Do not merge mouse lung, human sputum, human blood, and nasal-polyp findings without stating the compartment.
+- Do not assume IL-17-producing ILC-like cells are always canonical ILC3s; some sources support ILC2/ILC3-like boundary states.
+- Do not use provisional source notes as mature evidence until they are focused-crystallized.
+
+## Page Map
+
+| Question | Best Page |
+|---|---|
+| What is the overall story? | [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md) |
+| How did the field evolve? | [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md) |
+| What do ILC2s do in lung disease? | [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md) |
+| What regulates ILC2 function? | [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md) |
+| What do ILC3s do in lung disease? | [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md) |
+| What regulates ILC3 function? | [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md) |
+| Which claims are citation-ready? | Source pages marked `focused manual crystallization mode` |
+
+## Open Questions
+
+- Which ILC mechanisms are conserved between mouse allergic airway models and human asthma endotypes?
+- When do respiratory viruses induce pathogenic ILC2-driven AHR versus protective ILC2-mediated repair?
+- Which IL-17-producing ILC populations in lung disease are bona fide ILC3s, plastic ILC2-derived states, or mixed-gate populations?
+- Which evidence layer should be prioritized next: human BAL, bronchial biopsy, sputum, lung scRNA-seq, spatial data, or perturbation models?
+
+## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [sources README](../sources/README.md)
+- [Sources README](../sources/README.md)
 - [ILC2 Working Model](../digests/2026-04-20_ILC2_working_model.md)
 - [ILC3 Working Model](../digests/2026-04-20_ILC3_working_model.md)
 - [Role Of ILC In Pulmonary Diseases](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
-- [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md)
-- [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md)
-- [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md)
-- [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md)
-- [ILC2 Entity](../entities/ILC2.md)
-- [ILC3 Entity](../entities/ILC3.md)
 - [Reference Coverage Audit](../audit/2026-04-20_reference_coverage_audit.md)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
-
-## Next ingest targets
-
-- Crystallized sub-digest for ILC2 in respiratory viral infection, separating influenza AHR, influenza repair, RSV IL-33/ILC2/IL-13 AHR, rhinovirus early-life restraint, and gammaherpesvirus macrophage imprinting.
-- Crystallized sub-digest for ILC3 in neutrophilic or steroid-resistant asthma, separating smoke-associated memory-like ILC3s, glucocorticoid-insensitive chemokine production, SCF/KIT IL-17A licensing, and review-level therapeutic framing.
-- Entity pages for `IL33`, `IL25`, `IL17`, `IL22`, `AHR`, and `BATF` after source-supported review.
-- Focused follow-up crystallization for human BAL, bronchial biopsy, lung scRNA-seq, and sputum sources that directly connect ILC2 or ILC3 states to COPD, smoke exposure, steroid-resistant asthma, neutrophilic asthma, or respiratory virus outcomes.

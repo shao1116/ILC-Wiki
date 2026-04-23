@@ -24,15 +24,33 @@ This homepage is designed as a starting point for browsing. Start with the overv
 
 ```mermaid
 flowchart TB
-    home["ILC in lung overview"] --> trend["Research trend<br/>from discovery to mechanisms"]
+    accTitle: Core Knowledge Map
+    accDescr: Homepage map showing how readers should move from field orientation into core synthesis, entity hubs, topic pages, and source traceability.
+
+    home["Start<br/>ILC in lung overview"] --> trend["Field history"]
     home --> core["Core evidence synthesis"]
-    core --> ilc2["ILC2 entity hub"]
-    core --> ilc3["ILC3 entity hub"]
-    ilc2 --> ilc2_disease["ILC2 pulmonary disease roles"]
-    ilc2 --> ilc2_reg["ILC2 functional regulation"]
-    ilc3 --> ilc3_disease["ILC3 pulmonary disease roles"]
-    ilc3 --> ilc3_reg["ILC3 functional regulation"]
-    core --> sources["Source notes and audit trail"]
+    core --> ilc2["ILC2 hub"]
+    core --> ilc3["ILC3 hub"]
+    ilc2 --> ilc2_disease["Disease roles"]
+    ilc2 --> ilc2_reg["Regulation map"]
+    ilc3 --> ilc3_disease["Disease roles"]
+    ilc3 --> ilc3_reg["Regulation map"]
+    ilc2_disease --> sources["Source notes"]
+    ilc2_reg --> sources
+    ilc3_disease --> sources
+    ilc3_reg --> sources
+
+    classDef entry fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef synthesis fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef topic fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
+    classDef source fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
+
+    class home entry
+    class trend,core synthesis
+    class ilc2,ilc3 cell
+    class ilc2_disease,ilc2_reg,ilc3_disease,ilc3_reg topic
+    class sources source
 ```
 
 ## Cell Entity Hubs

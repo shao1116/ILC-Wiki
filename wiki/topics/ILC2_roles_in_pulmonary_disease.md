@@ -81,20 +81,30 @@ flowchart TD
     accTitle: ILC2 Disease Outcomes
     accDescr: Working map of ILC2 roles across lung disease states in the current wiki source set.
 
-    cues["Epithelial, viral, lipid, neural, and stromal cues"]
+    cues["Tissue cues"]
     ilc2["Lung ILC2"]
     type2["Type 2 output<br/>IL-5, IL-13"]
-    repair["Repair output<br/>AREG, wound-healing state"]
-    plastic["Plastic/non-type-2 output<br/>IL-17, GM-CSF, ILC3-like features"]
-    asthma["Asthma/allergic airway disease<br/>AHR, mucus, eosinophilia"]
-    virus["Respiratory virus outcomes<br/>AHR or repair"]
-    niche["Niche remodeling<br/>AM imprinting or NK suppression"]
+    repair["Repair output<br/>AREG"]
+    plastic["Plastic output<br/>IL-17, GM-CSF"]
+    asthma["Allergic disease<br/>AHR, mucus"]
+    virus["Viral outcomes<br/>AHR or repair"]
+    niche["Niche effects<br/>AM or NK"]
 
     cues --> ilc2
     ilc2 --> type2 --> asthma
     ilc2 --> repair --> virus
     ilc2 --> plastic --> asthma
     plastic --> niche
+
+    classDef cue fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef output_class fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
+    classDef disease fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+
+    class cues cue
+    class ilc2 cell
+    class type2,repair,plastic output_class
+    class asthma,virus,niche disease
 ```
 
 ## Contradiction and supersession

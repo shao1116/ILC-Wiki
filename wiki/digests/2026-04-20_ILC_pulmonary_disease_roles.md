@@ -19,15 +19,15 @@ flowchart TD
     accTitle: Pulmonary ILC Disease Roles
     accDescr: A disease-role map of ILC functions across pulmonary disease contexts.
 
-    epithelial["Epithelial and stromal cues<br/>IL-33, IL-25, IL-1beta, IL-23, SCF, IGF1"]
-    ilc2["ILC2 branch<br/>IL-5, IL-13, AREG, GM-CSF"]
-    ilc3["ILC3 branch<br/>IL-17A, IL-22, CXCL1, CXCL8"]
-    virus["Respiratory virus<br/>AHR or repair"]
-    asthma2["Allergic/type 2 asthma<br/>eosinophilia, mucus, AHR"]
-    asthma3["Neutrophilic/steroid-resistant asthma<br/>IL-17A, neutrophil recruitment"]
-    bacteria["Bacterial infection<br/>IL-22-mediated defense"]
-    injury["ARDS/lung injury<br/>early IL-17A axis"]
-    niche["Macrophage/NK/stromal niche effects"]
+    epithelial["Tissue cues<br/>alarmins, SCF, IGF1"]
+    ilc2["ILC2 branch<br/>IL-5, IL-13, AREG"]
+    ilc3["ILC3 branch<br/>IL-17A, IL-22"]
+    virus["Virus<br/>AHR or repair"]
+    asthma2["Type 2 asthma<br/>mucus, AHR"]
+    asthma3["Neutrophilic asthma<br/>IL-17A axis"]
+    bacteria["Bacterial defense<br/>IL-22"]
+    injury["ARDS / injury<br/>IL-17A"]
+    niche["Niche effects<br/>AM, NK, stroma"]
 
     epithelial --> ilc2
     epithelial --> ilc3
@@ -37,6 +37,14 @@ flowchart TD
     ilc3 --> bacteria
     ilc3 --> asthma3
     ilc3 --> injury
+
+    classDef cue fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef disease fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+
+    class epithelial cue
+    class ilc2,ilc3 cell
+    class virus,asthma2,asthma3,bacteria,injury,niche disease
 ```
 
 For asthma, the evidence separates at least two partially overlapping programs. The ILC2 branch maps to type 2 inflammation, IL-5/IL-13, mucus-related pathology, airway hyperresponsiveness, metabolic regulation, neuroimmune cues, SCF/c-Kit regulation, and allergen-experienced memory-like behavior. The ILC3 branch maps more strongly to IL-17A, neutrophil chemoattractants, smoking-associated asthma severity, M1 macrophage-linked inflammation, and glucocorticoid-insensitive or steroid-resistant disease.

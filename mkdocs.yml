@@ -28,9 +28,11 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+extra_css:
+  - assets/stylesheets/notion.css
+  - assets/stylesheets/mermaid.css
 
 nav:
   - Home: index.md

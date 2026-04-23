@@ -72,14 +72,14 @@ flowchart TD
     accTitle: ILC3 Regulation Map
     accDescr: Mechanistic regulatory layers controlling ILC3 identity and inflammatory output.
 
-    identity["Identity and maintenance<br/>RORgammat, AHR, circadian circuits"]
+    identity["Identity<br/>RORgt, AHR"]
     stromal["Stromal niche<br/>IGF1, SCF/KIT"]
-    cytokines["Inflammatory cytokines<br/>IL-1beta, IL-23"]
-    metabolism["Metabolic and stress axes<br/>CD71-iron, IRE1alpha-XBP1"]
-    restraint["Restraint axes<br/>vitamin D, CTLA-4-linked regulation"]
-    resistance["Steroid resistance<br/>GR phosphorylation"]
-    ilc3["ILC3 functional state"]
-    output["Outputs<br/>IL-22, IL-17A, CXCL1, CXCL8"]
+    cytokines["Cytokines<br/>IL-1b, IL-23"]
+    metabolism["Metabolism/stress<br/>CD71, XBP1"]
+    restraint["Restraint<br/>vitamin D, CTLA-4"]
+    resistance["Steroid resistance<br/>GR signaling"]
+    ilc3["ILC3 state"]
+    output["Outputs<br/>IL-22, IL-17A"]
 
     identity --> ilc3
     stromal --> ilc3
@@ -88,6 +88,16 @@ flowchart TD
     restraint -. limits .-> ilc3
     resistance --> ilc3
     ilc3 --> output
+
+    classDef input fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef restraint_class fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
+    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef output_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+
+    class identity,stromal,cytokines,metabolism,resistance input
+    class restraint restraint_class
+    class ilc3 cell
+    class output output_class
 ```
 
 ## Contradiction and supersession

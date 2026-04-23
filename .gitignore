@@ -9,3 +9,4 @@ wiki/sources/ingestion_manifest.jsonl
 # MkDocs build output
 site/
 .mkdocs_tmp/
+README.md
