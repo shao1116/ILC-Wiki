@@ -1,5 +1,8 @@
 # ILC in Lung Research Wiki
 
+🔗 This wiki has been deployed as a public website and can be accessed at:  
+https://shao1116.github.io/ILC-Wiki/
+
 A source-aware, LLM-assisted knowledge framework for organizing innate lymphoid cell (ILC) biology in the lung.
 
 ---
