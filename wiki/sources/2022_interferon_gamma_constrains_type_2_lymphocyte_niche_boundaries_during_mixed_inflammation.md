@@ -1,4 +1,4 @@
-# Interferon gamma constrains type 2 lymphocyte niche boundaries during mixed inflammation
+﻿# Interferon gamma constrains type 2 lymphocyte niche boundaries during mixed inflammation
 
 ## Citation
 
@@ -66,7 +66,7 @@ This source links IFN-gamma regulation to tissue geography: type 1 inflammation 
 - [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
 - [ILC2 working model](../digests/2026-04-20_ILC2_working_model.md)
-- [ILC2 niche, interferon brake, and type 2 regulatory synthesis](../digests/2026-04-23_ILC2_niche_interferon_type2_regulatory_synthesis.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
 - [Focused crystallization audit](../audit/2026-04-23_focused_manual_crystallization_ILC2_niche_interferon_type2.md)
 
 ## Pages Updated From This Source
@@ -76,4 +76,3 @@ This source links IFN-gamma regulation to tissue geography: type 1 inflammation 
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
 - [ILC2 working model](../digests/2026-04-20_ILC2_working_model.md)
 - [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
-- [ILC2 niche, interferon brake, and type 2 regulatory synthesis](../digests/2026-04-23_ILC2_niche_interferon_type2_regulatory_synthesis.md)

@@ -26,6 +26,8 @@ The most important update from the high-priority crystallization passes is that 
 - High confidence: ILC2s can drive allergic/type 2 airway pathology and AHR through IL-5/IL-13-associated inflammation, IL-33/IL-25 responsiveness, CXCL16 migration, cysteinyl leukotriene signaling, and allergen-experienced memory-like amplification.
 - High confidence: ILC2s can support post-viral epithelial repair and lung function through amphiregulin-associated repair biology and BATF-linked protective wound-healing identity.
 - High confidence: ILC2s can be reprogrammed by viral or inflammatory contexts, including gammaherpesvirus-conditioned GM-CSF production that imprints monocyte-derived alveolar macrophages and COPD-associated IL-12/IL-18-driven ILC1-like conversion.
+- High confidence: lung ILC2s can be spatially organized in adventitial/peribronchovascular stromal niches, and IFN-gamma can act as a direct context-dependent brake on IL-33-driven activation, tissue dispersion, survival, and cytokine output.
+- High confidence: TLR9/type I IFN/NK-cell-derived IFN-gamma/STAT1 signaling can suppress ILC2-driven AHR in allergic airway models, while influenza-associated IFN-gamma can suppress protective ILC2 IL-5/amphiregulin output in a mouse H1N1 model.
 - Medium-high confidence: IL-17-producing ST2+ ILC2s are a pathogenic lung inflammation branch in mouse models, while human nasal ILC2-to-IL-17 plasticity provides airway-relevant but not lower-lung proof.
 - Medium-high confidence: SCF/c-Kit, autophagy, HIF-1alpha/glycolysis, mTORC1, dopamine/mitochondrial activity, and neuroimmune circuits are regulatory nodes for ILC2 function, but their disease specificity varies by model and tissue compartment.
 
@@ -74,4 +76,3 @@ This does not replace the prior pathogenic-versus-reparative ILC2 model. It adds
 - [PAC1 constrains type 2 inflammation through promotion of CGRP signaling in ILC2s](../sources/2024_pac1_constrains_type_2_inflammation_through_promotion_of_cgrp_signaling_in_ilc2s.md)
 - [The ins and outs of innate and adaptive type 2 immunity](../sources/2023_the_ins_and_outs_of_innate_and_adaptive_type_2_immunity.md)
 - [Lung ILC Core Evidence Synthesis](./2026-04-22_lung_ILC_core_evidence_synthesis.md)
-- [ILC2 Niche, Interferon Brake, And Type 2 Regulatory Synthesis](./2026-04-23_ILC2_niche_interferon_type2_regulatory_synthesis.md)

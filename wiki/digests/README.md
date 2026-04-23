@@ -15,4 +15,3 @@ Digest pages should hold crystallized cross-source working models after manual r
 These first digests are working-model pages built from the local source inventory and representative extracted source text. They should be refined as individual papers are manually reviewed.
 
 Digest pages should cite representative sources for each claim rather than duplicate the full source library. Use the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) to check which ingested references are direct topic support, entity background, review context, extrapulmonary mechanism context, or manual-review priorities.
-- [2026-04-23_ILC2_niche_interferon_type2_regulatory_synthesis](./2026-04-23_ILC2_niche_interferon_type2_regulatory_synthesis.md): biology-first synthesis of ILC2 niches, interferon brakes, neuroimmune regulation, and type 2 circuit framing.

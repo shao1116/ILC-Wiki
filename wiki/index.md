@@ -17,7 +17,6 @@ This homepage is designed as a starting point for browsing. Start with the overv
 | See the strongest integrated evidence                   | [Lung ILC Core Evidence Synthesis](./digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)                                              |
 | Focus on ILC2                                           | [ILC2](./entities/ILC2.md)                                                                                                                |
 | Focus on ILC3                                           | [ILC3](./entities/ILC3.md)                                                                                                                |
-| Explore the new focused ILC2 niche/interferon synthesis | [ILC2 Niche, Interferon Brake, And Type 2 Regulatory Synthesis](./digests/2026-04-23_ILC2_niche_interferon_type2_regulatory_synthesis.md) |
 | Browse all source notes                                 | [Source Index](./sources/source_index.md)                                                                                           |
 
 ## Core Knowledge Map
@@ -68,7 +67,6 @@ flowchart TB
 ## Digests
 
 - [Lung ILC Core Evidence Synthesis](./digests/2026-04-22_lung_ILC_core_evidence_synthesis.md): integrated evidence synthesis replacing batch-oriented digest pages.
-- [ILC2 Niche, Interferon Brake, And Type 2 Regulatory Synthesis](./digests/2026-04-23_ILC2_niche_interferon_type2_regulatory_synthesis.md): focused synthesis of ILC2 stromal niches, epithelial activation, IFN-gamma brakes, neuroimmune regulation, and type 2 tissue-border framing.
 - [ILC Research Trend From Then To Now](./digests/2026-04-20_ILC_research_trend_then_to_now.md): beginner-friendly field history from early functional discovery through tissue-specific disease mechanisms.
 - [ILC2 Working Model](./digests/2026-04-20_ILC2_working_model.md): working synthesis of ILC2 roles in lung inflammation, infection, repair, plasticity, metabolism, and neuroimmune control.
 - [ILC3 Working Model](./digests/2026-04-20_ILC3_working_model.md): working synthesis of ILC3 roles in lung IL-22 defense, IL-17/neutrophilic inflammation, steroid-resistant asthma, and stromal niche context.

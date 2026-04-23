@@ -51,6 +51,8 @@ flowchart TB
 
 - Lung ILC2s can drive airway hyperreactivity through innate, non-adaptive pathways, especially in IL-33/IL-13-linked respiratory viral or allergic contexts.
 - Lung ILC2s can also support repair and niche remodeling, including amphiregulin-linked epithelial repair and GM-CSF-dependent monocyte-derived alveolar macrophage imprinting in infection-conditioned settings.
+- Lung ILC2s can be anatomically positioned in adventitial/peribronchovascular stromal niches supported by IL-33/TSLP-producing fibroblast-like cells, creating a spatial layer for type 2 activation and feedback.
+- IFN-gamma is a context-dependent ILC2 brake that can suppress IL-33-driven activation, constrain type 2 lymphocyte tissue dispersion, inhibit ILC2-driven AHR through TLR9/interferon/STAT1 signaling, or suppress protective ILC2 output during influenza.
 - ILC2 disease activity is regulated by epithelial alarmins, lipid mediators, neuroimmune cues, metabolic state, checkpoint pathways, microbial metabolites, and stromal or cellular feedback.
 - Human lung contains identifiable ILC subsets, but human lung tissue, sputum, blood, nasal airway, and mouse lung evidence should not be treated as interchangeable.
 - Lung ILC3s can support IL-22-associated antibacterial defense and neonatal pulmonary niche development.
@@ -60,7 +62,7 @@ flowchart TB
 
 ## ILC2 Niche And Interferon Update
 
-Focused crystallization on 2026-04-23 adds a stronger spatial and counter-regulatory layer to the core synthesis. Lung ILC2s are supported by adventitial stromal niches, epithelial alarmins can activate parallel ILC2 and IL-17/neutrophil modules, IFN-gamma can function as a direct ILC2 brake, and neuroimmune signals can either activate tissue-protective AREG programs or inhibit IL-13/type 2 inflammation depending on receptor context.
+Focused crystallization on 2026-04-23 added a stronger spatial and counter-regulatory layer to the core synthesis. Lung ILC2s are supported by adventitial stromal niches, epithelial alarmins can activate parallel ILC2 and IL-17/neutrophil modules, IFN-gamma can function as a direct ILC2 brake, and neuroimmune signals can either activate tissue-protective AREG programs or inhibit IL-13/type 2 inflammation depending on receptor context. This layer is maintained here as part of the core ILC2 model rather than as a separate digest.
 
 ## Evidence layers
 

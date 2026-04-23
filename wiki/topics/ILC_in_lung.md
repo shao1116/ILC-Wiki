@@ -75,7 +75,7 @@ flowchart TB
 
 The ILC2 source set is strongest around asthma and allergic airway inflammation, respiratory viral infection, post-viral repair, metabolic regulation, neuroimmune regulation, tissue niches, and plasticity. ILC2s often amplify type 2 inflammation through IL-5 and IL-13, but they can also support epithelial repair through amphiregulin-associated programs and participate in stromal or macrophage niche remodeling.
 
-Recent focused source notes add an important spatial and regulatory layer: lung ILC2s can sit in adventitial/peribronchovascular niches supported by IL-33/TSLP-producing stromal cells, while IFN-gamma can suppress ILC2 function or constrain type 2 lymphocyte movement during mixed inflammation. See [ILC2 Niche, Interferon Brake, And Type 2 Regulatory Synthesis](../digests/2026-04-23_ILC2_niche_interferon_type2_regulatory_synthesis.md).
+Recent focused source notes add an important spatial and regulatory layer: lung ILC2s can sit in adventitial/peribronchovascular niches supported by IL-33/TSLP-producing stromal cells, while IFN-gamma can suppress ILC2 function or constrain type 2 lymphocyte movement during mixed inflammation. These claims are integrated into [ILC2](../entities/ILC2.md), [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md), [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md), [ILC2 Working Model](../digests/2026-04-20_ILC2_working_model.md), and [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md).
 
 ### 2. ILC3s: Defense, IL-17 Inflammation, And Severe Asthma Branches
 
