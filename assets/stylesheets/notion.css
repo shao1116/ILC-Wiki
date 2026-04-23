@@ -108,6 +108,25 @@ body {
   color: #44413c;
 }
 
+.md-typeset h2#evidence-tags + p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.35rem 0 1.35rem;
+}
+
+.md-typeset h2#evidence-tags + p code {
+  background: #f1f1ef;
+  border: 1px solid #e4e4df;
+  border-radius: 999px;
+  color: #5f5e5b;
+  font-size: 0.66rem;
+  font-weight: 500;
+  line-height: 1.35;
+  padding: 0.1rem 0.42rem;
+  white-space: nowrap;
+}
+
 .md-sidebar {
   color: #6b6964;
 }

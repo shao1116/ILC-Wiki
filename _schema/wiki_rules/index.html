@@ -1310,6 +1310,12 @@
 <li>outcome: <code>#outcome/inflammation</code> <code>#outcome/infection</code> <code>#outcome/repair</code> <code>#outcome/homeostasis</code> <code>#outcome/airway_hyperresponsiveness</code></li>
 <li>project axis: <code>#axis/ILC_lung_homeostasis</code> <code>#axis/ILC_lung_infection</code> <code>#axis/ILC_airway_inflammation</code> <code>#axis/ILC_plasticity</code></li>
 </ul>
+<p>Topic, entity, and digest pages should store tags in two compatible layers:</p>
+<ul>
+<li>YAML frontmatter <code>tags:</code> without the leading <code>#</code>, so Obsidian can index them as page tags.</li>
+<li>A visible <code>## Evidence tags</code> section using inline-code tags, for example <code>`#cell/ILC2` `#tissue/lung`</code>.</li>
+</ul>
+<p>Do not place raw <code>#tag</code> text at the start of a line in page body text. MkDocs/Python-Markdown interprets a line-start <code>#tag</code> as a heading, causing oversized browser rendering and incorrect document structure.</p>
 <h2 id="ingest-rules">Ingest Rules</h2>
 <ol>
 <li>Confirm the source exists in <code>RAW/</code>.</li>
