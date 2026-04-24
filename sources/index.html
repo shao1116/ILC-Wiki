@@ -810,6 +810,53 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ingest-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ingest Modes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ingest Modes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#provisional-bulk-ingest-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Provisional bulk-ingest mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#focused-manual-crystallization-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Focused manual crystallization mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -834,6 +881,17 @@
 <li>local absolute paths</li>
 <li>machine ingest manifests</li>
 </ul>
+<h2 id="ingest-modes">Ingest Modes</h2>
+<h3 id="provisional-bulk-ingest-mode">Provisional bulk-ingest mode</h3>
+<p>Used for batch ingestion of papers
+Automatically creates/updates: sources, extracted text, tags, index, and logs
+Does NOT update core knowledge pages (topic / entity / project / digest)
+Claim-Level Confidence should reflect only biologically supported claims from the text, not processing steps or system actions</p>
+<h3 id="focused-manual-crystallization-mode">Focused manual crystallization mode</h3>
+<p>Used for deep curation of priority papers
+Requires manual reading (including figures, methods, and experimental context)
+Updates core knowledge pages (topic / entity / project / digest)
+Emphasizes: context, evidence strength, limitations, and contradictions</p>
 <p>Use <a href="source_index/">source_index.md</a> as the public source list. Source-note pages may include conservative summaries, evidence profiles, caveats, related pages, and claim-level confidence statements, but they should not be treated as replacements for the original papers.</p>
 
 
