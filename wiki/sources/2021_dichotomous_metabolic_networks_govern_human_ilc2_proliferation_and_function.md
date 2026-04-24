@@ -65,16 +65,16 @@ This source sharpens the ILC2 metabolism section of the wiki by showing that hum
 
 ## Related Pages
 
-- [ILC2](../entities/ILC2.md)
-- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
-- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
-- [ILC In Lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2/)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms/)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease/)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
+- [ILC In Lung](../topics/ILC_in_lung/)
 
 ## Pages Updated From This Source
 
-- [ILC2](../entities/ILC2.md)
-- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
-- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [ILC2](../entities/ILC2/)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms/)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease/)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit/)

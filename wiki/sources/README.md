@@ -9,4 +9,4 @@ The public export intentionally omits:
 - local absolute paths
 - machine ingest manifests
 
-Use [source_index.md](./source_index.md) as the public source list. Source-note pages may include conservative summaries, evidence profiles, caveats, related pages, and claim-level confidence statements, but they should not be treated as replacements for the original papers.
+Use [source_index.md](./source_index/) as the public source list. Source-note pages may include conservative summaries, evidence profiles, caveats, related pages, and claim-level confidence statements, but they should not be treated as replacements for the original papers.

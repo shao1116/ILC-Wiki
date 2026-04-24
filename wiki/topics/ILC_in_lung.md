@@ -42,11 +42,11 @@ For a first pass, think of lung ILCs as tissue-positioned immune response module
 
 ## First Reading Path
 
-1. Start with [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md) to understand how the field moved from ILC discovery to lung disease mechanisms.
-2. Read [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md) for the current integrated map across ILC2 and ILC3.
-3. Open [ILC2](../entities/ILC2.md) and [ILC3](../entities/ILC3.md) as entity hubs when you want cell-specific claims.
-4. Use the disease pages when the question is about pathology: [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md) and [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md).
-5. Use the regulation pages when the question is mechanistic: [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md) and [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md).
+1. Start with [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now/) to understand how the field moved from ILC discovery to lung disease mechanisms.
+2. Read [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/) for the current integrated map across ILC2 and ILC3.
+3. Open [ILC2](../entities/ILC2/) and [ILC3](../entities/ILC3/) as entity hubs when you want cell-specific claims.
+4. Use the disease pages when the question is about pathology: [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease/) and [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease/).
+5. Use the regulation pages when the question is mechanistic: [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms/) and [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms/).
 6. Go to source notes only when you need citation traceability, model details, or claim-level confidence boundaries.
 
 ## Concept Map
@@ -88,7 +88,7 @@ flowchart TB
 
 The ILC2 source set is strongest around asthma and allergic airway inflammation, respiratory viral infection, post-viral repair, metabolic regulation, neuroimmune regulation, tissue niches, and plasticity. ILC2s often amplify type 2 inflammation through IL-5 and IL-13, but they can also support epithelial repair through amphiregulin-associated programs and participate in stromal or macrophage niche remodeling.
 
-Recent focused source notes add an important spatial and regulatory layer: lung ILC2s can sit in adventitial/peribronchovascular niches supported by IL-33/TSLP-producing stromal cells, while IFN-gamma can suppress ILC2 function or constrain type 2 lymphocyte movement during mixed inflammation. These claims now live primarily in [ILC2](../entities/ILC2.md), with disease and mechanism expansion in [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md), [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md), and [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md).
+Recent focused source notes add an important spatial and regulatory layer: lung ILC2s can sit in adventitial/peribronchovascular niches supported by IL-33/TSLP-producing stromal cells, while IFN-gamma can suppress ILC2 function or constrain type 2 lymphocyte movement during mixed inflammation. These claims now live primarily in [ILC2](../entities/ILC2/), with disease and mechanism expansion in [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease/), [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms/), and [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/).
 
 ### 2. ILC3s: Defense, IL-17 Inflammation, And Severe Asthma Branches
 
@@ -123,12 +123,12 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 
 | Question | Best Page |
 |---|---|
-| What is the overall story? | [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md) |
-| How did the field evolve? | [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md) |
-| What do ILC2s do in lung disease? | [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md) |
-| What regulates ILC2 function? | [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md) |
-| What do ILC3s do in lung disease? | [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md) |
-| What regulates ILC3 function? | [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md) |
+| What is the overall story? | [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/) |
+| How did the field evolve? | [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now/) |
+| What do ILC2s do in lung disease? | [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease/) |
+| What regulates ILC2 function? | [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms/) |
+| What do ILC3s do in lung disease? | [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease/) |
+| What regulates ILC3 function? | [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms/) |
 | Which claims are citation-ready? | Source pages marked `focused manual crystallization mode` |
 
 ## Open Questions
@@ -140,10 +140,10 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [Sources README](../sources/README.md)
-- [ILC2](../entities/ILC2.md)
-- [ILC3](../entities/ILC3.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
-- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
-- [Reference Coverage Audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [ILC_in_lung_project](../projects/ILC_in_lung_project/)
+- [Sources README](../sources/README/)
+- [ILC2](../entities/ILC2/)
+- [ILC3](../entities/ILC3/)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles/)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now/)
+- [Reference Coverage Audit](../audit/2026-04-20_reference_coverage_audit/)

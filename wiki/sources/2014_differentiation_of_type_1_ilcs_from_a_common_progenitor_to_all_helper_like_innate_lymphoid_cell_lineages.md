@@ -65,14 +65,14 @@ This source anchors ILC1/ILC2/ILC3 lineage interpretation and helps avoid mixing
 
 ## Related Pages
 
-- [ILC2](../entities/ILC2.md)
-- [ILC3](../entities/ILC3.md)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
-- [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3.md)
+- [ILC2](../entities/ILC2/)
+- [ILC3](../entities/ILC3/)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
+- [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3/)
 
 ## Pages Updated From This Source
 
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
-- [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3.md)
-- [ILC2](../entities/ILC2.md)
-- [ILC3](../entities/ILC3.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
+- [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3/)
+- [ILC2](../entities/ILC2/)
+- [ILC3](../entities/ILC3/)

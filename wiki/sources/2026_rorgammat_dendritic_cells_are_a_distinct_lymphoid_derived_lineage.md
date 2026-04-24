@@ -73,9 +73,9 @@ This source matters to the ILC-in-lung wiki because it appears to address the so
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [ILC_in_lung_project](../projects/ILC_in_lung_project/)
+- [ILC_in_lung](../topics/ILC_in_lung/)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit/)
 
 ## Pages Updated From This Source
 

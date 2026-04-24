@@ -64,18 +64,18 @@ This source anchors the stromal ILC3 branch for neutrophilic asthma and provides
 
 ## Related Pages
 
-- [ILC3](../entities/ILC3.md)
-- [ILC3 regulation](../topics/ILC3_functional_regulation_mechanisms.md)
-- [ILC3 disease](../topics/ILC3_roles_in_pulmonary_disease.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
-- [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3.md)
+- [ILC3](../entities/ILC3/)
+- [ILC3 regulation](../topics/ILC3_functional_regulation_mechanisms/)
+- [ILC3 disease](../topics/ILC3_roles_in_pulmonary_disease/)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles/)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
+- [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3/)
 
 ## Pages Updated From This Source
 
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
-- [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3.md)
-- [ILC3](../entities/ILC3.md)
-- [ILC3_functional_regulation_mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
-- [ILC3_roles_in_pulmonary_disease](../topics/ILC3_roles_in_pulmonary_disease.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
+- [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3/)
+- [ILC3](../entities/ILC3/)
+- [ILC3_functional_regulation_mechanisms](../topics/ILC3_functional_regulation_mechanisms/)
+- [ILC3_roles_in_pulmonary_disease](../topics/ILC3_roles_in_pulmonary_disease/)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles/)

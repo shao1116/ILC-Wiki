@@ -66,18 +66,18 @@ This source is important for interpreting IL-17-producing boundary states withou
 
 ## Related Pages
 
-- [ILC2](../entities/ILC2.md)
-- [ILC3](../entities/ILC3.md)
-- [ILC2 regulation](../topics/ILC2_functional_regulation_mechanisms.md)
-- [ILC3 regulation](../topics/ILC3_functional_regulation_mechanisms.md)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
-- [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3.md)
+- [ILC2](../entities/ILC2/)
+- [ILC3](../entities/ILC3/)
+- [ILC2 regulation](../topics/ILC2_functional_regulation_mechanisms/)
+- [ILC3 regulation](../topics/ILC3_functional_regulation_mechanisms/)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
+- [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3/)
 
 ## Pages Updated From This Source
 
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
-- [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3.md)
-- [ILC2](../entities/ILC2.md)
-- [ILC3](../entities/ILC3.md)
-- [ILC2_functional_regulation_mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
-- [ILC3_functional_regulation_mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
+- [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3/)
+- [ILC2](../entities/ILC2/)
+- [ILC3](../entities/ILC3/)
+- [ILC2_functional_regulation_mechanisms](../topics/ILC2_functional_regulation_mechanisms/)
+- [ILC3_functional_regulation_mechanisms](../topics/ILC3_functional_regulation_mechanisms/)

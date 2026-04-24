@@ -76,11 +76,11 @@ This source matters to the ILC-in-lung wiki because it appears to address asthma
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC_in_lung_project](../projects/ILC_in_lung_project/)
+- [ILC_in_lung](../topics/ILC_in_lung/)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit/)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles/)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit/) if its assigned role is lung-relevant.

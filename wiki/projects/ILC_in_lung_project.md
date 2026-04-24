@@ -13,24 +13,24 @@ Organize and curate literature on innate lymphoid cells in lung biology, with em
 
 ## Key Pages
 
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [sources README](../sources/README.md)
-- [ingestion manifest](../sources/source_index.md)
-- [ILC2](../entities/ILC2.md)
-- [ILC3](../entities/ILC3.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
-- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
-- [ILC2 Roles In Pulmonary Disease](../topics/ILC2_roles_in_pulmonary_disease.md)
-- [ILC3 Roles In Pulmonary Disease](../topics/ILC3_roles_in_pulmonary_disease.md)
-- [ILC2 Functional Regulation Mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
-- [ILC3 Functional Regulation Mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
-- [ILC2 Entity](../entities/ILC2.md)
-- [ILC3 Entity](../entities/ILC3.md)
-- [Reference Coverage Audit](../audit/2026-04-20_reference_coverage_audit.md)
-- [High-Priority Manual Crystallization Batch 1](../audit/2026-04-20_high_priority_manual_crystallization_batch1.md)
-- [High-Priority Manual Crystallization Batch 2](../audit/2026-04-21_high_priority_manual_crystallization_batch2.md)
-- [Focused Manual Crystallization Batch 3](../audit/2026-04-22_focused_manual_crystallization_batch3.md)
+- [ILC_in_lung](../topics/ILC_in_lung/)
+- [sources README](../sources/README/)
+- [ingestion manifest](../sources/source_index/)
+- [ILC2](../entities/ILC2/)
+- [ILC3](../entities/ILC3/)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles/)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now/)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
+- [ILC2 Roles In Pulmonary Disease](../topics/ILC2_roles_in_pulmonary_disease/)
+- [ILC3 Roles In Pulmonary Disease](../topics/ILC3_roles_in_pulmonary_disease/)
+- [ILC2 Functional Regulation Mechanisms](../topics/ILC2_functional_regulation_mechanisms/)
+- [ILC3 Functional Regulation Mechanisms](../topics/ILC3_functional_regulation_mechanisms/)
+- [ILC2 Entity](../entities/ILC2/)
+- [ILC3 Entity](../entities/ILC3/)
+- [Reference Coverage Audit](../audit/2026-04-20_reference_coverage_audit/)
+- [High-Priority Manual Crystallization Batch 1](../audit/2026-04-20_high_priority_manual_crystallization_batch1/)
+- [High-Priority Manual Crystallization Batch 2](../audit/2026-04-21_high_priority_manual_crystallization_batch2/)
+- [Focused Manual Crystallization Batch 3](../audit/2026-04-22_focused_manual_crystallization_batch3/)
 
 ## Current Working Model
 
@@ -66,6 +66,6 @@ The third focused crystallization batch adds regulatory depth: tissue residency,
 - Review source pages and extracted text for that axis, using the detailed topic pages as maps.
 - Promote only source-supported observations into entity pages, tables, and more focused digest pages.
 - Use the reference coverage audit to prioritize source-library-only papers that are likely direct support for pulmonary ILC2/ILC3 disease or mechanism claims.
-- Use [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md) as the current claim anchor before creating mechanism entity pages.
-- Use [ILC2](../entities/ILC2.md) and [ILC3](../entities/ILC3.md) as stable entity hubs for source-supported synthesis.
+- Use [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/) as the current claim anchor before creating mechanism entity pages.
+- Use [ILC2](../entities/ILC2/) and [ILC3](../entities/ILC3/) as stable entity hubs for source-supported synthesis.
 - Use audit pages for provenance when checking how a source was promoted from provisional ingest into focused manual crystallization.
