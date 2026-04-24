@@ -17,6 +17,11 @@
   margin: 0 auto;
 }
 
+.md-typeset .mermaid svg[style] {
+  width: auto !important;
+  max-width: none !important;
+}
+
 .md-typeset .mermaid svg text {
   font-size: 14px !important;
 }

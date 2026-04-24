@@ -30,9 +30,10 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - assets/javascripts/mermaid-init.js?v=20260424
 extra_css:
-  - assets/stylesheets/notion.css
-  - assets/stylesheets/mermaid.css
+  - assets/stylesheets/notion.css?v=20260424
+  - assets/stylesheets/mermaid.css?v=20260424
 
 nav:
   - Home: index.md

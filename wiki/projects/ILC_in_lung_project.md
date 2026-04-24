@@ -14,7 +14,7 @@ Organize and curate literature on innate lymphoid cells in lung biology, with em
 ## Key Pages
 
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [sources README](../sources/README.md)
+- [sources README](../sources/index.md)
 - [ingestion manifest](../sources/source_index.md)
 - [ILC2](../entities/ILC2.md)
 - [ILC3](../entities/ILC3.md)
