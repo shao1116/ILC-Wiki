@@ -10,19 +10,19 @@
 
 .md-typeset .mermaid svg {
   display: block;
-  width: 100% !important;
-  min-width: 860px;
+  width: auto !important;
+  min-width: 960px;
   max-width: none !important;
   height: auto !important;
   margin: 0 auto;
 }
 
 .md-typeset .mermaid svg text {
-  font-size: 15px !important;
+  font-size: 14px !important;
 }
 
 @media screen and (max-width: 900px) {
   .md-typeset .mermaid svg {
-    min-width: 720px;
+    min-width: 820px;
   }
 }

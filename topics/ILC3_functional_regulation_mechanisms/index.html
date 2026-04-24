@@ -917,10 +917,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#next-ingest-targets" class="md-nav__link">
+  <a href="#future-expansion-directions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Next ingest targets
+        Future Expansion Directions
       
     </span>
   </a>
@@ -1223,10 +1223,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#next-ingest-targets" class="md-nav__link">
+  <a href="#future-expansion-directions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Next ingest targets
+        Future Expansion Directions
       
     </span>
   </a>
@@ -1314,37 +1314,69 @@
 <li><a href="../../sources/2024_ctla_4_expressing_ilc3s_restrain_interleukin_23_mediated_inflammation/">CTLA-4-expressing ILC3s restrain interleukin-23-mediated inflammation</a> supports an extrapulmonary checkpoint branch in which IL-23 can induce CTLA-4-positive ILC3s that restrain inflammatory T-cell programs; in this wiki it should be used as gut-labeled mechanism context rather than direct pulmonary proof.</li>
 </ul>
 <h2 id="interpretation">Interpretation</h2>
-<p>ILC3 regulation should be interpreted as a balance between identity-maintaining programs and inflammatory activation programs. RORgammat, AHR, circadian regulation, nutrition/iron, and stromal survival cues support identity and maintenance. IL-1beta, IL-23, SCF/KIT, NF-kappaB/MAPK, and disease-associated stromal signals can push ILC3s toward IL-17A, neutrophil chemoattractants, and inflammatory pathology. Vitamin D and CTLA-4-like restraint mechanisms may counter inflammatory IL-23-linked activity in some mucosal contexts.</p>
+<p>ILC3 regulation should be interpreted as a balance between identity-maintaining programs and inflammatory activation programs. RORgammat, AHR, circadian regulation, nutrition/iron, and stromal survival cues support identity and maintenance. IL-1beta, IL-23, SCF/KIT, NF-kappaB/MAPK, and disease-associated stromal signals can push ILC3s toward IL-17A, neutrophil chemoattractants, and inflammatory pathology. Vitamin D and CTLA-4-like restraint mechanisms may counter inflammatory IL-23-linked activity in some mucosal contexts. The map below separates maintenance-supporting, inflammatory, and restraining branches so positive and negative regulation are both explicit.</p>
 <pre class="mermaid"><code>flowchart TD
     accTitle: ILC3 Regulation Map
-    accDescr: Mechanistic regulatory layers controlling ILC3 identity and inflammatory output.
+    accDescr: Mechanistic map separating maintenance, inflammatory, and restraining controls of ILC3 function in the current wiki source set.
 
-    identity["Identity&lt;br/&gt;RORgt, AHR"]
-    stromal["Stromal niche&lt;br/&gt;IGF1, SCF/KIT"]
-    cytokines["Cytokines&lt;br/&gt;IL-1b, IL-23"]
-    metabolism["Metabolism/stress&lt;br/&gt;CD71, XBP1"]
-    restraint["Restraint&lt;br/&gt;vitamin D, CTLA-4"]
-    resistance["Steroid resistance&lt;br/&gt;GR signaling"]
+    subgraph maintenance["Positive regulation of identity or maintenance"]
+        identity["Identity programs&lt;br/&gt;RORgammat&lt;br/&gt;reciprocal TF networks"]
+        ahr["AHR support&lt;br/&gt;AHR, WASH"]
+        circadian["Circadian-epigenetic support&lt;br/&gt;RORgammat maintenance"]
+        nutrition["Nutritional/metabolic support&lt;br/&gt;CD71-iron axis"]
+        developmental["Developmental niche&lt;br/&gt;alveolar fibroblast&lt;br/&gt;IGF1"]
+        tolerance["Tolerance-supporting branch&lt;br/&gt;STING-linked microbiota&lt;br/&gt;sensing"]
+    end
+
+    subgraph inflammatory["Positive regulation of inflammatory output"]
+        cytokines["Cytokine activation&lt;br/&gt;IL-1beta, IL-23"]
+        macrophage["Myeloid licensing&lt;br/&gt;NLRP3 / macrophage&lt;br/&gt;IL-1beta"]
+        scf["Disease stromal amplifier&lt;br/&gt;SCF/KIT"]
+        signaling["Inflammatory signaling&lt;br/&gt;NF-kappaB / MAPK"]
+        stress["Stress-support pathway&lt;br/&gt;IRE1alpha-XBP1"]
+        resistance["Loss of steroid control&lt;br/&gt;aberrant GR&lt;br/&gt;phosphorylation"]
+    end
+
+    subgraph restraint["Negative regulation / counter-regulation"]
+        vitamin_d["Vitamin D brake&lt;br/&gt;reduced IL-23R&lt;br/&gt;pathway activity"]
+        ctla4["Checkpoint restraint&lt;br/&gt;CTLA-4-positive&lt;br/&gt;ILC3 branch"]
+    end
+
     ilc3["ILC3 state"]
-    output["Outputs&lt;br/&gt;IL-22, IL-17A"]
+    homeostasis["Homeostatic/protective outputs&lt;br/&gt;IL-22, tissue support&lt;br/&gt;development"]
+    pathology["Inflammatory outputs&lt;br/&gt;IL-17A, CXCL1/CXCL8&lt;br/&gt;neutrophilic disease"]
 
     identity --&gt; ilc3
-    stromal --&gt; ilc3
-    cytokines --&gt; ilc3
-    metabolism --&gt; ilc3
-    restraint -. limits .-&gt; ilc3
-    resistance --&gt; ilc3
-    ilc3 --&gt; output
+    ahr --&gt; ilc3
+    circadian --&gt; ilc3
+    nutrition --&gt; ilc3
+    developmental --&gt; ilc3
+    tolerance --&gt; ilc3
 
-    classDef input fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    cytokines --&gt; ilc3
+    macrophage --&gt; ilc3
+    scf --&gt; ilc3
+    signaling --&gt; ilc3
+    stress --&gt; ilc3
+    resistance --&gt; ilc3
+
+    vitamin_d -. restrains .-&gt; ilc3
+    ctla4 -. restrains .-&gt; ilc3
+
+    ilc3 --&gt; homeostasis
+    ilc3 --&gt; pathology
+
+    classDef maintenance_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef inflammatory_class fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
     classDef restraint_class fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
-    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef cell fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
     classDef output_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
 
-    class identity,stromal,cytokines,metabolism,resistance input
-    class restraint restraint_class
+    class identity,ahr,circadian,nutrition,developmental,tolerance maintenance_class
+    class cytokines,macrophage,scf,signaling,stress,resistance inflammatory_class
+    class vitamin_d,ctla4 restraint_class
     class ilc3 cell
-    class output output_class</code></pre>
+    class homeostasis,pathology output_class</code></pre>
 <h2 id="contradiction-and-supersession">Contradiction and supersession</h2>
 <ul>
 <li>Contradiction:
@@ -1371,11 +1403,12 @@
 <li><a href="../../digests/2026-04-20_ILC_pulmonary_disease_roles/">Lung ILC Disease Roles Companion</a></li>
 <li><a href="../ILC_in_lung/">ILC In Lung</a></li>
 </ul>
-<h2 id="next-ingest-targets">Next ingest targets</h2>
+<h2 id="future-expansion-directions">Future Expansion Directions</h2>
+<p>This short appendix highlights future literature directions rather than current mechanistic conclusions. The most useful additions for later updates would be:</p>
 <ul>
-<li>Manually review ILC3 mechanism papers and label each as lung-specific, gut-specific, mucosal-general, or review-level evidence.</li>
-<li>Build a regulatory table mapping mechanism to output: IL-22, IL-17A, CXCL1/CXCL8, GM-CSF, IFNG, or tissue maintenance.</li>
-<li>Build an <code>ILC3</code> entity page after the mechanism map is checked against source text.</li>
+<li>Additional ILC3 mechanism papers labeled as lung-specific, gut-specific, mucosal-general, or review-level evidence.</li>
+<li>A tighter regulatory table mapping mechanism to output: IL-22, IL-17A, CXCL1/CXCL8, GM-CSF, IFNG, or tissue-maintenance programs.</li>
+<li>More direct source coverage connecting the mechanism map back to the existing <a href="../../entities/ILC3/">ILC3</a> hub, especially where extrapulmonary mechanism context is being used to frame pulmonary interpretation.</li>
 </ul>
 
 
