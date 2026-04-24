@@ -12,12 +12,12 @@ This homepage is designed as a starting point for browsing. Start with the overv
 
 | Goal                                                    | Best entry point                                                                                                                          |
 | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Understand the whole wiki                               | [ILC In Lung](./topics/ILC_in_lung/)                                                                                                    |
-| Learn the field history                                 | [ILC Research Trend From Then To Now](./digests/2026-04-20_ILC_research_trend_then_to_now/)                                             |
-| See the strongest integrated evidence                   | [Lung ILC Core Evidence Synthesis](./digests/2026-04-22_lung_ILC_core_evidence_synthesis/)                                              |
-| Focus on ILC2                                           | [ILC2](./entities/ILC2/)                                                                                                                |
-| Focus on ILC3                                           | [ILC3](./entities/ILC3/)                                                                                                                |
-| Browse all source notes                                 | [Source Index](./sources/source_index/)                                                                                           |
+| Understand the whole wiki                               | [ILC In Lung](./topics/ILC_in_lung.md)                                                                                                    |
+| Learn the field history                                 | [ILC Research Trend From Then To Now](./digests/2026-04-20_ILC_research_trend_then_to_now.md)                                             |
+| See the strongest integrated evidence                   | [Lung ILC Core Evidence Synthesis](./digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)                                              |
+| Focus on ILC2                                           | [ILC2](./entities/ILC2.md)                                                                                                                |
+| Focus on ILC3                                           | [ILC3](./entities/ILC3.md)                                                                                                                |
+| Browse all source notes                                 | [Source Index](./sources/source_index.md)                                                                                           |
 
 ## Core Knowledge Map
 
@@ -54,21 +54,21 @@ flowchart TB
 
 ## Cell Entity Hubs
 
-- [ILC2](./entities/ILC2/): canonical ILC2 hub with the integrated former working model, covering allergic amplification, viral AHR versus repair, macrophage niche effects, neuroimmune and metabolic regulation, stromal niches, interferon brakes, and IL-17-producing boundary states.
-- [ILC3](./entities/ILC3/): canonical ILC3 hub with the integrated former working model, covering human lung baseline, IL-22 defense, neonatal pulmonary niches, ARDS and neutrophilic or steroid-resistant asthma, SCF/KIT stromal licensing, and IL-17-producing ILC classification cautions.
+- [ILC2](./entities/ILC2.md): canonical ILC2 hub with the integrated former working model, covering allergic amplification, viral AHR versus repair, macrophage niche effects, neuroimmune and metabolic regulation, stromal niches, interferon brakes, and IL-17-producing boundary states.
+- [ILC3](./entities/ILC3.md): canonical ILC3 hub with the integrated former working model, covering human lung baseline, IL-22 defense, neonatal pulmonary niches, ARDS and neutrophilic or steroid-resistant asthma, SCF/KIT stromal licensing, and IL-17-producing ILC classification cautions.
 
 ## Disease And Mechanism Topics
 
-- [ILC2 Roles In Pulmonary Disease](./topics/ILC2_roles_in_pulmonary_disease/): allergic asthma, respiratory viral AHR and repair, plastic/non-type-2 states, obesity-associated disease, silicosis-associated plasticity, and tumor/NK checkpoint context.
-- [ILC3 Roles In Pulmonary Disease](./topics/ILC3_roles_in_pulmonary_disease/): bacterial defense, neonatal lung development, ARDS/lung injury, neutrophilic and steroid-resistant asthma, smoke-associated asthma, and noncanonical mediator branches.
-- [ILC2 Functional Regulation Mechanisms](./topics/ILC2_functional_regulation_mechanisms/): alarmins, lipid mediators, costimulation/checkpoints, metabolism, neuroimmune signaling, stromal/mechanical feedback, and infection-conditioned reprogramming.
-- [ILC3 Functional Regulation Mechanisms](./topics/ILC3_functional_regulation_mechanisms/): cytokine activation, stromal niches, transcriptional identity, taxonomy, AHR/STING/vitamin D/nutrition/stress axes, and glucocorticoid resistance.
+- [ILC2 Roles In Pulmonary Disease](./topics/ILC2_roles_in_pulmonary_disease.md): allergic asthma, respiratory viral AHR and repair, plastic/non-type-2 states, obesity-associated disease, silicosis-associated plasticity, and tumor/NK checkpoint context.
+- [ILC3 Roles In Pulmonary Disease](./topics/ILC3_roles_in_pulmonary_disease.md): bacterial defense, neonatal lung development, ARDS/lung injury, neutrophilic and steroid-resistant asthma, smoke-associated asthma, and noncanonical mediator branches.
+- [ILC2 Functional Regulation Mechanisms](./topics/ILC2_functional_regulation_mechanisms.md): alarmins, lipid mediators, costimulation/checkpoints, metabolism, neuroimmune signaling, stromal/mechanical feedback, and infection-conditioned reprogramming.
+- [ILC3 Functional Regulation Mechanisms](./topics/ILC3_functional_regulation_mechanisms.md): cytokine activation, stromal niches, transcriptional identity, taxonomy, AHR/STING/vitamin D/nutrition/stress axes, and glucocorticoid resistance.
 
 ## Synthesis And Companion Pages
 
-- [Lung ILC Core Evidence Synthesis](./digests/2026-04-22_lung_ILC_core_evidence_synthesis/): the main cross-subset synthesis page for the wiki.
-- [ILC Research Trend From Then To Now](./digests/2026-04-20_ILC_research_trend_then_to_now/): beginner-friendly field history from early functional discovery through tissue-specific disease mechanisms.
-- [Lung ILC Disease Roles Companion](./digests/2026-04-20_ILC_pulmonary_disease_roles/): disease-first companion page to the core synthesis, useful for pathology- or endotype-oriented reading.
+- [Lung ILC Core Evidence Synthesis](./digests/2026-04-22_lung_ILC_core_evidence_synthesis.md): the main cross-subset synthesis page for the wiki.
+- [ILC Research Trend From Then To Now](./digests/2026-04-20_ILC_research_trend_then_to_now.md): beginner-friendly field history from early functional discovery through tissue-specific disease mechanisms.
+- [Lung ILC Disease Roles Companion](./digests/2026-04-20_ILC_pulmonary_disease_roles.md): disease-first companion page to the core synthesis, useful for pathology- or endotype-oriented reading.
 
 ---
 
@@ -77,32 +77,32 @@ The sections below preserve source structure, auditability, and curation rules. 
 <details>
 <summary><strong>Source Layer</strong></summary>
 <ul>
-  <li><a href="./sources/">Sources README</a>: explains source-page conventions and the difference between provisional bulk-ingest notes and focused manual crystallization.</li>
-  <li><a href="./sources/source_index/">Source Index</a>: processing and source-note index for the local reference library.</li>
-  <li><a href="./projects/ILC_in_lung_project/">Project Hub</a>: project scope, priority questions, key pages, open risks, and next actions.</li>
+  <li><a href="./sources/README.md">Sources README</a>: explains source-page conventions and the difference between provisional bulk-ingest notes and focused manual crystallization.</li>
+  <li><a href="./sources/source_index.md">Source Index</a>: processing and source-note index for the local reference library.</li>
+  <li><a href="./projects/ILC_in_lung_project.md">Project Hub</a>: project scope, priority questions, key pages, open risks, and next actions.</li>
 </ul>
 </details>
 
 <details>
 <summary><strong>Audit Trail</strong></summary>
 <ul>
-  <li><a href="./audit/2026-04-22_topic_entity_integration_audit/">Topic And Entity Integration Audit</a></li>
-  <li><a href="./audit/2026-04-23_focused_manual_crystallization_ILC2_niche_interferon_type2/">ILC2 Niche/Interferon Focused Crystallization Audit</a></li>
-  <li><a href="./audit/2026-04-22_public_export_setup/">Public Export Setup Audit</a></li>
-  <li><a href="./audit/2026-04-22_ingest_mode_schema_update/">Ingest Mode Schema Update</a></li>
-  <li><a href="./audit/2026-04-22_focused_manual_crystallization_batch3/">Focused Manual Crystallization Audit</a></li>
-  <li><a href="./audit/2026-04-20_high_priority_manual_crystallization_batch1/">High-Priority Manual Crystallization Audit 1</a></li>
-  <li><a href="./audit/2026-04-21_high_priority_manual_crystallization_batch2/">High-Priority Manual Crystallization Audit 2</a></li>
-  <li><a href="./audit/2026-04-21_digest_claim_confidence_correction/">Digest Claim-Confidence Correction Audit</a></li>
-  <li><a href="./audit/2026-04-20_source_page_claim_confidence_rewrite/">Source Page Claim-Confidence Rewrite Audit</a></li>
-  <li><a href="./audit/2026-04-20_reference_coverage_audit/">Reference Coverage Audit</a></li>
+  <li><a href="./audit/2026-04-22_topic_entity_integration_audit.md">Topic And Entity Integration Audit</a></li>
+  <li><a href="./audit/2026-04-23_focused_manual_crystallization_ILC2_niche_interferon_type2.md">ILC2 Niche/Interferon Focused Crystallization Audit</a></li>
+  <li><a href="./audit/2026-04-22_public_export_setup.md">Public Export Setup Audit</a></li>
+  <li><a href="./audit/2026-04-22_ingest_mode_schema_update.md">Ingest Mode Schema Update</a></li>
+  <li><a href="./audit/2026-04-22_focused_manual_crystallization_batch3.md">Focused Manual Crystallization Audit</a></li>
+  <li><a href="./audit/2026-04-20_high_priority_manual_crystallization_batch1.md">High-Priority Manual Crystallization Audit 1</a></li>
+  <li><a href="./audit/2026-04-21_high_priority_manual_crystallization_batch2.md">High-Priority Manual Crystallization Audit 2</a></li>
+  <li><a href="./audit/2026-04-21_digest_claim_confidence_correction.md">Digest Claim-Confidence Correction Audit</a></li>
+  <li><a href="./audit/2026-04-20_source_page_claim_confidence_rewrite.md">Source Page Claim-Confidence Rewrite Audit</a></li>
+  <li><a href="./audit/2026-04-20_reference_coverage_audit.md">Reference Coverage Audit</a></li>
 </ul>
 </details>
 
 <details>
 <summary><strong>Rules And Notes</strong></summary>
 <ul>
-  <li><a href="./_schema/wiki_rules/">Wiki Rules</a>: local rules for evidence confidence, ingest modes, page types, and auditability.</li>
+  <li><a href="./_schema/wiki_rules.md">Wiki Rules</a>: local rules for evidence confidence, ingest modes, page types, and auditability.</li>
 </ul>
 <p>This wiki is a research synthesis aid, not a clinical guideline. Claim-level confidence refers to biological claims and evidence directness, not to whether a PDF was successfully processed. Mouse perturbation, human lung tissue, sputum, blood, nasal airway, scRNA-seq, and review-level evidence are intentionally kept separate when they imply different levels of confidence.</p>
 </details>

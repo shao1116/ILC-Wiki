@@ -69,18 +69,18 @@ This source is important because it shows that not every inflammatory cytokine a
 
 ## Related Pages
 
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
-- [High-priority manual crystallization audit](../audit/2026-04-20_high_priority_manual_crystallization_batch1/)
-- [ILC_in_lung_project](../projects/ILC_in_lung_project/)
-- [ILC_in_lung](../topics/ILC_in_lung/)
-- [ILC2](../entities/ILC2/)
-- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease/)
-- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms/)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [High-priority manual crystallization audit](../audit/2026-04-20_high_priority_manual_crystallization_batch1.md)
+- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
 
 ## Pages Updated From This Source
 
-- [ILC2](../entities/ILC2/)
-- [ILC2_functional_regulation_mechanisms](../topics/ILC2_functional_regulation_mechanisms/)
-- [ILC2_roles_in_pulmonary_disease](../topics/ILC2_roles_in_pulmonary_disease/)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
-- [2026-04-20_high_priority_manual_crystallization_batch1](../audit/2026-04-20_high_priority_manual_crystallization_batch1/)
+- [ILC2](../entities/ILC2.md)
+- [ILC2_functional_regulation_mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC2_roles_in_pulmonary_disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [2026-04-20_high_priority_manual_crystallization_batch1](../audit/2026-04-20_high_priority_manual_crystallization_batch1.md)

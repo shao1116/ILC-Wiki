@@ -69,14 +69,14 @@ This source strengthens the non-eosinophilic asthma branch by showing that ILCs 
 
 ## Related Pages
 
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
-- [High-priority manual crystallization audit batch 2](../audit/2026-04-21_high_priority_manual_crystallization_batch2/)
-- [ILC_in_lung_project](../projects/ILC_in_lung_project/)
-- [ILC_in_lung](../topics/ILC_in_lung/)
-- [ILC3](../entities/ILC3/)
-- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease/)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [High-priority manual crystallization audit batch 2](../audit/2026-04-21_high_priority_manual_crystallization_batch2.md)
+- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
 
 ## Pages Updated From This Source
 
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
-- [ILC3](../entities/ILC3/)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC3](../entities/ILC3.md)

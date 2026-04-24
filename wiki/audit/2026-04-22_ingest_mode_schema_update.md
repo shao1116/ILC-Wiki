@@ -6,10 +6,10 @@ The user identified a recurring ambiguity between bulk ingestion and mature sour
 
 ## Sources revisited
 
-- [wiki rules](../_schema/wiki_rules/)
-- [sources README](../sources/)
+- [wiki rules](../_schema/wiki_rules.md)
+- [sources README](../sources/README.md)
 - `project_config.yaml omitted from public export`
-- source pages in [sources](../sources/)
+- source pages in [sources](../sources/README.md)
 - reusable research-wiki-maintainer skill ingest workflow
 
 ## Page families changed

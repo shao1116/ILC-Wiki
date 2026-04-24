@@ -76,10 +76,10 @@ This source matters to the ILC-in-lung wiki because it appears to address gut/in
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project/)
-- [ILC_in_lung](../topics/ILC_in_lung/)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit/)
+- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- [2026-04-20_ILC_research_trend_then_to_now](../digests/2026-04-20_ILC_research_trend_then_to_now/)
+- [2026-04-20_ILC_research_trend_then_to_now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)

@@ -6,14 +6,14 @@ The user noticed that batch-oriented headings in reusable knowledge pages made t
 
 ## Pages reviewed
 
-- [ILC In Lung](../topics/ILC_in_lung/)
-- [ILC2 Roles In Pulmonary Disease](../topics/ILC2_roles_in_pulmonary_disease/)
-- [ILC3 Roles In Pulmonary Disease](../topics/ILC3_roles_in_pulmonary_disease/)
-- [ILC2 Functional Regulation Mechanisms](../topics/ILC2_functional_regulation_mechanisms/)
-- [ILC3 Functional Regulation Mechanisms](../topics/ILC3_functional_regulation_mechanisms/)
-- [ILC2](../entities/ILC2/)
-- [ILC3](../entities/ILC3/)
-- [Entities README](../entities/)
+- [ILC In Lung](../topics/ILC_in_lung.md)
+- [ILC2 Roles In Pulmonary Disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC3 Roles In Pulmonary Disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC2 Functional Regulation Mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 Functional Regulation Mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [Entities README](../entities/README.md)
 
 ## Page families changed
 

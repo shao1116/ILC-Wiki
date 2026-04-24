@@ -68,20 +68,20 @@ This is a core lung ILC3 host-defense paper. It supports the protective/barrier-
 
 ## Related Pages
 
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
-- [High-priority manual crystallization audit](../audit/2026-04-20_high_priority_manual_crystallization_batch1/)
-- [ILC_in_lung_project](../projects/ILC_in_lung_project/)
-- [ILC_in_lung](../topics/ILC_in_lung/)
-- [ILC3](../entities/ILC3/)
-- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease/)
-- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms/)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [High-priority manual crystallization audit](../audit/2026-04-20_high_priority_manual_crystallization_batch1.md)
+- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
 
 ## Pages Updated From This Source
 
-- [ILC3](../entities/ILC3/)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles/)
-- [ILC3](../entities/ILC3/)
-- [ILC3_functional_regulation_mechanisms](../topics/ILC3_functional_regulation_mechanisms/)
-- [ILC3_roles_in_pulmonary_disease](../topics/ILC3_roles_in_pulmonary_disease/)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
-- [2026-04-20_high_priority_manual_crystallization_batch1](../audit/2026-04-20_high_priority_manual_crystallization_batch1/)
+- [ILC3](../entities/ILC3.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC3_functional_regulation_mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC3_roles_in_pulmonary_disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [2026-04-20_high_priority_manual_crystallization_batch1](../audit/2026-04-20_high_priority_manual_crystallization_batch1.md)

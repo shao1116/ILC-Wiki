@@ -76,13 +76,13 @@ This source matters to the ILC-in-lung wiki because it appears to address lung/a
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project/)
-- [ILC_in_lung](../topics/ILC_in_lung/)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit/)
-- [ILC3](../entities/ILC3/)
-- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease/)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles/)
+- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit/) if its assigned role is lung-relevant.
+- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.

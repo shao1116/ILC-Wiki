@@ -65,16 +65,16 @@ This source adds a therapeutically relevant cholinergic branch to the ILC2 wiki.
 
 ## Related Pages
 
-- [ILC2](../entities/ILC2/)
-- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease/)
-- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms/)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
-- [ILC In Lung](../topics/ILC_in_lung/)
+- [ILC2](../entities/ILC2.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC In Lung](../topics/ILC_in_lung.md)
 
 ## Pages Updated From This Source
 
-- [ILC2](../entities/ILC2/)
-- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease/)
-- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms/)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit/)
+- [ILC2](../entities/ILC2.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)

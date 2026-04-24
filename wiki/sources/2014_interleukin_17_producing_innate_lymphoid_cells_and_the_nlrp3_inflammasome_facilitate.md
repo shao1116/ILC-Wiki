@@ -66,17 +66,17 @@ This source is important because it gives the wiki a pulmonary ILC3-like obesity
 
 ## Related Pages
 
-- [ILC3](../entities/ILC3/)
-- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease/)
-- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms/)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles/)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
+- [ILC3](../entities/ILC3.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
 
 ## Pages Updated From This Source
 
-- [ILC3](../entities/ILC3/)
-- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease/)
-- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms/)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles/)
-- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis/)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit/)
+- [ILC3](../entities/ILC3.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
