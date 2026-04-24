@@ -88,39 +88,71 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 
 ## Interpretation
 
-ILC3 regulation should be interpreted as a balance between identity-maintaining programs and inflammatory activation programs. RORgammat, AHR, circadian regulation, nutrition/iron, and stromal survival cues support identity and maintenance. IL-1beta, IL-23, SCF/KIT, NF-kappaB/MAPK, and disease-associated stromal signals can push ILC3s toward IL-17A, neutrophil chemoattractants, and inflammatory pathology. Vitamin D and CTLA-4-like restraint mechanisms may counter inflammatory IL-23-linked activity in some mucosal contexts.
+ILC3 regulation should be interpreted as a balance between identity-maintaining programs and inflammatory activation programs. RORgammat, AHR, circadian regulation, nutrition/iron, and stromal survival cues support identity and maintenance. IL-1beta, IL-23, SCF/KIT, NF-kappaB/MAPK, and disease-associated stromal signals can push ILC3s toward IL-17A, neutrophil chemoattractants, and inflammatory pathology. Vitamin D and CTLA-4-like restraint mechanisms may counter inflammatory IL-23-linked activity in some mucosal contexts. The map below separates maintenance-supporting, inflammatory, and restraining branches so positive and negative regulation are both explicit.
 
 ```mermaid
 flowchart TD
     accTitle: ILC3 Regulation Map
-    accDescr: Mechanistic regulatory layers controlling ILC3 identity and inflammatory output.
+    accDescr: Mechanistic map separating maintenance, inflammatory, and restraining controls of ILC3 function in the current wiki source set.
 
-    identity["Identity<br/>RORgt, AHR"]
-    stromal["Stromal niche<br/>IGF1, SCF/KIT"]
-    cytokines["Cytokines<br/>IL-1b, IL-23"]
-    metabolism["Metabolism/stress<br/>CD71, XBP1"]
-    restraint["Restraint<br/>vitamin D, CTLA-4"]
-    resistance["Steroid resistance<br/>GR signaling"]
+    subgraph maintenance["Positive regulation of identity or maintenance"]
+        identity["Identity programs<br/>RORgammat<br/>reciprocal TF networks"]
+        ahr["AHR support<br/>AHR, WASH"]
+        circadian["Circadian-epigenetic support<br/>RORgammat maintenance"]
+        nutrition["Nutritional/metabolic support<br/>CD71-iron axis"]
+        developmental["Developmental niche<br/>alveolar fibroblast<br/>IGF1"]
+        tolerance["Tolerance-supporting branch<br/>STING-linked microbiota<br/>sensing"]
+    end
+
+    subgraph inflammatory["Positive regulation of inflammatory output"]
+        cytokines["Cytokine activation<br/>IL-1beta, IL-23"]
+        macrophage["Myeloid licensing<br/>NLRP3 / macrophage<br/>IL-1beta"]
+        scf["Disease stromal amplifier<br/>SCF/KIT"]
+        signaling["Inflammatory signaling<br/>NF-kappaB / MAPK"]
+        stress["Stress-support pathway<br/>IRE1alpha-XBP1"]
+        resistance["Loss of steroid control<br/>aberrant GR<br/>phosphorylation"]
+    end
+
+    subgraph restraint["Negative regulation / counter-regulation"]
+        vitamin_d["Vitamin D brake<br/>reduced IL-23R<br/>pathway activity"]
+        ctla4["Checkpoint restraint<br/>CTLA-4-positive<br/>ILC3 branch"]
+    end
+
     ilc3["ILC3 state"]
-    output["Outputs<br/>IL-22, IL-17A"]
+    homeostasis["Homeostatic/protective outputs<br/>IL-22, tissue support<br/>development"]
+    pathology["Inflammatory outputs<br/>IL-17A, CXCL1/CXCL8<br/>neutrophilic disease"]
 
     identity --> ilc3
-    stromal --> ilc3
-    cytokines --> ilc3
-    metabolism --> ilc3
-    restraint -. limits .-> ilc3
-    resistance --> ilc3
-    ilc3 --> output
+    ahr --> ilc3
+    circadian --> ilc3
+    nutrition --> ilc3
+    developmental --> ilc3
+    tolerance --> ilc3
 
-    classDef input fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    cytokines --> ilc3
+    macrophage --> ilc3
+    scf --> ilc3
+    signaling --> ilc3
+    stress --> ilc3
+    resistance --> ilc3
+
+    vitamin_d -. restrains .-> ilc3
+    ctla4 -. restrains .-> ilc3
+
+    ilc3 --> homeostasis
+    ilc3 --> pathology
+
+    classDef maintenance_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef inflammatory_class fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
     classDef restraint_class fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
-    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef cell fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
     classDef output_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
 
-    class identity,stromal,cytokines,metabolism,resistance input
-    class restraint restraint_class
+    class identity,ahr,circadian,nutrition,developmental,tolerance maintenance_class
+    class cytokines,macrophage,scf,signaling,stress,resistance inflammatory_class
+    class vitamin_d,ctla4 restraint_class
     class ilc3 cell
-    class output output_class
+    class homeostasis,pathology output_class
 ```
 
 ## Contradiction and supersession
@@ -149,8 +181,10 @@ flowchart TD
 - [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC In Lung](./ILC_in_lung.md)
 
-## Next ingest targets
+## Future Expansion Directions
 
-- Manually review ILC3 mechanism papers and label each as lung-specific, gut-specific, mucosal-general, or review-level evidence.
-- Build a regulatory table mapping mechanism to output: IL-22, IL-17A, CXCL1/CXCL8, GM-CSF, IFNG, or tissue maintenance.
-- Build an `ILC3` entity page after the mechanism map is checked against source text.
+This short appendix highlights future literature directions rather than current mechanistic conclusions. The most useful additions for later updates would be:
+
+- Additional ILC3 mechanism papers labeled as lung-specific, gut-specific, mucosal-general, or review-level evidence.
+- A tighter regulatory table mapping mechanism to output: IL-22, IL-17A, CXCL1/CXCL8, GM-CSF, IFNG, or tissue-maintenance programs.
+- More direct source coverage connecting the mechanism map back to the existing [ILC3](../entities/ILC3.md) hub, especially where extrapulmonary mechanism context is being used to frame pulmonary interpretation.

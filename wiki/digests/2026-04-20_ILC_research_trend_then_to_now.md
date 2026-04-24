@@ -104,13 +104,13 @@ The wiki's "our research" axis is not a side note; it sits at several important 
 - `Medium confidence`: translational claims about human asthma endotypes are strongest when human samples are paired with mechanistic mouse or ex vivo perturbation evidence; human association alone should not be overstated as causality.
 - `Low confidence`: any claim that a single ILC subset, mediator, or pathway explains all asthma, all viral lung disease, or all pulmonary inflammation should be rejected unless future evidence is much stronger.
 
-## Update Triggers
+## When To Revisit This Page
 
 - Update this page when a newly crystallized source changes the timing or interpretation of an ILC discovery phase.
 - Add a new row if human lung, BAL, sputum, bronchial biopsy, or spatial single-cell studies directly connect ILC states to clinical outcomes in asthma, COPD, ARDS, pneumonia, fibrosis, or lung cancer.
 - Revisit the 2019 TLR9-dependent interferon axis if new human airway or lung-tissue studies test whether this inhibitory ILC2 pathway is conserved in asthma endotypes.
 
-## Crystallized from
+## Representative Source Spine
 
 - [ILC 10 years on](../sources/2018_innate_lymphoid_cells_10_years_on.md)
 - [The biology of innate lymphoid cells](../sources/2015_the_biology_of_innate_lymphoid_cells.md)

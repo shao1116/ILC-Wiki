@@ -102,37 +102,81 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 
 ## Interpretation
 
-ILC2 function is regulated by layered controls rather than a single master pathway. Epithelial alarmins and lipid mediators provide rapid activation, costimulatory and checkpoint receptors tune expansion and function, metabolism sets effector capacity, neuroimmune inputs provide fast excitatory or inhibitory control, and infection can redirect ILC2 identity toward repair or niche-imprinting roles.
+ILC2 function is regulated by layered controls rather than a single master pathway. Epithelial alarmins and lipid mediators provide rapid activation, costimulatory and checkpoint receptors tune expansion and function, metabolism sets effector capacity, neuroimmune inputs provide fast excitatory or inhibitory control, and infection can redirect ILC2 identity toward repair or niche-imprinting roles. The map below separates positive inputs, negative inputs, and state-rerouting signals so the reader can see both accelerating and restraining branches at a glance.
 
 ```mermaid
 flowchart TD
     accTitle: ILC2 Regulation Map
-    accDescr: Mechanistic regulatory layers controlling ILC2 function in the current wiki source set.
+    accDescr: Mechanistic map separating positive, negative, and state-rerouting controls of ILC2 function in the current wiki source set.
 
-    alarmins["Alarmins<br/>IL-33, IL-25"]
-    lipids["Lipids<br/>CysLTs, PGD2"]
-    receptors["Receptors<br/>ICOS, DR3, PD-1"]
-    metabolism["Metabolism<br/>HIF-1a, mTORC1"]
-    neuro["Neuroimmune<br/>NMU, CGRP, dopamine"]
-    infection["Viral conditioning<br/>BATF, GM-CSF"]
+    subgraph positive["Positive regulation"]
+        alarmins["Alarmins<br/>IL-33/ST2, IL-25"]
+        lipids["Lipid amplifiers<br/>CysLT1/LTE4, PGD2/DP2"]
+        costim["Costimulation<br/>ICOS-L, OX40L, TL1A/DR3"]
+        metabolism["Metabolic support<br/>autophagy, OXPHOS-glycolysis<br/>HIF-1a, mTORC1, lipid droplets"]
+        niche["Stromal/spatial cues<br/>ASC IL-33/TSLP<br/>CCR8-CCL8, collagen-I"]
+        neuro_pos["Neuroimmune activators<br/>NMU/NMUR1, CB2"]
+        feedback["Cellular feedback<br/>eosinophils"]
+        repair_prog["Protective infection program<br/>BATF, GM-CSF<br/>imprinting"]
+    end
+
+    subgraph negative["Negative regulation"]
+        il1b_brake["Cytokine brake<br/>IL-1b in early-life RV model"]
+        dp2_block["Lipid-pathway blockade<br/>fevipiprant / DP2 antagonism"]
+        checkpoint["Checkpoint restraint<br/>PD-1"]
+        metabolic_brake["Metabolic inhibition<br/>butyrate, dopamine"]
+        neuro_brake["Neuroimmune brakes<br/>PAC1/CGRP, beta2-AR"]
+        interferon["Interferon control<br/>IFN-gamma, TLR9-type I IFN<br/>STAT1"]
+        cholinergic["Indirect cholinergic brake<br/>tiotropium-basophil<br/>M3R axis"]
+        viral_dampen["Type 2 dampening<br/>gammaherpesvirus-conditioned<br/>suppression"]
+    end
+
+    subgraph rerouting["State rerouting and plasticity"]
+        plasticity["Plasticity cues<br/>IL-1b + IL-23 + TGF-beta"]
+        mechanics["Mechanical fibroblast cue<br/>IL-18-driven ILC2 to<br/>ILC1-like shift"]
+        lung_gut["Inter-organ specialization<br/>lung-gut trafficking<br/>and maturation"]
+    end
+
     ilc2["ILC2 state"]
-    output["Outputs<br/>IL-5, IL-13, AREG"]
+    type2["Type 2 outputs<br/>IL-5, IL-13, AHR"]
+    repair["Repair/niche outputs<br/>AREG, GM-CSF<br/>macrophage imprinting"]
+    boundary["Boundary states<br/>IL-17-producing or<br/>ILC1-like programs"]
 
     alarmins --> ilc2
     lipids --> ilc2
-    receptors --> ilc2
+    costim --> ilc2
     metabolism --> ilc2
-    neuro --> ilc2
-    infection --> ilc2
-    ilc2 --> output
+    niche --> ilc2
+    neuro_pos --> ilc2
+    feedback --> ilc2
+    repair_prog --> ilc2
 
-    classDef input fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    il1b_brake -. restrains .-> ilc2
+    dp2_block -. restrains .-> ilc2
+    checkpoint -. restrains .-> ilc2
+    metabolic_brake -. restrains .-> ilc2
+    neuro_brake -. restrains .-> ilc2
+    interferon -. restrains .-> ilc2
+    cholinergic -. restrains .-> ilc2
+    viral_dampen -. restrains .-> ilc2
+
+    plasticity -. reroutes .-> boundary
+    mechanics -. reroutes .-> boundary
+    lung_gut -. specializes .-> ilc2
+    ilc2 --> type2
+    ilc2 --> repair
+
+    classDef positive_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef negative_class fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
+    classDef reroute_class fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
     classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
     classDef output_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
 
-    class alarmins,lipids,receptors,metabolism,neuro,infection input
+    class alarmins,lipids,costim,metabolism,niche,neuro_pos,feedback,repair_prog positive_class
+    class il1b_brake,dp2_block,checkpoint,metabolic_brake,neuro_brake,interferon,cholinergic,viral_dampen negative_class
+    class plasticity,mechanics,lung_gut,boundary reroute_class
     class ilc2 cell
-    class output output_class
+    class type2,repair output_class
 ```
 
 ## Contradiction and supersession
@@ -161,8 +205,10 @@ flowchart TD
 - [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC In Lung](./ILC_in_lung.md)
 
-## Next ingest targets
+## Future Expansion Directions
 
-- Manually review ILC2 metabolic papers and separate direct metabolic assays from transcriptomic inference.
-- Manually review neuroimmune ILC2 papers and annotate excitatory versus inhibitory pathways.
-- Build a table linking each ILC2 regulatory mechanism to disease outcome, species, assay type, and directness of evidence.
+This short appendix highlights future literature directions rather than current mechanistic conclusions. The most useful additions for later updates would be:
+
+- Additional ILC2 metabolic sources that separate direct metabolic assays from transcriptomic or pathway-score inference.
+- More neuroimmune ILC2 sources that clarify excitatory versus inhibitory pathways across receptor contexts and tissues.
+- A tighter source-linked table connecting each ILC2 regulatory mechanism to disease outcome, species, assay type, and directness of evidence.

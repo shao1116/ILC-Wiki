@@ -150,8 +150,10 @@ flowchart TD
 - [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md)
 - [ILC In Lung](./ILC_in_lung.md)
 
-## Next ingest targets
+## Future Expansion Directions
 
-- Manually review the core ILC2 asthma papers and separate mouse perturbation evidence from human association evidence.
-- Manually review respiratory virus ILC2 papers by timepoint: acute AHR, tissue repair, and post-infection macrophage/niche imprinting.
-- Continue tightening direct source coverage inside [ILC2](../entities/ILC2.md), especially for human airway subsets, steroid-resistant asthma, and plastic IL-17 boundary states.
+This short appendix highlights future literature directions rather than current disease conclusions. The most useful additions for later updates would be:
+
+- Primary asthma sources that cleanly separate mouse perturbation evidence from human association evidence.
+- Respiratory-virus ILC2 studies resolved by timepoint, especially acute AHR, tissue repair, and post-infection macrophage or niche imprinting.
+- Additional lung-compartment studies that sharpen human airway subsets, steroid-resistant asthma, and plastic IL-17 boundary states within [ILC2](../entities/ILC2.md).

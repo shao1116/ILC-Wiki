@@ -36,7 +36,7 @@ The digest is designed as a reusable orientation page: a reader should be able t
 
 The current focused evidence supports a lung ILC model organized around context, not around a single fixed function. ILC2s and ILC3s act as tissue-sensitive immune modules whose outputs depend on disease setting, tissue compartment, stimulus, timing, and regulatory niche.
 
-ILC2s are best understood as lung and airway signal integrators. In allergic airway disease, they amplify type 2 inflammation through IL-5, IL-13, lipid mediators, epithelial alarmins, memory-like behavior, and eosinophil feedback. In respiratory viral disease, they can drive airway hyperreactivity, but they can also support repair or reprogram macrophage niches depending on the virus and time point. Their function is tuned by neuroimmune signals, metabolism, checkpoint pathways, microbial metabolites, and stromal or mechanical cues. This makes ILC2 biology broader than a simple "type 2 cytokine cell" model.
+ILC2s are best understood as lung and airway signal integrators. In allergic airway disease, they amplify type 2 inflammation through IL-5, IL-13, lipid mediators, epithelial alarmins, memory-like behavior, and eosinophil feedback. In respiratory viral disease, they can drive airway hyperreactivity, but they can also support repair or reprogram macrophage niches depending on the virus and time point. Their function is tuned by neuroimmune signals, metabolism, checkpoint pathways, microbial metabolites, and stromal or mechanical cues. They also occupy structured stromal and peribronchovascular niches rather than acting as freely distributed effector cells, and interferon-rich settings can directly restrain their expansion, positioning, or effector output. This makes ILC2 biology broader than a simple "type 2 cytokine cell" model.
 
 ILC3s are best understood as IL-22/IL-17-capable cells whose lung roles split into protective/developmental and inflammatory branches. In bacterial infection and newborn lung biology, ILC3s can support barrier defense and developmental niches. In ARDS-like injury, neutrophilic asthma, smoking-associated asthma, and steroid-resistant asthma, ILC3-related IL-17A, neutrophil chemoattractants, glucocorticoid resistance, and stromal SCF/KIT signaling become central. However, IL-17-producing ILC-like cells require careful classification because some IL-17-producing states may reflect ILC2/ILC3 boundary biology rather than stable canonical ILC3s.
 
@@ -77,6 +77,7 @@ flowchart TB
 - IFN-gamma is a context-dependent ILC2 brake that can suppress IL-33-driven activation, constrain type 2 lymphocyte tissue dispersion, inhibit ILC2-driven AHR through TLR9/interferon/STAT1 signaling, or suppress protective ILC2 output during influenza.
 - ILC2 disease activity is regulated by epithelial alarmins, lipid mediators, neuroimmune cues, metabolic state, checkpoint pathways, microbial metabolites, and stromal or cellular feedback.
 - Activated pulmonary ILC2s are also shaped by spatial guidance cues, including CCR8-CCL8 positioning signals and collagen-I-dependent migratory behavior in inflamed lung.
+- ILC2 neuroimmune regulation is receptor- and context-dependent rather than uniformly activating: some circuits amplify type 2 inflammation, whereas others support tissue-protective amphiregulin programs or constrain IL-13-dominant pathology.
 - Human lung contains identifiable ILC subsets, but human lung tissue, sputum, blood, nasal airway, and mouse lung evidence should not be treated as interchangeable.
 - Lung ILC3s can support IL-22-associated antibacterial defense and neonatal pulmonary niche development.
 - Lung ILC3s can also participate in IL-17A/neutrophil-rich inflammatory disease, including ARDS-like injury, neutrophilic asthma, smoking-associated asthma, and steroid-resistant asthma.
@@ -84,10 +85,6 @@ flowchart TB
 - Pulmonary fibroblast-derived SCF/KIT signaling is a focused stromal axis that can augment ILC3 IL-17A and neutrophilic asthma-like inflammation.
 - ILC3 regulation also includes restraint programs; current source-linked context includes a gut-labeled CTLA-4-positive ILC3 checkpoint branch downstream of IL-23.
 - ILC plasticity is not a side issue: ILC2-to-ILC1-like conversion, memory-like ILC2s, IL-17-producing ST2+ ILC2s, c-Kit+ ILC2/ILC3-like states, and memory-like ILC3s all shape interpretation.
-
-## ILC2 Niche And Interferon Update
-
-Focused crystallization on 2026-04-23 added a stronger spatial and counter-regulatory layer to the core synthesis. Lung ILC2s are supported by adventitial stromal niches, epithelial alarmins can activate parallel ILC2 and IL-17/neutrophil modules, IFN-gamma can function as a direct ILC2 brake, and neuroimmune signals can either activate tissue-protective AREG programs or inhibit IL-13/type 2 inflammation depending on receptor context. This layer is maintained here as part of the core ILC2 model rather than as a separate digest.
 
 ## Evidence layers
 
@@ -111,14 +108,14 @@ Focused crystallization on 2026-04-23 added a stronger spatial and counter-regul
 
 Use this page as the first evidence synthesis layer after the homepage. For cell-specific detail, go to [ILC2](../entities/ILC2.md) or [ILC3](../entities/ILC3.md). For question-specific detail, go to [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md), [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md), [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md), or [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md). For a disease-first rearrangement of the same cross-subset material, use [Lung ILC Disease Roles Companion](./2026-04-20_ILC_pulmonary_disease_roles.md).
 
-## Update triggers
+## When To Revisit This Page
 
 - Add human lung, BAL, bronchial biopsy, sputum, or spatial data that directly links ILC2/ILC3 states to asthma, COPD, ARDS, pneumonia, fibrosis, or lung cancer outcomes.
 - Add primary intervention evidence for ILC3-related steroid-resistant asthma or neutrophilic asthma targets before upgrading therapeutic claims.
 - Revisit the ILC2 regulatory hierarchy if the same human cohort measures alarmins, neuroimmune receptors, metabolic programs, checkpoint molecules, and ILC2 cytokine output.
 - Revisit IL-17-producing ILC taxonomy when new lineage, fate-mapping, or single-cell multiome evidence separates bona fide ILC3s from plastic ILC2-derived states in lung disease.
 
-## Crystallized from
+## Representative Source Spine
 
 ### Viral disease, repair, and ILC2 lung function
 

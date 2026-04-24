@@ -159,7 +159,9 @@ ILC3s should be modeled as tissue-niche-responsive IL-22/IL-17-capable innate ly
 - [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
-## Next ingest targets
+## Future Expansion Directions
+
+This short appendix is forward-looking curation guidance rather than part of the current evidence summary. Literature that would most strengthen this entity page includes:
 
 - Human lung, BAL, sputum, and scRNA-seq studies that harmonize ILC3 subset markers across asthma, COPD, ARDS, pneumonia, and lung cancer.
 - Primary intervention studies separating ILC3 IL-17, neutrophil chemoattractants, SCF/KIT, and glucocorticoid-resistance mechanisms in steroid-resistant asthma.

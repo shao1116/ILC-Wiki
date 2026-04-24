@@ -82,6 +82,150 @@ Allowed outputs:
 - `digests/`: crystallized cross-source working models
 - `audit/`: schema changes, broad re-reviews, or reviewer-triggered corrections
 
+## Knowledge-Page Naming Style Guide
+
+This naming guide applies to reader-facing knowledge pages in:
+
+- `entities/`
+- `topics/`
+- `digests/`
+
+It does not apply to `audit/`, `log.md`, or most `sources/` pages, where workflow history and maintenance language are expected.
+
+### Core naming principles
+
+- Use biology-first, reader-facing headings.
+- Use section names that describe what the reader will learn, not what the curator did.
+- Keep heading vocabulary stable across pages so the wiki feels navigable rather than improvised.
+- Use Title Case for `##` section headings.
+- Put workflow provenance, batch history, migration notes, and maintenance details in `audit/` or `log.md`, not in the main section structure of knowledge pages.
+
+### Preferred shared heading vocabulary
+
+Use these names whenever they fit the page:
+
+- `Scope`
+- `Evidence Tags`
+- `Confidence Snapshot`
+- `Established Observations`
+- `Interpretation`
+- `Open Questions`
+- `Related Pages`
+- `Future Expansion Directions`
+
+Use these when a page needs stronger synthesis or navigation structure:
+
+- `At A Glance`
+- `How To Use This Page`
+- `Integrated Working Model`
+- `Review Map`
+- `Major Biological Branches`
+- `Regulatory Architecture`
+- `Claim-Level Confidence Boundaries`
+- `Interpretation Guardrails`
+- `Reading Routes`
+- `Core Claims`
+- `Evidence Layers`
+- `Interpretation Boundaries`
+- `How This Companion Fits The Wiki`
+- `How To Use This Digest`
+- `When To Revisit This Page`
+- `Representative Source Spine`
+- `Disease-Oriented Reading Guide`
+- `Conceptual Timeline`
+- `Knowledge Evolution Flowchart`
+
+### Heading names to avoid in knowledge pages
+
+Avoid these as section headings in `entities/`, `topics/`, and `digests/` unless the page itself is explicitly about workflow or schema:
+
+- `Batch`
+- `Update`
+- `Update Triggers`
+- `Next Ingest Targets`
+- `Crystallization`
+- `Focused Manual Crystallization`
+- `Working-Model Source Spine`
+- `Migration Notes`
+- `Rename Map`
+- `TODO`
+- `Task List`
+
+These terms may still appear in:
+
+- `audit/`
+- `log.md`
+- source-page ingest metadata
+- guide pages that explicitly explain ingest modes or curation workflow
+
+### Recommended section patterns by page family
+
+#### `entities/`
+
+Recommended order:
+
+1. `Scope`
+2. `Evidence Tags`
+3. `At A Glance`
+4. `How To Use This Page`
+5. `Confidence Snapshot`
+6. `Integrated Working Model`
+7. `Review Map`
+8. `Major Biological Branches`
+9. `Regulatory Architecture`
+10. `Claim-Level Confidence Boundaries`
+11. `Interpretation Guardrails`
+12. `Contradiction And Supersession`
+13. `Open Questions`
+14. `Reading Routes`
+15. `Related Pages`
+16. `Future Expansion Directions`
+
+#### `topics/`
+
+Recommended order:
+
+1. `Scope`
+2. `Evidence Tags`
+3. `Confidence Snapshot`
+4. `Established Observations`
+5. `Interpretation`
+6. `Contradiction And Supersession`
+7. `Open Questions`
+8. `Related Pages`
+9. `Future Expansion Directions`
+
+Allow narrower subheadings under `Established Observations` when they reflect real biological branches, for example `Metabolic Regulation` or `Glucocorticoid Resistance And Inflammatory Signaling`.
+
+#### `digests/`
+
+Digest pages can vary more, but they should still use reader-facing section names. A typical digest should include most of the following:
+
+1. `Scope`
+2. `Evidence Tags`
+3. one orienting synthesis section such as `Working Model`, `Disease-First Map`, or `Conceptual Timeline`
+4. one evidence-organization section such as `Core Claims`, `Disease-Oriented Reading Guide`, or `How Understanding Changed Over Time`
+5. one caution or evidence-structure section such as `Evidence Layers`, `Interpretation Boundaries`, or `Claim-Level Confidence Boundaries`
+6. one navigation section such as `How To Use This Digest` or `How This Companion Fits The Wiki`
+7. `When To Revisit This Page`
+8. `Representative Source Spine`
+
+### Provenance placement rule
+
+When a reader-facing knowledge page needs provenance:
+
+- keep provenance at the bottom of the page
+- use `Representative Source Spine` rather than workflow-heavy wording
+- do not place provenance sections before the main biological interpretation
+
+### Maintenance-language rule
+
+If a section mainly tells the reader what evidence would strengthen the page later, use `Future Expansion Directions`.
+
+If a section mainly tells the reader when the synthesis should be reconsidered, use `When To Revisit This Page`.
+
+If the content is really curator workflow rather than reader guidance, move it to `audit/` or `log.md` instead of keeping it in a knowledge page.
+
 ## Evidence Tags
 
 Preferred tag families include:

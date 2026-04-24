@@ -144,8 +144,10 @@ flowchart TD
 - [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md)
 - [ILC In Lung](./ILC_in_lung.md)
 
-## Next ingest targets
+## Future Expansion Directions
 
-- Manually review ILC3 asthma sources and separate human association, ex vivo stimulation, and mouse perturbation claims.
-- Manually review ILC3 bacterial infection and neonatal lung niche sources to define the protective branch.
-- Continue tightening direct source coverage inside [ILC3](../entities/ILC3.md), especially for sputum versus lung-tissue compartments, SCF/KIT stromal licensing, and steroid-resistant asthma mechanisms.
+This short appendix highlights future literature directions rather than current disease conclusions. The most useful additions for later updates would be:
+
+- ILC3 asthma sources that more cleanly separate human association, ex vivo stimulation, and mouse perturbation claims.
+- Additional bacterial-infection and neonatal-lung-niche sources that sharpen the protective branch.
+- More direct source coverage inside [ILC3](../entities/ILC3.md), especially for sputum-versus-lung-tissue compartments, SCF/KIT stromal licensing, and steroid-resistant asthma mechanisms.
