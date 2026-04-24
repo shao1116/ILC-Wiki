@@ -10,81 +10,70 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually upgraded and now supports source-linked nutritional and iron-axis claims for ILC3 biology.
+- Durable synthesis status: selected high-confidence CD71-iron maintenance claims from this source were propagated into ILC3 entity and mechanism pages with explicit gut-context labeling.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC3
-- Main detected context: asthma/allergy
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary mouse intestinal ILC3 metabolism and host-defense study
+- Evidence profile: Tfrc or CD71 perturbation, infection outcome, metabolic-state analysis, and AHR-linked pathway interpretation
+- Knowledge note status: focused source note suitable for nutritional regulation and ILC3 maintenance framing
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: high for source-specific claims that a cell-intrinsic CD71-iron axis supports ILC3 maintenance, metabolism, and host defense in the reported intestinal systems.
 - Evidence tags:
-  #assay/KO #assay/RNAseq #assay/flow #assay/in_vitro #assay/in_vivo #cell/ILC3 #outcome/infection #source/literature_pdf #species/human #species/mouse #tissue/gut
-- Detected biological focus: ILC3
-- Detected mechanism or mediator terms: AHR, STING, autophagy/metabolism
-- Detected context: asthma/allergy
+  #cell/ILC3 #tissue/gut #topic/regulation #axis/iron_metabolism #axis/CD71 #axis/AHR #status/focused_crystallization
+- Primary biological axis: iron uptake through CD71 or Tfrc is a core metabolic support pathway for ILC3 maintenance and function, with cross-talk to AHR-linked identity biology.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address asthma/allergy with a focus on ILC3. For current synthesis, it should be used primarily as evidence for the source-specific claim that nutrition impact on ILC3 maintenance and function centers on a cell-intrinsic CD71-iron axis, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source expands the ILC3 mechanism page beyond cytokines and transcription factors. It shows that micronutrient handling and metabolic infrastructure can be integral to whether ILC3s persist and protect mucosal tissue.
 
 ## Key Findings
 
-- Jimenez-Rondan2 & Liang Zhou 1 Iron metabolism is pivotal for cell fitness in the mammalian host; however, its role in group 3 innate lymphoid cells (ILC3s) is unknown.
-- Here we show that transferrin receptor CD71 (encoded by Tfrc)-mediated iron metabolism cell-intrinsically controls ILC3 proliferation and host protection against Citrobacter rodentium infection and metabolically affects mitochondrial respiration by switching of oxidative phosphorylation toward glycolysis.
-- Iron deprivation or Tfrc ablation in ILC3s reduces the expression and/ or activity of the aryl hydrocarbon receptor (Ahr), a key ILC3 regulator.
-- Genetic ablation or activation of Ahr in ILC3s leads to CD71 upregulation or downregulation, respectively, suggesting Ahr-mediated suppression of CD71.
-- Iron overload partially restores the defective ILC3 compartment in the small intestine of Ahr-deficient mice, consistent with the compensatory upregulation of CD71.
+- CD71-mediated iron uptake cell-intrinsically supported ILC3 proliferation and host protection in the reported Citrobacter rodentium system.
+- Iron deprivation or Tfrc ablation impaired the ILC3 compartment and altered mitochondrial respiration and the balance between oxidative phosphorylation and glycolysis.
+- The source linked iron deprivation to reduced AHR expression or activity, tying nutritional state to a known ILC3 identity regulator.
+- AHR and CD71 appeared coupled rather than arranged in a simple one-step hierarchy, since AHR perturbation also changed CD71 expression.
+- Iron overload partially restored the defective ILC3 compartment in Ahr-deficient mice, supporting a biologically meaningful intersection between nutrient handling and identity control.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that nutrition impact on ILC3 maintenance and function centers on a cell-intrinsic CD71-iron axis.
-- High confidence:
-  the source is relevant to ILC3 in the detected context of asthma/allergy.
-- Medium confidence:
-  mechanisms or mediators such as AHR, STING, autophagy/metabolism can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: the CD71-iron axis is required for robust ILC3 maintenance and host-defense capacity in the reported mouse gut system.
+- High confidence: nutrient handling in ILC3s affects their metabolic program rather than merely correlating with it.
+- Medium-high confidence: this paper supports a coupled AHR-iron maintenance circuit, but the directionality is best described as reciprocal or context-dependent rather than one-way.
+- Low confidence: this source should not be promoted as direct lung ILC3 nutritional biology without pulmonary corroboration.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: asthma/allergy
-- Assay modalities detected from tags: flow cytometry, RNA-seq, in vivo model, in vitro assay, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse gut ILC3 biology and enteric infection.
+- Assay directness: strong for cell-intrinsic nutrient handling and maintenance effects, strong for host-defense relevance in the reported infection model.
+- Best wiki use: ILC3 nutritional regulation, metabolic support, and AHR-linked maintenance context.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- This is an intestinal source and should remain labeled as such.
+- The strongest claims are maintenance and host-defense claims, not direct pulmonary inflammation claims.
+- Because the AHR-CD71 relationship appears bidirectional or context-sensitive, the mechanism should not be oversimplified in secondary summaries.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: this source broadens the ILC3 regulatory map by showing that nutrient availability and iron handling are integral parts of ILC3 biology, not peripheral add-ons.
+- Supersession status: not superseded; it is currently one of the clearest primary papers for a cell-intrinsic iron axis in ILC3s.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC3](../entities/ILC3.md)
-- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC In Lung](../topics/ILC_in_lung.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
 - [ILC3](../entities/ILC3.md)
-- [ILC3_functional_regulation_mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)

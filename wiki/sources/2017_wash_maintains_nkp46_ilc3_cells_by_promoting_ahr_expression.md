@@ -10,81 +10,70 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually upgraded and now supports source-linked WASH-AHR maintenance claims for ILC3s.
+- Durable synthesis status: selected high-confidence identity-maintenance claims from this source were propagated into ILC3 entity and mechanism pages.
+
 ## Source Type
 
-- primary or literature research article
-- Main detected cell focus: ILC3
-- Main detected context: asthma/allergy
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary mouse intestinal NKp46-positive ILC3 maintenance study
+- Evidence profile: WASH expression in ILC3s, Arid1a recruitment to the Ahr promoter, perturbation of the WASH-Arid1a axis, and subset-maintenance outcomes
+- Knowledge note status: focused source note suitable for mechanistic ILC3 identity maintenance, with gut-context labeling
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: high for source-specific claims that WASH maintains NKp46-positive ILC3s by supporting AHR expression in the reported system.
 - Evidence tags:
-  #assay/KO #assay/flow #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #outcome/homeostasis #outcome/infection #source/literature_pdf #species/mouse #tissue/gut
-- Detected biological focus: ILC3
-- Detected mechanism or mediator terms: AHR
-- Detected context: asthma/allergy
+  #cell/ILC3 #tissue/gut #topic/regulation #axis/AHR #axis/chromatin_regulation #axis/identity_control #status/focused_crystallization
+- Primary biological axis: WASH promotes maintenance of the NKp46-positive ILC3 branch through Arid1a-associated activation of Ahr transcription.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address asthma/allergy with a focus on ILC3. For current synthesis, it should be used primarily as evidence for the source-specific claim that wASH maintains NKp46+ ILC3 cells by promoting AHR expression, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This paper is helpful because it takes the broad AHR theme and makes it mechanistically sharper. Instead of saying only that AHR matters, it identifies an upstream chromatin-regulatory pathway that helps sustain an ILC3 identity program.
 
 ## Key Findings
 
-- Here we show that WASH is highly expressed in the nucleus of group 3 ILCs (ILC3s).
-- In NKp46 þ ILC3s, WASH recruits Arid1a to the Ahr promoter thus activating AHR expression.
-- Moreover, Arid1a deletion impedes AHR expression and impairs the maintenance of NKp46 þ ILC3s.
-- Therefore, WASH-mediated AHR expression has a critical function in the maintenance of NKp46 þ ILC3s.
-- DOI: 10.1038/ncomms15685 OPEN 1 Key Laboratory of Infection and Immunity of CAS, CAS Center for Excellence in Biomacromolecules, Institute of Biophysics, Chinese Academy of Scienc es, Beijing 100101, China.
+- WASH was highly expressed in the nucleus of ILC3s in the reported system.
+- In NKp46-positive ILC3s, WASH recruited Arid1a to the Ahr promoter and thereby supported AHR expression.
+- Loss of Arid1a impaired AHR expression and reduced maintenance of NKp46-positive ILC3s.
+- The source therefore places WASH upstream of an AHR-centered maintenance program rather than treating AHR as an isolated endpoint.
+- This is especially useful for the wiki because it adds a chromatin-regulation branch to the ILC3 identity map.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that wASH maintains NKp46+ ILC3 cells by promoting AHR expression.
-- High confidence:
-  the source is relevant to ILC3 in the detected context of asthma/allergy.
-- Medium confidence:
-  mechanisms or mediators such as AHR can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: WASH promotes maintenance of NKp46-positive ILC3s in the reported mouse system.
+- High confidence: the mechanism is linked to Arid1a recruitment at the Ahr promoter and preservation of AHR expression.
+- Medium-high confidence: this source strengthens the broader claim that AHR-centered ILC3 maintenance is under upstream epigenetic or chromatin control.
+- Low confidence: this paper should not be used as direct evidence for pulmonary NKp46-positive ILC3 biology without matched lung data.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary or literature research article.
-- Species or sample frame detected: mouse
-- Tissue or disease context detected: asthma/allergy
-- Assay modalities detected from tags: flow cytometry, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse gut ILC3 subset biology with a specific focus on the NKp46-positive branch.
+- Assay directness: strong for the WASH-Arid1a-AHR mechanism and subset-maintenance consequence.
+- Best wiki use: ILC3 identity maintenance, AHR-upstream regulation, and chromatin-level mechanism context.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- This is a gut-centered mechanistic paper and should stay explicitly labeled as such.
+- The main supported claim is about the NKp46-positive ILC3 branch, not every ILC3 subset equally.
+- It is best used to enrich regulation logic rather than to claim direct lung pathology.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: this source deepens, rather than contradicts, the foundational AHR literature by providing an upstream maintenance mechanism.
+- Supersession status: not superseded; it remains a strong mechanistic companion to AHR-centered ILC3 identity papers.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC3](../entities/ILC3.md)
-- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC In Lung](../topics/ILC_in_lung.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
 - [ILC3](../entities/ILC3.md)
-- [ILC3_functional_regulation_mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)

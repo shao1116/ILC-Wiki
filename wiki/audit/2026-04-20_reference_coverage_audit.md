@@ -13,8 +13,8 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 
 - Ingested paper source pages currently present: 141
 - Entity/topic/digest synthesis pages currently scanned for direct source links: 10
-- Paper source pages currently linked directly from synthesis pages: 83
-- Paper source pages still source-library only: 58
+- Paper source pages currently linked directly from synthesis pages: 84
+- Paper source pages still source-library only: 57
 - All ingested sources remain discoverable through [ingestion_manifest](../sources/source_index.md) and are routed below by current wiki-use role.
 
 ## Reference-use rules
@@ -29,9 +29,9 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 
 | Assigned role | Sources | Currently directly linked | Currently source-library only |
 |---|---:|---:|---:|
-| ILC3; mechanism/regulation | 25 | 8 | 17 |
-| ILC2; pulmonary/disease; mechanism/regulation | 22 | 19 | 3 |
-| manual-review context | 14 | 4 | 10 |
+| ILC3; mechanism/regulation | 26 | 9 | 17 |
+| ILC2; pulmonary/disease; mechanism/regulation | 23 | 20 | 3 |
+| manual-review context | 13 | 4 | 9 |
 | ILC2; mechanism/regulation | 13 | 9 | 4 |
 | pulmonary/disease | 13 | 9 | 4 |
 | ILC2 | 10 | 3 | 7 |
@@ -46,7 +46,6 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 | ILC2; ILC3; mechanism/regulation | 1 | 1 | 0 |
 | ILC2; ILC3; pulmonary/disease | 1 | 1 | 0 |
 | ILC2; ILC3; pulmonary/disease; mechanism/regulation | 1 | 1 | 0 |
-| ILC2; mechanism/regulation; review/context | 1 | 1 | 0 |
 | ILC3; pulmonary/disease; review/context | 1 | 1 | 0 |
 | mechanism/regulation; review/context | 1 | 1 | 0 |
 | ILC2; ILC3 | 1 | 0 | 1 |
@@ -97,7 +96,7 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 |---|---|---|---|
 | [Innate lymphoid cells mediate influenza-induced airway hyper-reactivity independently of adaptive immunity](../sources/2011_innate_lymphoid_cells_mediate_influenza_induced_airway_hyper_reactivity_independently.md) | pulmonary/disease | disease-first companion and core synthesis context | currently directly cited from synthesis pages |
 | [Innate lymphoid cells promote lung-tissue homeostasis after infection with influenza virus](../sources/2011_innate_lymphoid_cells_promote_lung_tissue_homeostasis_after_infection_with_influenza.md) | pulmonary/disease; mechanism/regulation | disease-first companion and core synthesis context | currently directly cited from synthesis pages |
-| [AHR drives the development of gut ILC22 cells and postnatal lymphoid tissues via pathways dependent on and independent of Notch](../sources/2012_ahr_drives_the_development_of_gut_ilc22_cells_and_postnatal_lymphoid_tissues_via_path.md) | ILC2; mechanism/regulation; review/context | ILC2 entity and mechanism context | currently directly cited from synthesis pages |
+| [AHR drives the development of gut ILC22 cells and postnatal lymphoid tissues via pathways dependent on and independent of Notch](../sources/2012_ahr_drives_the_development_of_gut_ilc22_cells_and_postnatal_lymphoid_tissues_via_path.md) | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently directly cited from synthesis pages |
 | [Innate lymphoid cells regulate CD4+ T-cell responses to intestinal commensal bacteria](../sources/2013_innate_lymphoid_cells_regulate_cd4_t_cell_responses_to_intestinal_commensal_bacteria.md) | mechanism/regulation | mechanism context; manual lung relevance check | currently source-library only |
 | [Lung type 2 innate lymphoid cells express cysteinyl leukotriene receptor 1 which regulates TH2 cytokine production](../sources/2013_lung_type_2_innate_lymphoid_cells_express_cysteinyl_leukotriene_receptor_1_which_regu.md) | ILC2; pulmonary/disease; mechanism/regulation | ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
 | [Activation of Type 3 innate lymphoid cells and interleukin 22 secretion in the lungs during Streptococcus pneumoniae infection](../sources/2014_activation_of_type_3_innate_lymphoid_cells_and_interleukin_22_secretion_in_the_lungs.md) | ILC3; pulmonary/disease; mechanism/regulation | ILC3 disease topic / ILC3 mechanism topic | currently directly cited from synthesis pages |
@@ -234,7 +233,7 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 | [Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s](../sources/2025_pulmonary_fibroblast_derived_stem_cell_factor_promotes_neutrophilic_asthma_by_augment.md) | ILC3; pulmonary/disease | ILC3 disease topic / ILC3 mechanism topic | currently directly cited from synthesis pages |
 | [Tuft cell IL-17RB restrains IL-25 bioavailability and reveals context-dependent ILC2 hypoproliferation](../sources/2025_tuft_cell_il_17rb_restrains_il_25_bioavailability_and_reveals_context_dependent_ilc2_hypoproliferation.md) | ILC2; ILC3 | ILC2 entity and mechanism context | currently source-library only |
 | [Divergent ILC3 responses to PDGF-D control mucosal immunity](../sources/2026_divergent_ilc3_responses_to_pdgf_d_control_mucosal_immunity.md) | ILC3; mechanism/regulation | ILC3 entity and extrapulmonary mechanism context | currently source-library only |
-| [Innate type 2 lymphocytes trigger an inflammatory switch in alveolar macrophages](../sources/2026_innate_type_2_lymphocytes_trigger_an_inflammatory_switch_in_alveolar_macrophages.md) | manual-review context | background/manual triage | currently source-library only |
+| [Innate type 2 lymphocytes trigger an inflammatory switch in alveolar macrophages](../sources/2026_innate_type_2_lymphocytes_trigger_an_inflammatory_switch_in_alveolar_macrophages.md) | ILC2; pulmonary/disease; mechanism/regulation | ILC2 entity / ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
 | [RORgammat + dendritic cells are a distinct lymphoid-derived lineage](../sources/2026_rorgammat_dendritic_cells_are_a_distinct_lymphoid_derived_lineage.md) | manual-review context | background/manual triage | currently source-library only |
 
 ## Actions from this audit

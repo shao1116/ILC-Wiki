@@ -25,7 +25,7 @@ The wiki emphasizes `ILC2` and `ILC3` biology in pulmonary inflammation, respira
 
 ## Wiki Status
 
-- The local source library currently contains 141 processed references, with 60 source pages promoted to `focused manual crystallization mode` and 81 retained as `provisional bulk-ingest mode`.
+- The local source library currently contains 141 processed references, with 70 source pages promoted to `focused manual crystallization mode` and 71 retained as `provisional bulk-ingest mode`.
 - Focused source pages are the preferred evidence layer for reusable biological claims because they include model context, assay directness, claim-level confidence, and caveats.
 - Provisional source pages are useful for routing and triage, but their biological claims should be manually checked before being reused in manuscripts, figures, grant text, or durable synthesis.
 - Batch provenance belongs in audit and log pages; digest, topic, and entity pages should read as biology-first knowledge nodes.

@@ -75,6 +75,7 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 
 - [Adventitial Stromal Cells Define Group 2 Innate Lymphoid Cell Tissue Niches](../sources/2019_adventitial_stromal_cells_define_group_2_innate_lymphoid_cell_tissue_niches.md) supports a stromal niche model in which ASCs provide IL-33/TSLP and receive IL-13-linked reciprocal feedback from ILC2s.
 - [Pulmonary environmental cues drive group 2 innate lymphoid cell dynamics in mice and humans](../sources/2019_pulmonary_environmental_cues_drive_group_2_innate_lymphoid_cell_dynamics_in_mice_and_human.md) adds a dynamic positioning layer in which pulmonary ILC2s use CCR8-CCL8 and collagen-I-dependent migration cues to navigate inflamed lung tissue.
+- [Innate type 2 lymphocytes trigger an inflammatory switch in alveolar macrophages](../sources/2026_innate_type_2_lymphocytes_trigger_an_inflammatory_switch_in_alveolar_macrophages.md) adds an alveolar niche-remodeling branch in which IL-33-activated ILC2-derived IL-13 converts tissue-resident alveolar macrophages from a PPARgamma-centered homeostatic state toward an IRF4-driven inflammatory program.
 - [Interleukin-33 and Interferon-gamma Counter-Regulate Group 2 Innate Lymphoid Cell Activation during Immune Perturbation](../sources/2015_interleukin_33_and_interferon_gamma_counter_regulate_group_2_innate_lymphoid_cell_activation_during_immune_pertu.md) and [Interferon gamma constrains type 2 lymphocyte niche boundaries during mixed inflammation](../sources/2022_interferon_gamma_constrains_type_2_lymphocyte_niche_boundaries_during_mixed_inflammation.md) support IFN-gamma as both a functional brake on IL-33-driven ILC2 activation and a spatial brake on ILC2/Th2 tissue dispersion.
 - [Toll-like receptor 9-dependent interferon production prevents group 2 innate lymphoid cell-driven airway hyperreactivity](../sources/2019_toll_like_receptor_9_dependent_interferon_production_prevents_group_2_innate_lymphoid.md) connects microbial/TLR9 sensing to type I IFN, NK-derived IFN-gamma, ILC2 STAT1 signaling, and suppressed AHR.
 - [Maturation and specialization of group 2 innate lymphoid cells through the lung-gut axis](../sources/2022_maturation_and_specialization_of_group_2_innate_lymphoid_cells_through_the_lung_gut_a.md) adds CCR2/CCR4-defined tissue specialization and IL-33-induced lung-gut movement as a developmental and inflammatory regulation layer.
@@ -117,7 +118,7 @@ flowchart TD
         niche["Stromal/spatial cues<br/>ASC IL-33/TSLP<br/>CCR8-CCL8, collagen-I"]
         neuro_pos["Neuroimmune activators<br/>NMU/NMUR1, CB2"]
         feedback["Cellular feedback<br/>eosinophils"]
-        repair_prog["Protective infection program<br/>BATF, GM-CSF<br/>imprinting"]
+        repair_prog["Repair and niche programs<br/>BATF, GM-CSF,<br/>IL-13-trAM switch"]
     end
 
     subgraph negative["Negative regulation"]
