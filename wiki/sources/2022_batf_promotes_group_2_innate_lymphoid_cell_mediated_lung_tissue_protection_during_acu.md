@@ -79,8 +79,8 @@ This source is a high-value bridge between ILC2 repair and ILC plasticity. It ex
 
 ## Pages Updated From This Source
 
-- [2026-04-20_ILC2_working_model](../digests/2026-04-20_ILC2_working_model.md)
-- [2026-04-20_ILC_pulmonary_disease_roles](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC2](../entities/ILC2.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC2](../entities/ILC2.md)
 - [ILC2_functional_regulation_mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
 - [ILC2_roles_in_pulmonary_disease](../topics/ILC2_roles_in_pulmonary_disease.md)

@@ -17,7 +17,7 @@ tags:
 
 This topic page describes how `ILC2s` are represented in the current `ILC_in_lung` wiki as disease-relevant cells in lung and airway contexts. It focuses on asthma/allergic airway inflammation, respiratory viral infection, post-viral repair, airway hyperreactivity, macrophage niche effects, and plastic or non-type-2 ILC2-like states.
 
-This page is more detailed than the [ILC2 Working Model](../digests/2026-04-20_ILC2_working_model.md), but it is still a working synthesis. Claims should be checked against the linked source pages before use in manuscripts or figures.
+This page expands the disease branch of [ILC2](../entities/ILC2.md). Use the entity page for the canonical cell-level model, then use this topic when the question is specifically about disease context and pathology.
 
 ## Evidence tags
 
@@ -46,6 +46,8 @@ This page is more detailed than the [ILC2 Working Model](../digests/2026-04-20_I
 - [Innate lymphoid cells contribute to allergic airway disease exacerbation by obesity](../sources/2016_innate_lymphoid_cells_contribute_to_allergic_airway_disease_exacerbation_by_obesity.md) supports obesity as a mouse-model context in which allergic airway disease is exacerbated and both ILC2 and ILC3 responses can be altered; it should not be generalized to all human obesity-asthma phenotypes without direct human evidence.
 - [Kinetics of the accumulation of group 2 innate lymphoid cells in IL-33-induced and IL-25-induced murine models of asthma a potential role for the chemokine CXCL16](../sources/2019_kinetics_of_the_accumulation_of_group_2_innate_lymphoid_cells_in_il_33_induced_and_il_25_induced_murine_models_o.md) places ILC2 accumulation within IL-33/IL-25 airway models and links the process to CXCL16 as a candidate recruitment or positioning cue.
 - Lipid mediator sources such as [Lung type 2 innate lymphoid cells express cysteinyl leukotriene receptor 1 which regulates TH2 cytokine production](../sources/2013_lung_type_2_innate_lymphoid_cells_express_cysteinyl_leukotriene_receptor_1_which_regu.md) and [Cysteinyl leukotriene E(4) activates human group 2 innate lymphoid cells and enhances the effect of prostaglandin D(2) and epithelial cytokines](../sources/2017_cysteinyl_leukotriene_e4_activates_human_group_2_innate_lymphoid_cells_and_enhances_the_effect_of_prostaglandin.md) support a lipid-amplified ILC2 activation branch.
+- Human and therapeutic asthma comparators sharpen this branch: [The Role of the TL1A/DR3 Axis in the Activation of Group 2 Innate Lymphoid Cells in Subjects with Eosinophilic Asthma](../sources/2020_the_role_of_the_tl1a_dr3_axis_in_the_activation_of_group_2_innate_lymphoid_cells_in_subjects_with_eosinophilic_a.md) links airway eosinophilic asthma to a TL1A/DR3 activation axis, [Fevipiprant, a selective prostaglandin D2 receptor 2 antagonist, inhibits human group 2 innate lymphoid cell aggregation and function](../sources/2019_fevipiprant_a_selective_prostaglandin_d2_receptor_2_antagonist_inhibits_human_group_2_innate_lymphoid_cell_aggre.md) defines a human DP2-blockade branch, and [Lipid-Droplet Formation Drives Pathogenic Group 2 Innate Lymphoid Cells in Airway Inflammation](../sources/2020_lipid_droplet_formation_drives_pathogenic_group_2_innate_lymphoid_cells_in_airway_inf.md) shows that pathogenic airway ILC2 states are metabolically specialized rather than generic.
+- [Pulmonary environmental cues drive group 2 innate lymphoid cell dynamics in mice and humans](../sources/2019_pulmonary_environmental_cues_drive_group_2_innate_lymphoid_cell_dynamics_in_mice_and_human.md) adds a disease-positioning layer in which activated pulmonary ILC2s navigate peribronchial and perivascular niches through CCR8-CCL8 and collagen-I-dependent guidance.
 
 ### Respiratory viral infection and repair
 
@@ -66,6 +68,7 @@ This page is more detailed than the [ILC2 Working Model](../digests/2026-04-20_I
 ### Niche-positioned and interferon-regulated disease roles
 
 - [Adventitial Stromal Cells Define Group 2 Innate Lymphoid Cell Tissue Niches](../sources/2019_adventitial_stromal_cells_define_group_2_innate_lymphoid_cell_tissue_niches.md) reframes lung ILC2 disease activity as niche-positioned: ILC2s sit near ASCs that provide IL-33/TSLP and receive reciprocal IL-13-linked feedback.
+- [Pulmonary environmental cues drive group 2 innate lymphoid cell dynamics in mice and humans](../sources/2019_pulmonary_environmental_cues_drive_group_2_innate_lymphoid_cell_dynamics_in_mice_and_human.md) adds that activated pulmonary ILC2s are not only niche-positioned but dynamically guided by chemokine and extracellular-matrix cues.
 - [Chitin activates parallel immune modules that direct distinct inflammatory responses via innate lymphoid type 2 and gamma delta T cells](../sources/2014_chitin_activates_parallel_immune_modules_that_direct_distinct_inflammatory_responses_via_innate_lymphoid_type_2.md) supports a model in which ILC2s drive eosinophil/AAM type 2 inflammation while restraining a parallel IL-17A/neutrophil module.
 - [IFN-gamma increases susceptibility to influenza A infection through suppression of group II innate lymphoid cells](../sources/2018_ifn_gamma_increases_susceptibility_to_influenza_a_infection_through_suppression_of_group_ii_innate_lymphoid_cell.md) adds a viral-protection branch: IFN-gamma can suppress protective ILC2 IL-5/amphiregulin output during H1N1 infection without changing viral clearance in the reported mouse model.
 - [Interferon gamma constrains type 2 lymphocyte niche boundaries during mixed inflammation](../sources/2022_interferon_gamma_constrains_type_2_lymphocyte_niche_boundaries_during_mixed_inflammation.md) adds a mixed-inflammation branch in which IFN-gamma confines ILC2/Th2 cells to adventitial niches and limits pathogen-associated mortality.
@@ -73,6 +76,7 @@ This page is more detailed than the [ILC2 Working Model](../digests/2026-04-20_I
 ### Tumor and innate checkpoint context
 
 - [ILC2-driven innate immune checkpoint mechanism antagonizes NK cell antimetastatic function in the lung](../sources/2020_ilc2_driven_innate_immune_checkpoint_mechanism_antagonizes_nk_cell_antimetastatic_fun.md) adds a non-asthma pulmonary disease branch where ILC2-associated checkpoint biology can suppress NK-cell antimetastatic function in the lung.
+- [Long-acting muscarinic antagonist regulates group 2 innate lymphoid cell-dependent airway eosinophilic inflammation](../sources/2021_long_acting_muscarinic_antagonist_regulates_group_2_innate_lymphoid_cell_dependent_ai.md) and [Cannabinoid receptor 2 engagement promotes group 2 innate lymphoid cell expansion and enhances airway hyperreactivity](../sources/2022_cannabinoid_receptor_2_engagement_promotes_group_2_innate_lymphoid_cell_expansion_and_enhances_airway_hyperreact.md) show that airway ILC2 disease can also be modulated by therapeutic cholinergic blockade or receptor-level cannabinoid amplification.
 
 ## Interpretation
 
@@ -141,8 +145,8 @@ flowchart TD
 
 ## Related pages
 
-- [ILC2 Working Model](../digests/2026-04-20_ILC2_working_model.md)
-- [Role Of ILC In Pulmonary Diseases](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC2](../entities/ILC2.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md)
 - [ILC In Lung](./ILC_in_lung.md)
 
@@ -150,4 +154,4 @@ flowchart TD
 
 - Manually review the core ILC2 asthma papers and separate mouse perturbation evidence from human association evidence.
 - Manually review respiratory virus ILC2 papers by timepoint: acute AHR, tissue repair, and post-infection macrophage/niche imprinting.
-- Build an `ILC2` entity page after source-level review of the main disease and mechanism branches.
+- Continue tightening direct source coverage inside [ILC2](../entities/ILC2.md), especially for human airway subsets, steroid-resistant asthma, and plastic IL-17 boundary states.

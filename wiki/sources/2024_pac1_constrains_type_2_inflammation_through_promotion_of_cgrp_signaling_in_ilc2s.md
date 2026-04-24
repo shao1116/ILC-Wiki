@@ -1,4 +1,4 @@
-﻿# PAC1 constrains type 2 inflammation through promotion of CGRP signaling in ILC2s
+# PAC1 constrains type 2 inflammation through promotion of CGRP signaling in ILC2s
 
 ## Citation
 
@@ -65,7 +65,7 @@ This source adds an inhibitory neuroimmune branch to the wiki: PAC1 promotes ILC
 - [ILC2](../entities/ILC2.md)
 - [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
-- [ILC2 working model](../digests/2026-04-20_ILC2_working_model.md)
+- [ILC2](../entities/ILC2.md)
 - [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
 - [Focused crystallization audit](../audit/2026-04-23_focused_manual_crystallization_ILC2_niche_interferon_type2.md)
 
@@ -74,5 +74,5 @@ This source adds an inhibitory neuroimmune branch to the wiki: PAC1 promotes ILC
 - [ILC2](../entities/ILC2.md)
 - [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
-- [ILC2 working model](../digests/2026-04-20_ILC2_working_model.md)
+- [ILC2](../entities/ILC2.md)
 - [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)

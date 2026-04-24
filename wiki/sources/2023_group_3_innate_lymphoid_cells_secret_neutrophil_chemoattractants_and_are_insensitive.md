@@ -80,8 +80,8 @@ This source is a key human-facing ILC3 asthma paper. It supports an ILC3-neutrop
 
 ## Pages Updated From This Source
 
-- [2026-04-20_ILC3_working_model](../digests/2026-04-20_ILC3_working_model.md)
-- [2026-04-20_ILC_pulmonary_disease_roles](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC3](../entities/ILC3.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC3](../entities/ILC3.md)
 - [ILC3_functional_regulation_mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
 - [ILC3_roles_in_pulmonary_disease](../topics/ILC3_roles_in_pulmonary_disease.md)

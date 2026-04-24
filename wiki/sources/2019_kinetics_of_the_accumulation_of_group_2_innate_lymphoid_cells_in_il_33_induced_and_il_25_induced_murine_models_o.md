@@ -79,7 +79,7 @@ This source anchors the ILC2 accumulation and trafficking axis in allergic airwa
 
 ## Pages Updated From This Source
 
-- [2026-04-20_ILC2_working_model](../digests/2026-04-20_ILC2_working_model.md)
+- [ILC2](../entities/ILC2.md)
 - [ILC2](../entities/ILC2.md)
 - [ILC2_functional_regulation_mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
 - [ILC2_roles_in_pulmonary_disease](../topics/ILC2_roles_in_pulmonary_disease.md)

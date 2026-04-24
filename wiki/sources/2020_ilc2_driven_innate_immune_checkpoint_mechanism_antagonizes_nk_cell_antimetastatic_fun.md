@@ -68,7 +68,7 @@ This source extends lung ILC2 biology beyond asthma and repair into tumor-niche 
 
 - [ILC2](../entities/ILC2.md)
 - [ILC2 disease](../topics/ILC2_roles_in_pulmonary_disease.md)
-- [pulmonary digest](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
 - [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3.md)
 
@@ -78,4 +78,4 @@ This source extends lung ILC2 biology beyond asthma and repair into tumor-niche 
 - [Focused manual crystallization batch 3 audit](../audit/2026-04-22_focused_manual_crystallization_batch3.md)
 - [ILC2](../entities/ILC2.md)
 - [ILC2_roles_in_pulmonary_disease](../topics/ILC2_roles_in_pulmonary_disease.md)
-- [2026-04-20_ILC_pulmonary_disease_roles](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)

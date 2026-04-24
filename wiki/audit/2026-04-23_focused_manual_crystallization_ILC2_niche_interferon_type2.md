@@ -16,12 +16,12 @@
 - [ILC2](../entities/ILC2.md)
 - [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
-- [ILC2 Working Model](../digests/2026-04-20_ILC2_working_model.md)
+- [ILC2](../entities/ILC2.md)
 - [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
 
 ## Later Integration Note
 
-- 2026-04-23: the standalone `ILC2_niche_interferon_type2_regulatory_synthesis` digest was retired because its durable claims were integrated into the ILC2 entity hub, ILC2 topic pages, the ILC2 working model, and the Lung ILC Core Evidence Synthesis.
+- 2026-04-23: the standalone `ILC2_niche_interferon_type2_regulatory_synthesis` digest was retired because its durable claims were integrated into the ILC2 entity hub, ILC2 topic pages, the ILC2, and the Lung ILC Core Evidence Synthesis.
 
 ## Sources Crystallized
 

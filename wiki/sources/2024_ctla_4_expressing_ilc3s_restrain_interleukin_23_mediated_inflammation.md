@@ -10,78 +10,70 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually upgraded and now supports source-linked ILC3 restraint-mechanism claims.
+- Durable synthesis status: selected high-confidence extrapulmonary ILC3 checkpoint claims from this source were propagated into ILC3 entity and mechanism pages with explicit gut-context labeling.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC3, T cells
-- Main detected context: gut/intestine
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary intestinal ILC3 checkpoint-regulation study
+- Evidence profile: scRNA-seq of IL-23R-positive cells, IL-23 stimulation, ILC3-specific CTLA-4 perturbation, myeloid-cell checkpoint readouts, Treg/inflammatory-T-cell outcomes, and human ILC3 validation in gut inflammation
+- Knowledge note status: focused source note suitable for extrapulmonary mechanism context, not for direct lung-disease claims
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: high for source-specific claims that IL-23 and gut microbes induce a CTLA-4-positive regulatory ILC3 branch that restrains intestinal inflammation.
 - Evidence tags:
-  #assay/KO #assay/flow #assay/scRNAseq #cell/ILC3 #cell/NK #outcome/homeostasis #outcome/infection #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut
-- Detected biological focus: ILC3, T cells
-- Detected mechanism or mediator terms: IL-23
-- Detected context: gut/intestine
+  #cell/ILC3 #topic/regulation #axis/IL23 #axis/checkpoint_restraint #tissue/gut #species/human #species/mouse #status/focused_crystallization
+- Primary biological axis: IL-23 does not only activate inflammatory ILC3 outputs; it can also induce an ILC3-intrinsic CTLA-4 checkpoint program that restrains pathological inflammation.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address gut/intestine with a focus on ILC3, T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that cTLA-4-expressing ILC3s restrain interleukin-23-mediated inflammation, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source gives the ILC3 wiki a much-needed restraint branch. Even though it is gut-centered, it is valuable because many ILC3 pages otherwise read as mostly activation biology; this paper shows that IL-23 biology in ILC3s also includes an endogenous checkpoint program that shapes inflammatory outcomes.
 
 ## Key Findings
 
-- Sonnenberg1,2,3 ✉ Interleukin (IL-)23 is a major mediator and therapeutic target in chronic inflammatory diseases that also elicits tissue protection in the intestine at homeostasis or following acute infection1– 4.
-- T o address this gap in knowledge, we performed single-cell RNA sequencing on all IL-23 receptor-expressing cells in the intestine and their acute response to IL-23, revealing a dominance of T cells and group 3 innate lymphoid cells (ILC3s).
-- Unexpectedly, we identified potent upregulation of the immunoregulatory checkpoint molecule cytotoxic T-lymphocyte-associated antigen-4 (CTLA-4) on ILC3s.
-- This pathway was activated by gut microbes and IL-23 in a FOXO1- and STAT3-dependent manner.
-- Mice lacking CTLA-4 on ILC3s exhibited reduced regulatory T cells, elevated inflammatory T cells and more-severe intestinal inflammation.
+- IL-23-responsive intestinal cells were dominated by T cells and ILC3s, and acute IL-23 exposure strongly induced CTLA-4 on ILC3s in this source.
+- Gut microbes and IL-23 induced the CTLA-4-positive ILC3 program through FOXO1- and STAT3-dependent signaling.
+- Mice lacking CTLA-4 on ILC3s had fewer regulatory T cells, more inflammatory T cells, and more severe intestinal inflammation.
+- CTLA-4-positive ILC3s altered myeloid-cell costimulatory and inhibitory-ligand balance in ways that restrained pathological inflammation in the reported system.
+- Human ILC3s also upregulated CTLA-4 in response to IL-23 or gut inflammation, supporting translational relevance within mucosal disease.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that cTLA-4-expressing ILC3s restrain interleukin-23-mediated inflammation.
-- High confidence:
-  the source is relevant to ILC3, T cells in the detected context of gut/intestine.
-- Medium confidence:
-  mechanisms or mediators such as IL-23 can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: this source supports an ILC3-intrinsic CTLA-4 checkpoint branch that restrains IL-23-mediated intestinal inflammation.
+- High confidence: IL-23 can induce both inflammatory and restraining ILC3 programs, and this paper directly supports the restraint side of that balance.
+- Medium-high confidence: human ILC3 data support conservation of the CTLA-4 response in mucosal inflammation.
+- Low confidence: this source should not be rewritten as direct proof of a lung ILC3 CTLA-4 program without matched pulmonary evidence.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: gut/intestine
-- Assay modalities detected from tags: flow cytometry, single-cell RNA-seq, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse intestine and human inflammatory bowel disease-related mucosal ILC3 biology.
+- Assay directness: strong for checkpoint mechanism and inflammatory restraint, but extrapulmonary relative to the lung wiki's main focus.
+- Best wiki use: extrapulmonary conserved mechanism candidate, ILC3 restraint logic, and IL-23 pathway complexity.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- This is a gut-centered source and must stay explicitly labeled as such.
+- It is best used to shape mechanistic hypotheses, not to claim direct pulmonary disease behavior.
+- Myeloid and Treg consequences should remain context-specific to the reported mucosal system.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: this source balances activation-heavy IL-23/IL-17 ILC3 literature by adding a checkpoint-restraint branch.
+- Supersession status: not superseded; it is currently one of the clearest sources for an ILC3-intrinsic restraint program.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC3](../entities/ILC3.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC In Lung](../topics/ILC_in_lung.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC3](../entities/ILC3.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)

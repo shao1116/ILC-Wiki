@@ -79,7 +79,7 @@ This source broadens ILC3 lung disease biology beyond IL-22 and IL-17 alone by a
 
 ## Pages Updated From This Source
 
-- [2026-04-20_ILC3_working_model](../digests/2026-04-20_ILC3_working_model.md)
+- [ILC3](../entities/ILC3.md)
 - [ILC3](../entities/ILC3.md)
 - [ILC3_roles_in_pulmonary_disease](../topics/ILC3_roles_in_pulmonary_disease.md)
 - [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)

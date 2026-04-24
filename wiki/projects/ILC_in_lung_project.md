@@ -16,9 +16,9 @@ Organize and curate literature on innate lymphoid cells in lung biology, with em
 - [ILC_in_lung](../topics/ILC_in_lung.md)
 - [sources README](../sources/README.md)
 - [ingestion manifest](../sources/source_index.md)
-- [ILC2 Working Model](../digests/2026-04-20_ILC2_working_model.md)
-- [ILC3 Working Model](../digests/2026-04-20_ILC3_working_model.md)
-- [Role Of ILC In Pulmonary Diseases](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
 - [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
 - [ILC2 Roles In Pulmonary Disease](../topics/ILC2_roles_in_pulmonary_disease.md)
@@ -34,9 +34,9 @@ Organize and curate literature on innate lymphoid cells in lung biology, with em
 
 ## Current Working Model
 
-The first digest layer separates the wiki into four reusable synthesis tracks:
-`ILC2`, `ILC3`, pulmonary disease roles, and research trends over time.
-These are working models based on the local source inventory and representative extracted text, not final paper-by-paper curated reviews.
+The current synthesis layer is now organized around one main cross-subset digest plus two canonical cell hubs:
+`Lung ILC Core Evidence Synthesis`, `ILC2`, `ILC3`, a disease-first companion page, and the field-trend digest.
+This reduces duplication between entity pages and former working-model digests while preserving source-aware routes for different reading styles.
 
 The first detailed topic layer now separates four practical curation tracks:
 ILC2 disease roles, ILC3 disease roles, ILC2 regulatory mechanisms, and ILC3 regulatory mechanisms.

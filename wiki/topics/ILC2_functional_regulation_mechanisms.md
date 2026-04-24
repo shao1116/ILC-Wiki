@@ -52,6 +52,7 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 
 - [Lung type 2 innate lymphoid cells express cysteinyl leukotriene receptor 1 which regulates TH2 cytokine production](../sources/2013_lung_type_2_innate_lymphoid_cells_express_cysteinyl_leukotriene_receptor_1_which_regu.md) supports cysteinyl leukotriene receptor signaling as a lung ILC2 regulatory mechanism.
 - [Cysteinyl leukotriene E(4) activates human group 2 innate lymphoid cells and enhances the effect of prostaglandin D(2) and epithelial cytokines](../sources/2017_cysteinyl_leukotriene_e4_activates_human_group_2_innate_lymphoid_cells_and_enhances_the_effect_of_prostaglandin.md) supports synergistic lipid/epithelial cytokine activation of human ILC2s.
+- [Fevipiprant, a selective prostaglandin D2 receptor 2 antagonist, inhibits human group 2 innate lymphoid cell aggregation and function](../sources/2019_fevipiprant_a_selective_prostaglandin_d2_receptor_2_antagonist_inhibits_human_group_2_innate_lymphoid_cell_aggre.md) supports DP2 antagonism as an upstream inhibitory branch that blocks PGD2-driven migration, aggregation, and cytokine output in human ILC2s.
 - [Lipid-Droplet Formation Drives Pathogenic Group 2 Innate Lymphoid Cells in Airway Inflammation](../sources/2020_lipid_droplet_formation_drives_pathogenic_group_2_innate_lymphoid_cells_in_airway_inf.md) supports lipid-droplet biology as a pathogenic ILC2-state mechanism.
 
 ### Costimulatory and checkpoint control
@@ -64,6 +65,7 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 ### Metabolic regulation
 
 - [Autophagy is critical for group 2 innate lymphoid cell metabolic homeostasis and effector function](../sources/2020_autophagy_is_critical_for_group_2_innate_lymphoid_cell_metabolic_homeostasis_and_effector_function.md) supports autophagy as a regulator of ILC2 metabolic balance, proliferation, apoptosis, and cytokine secretion.
+- [Dichotomous metabolic networks govern human ILC2 proliferation and function](../sources/2021_dichotomous_metabolic_networks_govern_human_ilc2_proliferation_and_function.md) supports a human baseline-versus-activated metabolic split in which circulating ILC2s rely on amino-acid-supported OXPHOS at rest but use glycolysis and mTOR for IL-33-driven effector activation.
 - [Blocking the HIF-1alpha glycolysis axis inhibits allergic airway inflammation by reducing ILC2 metabolism and function](../sources/2025_blocking_the_hif_1alpha_glycolysis_axis_inhibits_allergic_airway_inflammation_by_reducing_ilc2_metabolism_and_fu.md) supports HIF-1alpha/glycolysis as a pro-inflammatory ILC2 metabolic axis in allergic airway inflammation.
 - [Regulation of type 2 innate lymphoid cell-dependent airway hyperreactivity by butyrate](../sources/2018_regulation_of_type_2_innate_lymphoid_cell_dependent_airway_hyperreactivity_by_butyrat.md) supports butyrate/HDAC-linked suppression of ILC2 cytokine output and ILC2-dependent airway hyperreactivity in the reported systems.
 - [Dopamine inhibits group 2 innate lymphoid cell-driven allergic lung inflammation by dampening mitochondrial activity](../sources/2023_dopamine_inhibits_group_2_innate_lymphoid_cell_driven_allergic_lung_inflammation_by_d.md) supports mitochondrial activity as a dopamine-sensitive ILC2 effector-control node.
@@ -72,6 +74,7 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 ### Spatial niche, interferon, and inter-organ regulation
 
 - [Adventitial Stromal Cells Define Group 2 Innate Lymphoid Cell Tissue Niches](../sources/2019_adventitial_stromal_cells_define_group_2_innate_lymphoid_cell_tissue_niches.md) supports a stromal niche model in which ASCs provide IL-33/TSLP and receive IL-13-linked reciprocal feedback from ILC2s.
+- [Pulmonary environmental cues drive group 2 innate lymphoid cell dynamics in mice and humans](../sources/2019_pulmonary_environmental_cues_drive_group_2_innate_lymphoid_cell_dynamics_in_mice_and_human.md) adds a dynamic positioning layer in which pulmonary ILC2s use CCR8-CCL8 and collagen-I-dependent migration cues to navigate inflamed lung tissue.
 - [Interleukin-33 and Interferon-gamma Counter-Regulate Group 2 Innate Lymphoid Cell Activation during Immune Perturbation](../sources/2015_interleukin_33_and_interferon_gamma_counter_regulate_group_2_innate_lymphoid_cell_activation_during_immune_pertu.md) and [Interferon gamma constrains type 2 lymphocyte niche boundaries during mixed inflammation](../sources/2022_interferon_gamma_constrains_type_2_lymphocyte_niche_boundaries_during_mixed_inflammation.md) support IFN-gamma as both a functional brake on IL-33-driven ILC2 activation and a spatial brake on ILC2/Th2 tissue dispersion.
 - [Toll-like receptor 9-dependent interferon production prevents group 2 innate lymphoid cell-driven airway hyperreactivity](../sources/2019_toll_like_receptor_9_dependent_interferon_production_prevents_group_2_innate_lymphoid.md) connects microbial/TLR9 sensing to type I IFN, NK-derived IFN-gamma, ILC2 STAT1 signaling, and suppressed AHR.
 - [Maturation and specialization of group 2 innate lymphoid cells through the lung-gut axis](../sources/2022_maturation_and_specialization_of_group_2_innate_lymphoid_cells_through_the_lung_gut_a.md) adds CCR2/CCR4-defined tissue specialization and IL-33-induced lung-gut movement as a developmental and inflammatory regulation layer.
@@ -80,9 +83,11 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 
 - [The neuropeptide NMU amplifies ILC2-driven allergic lung inflammation](../sources/2017_the_neuropeptide_nmu_amplifies_ilc2_driven_allergic_lung_inflammation.md) supports NMU/NMUR1 as a pro-inflammatory neuroimmune amplifier of ILC2-driven allergic lung inflammation in mouse models.
 - [Neuromedin-U Mediates Rapid Activation of Airway Group 2 Innate Lymphoid Cells in Mild Asthma](../sources/2024_neuromedin_u_mediates_rapid_activation_of_airway_group_2_innate_lymphoid_cells_in_mil.md) supports the NMU/NMUR1 axis as a rapid airway ILC2 activation pathway in mild asthma challenge settings.
+- [Cannabinoid receptor 2 engagement promotes group 2 innate lymphoid cell expansion and enhances airway hyperreactivity](../sources/2022_cannabinoid_receptor_2_engagement_promotes_group_2_innate_lymphoid_cell_expansion_and_enhances_airway_hyperreact.md) supports CB2 signaling as a positive receptor-level amplifier of activated ILC2 function and airway hyperreactivity.
 - [Basophils prime group 2 innate lymphoid cells for neuropeptide-mediated inhibition](../sources/2020_basophils_prime_group_2_innate_lymphoid_cells_for_neuropeptide_mediated_inhibition.md) supports cell-cell priming of ILC2s for neuropeptide-mediated inhibition.
 - [PAC1 constrains type 2 inflammation through promotion of CGRP signaling in ILC2s](../sources/2024_pac1_constrains_type_2_inflammation_through_promotion_of_cgrp_signaling_in_ilc2s.md) supports PAC1/CGRP-linked negative regulation of type 2 inflammation through ILC2s.
 - [beta(2)-adrenergic receptor-mediated negative regulation of group 2 innate lymphoid cell responses](../sources/2018_beta_2_adrenergic_receptor_mediated_negative_regulation_of_group_2_innate_lymphoid_cell_responses.md) supports beta2-adrenergic signaling as an inhibitory ILC2 regulatory axis.
+- [Long-acting muscarinic antagonist regulates group 2 innate lymphoid cell-dependent airway eosinophilic inflammation](../sources/2021_long_acting_muscarinic_antagonist_regulates_group_2_innate_lymphoid_cell_dependent_ai.md) supports a related but indirect cholinergic branch in which tiotropium restrains ILC2-dependent airway inflammation through basophil M3R signaling.
 
 ### Stromal, mechanical, and cellular-feedback regulation
 
@@ -151,9 +156,9 @@ flowchart TD
 
 ## Related pages
 
+- [ILC2](../entities/ILC2.md)
 - [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md)
-- [ILC2 Working Model](../digests/2026-04-20_ILC2_working_model.md)
-- [Role Of ILC In Pulmonary Diseases](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC In Lung](./ILC_in_lung.md)
 
 ## Next ingest targets

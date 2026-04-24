@@ -77,7 +77,7 @@ This source matters to the ILC-in-lung wiki because it appears to address asthma
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC2](../entities/ILC2.md)
 - [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
-- [ILC pulmonary disease roles digest](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 
 ## Pages Updated From This Source
 

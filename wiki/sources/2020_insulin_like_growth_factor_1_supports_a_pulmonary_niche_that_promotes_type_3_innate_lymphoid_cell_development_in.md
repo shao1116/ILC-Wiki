@@ -80,7 +80,7 @@ This source anchors the tissue-niche branch of lung ILC3 biology. It shows that 
 
 ## Pages Updated From This Source
 
-- [2026-04-20_ILC3_working_model](../digests/2026-04-20_ILC3_working_model.md)
+- [ILC3](../entities/ILC3.md)
 - [ILC3](../entities/ILC3.md)
 - [ILC3_functional_regulation_mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
 - [ILC3_roles_in_pulmonary_disease](../topics/ILC3_roles_in_pulmonary_disease.md)

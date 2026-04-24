@@ -10,82 +10,71 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually upgraded and now records source-specific biological claims, assay context, and reuse boundaries.
+- Durable synthesis status: selected high-confidence human ILC2 lipid-activation claims from this source were propagated into ILC2 entity/topic pages.
+
 ## Source Type
 
-- human-focused primary or translational study
-- Main detected cell focus: ILC2
-- Main detected context: asthma/allergy
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- human ex vivo and in vitro ILC2 lipid-mediator activation study
+- Evidence profile: fresh blood from atopic dermatitis and healthy donors, purified human ILC2 assays, chemotaxis, apoptosis, cytokine measurements, receptor-expression analysis, and mast-cell-supernatant stimulation
+- Knowledge note status: focused source note suitable for mechanism and translational comparator use when tissue/source-frame labels are preserved
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: high for source-specific claims about human ILC2 activation by LTE4 and its synergy with other ILC2 stimuli; lower for direct lower-lung disease causality.
 - Evidence tags:
-  #assay/in_vitro #assay/in_vivo #cell/ILC2 #cell/T_cell #cell/macrophage #outcome/airway_hyperresponsiveness #outcome/infection #outcome/repair #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung #tissue/nasal_polyp #tissue/skin
-- Detected biological focus: ILC2
-- Detected mechanism or mediator terms: IL-33, IL-25
-- Detected context: asthma/allergy
+  #cell/ILC2 #topic/regulation #topic/pulmonary_disease #axis/lipid_mediator #axis/type2_immunity #species/human #status/focused_crystallization
+- Primary biological axis: cysteinyl leukotrienes, especially LTE4, amplify human ILC2 survival, migration, and cytokine output and cooperate with other type 2 activators.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address asthma/allergy with a focus on ILC2. For current synthesis, it should be used primarily as evidence for the source-specific claim that cysteinyl leukotriene E(4) activates human group 2 innate lymphoid cells and enhances the effect of prostaglandin D(2) and epithelial cytokines, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source strengthens the human lipid-mediator branch of the ILC2 wiki. It goes beyond the earlier CysLT1R lung paper by showing that human ILC2s respond strongly to LTE4 and that leukotriene signals can amplify PGD2 and epithelial-cytokine activation rather than acting as isolated triggers.
 
 ## Key Findings
 
-- Cysteinyl leukotriene E 4 activates human group 2 innate lymphoid cells and enhances the effect of prostaglandin D 2 and epithelial cytokines Maryam Salimi, DPhil, MD, a Linda St €oger, MSc, b,c Wei Liu, MSc, b Simei Go, BSc, b Ian Pavord, F Med Sci, b Paul Klenerman, F Med Sci, d Graham Ogg, DPhil, FRCP, a* and Luzheng Xue, PhD b,c* Oxford, United Kingdom Background: Group 2 innate lymphoid cells (ILC2s) are a potential innate source of type 2 cytokines in the pathogenesis of allergic conditions.
-- Epithelial cytokines (IL-33, IL-25, and thymic stromal lymphopoietin [TSLP]) and mast cell mediators (prostaglandin D 2 [PGD2]) are critical activators of ILC2s.
-- Objectives: We sought to determine the role of cysLTs and their relationship with other ILC2 stimulators in the activation of human ILC2s.
-- The effects of cysLTs, PGD 2, IL-33, IL-25, TSLP, and IL-2 alone or in combination on ILC2s were deﬁned by using chemotaxis, apoptosis, ELISA, Luminex, quantitative RT-PCR, and ﬂow cytometric assays.
-- Results: Human ILC2s expressed the LT receptor CysLT 1, levels of which were increased in atopic subjects.
+- Human ILC2s expressed CysLT1, and receptor levels were higher in the reported atopic donor group.
+- CysLTs, particularly LTE4, induced human ILC2 migration, reduced apoptosis, and increased cytokine production in vitro.
+- LTE4 enhanced the effects of PGD2, IL-25, IL-33, and TSLP, increasing type 2 and other proinflammatory cytokine output from human ILC2s.
+- Adding IL-2 further amplified ILC2 activation and increased expression of receptors for IL-33 and IL-25 in the reported system.
+- Montelukast inhibited LTE4-driven activation, supporting CysLT1-dependent signaling in this source.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that cysteinyl leukotriene E(4) activates human group 2 innate lymphoid cells and enhances the effect of prostaglandin D(2) and epithelial cytokines.
-- High confidence:
-  the source is relevant to ILC2 in the detected context of asthma/allergy.
-- Medium confidence:
-  mechanisms or mediators such as IL-33, IL-25 can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: human ILC2s directly respond to LTE4 with increased migration, survival, and cytokine production in this source.
+- High confidence: LTE4 acts as an amplifier of PGD2 and epithelial-cytokine-driven human ILC2 activation rather than only as a stand-alone stimulus.
+- Medium-high confidence: the montelukast-sensitive component supports pharmacologic tractability of this axis, but the source is not a clinical outcome trial.
+- Low confidence: because donor material came from blood and included atopic dermatitis subjects, this source should not be framed as direct proof of lower-lung ILC2 behavior in asthma tissue.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: human-focused primary or translational study.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: asthma/allergy
-- Assay modalities detected from tags: in vivo model, in vitro assay
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: human blood-derived ILC2s from atopic dermatitis and healthy donors.
+- Assay directness: strong for human cell-intrinsic activation biology, but not for direct lung-tissue causality.
+- Best wiki use: human ILC2 lipid-mediator amplification, leukotriene-PGD2 synergy, and translational support for ILC2-targeting asthma mechanisms.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- The donor frame is human blood, not lung tissue or sputum.
+- Atopic dermatitis donor biology should not be collapsed into asthma-specific causality.
+- This source should be paired with pulmonary sources when making lung-disease claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: this source complements, rather than replaces, the earlier lung CysLT1R paper by adding human ex vivo mechanistic depth.
+- Supersession status: not superseded; still a strong source for human ILC2 leukotriene amplification.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC2](../entities/ILC2.md)
 - [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
-- [ILC pulmonary disease roles digest](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC In Lung](../topics/ILC_in_lung.md)
 
 ## Pages Updated From This Source
 
 - [ILC2](../entities/ILC2.md)
-- [ILC2_functional_regulation_mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
-- [ILC2_roles_in_pulmonary_disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)

@@ -10,77 +10,73 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually upgraded and now supports source-linked obesity-associated ILC3/IL-17 airway disease claims.
+- Durable synthesis status: selected high-confidence claims from this source were propagated into ILC3 entity/topic/digest pages with explicit obesity-associated-airway labels.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: macrophages, T cells
-- Main detected context: lung/airway, asthma/allergy, tumor/cancer
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary mouse obesity-associated airway-hyperreactivity study with human comparator observations
+- Evidence profile: high-fat-diet and leptin-deficient models, Rag-deficient testing, IL-17A and NLRP3 perturbation, adoptive transfer, IL-1 receptor blockade, macrophage-IL-1beta source mapping, and human BAL ILC3-like comparator data
+- Knowledge note status: focused source note suitable for nonatopic/neutrophilic airway-disease integration
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: high for source-specific claims that obesity-associated airway hyperreactivity in this model depends on an NLRP3-IL-1beta-IL-17A innate-lymphoid pathway.
 - Evidence tags:
-  #assay/KO #assay/flow #assay/in_vitro #assay/in_vivo #cell/ILC2 #cell/ILC3 #cell/NK #cell/macrophage #outcome/airway_hyperresponsiveness #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung
-- Detected biological focus: macrophages, T cells
-- Detected mechanism or mediator terms: AHR
-- Detected context: lung/airway, asthma/allergy, tumor/cancer
+  #cell/ILC3 #tissue/lung #topic/pulmonary_disease #topic/regulation #axis/IL17_inflammation #axis/NLRP3_IL1b #status/focused_crystallization
+- Primary biological axis: obesity-associated, nonadaptive airway hyperreactivity is driven by macrophage-derived IL-1beta, NLRP3 inflammasome activity, and CCR6-positive IL-17-producing innate lymphoid cells.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address lung/airway, asthma/allergy, tumor/cancer with a focus on macrophages, T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that interleukin-17-producing innate lymphoid cells and the NLRP3 inflammasome facilitate obesity-associated airway hyperreactivity, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source is important because it gives the wiki a pulmonary ILC3-like obesity branch that is not simply a variant of eosinophilic type 2 asthma. It helps separate metabolic/nonatopic airway disease from classical allergic models and anchors an early lung IL-17 innate-lymphoid mechanism with direct perturbation evidence.
 
 ## Key Findings
 
-- Immunologically, obesity is associ- ated with a reduction in anti-inflammatory regulatory T cells 11, an increase in CD8+ T cells12 and a transition in macrophage polarization from M2 to M1 in adipose tissue10,13.
-- In the lungs, however, the role of inflammation in obesity has been controversial, as little correlation of airway eosinophils with BMI has been observed, although increases in the number of sputum neutrophils in obese individuals with asthma have been reported recently 14.
-- Increased circulating levels of adipo - kines (leptin, adiponectin and resistin), IL-6, tumor necrosis factor-α (TNF-α) and oxidative stress3,8 are all associated with asthma in obese individuals but not with allergic asthma, the most common form of asthma.
-- Moreover, the association between asthma and obesity is stronger in individuals with nonatopic asthma than in those with atopic asthma 15, and weight loss reduces AHR in obese individuals with nonatopic asthma but not in those with the atopic form 6.
-- These observations suggest that asthma associated with obesity is an entity or phenotype distinct from that of allergic asthma 16.
+- High-fat diet and leptin-deficient obesity models developed airway hyperreactivity in the absence of adaptive immunity.
+- Obesity-associated airway hyperreactivity required IL-17A and NLRP3 in the reported system.
+- Lung CCR6-positive IL-17-producing innate lymphoid cells expanded in obese mice and could transfer airway hyperreactivity into recipient mice when paired with IL-1beta support.
+- Macrophage-derived IL-1beta expanded these lung innate lymphoid cells, and IL-1 receptor blockade reduced both airway hyperreactivity and ILC3-like cell accumulation.
+- The source also reported ILC3-like cells in human bronchoalveolar lavage, supporting translational relevance while remaining cautious about direct equivalence.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that interleukin-17-producing innate lymphoid cells and the NLRP3 inflammasome facilitate obesity-associated airway hyperreactivity.
-- High confidence:
-  the source is relevant to macrophages, T cells in the detected context of lung/airway, asthma/allergy.
-- Medium confidence:
-  mechanisms or mediators such as AHR can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: obesity-associated airway hyperreactivity in this source is independent of adaptive immunity and depends on IL-17A and NLRP3.
+- High confidence: CCR6-positive IL-17-producing innate lymphoid cells function as key mediators of the reported obesity-airway phenotype.
+- High confidence: macrophage-derived IL-1beta is an upstream licensing signal in this pathway.
+- Medium-high confidence: human BAL observations support translational relevance, but the strongest causal evidence remains in mouse models.
+- Low confidence: this source should not be generalized to all obesity-asthma, all nonatopic asthma, or all pulmonary ILC3 biology without matching context.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: lung/airway, asthma/allergy, tumor/cancer
-- Assay modalities detected from tags: flow cytometry, in vivo model, in vitro assay, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse obesity-associated airway hyperreactivity with human BAL comparator observations.
+- Assay directness: strong because the source combined genetic loss, immune-deficient hosts, adoptive transfer, and cytokine blockade.
+- Best wiki use: obesity-associated airway disease, IL-17 innate-lymphoid mechanisms, and macrophage-IL-1beta-ILC3 pathway framing.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- The source models obesity-associated airway hyperreactivity, not all asthma endotypes.
+- The IL-17-producing innate lymphoid population should be kept carefully labeled and not collapsed into every ILC3 claim without marker context.
+- Human evidence is associative and compartment-limited compared with the mouse perturbation evidence.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: this source complements, rather than replaces, later allergic-obesity papers by defining a more IL-17/nonadaptive branch.
+- Supersession status: not superseded; it remains a foundational pulmonary innate-lymphoid obesity-airway source.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
-- [ILC pulmonary disease roles digest](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC3](../entities/ILC3.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)

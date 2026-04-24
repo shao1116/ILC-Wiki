@@ -49,6 +49,7 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 - [Activation of Type 3 innate lymphoid cells and interleukin 22 secretion in the lungs during Streptococcus pneumoniae infection](../sources/2014_activation_of_type_3_innate_lymphoid_cells_and_interleukin_22_secretion_in_the_lungs.md) supports IL-23-responsive lung ILC3 IL-22 production during bacterial infection.
 - [Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s](../sources/2025_pulmonary_fibroblast_derived_stem_cell_factor_promotes_neutrophilic_asthma_by_augment.md) frames ILC3s as IL-1beta/IL-23-responsive cells capable of IL-17 and IL-22 production, with IL-17A linked to neutrophilic asthma outcomes.
 - [Group 3 innate lymphoid cells secret neutrophil chemoattractants and are insensitive to glucocorticoid via aberrant GR phosphorylation](../sources/2023_group_3_innate_lymphoid_cells_secret_neutrophil_chemoattractants_and_are_insensitive.md) supports IL-1beta-induced CXCL8/CXCL1 production from ILC3s through NF-kappaB and MAPK-linked pathways.
+- [Interleukin-17-producing innate lymphoid cells and the NLRP3 inflammasome facilitate obesity-associated airway hyperreactivity](../sources/2014_interleukin_17_producing_innate_lymphoid_cells_and_the_nlrp3_inflammasome_facilitate.md) adds an upstream macrophage-NLRP3-IL-1beta licensing branch for CCR6-positive IL-17-producing innate lymphoid cells in obesity-associated airway disease.
 
 ### Stromal and developmental niche regulation
 
@@ -80,6 +81,10 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 
 - [Group 3 innate lymphoid cells secret neutrophil chemoattractants and are insensitive to glucocorticoid via aberrant GR phosphorylation](../sources/2023_group_3_innate_lymphoid_cells_secret_neutrophil_chemoattractants_and_are_insensitive.md) supports a mechanism where ILC3 neutrophil chemoattractant production is glucocorticoid-insensitive and linked to altered glucocorticoid receptor phosphorylation.
 - This source is especially important for steroid-resistant or non-eosinophilic asthma because it links cell function, inflammatory mediator production, and drug-response biology.
+
+### Checkpoint restraint and IL-23 counter-regulation
+
+- [CTLA-4-expressing ILC3s restrain interleukin-23-mediated inflammation](../sources/2024_ctla_4_expressing_ilc3s_restrain_interleukin_23_mediated_inflammation.md) supports an extrapulmonary checkpoint branch in which IL-23 can induce CTLA-4-positive ILC3s that restrain inflammatory T-cell programs; in this wiki it should be used as gut-labeled mechanism context rather than direct pulmonary proof.
 
 ## Interpretation
 
@@ -139,9 +144,9 @@ flowchart TD
 
 ## Related pages
 
+- [ILC3](../entities/ILC3.md)
 - [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md)
-- [ILC3 Working Model](../digests/2026-04-20_ILC3_working_model.md)
-- [Role Of ILC In Pulmonary Diseases](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC In Lung](./ILC_in_lung.md)
 
 ## Next ingest targets

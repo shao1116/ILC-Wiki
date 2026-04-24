@@ -16,7 +16,7 @@
 
 ## 2026-04-20
 
-- Created four working digest pages from the local ILC source inventory and representative extracted source text:
+- Created four early working digest pages from the local ILC source inventory and representative extracted source text:
   `ILC2`, `ILC3`, `Role Of ILC In Pulmonary Diseases`, and `ILC Research Trend From Then To Now`.
 - Updated `index.md`, `digests/README.md`, `topics/ILC_in_lung.md`, and `projects/ILC_in_lung_project.md` so the new digests are discoverable.
 - Preserved the caveat that these digests are working models and should be refined by manual source-page review before manuscript-level use.
@@ -97,3 +97,4 @@
 - 2026-04-23: Rebuilt `ILC In Lung` as a beginner-facing guide, refreshed source-library status counts to 140 total / 50 focused / 90 provisional, added a reusable status-count refresh script, connected bulk ingest to automatic count refresh, and added Mermaid CSS plus compact diagrams for more readable GitHub Pages rendering.
 - 2026-04-23: Audited every Mermaid diagram in `wiki/topics/` and `wiki/digests/`; removed remaining hard-shrink risks by using vertical flowcharts, shorter node labels, accessibility labels, class styling, public/private Mermaid CSS, and verified public MkDocs build.
 - 2026-04-23: Updated public export styling to a Notion-style MkDocs Material layout with a curated nav, Inter/JetBrains Mono typography, white minimal theme, compact sidebars, and persistent custom CSS. The public exporter now preserves `.git` during `--force` refreshes and regenerates this style automatically.
+- 2026-04-24: Reorganized the wiki architecture so `ILC2` and `ILC3` are the canonical cell-level hubs, while the former ILC2/ILC3 working-model digests now act as companion pages. Demoted the former `Role Of ILC In Pulmonary Diseases` page into the disease-first companion `Lung ILC Disease Roles Companion`, refreshed homepage hierarchy, updated reference-coverage routing, and repaired related links.

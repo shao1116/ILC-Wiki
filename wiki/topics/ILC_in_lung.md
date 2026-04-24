@@ -25,7 +25,7 @@ The wiki emphasizes `ILC2` and `ILC3` biology in pulmonary inflammation, respira
 
 ## Wiki Status
 
-- The local source library currently contains 140 processed references, with 50 source pages promoted to `focused manual crystallization mode` and 90 retained as `provisional bulk-ingest mode`.
+- The local source library currently contains 141 processed references, with 60 source pages promoted to `focused manual crystallization mode` and 81 retained as `provisional bulk-ingest mode`.
 - Focused source pages are the preferred evidence layer for reusable biological claims because they include model context, assay directness, claim-level confidence, and caveats.
 - Provisional source pages are useful for routing and triage, but their biological claims should be manually checked before being reused in manuscripts, figures, grant text, or durable synthesis.
 - Batch provenance belongs in audit and log pages; digest, topic, and entity pages should read as biology-first knowledge nodes.
@@ -88,7 +88,7 @@ flowchart TB
 
 The ILC2 source set is strongest around asthma and allergic airway inflammation, respiratory viral infection, post-viral repair, metabolic regulation, neuroimmune regulation, tissue niches, and plasticity. ILC2s often amplify type 2 inflammation through IL-5 and IL-13, but they can also support epithelial repair through amphiregulin-associated programs and participate in stromal or macrophage niche remodeling.
 
-Recent focused source notes add an important spatial and regulatory layer: lung ILC2s can sit in adventitial/peribronchovascular niches supported by IL-33/TSLP-producing stromal cells, while IFN-gamma can suppress ILC2 function or constrain type 2 lymphocyte movement during mixed inflammation. These claims are integrated into [ILC2](../entities/ILC2.md), [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md), [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md), [ILC2 Working Model](../digests/2026-04-20_ILC2_working_model.md), and [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md).
+Recent focused source notes add an important spatial and regulatory layer: lung ILC2s can sit in adventitial/peribronchovascular niches supported by IL-33/TSLP-producing stromal cells, while IFN-gamma can suppress ILC2 function or constrain type 2 lymphocyte movement during mixed inflammation. These claims now live primarily in [ILC2](../entities/ILC2.md), with disease and mechanism expansion in [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md), [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md), and [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md).
 
 ### 2. ILC3s: Defense, IL-17 Inflammation, And Severe Asthma Branches
 
@@ -142,8 +142,8 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [Sources README](../sources/README.md)
-- [ILC2 Working Model](../digests/2026-04-20_ILC2_working_model.md)
-- [ILC3 Working Model](../digests/2026-04-20_ILC3_working_model.md)
-- [Role Of ILC In Pulmonary Diseases](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
 - [Reference Coverage Audit](../audit/2026-04-20_reference_coverage_audit.md)

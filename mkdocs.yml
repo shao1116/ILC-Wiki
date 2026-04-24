@@ -36,25 +36,18 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Project:
-      - ILC In Lung Project: projects/ILC_in_lung_project.md
-  - Guide:
+  - Start Here:
       - ILC In Lung: topics/ILC_in_lung.md
       - ILC Research Trend: digests/2026-04-20_ILC_research_trend_then_to_now.md
       - Lung ILC Core Evidence Synthesis: digests/2026-04-22_lung_ILC_core_evidence_synthesis.md
-  - Entities:
+  - Cell Hubs:
       - ILC2: entities/ILC2.md
       - ILC3: entities/ILC3.md
-  - Topics:
+  - Disease Topics:
       - ILC2 Roles In Pulmonary Disease: topics/ILC2_roles_in_pulmonary_disease.md
-      - ILC2 Functional Regulation Mechanisms: topics/ILC2_functional_regulation_mechanisms.md
       - ILC3 Roles In Pulmonary Disease: topics/ILC3_roles_in_pulmonary_disease.md
+  - Mechanism Topics:
+      - ILC2 Functional Regulation Mechanisms: topics/ILC2_functional_regulation_mechanisms.md
       - ILC3 Functional Regulation Mechanisms: topics/ILC3_functional_regulation_mechanisms.md
-  - Digests:
-      - ILC2 Working Model: digests/2026-04-20_ILC2_working_model.md
-      - ILC3 Working Model: digests/2026-04-20_ILC3_working_model.md
-      - ILC In Pulmonary Diseases: digests/2026-04-20_ILC_pulmonary_disease_roles.md
-  - Sources:
+  - Reference Library:
       - Source Index: sources/source_index.md
-  - Audit:
-      - Topic And Entity Integration Audit: audit/2026-04-22_topic_entity_integration_audit.md

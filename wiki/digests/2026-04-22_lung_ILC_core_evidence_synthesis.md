@@ -76,10 +76,13 @@ flowchart TB
 - Lung ILC2s can be anatomically positioned in adventitial/peribronchovascular stromal niches supported by IL-33/TSLP-producing fibroblast-like cells, creating a spatial layer for type 2 activation and feedback.
 - IFN-gamma is a context-dependent ILC2 brake that can suppress IL-33-driven activation, constrain type 2 lymphocyte tissue dispersion, inhibit ILC2-driven AHR through TLR9/interferon/STAT1 signaling, or suppress protective ILC2 output during influenza.
 - ILC2 disease activity is regulated by epithelial alarmins, lipid mediators, neuroimmune cues, metabolic state, checkpoint pathways, microbial metabolites, and stromal or cellular feedback.
+- Activated pulmonary ILC2s are also shaped by spatial guidance cues, including CCR8-CCL8 positioning signals and collagen-I-dependent migratory behavior in inflamed lung.
 - Human lung contains identifiable ILC subsets, but human lung tissue, sputum, blood, nasal airway, and mouse lung evidence should not be treated as interchangeable.
 - Lung ILC3s can support IL-22-associated antibacterial defense and neonatal pulmonary niche development.
 - Lung ILC3s can also participate in IL-17A/neutrophil-rich inflammatory disease, including ARDS-like injury, neutrophilic asthma, smoking-associated asthma, and steroid-resistant asthma.
+- Obesity-associated airway hyperreactivity adds a distinct NLRP3-IL-1beta-IL-17-producing innate-lymphoid branch to the ILC3 disease map.
 - Pulmonary fibroblast-derived SCF/KIT signaling is a focused stromal axis that can augment ILC3 IL-17A and neutrophilic asthma-like inflammation.
+- ILC3 regulation also includes restraint programs; current source-linked context includes a gut-labeled CTLA-4-positive ILC3 checkpoint branch downstream of IL-23.
 - ILC plasticity is not a side issue: ILC2-to-ILC1-like conversion, memory-like ILC2s, IL-17-producing ST2+ ILC2s, c-Kit+ ILC2/ILC3-like states, and memory-like ILC3s all shape interpretation.
 
 ## ILC2 Niche And Interferon Update
@@ -106,7 +109,7 @@ Focused crystallization on 2026-04-23 added a stronger spatial and counter-regul
 
 ## How to use this digest
 
-Use this page as the first evidence synthesis layer after the homepage. For cell-specific detail, go to [ILC2](../entities/ILC2.md) or [ILC3](../entities/ILC3.md). For question-specific detail, go to [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md), [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md), [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md), or [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md).
+Use this page as the first evidence synthesis layer after the homepage. For cell-specific detail, go to [ILC2](../entities/ILC2.md) or [ILC3](../entities/ILC3.md). For question-specific detail, go to [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md), [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md), [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md), or [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md). For a disease-first rearrangement of the same cross-subset material, use [Lung ILC Disease Roles Companion](./2026-04-20_ILC_pulmonary_disease_roles.md).
 
 ## Update triggers
 
@@ -129,11 +132,19 @@ Use this page as the first evidence synthesis layer after the homepage. For cell
 ### ILC2 allergic inflammation, regulation, and plasticity
 
 - [Lung type 2 innate lymphoid cells express cysteinyl leukotriene receptor 1 which regulates TH2 cytokine production](../sources/2013_lung_type_2_innate_lymphoid_cells_express_cysteinyl_leukotriene_receptor_1_which_regu.md)
+- [Cysteinyl leukotriene E4 activates human group 2 innate lymphoid cells and enhances the effect of prostaglandin D2 and epithelial cytokines](../sources/2017_cysteinyl_leukotriene_e4_activates_human_group_2_innate_lymphoid_cells_and_enhances_the_effect_of_prostaglandin.md)
 - [Kinetics of the accumulation of group 2 innate lymphoid cells in IL-33-induced and IL-25-induced murine models of asthma a potential role for the chemokine CXCL16](../sources/2019_kinetics_of_the_accumulation_of_group_2_innate_lymphoid_cells_in_il_33_induced_and_il_25_induced_murine_models_o.md)
+- [Pulmonary environmental cues drive group 2 innate lymphoid cell dynamics in mice and humans](../sources/2019_pulmonary_environmental_cues_drive_group_2_innate_lymphoid_cell_dynamics_in_mice_and_human.md)
+- [Fevipiprant, a selective prostaglandin D2 receptor 2 antagonist, inhibits human group 2 innate lymphoid cell aggregation and function](../sources/2019_fevipiprant_a_selective_prostaglandin_d2_receptor_2_antagonist_inhibits_human_group_2_innate_lymphoid_cell_aggre.md)
 - [Allergen-Experienced Group 2 Innate Lymphoid Cells Acquire Memory-like Properties and Enhance Allergic Lung Inflammation](../sources/2016_allergen_experienced_group_2_innate_lymphoid_cells_acquire_memory_like_properties_and.md)
 - [Inflammatory triggers associated with exacerbations of COPD orchestrate plasticity of group 2 innate lymphoid cells in the lungs](../sources/2016_inflammatory_triggers_associated_with_exacerbations_of_copd_orchestrate_plasticity_of.md)
 - [IL-17-producing ST2(+) group 2 innate lymphoid cells play a pathogenic role in lung inflammation](../sources/2019_il_17_producing_st2_group_2_innate_lymphoid_cells_play_a_pathogenic_role_in_lung_inflammation.md)
 - [IL-1beta, IL-23, and TGF-beta drive plasticity of human ILC2s towards IL-17-producing ILCs in nasal inflammation](../sources/2019_il_1beta_il_23_and_tgf_beta_drive_plasticity_of_human_ilc2s_towards_il_17_producing_ilcs_in_nasal_inflammation.md)
+- [The Role of the TL1A/DR3 Axis in the Activation of Group 2 Innate Lymphoid Cells in Subjects with Eosinophilic Asthma](../sources/2020_the_role_of_the_tl1a_dr3_axis_in_the_activation_of_group_2_innate_lymphoid_cells_in_subjects_with_eosinophilic_a.md)
+- [Lipid-Droplet Formation Drives Pathogenic Group 2 Innate Lymphoid Cells in Airway Inflammation](../sources/2020_lipid_droplet_formation_drives_pathogenic_group_2_innate_lymphoid_cells_in_airway_inf.md)
+- [Dichotomous metabolic networks govern human ILC2 proliferation and function](../sources/2021_dichotomous_metabolic_networks_govern_human_ilc2_proliferation_and_function.md)
+- [Long-acting muscarinic antagonist regulates group 2 innate lymphoid cell-dependent airway eosinophilic inflammation](../sources/2021_long_acting_muscarinic_antagonist_regulates_group_2_innate_lymphoid_cell_dependent_ai.md)
+- [Cannabinoid receptor 2 engagement promotes group 2 innate lymphoid cell expansion and enhances airway hyperreactivity](../sources/2022_cannabinoid_receptor_2_engagement_promotes_group_2_innate_lymphoid_cell_expansion_and_enhances_airway_hyperreact.md)
 - [Group 2 innate lymphoid cells (ILC2) are regulated by stem cell factor during chronic asthmatic disease](../sources/2019_group_2_innate_lymphoid_cells_ilc2_are_regulated_by_stem_cell_factor_during_chronic_a.md)
 - [The neuropeptide NMU amplifies ILC2-driven allergic lung inflammation](../sources/2017_the_neuropeptide_nmu_amplifies_ilc2_driven_allergic_lung_inflammation.md)
 - [Regulation of type 2 innate lymphoid cell-dependent airway hyperreactivity by butyrate](../sources/2018_regulation_of_type_2_innate_lymphoid_cell_dependent_airway_hyperreactivity_by_butyrat.md)
@@ -153,6 +164,7 @@ Use this page as the first evidence synthesis layer after the homepage. For cell
 - [Activation of Type 3 innate lymphoid cells and interleukin 22 secretion in the lungs during Streptococcus pneumoniae infection](../sources/2014_activation_of_type_3_innate_lymphoid_cells_and_interleukin_22_secretion_in_the_lungs.md)
 - [Insulin-like Growth Factor 1 Supports a Pulmonary Niche that Promotes Type 3 Innate Lymphoid Cell Development in Newborn Lungs](../sources/2020_insulin_like_growth_factor_1_supports_a_pulmonary_niche_that_promotes_type_3_innate_lymphoid_cell_development_in.md)
 - [Innate Lymphoid Cells Are the Predominant Source of IL-17A during the Early Pathogenesis of Acute Respiratory Distress Syndrome](../sources/2016_innate_lymphoid_cells_are_the_predominant_source_of_il_17a_during_the_early_pathogene.md)
+- [Interleukin-17-producing innate lymphoid cells and the NLRP3 inflammasome facilitate obesity-associated airway hyperreactivity](../sources/2014_interleukin_17_producing_innate_lymphoid_cells_and_the_nlrp3_inflammasome_facilitate.md)
 - [ILC3-derived acetylcholine promotes protease-driven allergic lung pathology](../sources/2021_ilc3_derived_acetylcholine_promotes_protease_driven_allergic_lung_pathology.md)
 - [Group 3 innate lymphoid cells secret neutrophil chemoattractants and are insensitive to glucocorticoid via aberrant GR phosphorylation](../sources/2023_group_3_innate_lymphoid_cells_secret_neutrophil_chemoattractants_and_are_insensitive.md)
 - [Cigarette smoke aggravates asthma by inducing memory-like type 3 innate lymphoid cells](../sources/2022_cigarette_smoke_aggravates_asthma_by_inducing_memory_like_type_3_innate_lymphoid_cell.md)
@@ -162,6 +174,7 @@ Use this page as the first evidence synthesis layer after the homepage. For cell
 - [c-Kit-positive ILC2s exhibit an ILC3-like signature that may contribute to IL-17-mediated pathologies](../sources/2019_c_kit_positive_ilc2s_exhibit_an_ilc3_like_signature_that_may_contribute_to_il_17_medi.md)
 - [Differentiation of type 1 ILCs from a common progenitor to all helper-like innate lymphoid cell lineages](../sources/2014_differentiation_of_type_1_ilcs_from_a_common_progenitor_to_all_helper_like_innate_lymphoid_cell_lineages.md)
 - [Tissue residency of innate lymphoid cells in lymphoid and nonlymphoid organs](../sources/2015_tissue_residency_of_innate_lymphoid_cells_in_lymphoid_and_nonlymphoid_organs.md)
+- [CTLA-4-expressing ILC3s restrain interleukin-23-mediated inflammation](../sources/2024_ctla_4_expressing_ilc3s_restrain_interleukin_23_mediated_inflammation.md)
 
 ### Human baseline and airway translation
 

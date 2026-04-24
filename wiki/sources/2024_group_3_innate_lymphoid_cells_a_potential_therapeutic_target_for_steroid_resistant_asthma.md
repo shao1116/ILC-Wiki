@@ -72,7 +72,7 @@ This review helps organize steroid-resistant asthma as a project branch, but it 
 - [ILC_in_lung](../topics/ILC_in_lung.md)
 - [ILC3](../entities/ILC3.md)
 - [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
-- [ILC pulmonary disease roles digest](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 
 ## Pages Updated From This Source
 

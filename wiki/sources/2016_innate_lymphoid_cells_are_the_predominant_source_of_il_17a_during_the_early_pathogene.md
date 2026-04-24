@@ -78,8 +78,8 @@ This is a key source for the pathogenic IL-17A-producing pulmonary ILC3 branch. 
 
 ## Pages Updated From This Source
 
-- [2026-04-20_ILC3_working_model](../digests/2026-04-20_ILC3_working_model.md)
-- [2026-04-20_ILC_pulmonary_disease_roles](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC3](../entities/ILC3.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC3](../entities/ILC3.md)
 - [ILC3_roles_in_pulmonary_disease](../topics/ILC3_roles_in_pulmonary_disease.md)
 - [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)

@@ -18,7 +18,7 @@ tags:
 
 This topic page describes how `ILC3s` are represented in the current `ILC_in_lung` wiki as disease-relevant cells in lung and airway contexts. It focuses on bacterial host defense, neonatal lung development, acute lung injury/ARDS, neutrophilic asthma, steroid-resistant asthma, cigarette-smoke-associated asthma, and allergic lung pathology.
 
-This page should be read with [ILC3 Working Model](../digests/2026-04-20_ILC3_working_model.md) and [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md).
+This page expands the disease branch of [ILC3](../entities/ILC3.md). Use the entity page for the canonical cell-level model, then use this topic when the question is specifically about disease context and pathology.
 
 ## Evidence tags
 
@@ -59,6 +59,7 @@ This page should be read with [ILC3 Working Model](../digests/2026-04-20_ILC3_wo
 ### Neutrophilic and steroid-resistant asthma
 
 - [Innate lymphoid cells contribute to allergic airway disease exacerbation by obesity](../sources/2016_innate_lymphoid_cells_contribute_to_allergic_airway_disease_exacerbation_by_obesity.md) adds a mouse metabolic-disease context in which allergic airway disease can involve altered ILC2 and ILC3 responses; this should stay separate from lean allergic asthma and from direct human obesity-asthma claims.
+- [Interleukin-17-producing innate lymphoid cells and the NLRP3 inflammasome facilitate obesity-associated airway hyperreactivity](../sources/2014_interleukin_17_producing_innate_lymphoid_cells_and_the_nlrp3_inflammasome_facilitate.md) defines a distinct obesity-associated airway branch in which macrophage IL-1beta, NLRP3, and IL-17-producing innate lymphoid cells drive nonadaptive airway hyperreactivity.
 - [Cigarette smoke aggravates asthma by inducing memory-like type 3 innate lymphoid cells](../sources/2022_cigarette_smoke_aggravates_asthma_by_inducing_memory_like_type_3_innate_lymphoid_cell.md) supports a smoke-associated asthma branch in which activated or memory-like ILC3s correlate with neutrophil-linked and M1 macrophage-linked features.
 - [Group 3 innate lymphoid cells secret neutrophil chemoattractants and are insensitive to glucocorticoid via aberrant GR phosphorylation](../sources/2023_group_3_innate_lymphoid_cells_secret_neutrophil_chemoattractants_and_are_insensitive.md) supports an ILC3 branch in non-eosinophilic asthma where ILC3s produce neutrophil chemoattractants and show glucocorticoid resistance.
 - [Group 3 Innate Lymphoid Cells A Potential Therapeutic Target for Steroid Resistant Asthma](../sources/2024_group_3_innate_lymphoid_cells_a_potential_therapeutic_target_for_steroid_resistant_asthma.md) provides a review-level frame linking ILC3s to steroid-resistant asthma.
@@ -138,8 +139,8 @@ flowchart TD
 
 ## Related pages
 
-- [ILC3 Working Model](../digests/2026-04-20_ILC3_working_model.md)
-- [Role Of ILC In Pulmonary Diseases](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC3](../entities/ILC3.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md)
 - [ILC In Lung](./ILC_in_lung.md)
 
@@ -147,4 +148,4 @@ flowchart TD
 
 - Manually review ILC3 asthma sources and separate human association, ex vivo stimulation, and mouse perturbation claims.
 - Manually review ILC3 bacterial infection and neonatal lung niche sources to define the protective branch.
-- Build an `ILC3` entity page after source-level review of pulmonary and cross-tissue regulatory mechanisms.
+- Continue tightening direct source coverage inside [ILC3](../entities/ILC3.md), especially for sputum versus lung-tissue compartments, SCF/KIT stromal licensing, and steroid-resistant asthma mechanisms.

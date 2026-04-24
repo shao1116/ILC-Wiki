@@ -82,7 +82,7 @@ This source matters to the ILC-in-lung wiki because it appears to address bacter
 - [ILC3](../entities/ILC3.md)
 - [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
-- [ILC pulmonary disease roles digest](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 
 ## Pages Updated From This Source
 
