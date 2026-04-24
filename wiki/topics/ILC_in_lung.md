@@ -141,7 +141,7 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project/)
-- [Sources README](../sources/README/)
+- [Sources README](../sources/)
 - [ILC2](../entities/ILC2/)
 - [ILC3](../entities/ILC3/)
 - [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles/)

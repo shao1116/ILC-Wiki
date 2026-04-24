@@ -13,7 +13,7 @@ The user noticed that batch-oriented headings in reusable knowledge pages made t
 - [ILC3 Functional Regulation Mechanisms](../topics/ILC3_functional_regulation_mechanisms/)
 - [ILC2](../entities/ILC2/)
 - [ILC3](../entities/ILC3/)
-- [Entities README](../entities/README/)
+- [Entities README](../entities/)
 
 ## Page families changed
 
