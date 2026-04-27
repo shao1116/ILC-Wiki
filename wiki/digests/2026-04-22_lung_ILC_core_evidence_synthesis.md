@@ -24,9 +24,9 @@ tags:
 
 ## Scope
 
-This digest replaces the former batch-based synthesis pages with a biology-first map of the core evidence currently supporting the ILC-in-lung wiki. It integrates manually crystallized lung and airway ILC sources across ILC2 and ILC3 disease roles, regulatory mechanisms, tissue context, and translational boundaries.
+This digest provides a biology-first map of the strongest source-reviewed evidence currently supporting the ILC-in-lung wiki. It integrates lung and airway ILC sources across ILC2 and ILC3 disease roles, regulatory mechanisms, tissue context, and translational boundaries.
 
-The digest is designed as a reusable orientation page: a reader should be able to understand the main lung ILC claims without knowing which ingest batch produced them. Batch provenance remains traceable through the audit and log pages.
+The digest is designed as a reusable orientation page: a reader should be able to understand the main lung ILC claims without needing to know the project history behind each source note. Project history remains traceable through project-note and log pages.
 
 ## Evidence tags
 
@@ -110,10 +110,10 @@ flowchart TB
 
 Use this page as the first evidence synthesis layer after the homepage. For cell-specific detail, go to [ILC2](../entities/ILC2.md) or [ILC3](../entities/ILC3.md). For question-specific detail, go to [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md), [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md), [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md), or [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md). For a disease-first rearrangement of the same cross-subset material, use [Lung ILC Disease Roles Companion](./2026-04-20_ILC_pulmonary_disease_roles.md).
 
-## When To Revisit This Page
+## Future Expansion Directions
 
 - Add human lung, BAL, bronchial biopsy, sputum, or spatial data that directly links ILC2/ILC3 states to asthma, COPD, ARDS, pneumonia, fibrosis, or lung cancer outcomes.
-- Add primary intervention evidence for ILC3-related steroid-resistant asthma or neutrophilic asthma targets before upgrading therapeutic claims.
+- Add primary intervention evidence for ILC3-related steroid-resistant asthma or neutrophilic asthma targets before treating therapeutic claims as stronger evidence.
 - Revisit the ILC2 regulatory hierarchy if the same human cohort measures alarmins, neuroimmune receptors, metabolic programs, checkpoint molecules, and ILC2 cytokine output.
 - Revisit IL-17-producing ILC taxonomy when new lineage, fate-mapping, or single-cell multiome evidence separates bona fide ILC3s from plastic ILC2-derived states in lung disease.
 

@@ -25,10 +25,10 @@ The wiki emphasizes `ILC2` and `ILC3` biology in pulmonary inflammation, respira
 
 ## Wiki Status
 
-- The local source library currently contains 141 processed references, with 70 source pages promoted to `focused manual crystallization mode` and 71 retained as `provisional bulk-ingest mode`.
-- Focused source pages are the preferred evidence layer for reusable biological claims because they include model context, assay directness, claim-level confidence, and caveats.
-- Provisional source pages are useful for routing and triage, but their biological claims should be manually checked before being reused in manuscripts, figures, grant text, or durable synthesis.
-- Batch provenance belongs in audit and log pages; digest, topic, and entity pages should read as biology-first knowledge nodes.
+- The local source library currently contains 141 processed references, with 70 source pages in source-reviewed mode and 71 retained as initial catalog notes.
+- Source-reviewed pages are the preferred evidence layer for reusable biological claims because they include model context, assay directness, claim-level confidence, and caveats.
+- Initial catalog notes are useful for discovery, but their biological claims should be checked against the source text before being reused in manuscripts, figures, grant text, or durable synthesis.
+- Project history belongs in project-note and log pages; digest, topic, and entity pages should read as biology-first knowledge nodes.
 
 ## Beginner Mental Model
 
@@ -117,7 +117,7 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 - Do not treat `ILC3` as only a gut cell; this wiki includes lung ILC3 evidence in infection, development, ARDS-like injury, and severe asthma.
 - Do not merge mouse lung, human sputum, human blood, and nasal-polyp findings without stating the compartment.
 - Do not assume IL-17-producing ILC-like cells are always canonical ILC3s; some sources support ILC2/ILC3-like boundary states.
-- Do not use provisional source notes as mature evidence until they are focused-crystallized.
+- Do not treat initial source notes as citation-ready evidence until the source has been reviewed for model, methods, and claim strength.
 
 ## Page Map
 
@@ -129,7 +129,7 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 | What regulates ILC2 function? | [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md) |
 | What do ILC3s do in lung disease? | [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md) |
 | What regulates ILC3 function? | [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md) |
-| Which claims are citation-ready? | Source pages marked `focused manual crystallization mode` |
+| Which claims are citation-ready? | Source pages marked as source-reviewed evidence notes |
 
 ## Open Questions
 
@@ -141,9 +141,9 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [Sources README](../sources/index.md)
+- [Source Guide](../sources/index.md)
 - [ILC2](../entities/ILC2.md)
 - [ILC3](../entities/ILC3.md)
 - [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
-- [Reference Coverage Audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [Reference Coverage Notes](../audit/2026-04-20_reference_coverage_audit.md)

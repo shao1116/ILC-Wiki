@@ -208,7 +208,7 @@ flowchart TD
 
 ## Future Expansion Directions
 
-This short appendix highlights future literature directions rather than current mechanistic conclusions. The most useful additions for later updates would be:
+This short appendix highlights future literature directions rather than current mechanistic conclusions. The most useful additions for later versions of this page would be:
 
 - Additional ILC2 metabolic sources that separate direct metabolic assays from transcriptomic or pathway-score inference.
 - More neuroimmune ILC2 sources that clarify excitatory versus inhibitory pathways across receptor contexts and tissues.

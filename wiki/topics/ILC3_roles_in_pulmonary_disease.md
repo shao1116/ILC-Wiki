@@ -43,7 +43,7 @@ This page expands the disease branch of [ILC3](../entities/ILC3.md). Use the ent
 
 - [Activation of Type 3 innate lymphoid cells and interleukin 22 secretion in the lungs during Streptococcus pneumoniae infection](../sources/2014_activation_of_type_3_innate_lymphoid_cells_and_interleukin_22_secretion_in_the_lungs.md) supports a lung ILC3 branch in which ILC3s accumulate during Streptococcus pneumoniae infection and produce IL-22.
 - In that source, ILC3 IL-22 production is linked to innate immune stimulation and is framed as protective during bacterial respiratory infection.
-- This branch should be curated separately from IL-17A/neutrophil-dominant inflammatory disease because IL-22 host defense and IL-17A pathology are not the same outcome.
+- This branch should be interpreted separately from IL-17A/neutrophil-dominant inflammatory disease because IL-22 host defense and IL-17A pathology are not the same outcome.
 
 ### Neonatal lung development and homeostatic niche
 
@@ -78,7 +78,7 @@ This page expands the disease branch of [ILC3](../entities/ILC3.md). Use the ent
 
 The ILC3 disease model in this wiki is organized around a tension between barrier defense and neutrophil-rich pathology. In bacterial infection and neonatal lung development, ILC3s appear as tissue-supportive cells linked to IL-22, IGF1-responsive developmental niches, and mucosal defense. In ARDS and neutrophilic/steroid-resistant asthma, ILC3s appear as inflammatory amplifiers linked to IL-17A, neutrophil chemoattractants, glucocorticoid resistance, and stromal/fibroblast activation.
 
-The most important curation rule is to record which mediator is being discussed:
+The most important interpretation rule is to record which mediator is being discussed:
 
 - `IL-22-dominant ILC3`:
   more often framed around barrier support, epithelial defense, and bacterial host defense.
@@ -146,7 +146,7 @@ flowchart TD
 
 ## Future Expansion Directions
 
-This short appendix highlights future literature directions rather than current disease conclusions. The most useful additions for later updates would be:
+This short appendix highlights future literature directions rather than current disease conclusions. The most useful additions for later versions of this page would be:
 
 - ILC3 asthma sources that more cleanly separate human association, ex vivo stimulation, and mouse perturbation claims.
 - Additional bacterial-infection and neonatal-lung-niche sources that sharpen the protective branch.

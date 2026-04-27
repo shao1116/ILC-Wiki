@@ -183,7 +183,7 @@ flowchart TD
 
 ## Future Expansion Directions
 
-This short appendix highlights future literature directions rather than current mechanistic conclusions. The most useful additions for later updates would be:
+This short appendix highlights future literature directions rather than current mechanistic conclusions. The most useful additions for later versions of this page would be:
 
 - Additional ILC3 mechanism papers labeled as lung-specific, gut-specific, mucosal-general, or review-level evidence.
 - A tighter regulatory table mapping mechanism to output: IL-22, IL-17A, CXCL1/CXCL8, GM-CSF, IFNG, or tissue-maintenance programs.

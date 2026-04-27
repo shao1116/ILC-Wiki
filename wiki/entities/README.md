@@ -2,7 +2,7 @@
 
 This directory contains entity hub pages for biological objects used across the ILC-in-lung wiki.
 
-Entity pages are reusable knowledge nodes. They should summarize cell identity, strongest source-supported claims, disease branches, regulatory mechanisms, boundary-state cautions, contradictions, open questions, and links to topic/digest pages. Batch history belongs in digest, audit, and log pages rather than in the entity narrative.
+Entity pages are reusable knowledge nodes. They should summarize cell identity, strongest source-supported claims, disease branches, regulatory mechanisms, boundary-state cautions, contradictions, open questions, and links to topic/digest pages. Project history belongs in project-note and log pages rather than in the entity narrative.
 
 ## Core immune cell entities
 
@@ -18,4 +18,4 @@ Entity pages are reusable knowledge nodes. They should summarize cell identity, 
 
 ## Reference coverage
 
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [Reference coverage notes](../audit/2026-04-20_reference_coverage_audit.md)

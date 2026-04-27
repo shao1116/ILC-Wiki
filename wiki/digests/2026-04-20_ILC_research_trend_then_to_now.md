@@ -2,7 +2,7 @@
 
 ## Scope
 
-This digest is an entry-level map of how the ILC field, especially lung and airway ILC research, moved from discovery to disease mechanism. It is not a bibliometric history of every ILC paper. Instead, it uses this wiki's curated references to explain what researchers learned at each stage, why those discoveries changed the field, and where lung-disease work led by Ya-Jen Chang, Christina Li-Ping Thio, and Jheng-Syuan Shao fits into the larger trajectory.
+This digest is an entry-level map of how the ILC field, especially lung and airway ILC research, moved from discovery to disease mechanism. It is not a bibliometric history of every ILC paper. Instead, it uses this wiki's selected references to explain what researchers learned at each stage, why those discoveries changed the field, and where lung-disease work led by Ya-Jen Chang, Christina Li-Ping Thio, and Jheng-Syuan Shao fits into the larger trajectory.
 
 The central trend is simple: ILC research moved from asking whether innate lymphoid cells exist and matter, to asking which ILC state acts in which tissue niche, during which disease phase, through which regulatory pathway.
 
@@ -85,7 +85,7 @@ The wiki's "our research" axis is not a side note; it sits at several important 
 
 - `Ya-Jen Chang first-author, 2011`: the influenza-induced AHR study helped establish that innate lymphoid/natural-helper-cell pathways can mediate airway physiology independently of adaptive TH2 immunity. In this timeline, it belongs to the lung functional anchoring phase.
 - `Christina Li-Ping Thio first-author, 2018`: the butyrate study helped move the field from ILC2 presence and activation toward functional regulation, showing that butyrate can suppress ILC2 cytokine output and ILC2-dependent AHR in reported systems. In this timeline, it belongs to the regulation and plasticity phase.
-- `Christina Li-Ping Thio first-author, 2019`: the TLR9-dependent interferon source is now focused-crystallized in this wiki and anchors a negative regulatory pathway in which TLR9/type I IFN/NK-cell IFN-gamma/STAT1 signaling suppresses ILC2-driven AHR.
+- `Christina Li-Ping Thio first-author, 2019`: the TLR9-dependent interferon source serves here as a source-reviewed anchor for a negative regulatory pathway in which TLR9/type I IFN/NK-cell IFN-gamma/STAT1 signaling suppresses ILC2-driven AHR.
 - `Jheng-Syuan Shao first-author, 2025`: the pulmonary fibroblast-derived SCF study anchors a modern stromal-niche mechanism for ILC3-driven neutrophilic asthma-like inflammation. In this timeline, it belongs to the disease-endotype and tissue-niche mechanism phase.
 
 ## Beginner Reading Path
@@ -104,9 +104,9 @@ The wiki's "our research" axis is not a side note; it sits at several important 
 - `Medium confidence`: translational claims about human asthma endotypes are strongest when human samples are paired with mechanistic mouse or ex vivo perturbation evidence; human association alone should not be overstated as causality.
 - `Low confidence`: any claim that a single ILC subset, mediator, or pathway explains all asthma, all viral lung disease, or all pulmonary inflammation should be rejected unless future evidence is much stronger.
 
-## When To Revisit This Page
+## Future Expansion Directions
 
-- Update this page when a newly crystallized source changes the timing or interpretation of an ILC discovery phase.
+- Revisit this page when a newly reviewed source changes the timing or interpretation of an ILC discovery phase.
 - Add a new row if human lung, BAL, sputum, bronchial biopsy, or spatial single-cell studies directly connect ILC states to clinical outcomes in asthma, COPD, ARDS, pneumonia, fibrosis, or lung cancer.
 - Revisit the 2019 TLR9-dependent interferon axis if new human airway or lung-tissue studies test whether this inhibitory ILC2 pathway is conserved in asthma endotypes.
 

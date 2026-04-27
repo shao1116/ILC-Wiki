@@ -173,11 +173,11 @@ ILC2s should be modeled as lung and airway signal integrators rather than a sing
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
 - [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [Reference coverage notes](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Future Expansion Directions
 
-This short appendix is forward-looking curation guidance rather than part of the current evidence summary. Literature that would most strengthen this entity page includes:
+This short appendix highlights future literature directions rather than part of the current evidence summary. Literature that would most strengthen this entity page includes:
 
 - Human BAL, bronchial biopsy, sputum, and lung scRNA-seq studies that distinguish resident ILC2s from circulating or nasal ILC2s.
 - COPD and smoke-exposure studies that test whether ILC2-to-ILC1-like plasticity occurs in human lung tissue, not only blood or mouse models.
