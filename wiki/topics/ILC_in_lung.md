@@ -41,7 +41,6 @@ For a first pass, think of lung ILCs as tissue-positioned immune response module
 4. Use the disease pages when the question is about pathology: [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md) and [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md).
 5. Use the regulation pages when the question is mechanistic: [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md) and [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md).
 6. Use [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md) when the question is how ILCs shape T cells, B cells, or Tregs; keep lung-direct and gut/tonsil evidence separated.
-
 7. Go to source notes only when you need citation traceability, model details, or claim-level confidence boundaries.
 
 ## Concept Map

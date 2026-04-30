@@ -12,7 +12,7 @@ tags:
 
 ## Scope
 
-This entity page defines group 3 innate lymphoid cells (ILC3s) as they are used in the ILC-in-lung wiki. It is the canonical ILC3 hub for this wiki: the former `ILC3 Working Model` page has been retired and merged here so the cell-level interpretation lives in one primary place.
+This entity page defines group 3 innate lymphoid cells (ILC3s) as they are used in the ILC-in-lung wiki. It is the canonical ILC3 hub for this wik.
 
 Use this page when the question is "what is the current source-aware ILC3 model in lung biology?" Then move to disease or regulation topics when you need a narrower branch.
 
@@ -22,12 +22,12 @@ Use this page when the question is "what is the current source-aware ILC3 model 
 
 ## At a glance
 
-| Lens | Current take |
-|---|---|
-| Canonical role | Lung ILC3s are IL-22/IL-17-capable innate lymphocytes whose pulmonary roles split into host-defense/developmental and inflammatory-disease branches. |
+| Lens                         | Current take                                                                                                                                                           |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Canonical role               | Lung ILC3s are IL-22/IL-17-capable innate lymphocytes whose pulmonary roles split into host-defense/developmental and inflammatory-disease branches.                   |
 | Strongest pulmonary branches | Pneumococcal IL-22 defense, neonatal IGF1-supported niche biology, ARDS-like IL-17 injury, smoke-associated asthma, neutrophilic asthma, and steroid-resistant asthma. |
-| Strongest regulatory layers | Stromal licensing, cytokine-driven IL-17 programs, glucocorticoid resistance, tissue identity control, and boundary-state taxonomy. |
-| Main caution | `ILC3` is not shorthand for either protection or pathology; interpretation depends on mediator, compartment, model, and whether the data are human, mouse, ex vivo, or review-level. |
+| Strongest regulatory layers  | Stromal licensing, cytokine-driven IL-17 programs, glucocorticoid resistance, tissue identity control, and boundary-state taxonomy.                                    |
+| Main caution                 | `ILC3` is not shorthand for either protection or pathology; interpretation depends on mediator, compartment, model, and whether the data are human, mouse, or ex vivo. |
 
 ## How to use this page
 

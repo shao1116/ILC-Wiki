@@ -12,7 +12,7 @@ tags:
 
 ## Scope
 
-This entity page defines group 2 innate lymphoid cells (ILC2s) as they are used in the ILC-in-lung wiki. It is the canonical ILC2 hub for this wiki: the former `ILC2 Working Model` page has been retired and merged here so readers do not have to choose between a cell hub and a parallel cell-level digest.
+This entity page defines group 2 innate lymphoid cells (ILC2s) as they are used in the ILC-in-lung wiki. It is the canonical ILC2 hub for this wiki.
 
 Use this page when the question is "what is the current source-aware ILC2 model in lung biology?" Then move to disease or regulation topics when you need a narrower branch.
 
