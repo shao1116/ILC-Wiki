@@ -50,5 +50,6 @@ nav:
   - Mechanism Topics:
       - ILC2 Functional Regulation Mechanisms: topics/ILC2_functional_regulation_mechanisms.md
       - ILC3 Functional Regulation Mechanisms: topics/ILC3_functional_regulation_mechanisms.md
+      - ILC Regulation Of Adaptive Immunity: topics/ILC_regulation_of_adaptive_immunity.md
   - Reference Library:
       - Source Index: sources/source_index.md

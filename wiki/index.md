@@ -1,23 +1,24 @@
 # ILC In Lung Wiki
 
-Last updated: 2026-04-24
+Last updated: 2026-04-30
 
 ## Welcome
 
-I am a researcher studying innate lymphoid cells (ILCs), with a particular focus on how ILCs shape pulmonary disease. I created this LLM-assisted wiki to help myself and readers who are curious about the ILC field quickly grasp the major conceptual threads, important mechanisms, and key papers that organize current thinking. The wiki is built from research articles that I find important, useful, or especially interesting, and it is structured as a source-aware knowledge map rather than a complete textbook or systematic review. This is a living document that will evolve as new literature and interpretation are added over time.
+I am Jheng-Syuan Shao, a researcher studying innate lymphoid cells (ILCs), with a particular focus on how ILCs shape pulmonary disease. I created this LLM-assisted wiki to help myself and readers who are curious about the ILC field quickly grasp the major conceptual threads, important mechanisms, and key papers that organize current thinking. The wiki is built from research articles that I find important, useful, or especially interesting, and it is structured as a source-aware knowledge map rather than a complete textbook or systematic review. This is a living document that will evolve as new literature and interpretation are added over time.
 
 This homepage is designed as a starting point for browsing. Start with the overview, field history, and core evidence synthesis, then move into cell-specific entity pages, disease topics, regulatory mechanism maps, and source notes when you need traceability.
 
 ## Start Here
 
-| Goal                                                    | Best entry point                                                                                                                          |
-| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Understand the whole wiki                               | [ILC In Lung](./topics/ILC_in_lung.md)                                                                                                    |
-| Learn the field history                                 | [ILC Research Trend From Then To Now](./digests/2026-04-20_ILC_research_trend_then_to_now.md)                                             |
-| See the strongest integrated evidence                   | [Lung ILC Core Evidence Synthesis](./digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)                                              |
-| Focus on ILC2                                           | [ILC2](./entities/ILC2.md)                                                                                                                |
-| Focus on ILC3                                           | [ILC3](./entities/ILC3.md)                                                                                                                |
-| Browse the reference library                            | [Reference Library](./sources/source_index.md)                                                                                      |
+| Goal                                       | Best entry point                                                                              |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------- |
+| Understand the whole wiki                  | [ILC In Lung](./topics/ILC_in_lung.md)                                                        |
+| Learn the field history                    | [ILC Research Trend From Then To Now](./digests/2026-04-20_ILC_research_trend_then_to_now.md) |
+| See the strongest integrated evidence      | [Lung ILC Core Evidence Synthesis](./digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)  |
+| Focus on ILC2                              | [ILC2](./entities/ILC2.md)                                                                    |
+| Focus on ILC3                              | [ILC3](./entities/ILC3.md)                                                                    |
+| Understand ILC-adaptive immunity crosstalk | [ILC Regulation Of Adaptive Immunity](./topics/ILC_regulation_of_adaptive_immunity.md)        |
+| Browse the reference library               | [Reference Library](./sources/source_index.md)                                          |
 
 ## Core Knowledge Map
 
@@ -63,11 +64,12 @@ flowchart TB
 - [ILC3 Roles In Pulmonary Disease](./topics/ILC3_roles_in_pulmonary_disease.md): bacterial defense, neonatal lung development, ARDS/lung injury, neutrophilic and steroid-resistant asthma, smoke-associated asthma, and noncanonical mediator branches.
 - [ILC2 Functional Regulation Mechanisms](./topics/ILC2_functional_regulation_mechanisms.md): alarmins, lipid mediators, costimulation/checkpoints, metabolism, neuroimmune signaling, stromal/mechanical feedback, and infection-conditioned reprogramming.
 - [ILC3 Functional Regulation Mechanisms](./topics/ILC3_functional_regulation_mechanisms.md): cytokine activation, stromal niches, transcriptional identity, taxonomy, AHR/STING/vitamin D/nutrition/stress axes, and glucocorticoid resistance.
+- [ILC Regulation Of Adaptive Immunity](./topics/ILC_regulation_of_adaptive_immunity.md): ILC2 OX40L control of local Th2/Treg expansion and gut/tonsil-labeled ILC3 regulation of CD4 T cells, Tregs, and regulatory B cells.
 
 ## Synthesis And Companion Pages
 
-- [Lung ILC Core Evidence Synthesis](./digests/2026-04-22_lung_ILC_core_evidence_synthesis.md): the main cross-subset synthesis page for the wiki.
 - [ILC Research Trend From Then To Now](./digests/2026-04-20_ILC_research_trend_then_to_now.md): beginner-friendly field history from early functional discovery through tissue-specific disease mechanisms.
+- [Lung ILC Core Evidence Synthesis](./digests/2026-04-22_lung_ILC_core_evidence_synthesis.md): the main cross-subset synthesis page for the wiki.
 - [Lung ILC Disease Roles Companion](./digests/2026-04-20_ILC_pulmonary_disease_roles.md): disease-first companion page to the core synthesis, useful for pathology- or endotype-oriented reading.
 
 ---
@@ -88,6 +90,11 @@ The sections below preserve reference structure and project notes. Most readers 
 <ul>
   <li><a href="./audit/2026-04-22_topic_entity_integration_audit/">Topic And Entity Integration Notes</a></li>
   <li><a href="./audit/2026-04-23_focused_manual_crystallization_ILC2_niche_interferon_type2/">ILC2 Niche And Interferon Notes</a></li>
+  <li><a href="./audit/2026-04-30_focused_manual_ingest_batch6/">Focused Source Review Notes 6</a></li>
+  <li><a href="./audit/2026-04-30_focused_manual_ingest_adaptive_immunity/">Adaptive Immunity Source Review Notes</a></li>
+
+  <li><a href="./audit/2026-04-29_focused_manual_ingest_batch5/">Focused Source Review Notes 5</a></li>
+  <li><a href="./audit/2026-04-24_focused_manual_crystallization_batch4/">Focused Source Review Notes 4</a></li>
   <li><a href="./audit/2026-04-22_public_export_setup/">Public Site Setup Notes</a></li>
   <li><a href="./audit/2026-04-22_ingest_mode_schema_update/">Source-Mode Notes</a></li>
   <li><a href="./audit/2026-04-22_focused_manual_crystallization_batch3/">Detailed Source Review Notes</a></li>

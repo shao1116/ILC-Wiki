@@ -2,7 +2,7 @@
 
 ## Scope
 
-This digest is an entry-level map of how the ILC field, especially lung and airway ILC research, moved from discovery to disease mechanism. It is not a bibliometric history of every ILC paper. Instead, it uses this wiki's selected references to explain what researchers learned at each stage, why those discoveries changed the field, and where lung-disease work led by Ya-Jen Chang, Christina Li-Ping Thio, and Jheng-Syuan Shao fits into the larger trajectory.
+This digest is an entry-level map of how the ILC field, especially lung and airway ILC research, moved from discovery to disease mechanism. It is not a bibliometric history of every ILC paper. Instead, it uses this wiki's selected references to explain what researchers learned at each stage, why those discoveries changed the field, and, naturally, where our own work (Ya-Jen Chang, Christina Li-Ping Thio, and Jheng-Syuan Shao) finds its place in that broader trajectory.
 
 The central trend is simple: ILC research moved from asking whether innate lymphoid cells exist and matter, to asking which ILC state acts in which tissue niche, during which disease phase, through which regulatory pathway.
 
@@ -93,8 +93,8 @@ The wiki's "our research" axis is not a side note; it sits at several important 
 1. Start with the two 2011 influenza papers to learn why lung ILCs matter physiologically.
 2. Read the 2015-2016 review and human lung characterization pages to understand ILC subset language.
 3. Move to ILC2 plasticity, memory-like ILC2s, and ILC3 identity papers to understand why subset labels are not enough.
-4. Read [ILC2](../entities/ILC2.md) and [ILC3](../entities/ILC3.md) to see how cell-level mechanisms are now organized in this wiki.
-5. Use [Lung ILC Core Evidence Synthesis](./2026-04-22_lung_ILC_core_evidence_synthesis.md) as the current integrated map, and [Lung ILC Disease Roles Companion](./2026-04-20_ILC_pulmonary_disease_roles.md) when you want the same biology rearranged by pathology.
+4. Use [Lung ILC Core Evidence Synthesis](./2026-04-22_lung_ILC_core_evidence_synthesis.md) as the current integrated map, and [Lung ILC Disease Roles Companion](./2026-04-20_ILC_pulmonary_disease_roles.md) when you want the same biology rearranged by pathology.
+5. Read [ILC2](../entities/ILC2.md) and [ILC3](../entities/ILC3.md) to see how cell-level mechanisms are now organized in this wiki.
 
 ## Claim-Level Confidence Boundaries
 

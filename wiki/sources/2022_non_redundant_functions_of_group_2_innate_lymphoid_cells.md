@@ -10,78 +10,75 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.
+- Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC2, T cells
-- Main detected context: nervous system
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary genetic mouse study defining ILC2-specific non-redundant functions
+- Evidence profile: Nmur1-based ILC2 targeting, ILC2-deficient mouse systems, steady-state eosinophil effects, and challenge models showing failure of appropriate type 2 immunity with skewing toward non-protective type 3 responses.
+- Knowledge note status: source-reviewed evidence note suitable for ILC2 identity and non-redundancy framing.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: high for source-specific mouse evidence that ILC2s have non-redundant functions even when adaptive lymphocytes are present.
 - Evidence tags:
-  #assay/KO #assay/RNAseq #assay/flow #assay/in_vitro #assay/scRNAseq #cell/B_cell #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/macrophage #cell/monocyte #outcome/airway_hyperresponsiveness #outcome/homeostasis #outcome/infection #outcome/inflammation #source/literature_pdf #species/mouse #tissue/gut #tissue/lung #tissue/skin
-- Detected biological focus: ILC2, T cells
-- Detected mechanism or mediator terms: NMU/NMUR1
-- Detected context: nervous system
+  #source/primary #species/mouse #tissue/lung #tissue/gut #cell/ILC2 #cell/ILC3 #assay/KO #assay/flow #assay/RNAseq #outcome/homeostasis #outcome/infection #outcome/inflammation #axis/ILC_lung_homeostasis #status/focused_crystallization
+- Primary biological axis: selective ILC2 deficiency reveals baseline and challenge-state functions that cannot be fully replaced by adaptive type 2 cells.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address nervous system with a focus on ILC2, T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that non-redundant functions of group 2 innate lymphoid cells, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source strengthens the entity-level claim that ILC2s are not merely redundant Th2-like cells. For lung wiki use, it is most useful as a cell-identity and non-redundancy source rather than a lung-disease-specific paper.
 
 ## Key Findings
 
-- Innate lymphoid cells (ILCs) have recently emerged as tissue-resident, innate mirror images of the T cell system, with which they share lineage-specifying transcription factors and effector machinery 1.
-- Located at barrier surfaces, ILCs are among the first responders against invading pathogens and thus could potentially determine the outcome of the immune response 2.
-- However, so far it has not been possible to dissect the unique contributions of ILCs to protective immunity owing to limitations in specific targeting of ILC subsets.
-- In addition, it has been proposed that ILCs might be dispensable for a proper immune response because other immune cells could compensate for their absence 3– 7.
-- Here we report the generation of a mouse model based on the neuromedin U receptor 1 (Nmur1) promoter as a driver for simultaneous expression of Cre recombinase and green fluorescent protein, which enables gene targeting in group 2 ILCs (ILC2s) without affecting other innate and adaptive immune cells.
+- The study generated mouse systems allowing selective disruption of ILC2s using Nmur1-linked targeting logic.
+- ILC2-deficient mice showed decreased eosinophil counts at steady state and impaired IL-5/IL-13-related ILC2 output.
+- During challenge, loss of ILC2s impaired appropriate type 2 immunity and was associated with a non-protective type 3 response in the reported model.
+- The paper supports ILC2 non-redundancy but should be used cautiously for pulmonary disease unless the specific tissue/model is stated.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that non-redundant functions of group 2 innate lymphoid cells.
-- High confidence:
-  the source is relevant to ILC2, T cells in the detected context of nervous system.
-- Medium confidence:
-  mechanisms or mediators such as NMU/NMUR1 can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: ILC2s have non-redundant mouse immune functions under the reported genetic and challenge systems.
+- Medium confidence: the source supports lung ILC2 identity and tissue distribution, but its disease conclusions should not be overextended to human asthma.
+- Low confidence: this source alone should not be used to classify human airway ILC2/ILC3 boundary states.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: mouse
-- Tissue or disease context detected: nervous system
-- Assay modalities detected from tags: flow cytometry, single-cell RNA-seq, RNA-seq, in vitro assay, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse genetic targeting and immune challenge systems across multiple tissues.
+- Assay directness: strong for ILC2-selective genetic perturbation; context-dependent for lung disease interpretation.
+- Best wiki use: ILC2 entity non-redundancy, baseline eosinophil support, and type 2/type 3 balance framing.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- This is not primarily a human asthma source.
+- Nmur1-linked targeting is powerful but should be interpreted within the authors' validation boundaries.
+- Keep cell identity claims separate from disease-endotype claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: reinforces, rather than contradicts, ILC2-specific disease sources.
+- Supersession status: not superseded; useful as a foundation for ILC2 non-redundancy.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC In Lung](../topics/ILC_in_lung.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Focused manual ingest batch 5 audit](../audit/2026-04-29_focused_manual_ingest_batch5.md)

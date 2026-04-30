@@ -10,78 +10,75 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.
+- Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: NK cells
-- Main detected context: viral infection, tumor/cancer
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- review of tissue-specific innate lymphoid cell features in antiviral defense
+- Evidence profile: review-level synthesis across NK cells, ILC1s, ILC2s, ILC3s, tissue microenvironments, and virus infection contexts.
+- Knowledge note status: source-reviewed review note suitable for conceptual framing, not primary mechanistic confidence.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium for review-level framing that antiviral ILC functions are tissue-conditioned; low for any single mechanism unless supported by the cited primary source.
 - Evidence tags:
-  #assay/in_vitro #assay/scRNAseq #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #outcome/homeostasis #outcome/infection #outcome/repair #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung #tissue/skin
-- Detected biological focus: NK cells
-- Detected mechanism or mediator terms: candidate mechanisms or mediators named in the source
-- Detected context: viral infection, tumor/cancer
+  #source/review #species/mixed #tissue/lung #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #outcome/infection #outcome/repair #axis/ILC_lung_infection #status/focused_crystallization
+- Primary biological axis: tissue microenvironment shapes ILC antiviral defense, repair, and immunopathology across barrier sites.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address viral infection, tumor/cancer with a focus on NK cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that tissue-specific features of innate lymphoid cells in antiviral defense, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This review helps keep the lung viral-infection branch biologically cautious: antiviral defense is not one ILC function but a tissue- and virus-conditioned network in which NK cells, ILC1s, ILC2s, and ILC3s have different evidence strength.
 
 ## Key Findings
 
-- Piersma 1,2 ✉ © The Author(s) 2024 Innate lymphocytes (ILCs) rapidly respond to and protect against invading pathogens and cancer.
-- ILCs include natural killer (NK) cells, ILC1s, ILC2s, ILC3s, and lymphoid tissue inducer (LTi) cells and include type I, type II, and type III immune cells.
-- While NK cells have been well recognized for their role in antiviral immunity, other ILC subtypes are emerging as players in antiviral defense.
-- Each ILC subset has specialized functions that uniquely impact the antiviral immunity and health of the host depending on the tissue microenvironment.
-- This review focuses on the specialized functions of each ILC subtype and their roles in antiviral immune responses across tissues.
+- The review frames ILC antiviral biology as tissue-specific rather than universal.
+- It emphasizes that NK-cell antiviral mechanisms have the strongest direct antiviral lineage, while helper-like ILCs often shape inflammation, repair, and tissue response.
+- It is useful for placing lung viral ILC2 repair and pathology sources in a broader antiviral context.
+- It should not be used as a substitute for primary influenza, RSV, rhinovirus, or SARS-CoV-2 source notes.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that tissue-specific features of innate lymphoid cells in antiviral defense.
-- High confidence:
-  the source is relevant to NK cells in the detected context of viral infection, tumor/cancer.
-- Medium confidence:
-  mechanisms or mediators such as candidate mechanisms or mediators named in the source can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium confidence: tissue context is a valid organizing principle for antiviral ILC interpretation.
+- Low-to-medium confidence: individual lung-virus mechanisms should be upgraded only when matched to primary pulmonary sources.
+- Low confidence: review-level statements should not be used as primary evidence for therapeutic claims.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: viral infection, tumor/cancer
-- Assay modalities detected from tags: single-cell RNA-seq, in vitro assay
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source type: narrative review.
+- Evidence directness: conceptual and citation-routing rather than direct experimental evidence.
+- Best wiki use: reading-route support for lung infection, antiviral defense, and repair-versus-pathology framing.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Review-level evidence should remain clearly labeled.
+- Distinguish direct antiviral killing from helper-like effects on inflammation, repair, or barrier response.
+- Virus family, tissue, and timing matter; do not generalize one viral model to all respiratory infection.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements primary respiratory virus source notes by providing tissue-specific framing.
+- Supersession status: not superseded; not a substitute for primary source claims.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC In Lung](../topics/ILC_in_lung.md)
 
 ## Pages Updated From This Source
 
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
-- [2026-04-20_ILC_research_trend_then_to_now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Focused manual ingest batch 5 audit](../audit/2026-04-29_focused_manual_ingest_batch5.md)

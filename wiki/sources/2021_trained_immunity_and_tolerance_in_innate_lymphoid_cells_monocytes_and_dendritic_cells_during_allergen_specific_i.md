@@ -10,77 +10,78 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.
+- Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.
+
 ## Source Type
 
-- primary or literature research article
-- Main detected cell focus: NK cells, macrophages
-- Main detected context: asthma/allergy
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary human allergen-specific immunotherapy immune-monitoring study
+- Evidence profile: longitudinal immune-cell profiling during allergen-specific immunotherapy, with circulating ILC, monocyte, and dendritic-cell compositional changes.
+- Knowledge note status: source-reviewed evidence note suitable for human blood AIT immune-state framing, not direct lung-tissue causality.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium-high for source-specific human blood evidence that AIT is associated with durable shifts in ILC composition, including decreased ILC2s and increased group 1 and group 3 ILC clusters.
 - Evidence tags:
-  #assay/flow #assay/scRNAseq #cell/B_cell #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/macrophage #cell/monocyte #outcome/airway_hyperresponsiveness #outcome/repair #source/literature_pdf #species/human #tissue/skin
-- Detected biological focus: NK cells, macrophages
-- Detected mechanism or mediator terms: SCF/KIT
-- Detected context: asthma/allergy
+  #source/primary #species/human #tissue/blood #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/monocyte #cell/dendritic_cell #assay/flow #assay/scRNAseq #outcome/inflammation #axis/ILC_airway_inflammation #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: allergen-specific immunotherapy reshapes circulating innate lymphoid and myeloid compartments.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address asthma/allergy with a focus on NK cells, macrophages. For current synthesis, it should be used primarily as evidence for the source-specific claim that trained immunity and tolerance in innate lymphoid cells, monocytes, and dendritic cells during allergen-specific immunotherapy, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source is useful because it gives a human intervention-associated immune-monitoring layer for allergic disease. Its value is translational and biomarker-oriented, but the compartment is blood rather than lung.
 
 ## Key Findings
 
-- Corresponding author: Milena Sokolowska, MD, PhD, Immune Metabolism, Swiss Institute of Allergy and Asthma Research, University of Zurich, Herman-Burchard- Strasse 9, CH-7265 Davos, Switzerland.
-- Results: We observed a durable decrease in group 2 ILCs and an increase of group 1 ILCs after AIT, with dynamic changes in their composition.
-- We found that an expansion of CD127 1CD2511 clusters caused observed shifts in the heterogeneity of group 1 ILCs.
-- In addition, we observed development of CD127 1CD2511c-Kit1 group 3 ILC clusters.
-- Monitoring of ILCs, monocytes, and DCs during AIT might serve as a novel biomarker strategy. (J Allergy Clin Immunol 2020; nnn:nnn- nnn.) Key words: Allergen immunotherapy, innate immune cells, antigen- presenting cells, monocytes, DCs, ILC, NK cells Currently, allergen-speciﬁc immunotherapy (AIT) remains the only available causative treatment for patients with allergic diseases such as allergic rhinitis and allergic asthma.
+- The study reports a durable decrease in group 2 ILCs after AIT.
+- It reports increased group 1 ILCs and emergence or expansion of CD127+ CD25+ c-Kit+ group 3 ILC clusters.
+- Monocytes and dendritic cells were also monitored, so ILC shifts should be interpreted in a broader innate immune network.
+- The source should be treated as human blood/AIT evidence, not as proof of pulmonary tissue remodeling by ILCs.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that trained immunity and tolerance in innate lymphoid cells, monocytes, and dendritic cells during allergen-specific immunotherapy.
-- High confidence:
-  the source is relevant to NK cells, macrophages in the detected context of asthma/allergy.
-- Medium confidence:
-  mechanisms or mediators such as SCF/KIT can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium-high confidence: circulating ILC composition changes during AIT in the reported human cohort.
+- Medium confidence: the source supports an immune-tolerance or trained-immunity framing for allergic disease monitoring.
+- Low confidence: this source should not be used as direct evidence that lung ILC2 or ILC3 states change in the same direction.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary or literature research article.
-- Species or sample frame detected: human
-- Tissue or disease context detected: asthma/allergy
-- Assay modalities detected from tags: flow cytometry, single-cell RNA-seq
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: human allergic disease during allergen-specific immunotherapy.
+- Compartment: peripheral blood immune profiling.
+- Assay directness: strong for blood compositional monitoring; indirect for airway or lung ILC mechanisms.
+- Best wiki use: human translational/regulatory context and biomarker caution.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Preserve the blood compartment label.
+- Do not treat AIT-associated immune shifts as lung tissue causality.
+- Monocyte and dendritic-cell changes are part of the source and should not be erased to make an ILC-only story.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements type 2 activation papers by adding a human immune-remodeling context during immunotherapy.
+- Supersession status: not superseded; use as translational context.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Focused Manual Ingest Batch 6](../audit/2026-04-30_focused_manual_ingest_batch6.md)

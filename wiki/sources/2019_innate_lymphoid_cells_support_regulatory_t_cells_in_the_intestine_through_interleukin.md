@@ -10,76 +10,77 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the adaptive-immunity question, including model system, tissue compartment, relevant figures/text, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, immune-cell target, and whether evidence is primary perturbation, human association, ex vivo function, or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: T cells
-- Main detected context: gut/intestine
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary mouse and human intestinal ILC3-IL-2-Treg study
+- Evidence profile: small-intestine ILC3-derived IL-2, IL-1beta induction, macrophage MYD88/NOD2 microbiota sensing, Treg maintenance, oral tolerance, and Crohn's disease small-intestine association.
+- Knowledge note status: source-reviewed evidence note suitable for gut-labeled ILC3 support of Tregs.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: high for source-specific intestinal evidence that ILC3-derived IL-2 maintains local Tregs and oral tolerance.
 - Evidence tags:
-  #assay/KO #assay/flow #assay/in_vitro #assay/in_vivo #cell/B_cell #cell/ILC3 #cell/NK #cell/T_cell #cell/macrophage #outcome/homeostasis #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut
-- Detected biological focus: T cells
-- Detected mechanism or mediator terms: candidate mechanisms or mediators named in the source
-- Detected context: gut/intestine
+  #source/primary #species/mouse #species/human #tissue/gut #cell/ILC3 #cell/Treg #cell/macrophage #assay/flow #assay/in_vivo #assay/KO #outcome/homeostasis #outcome/inflammation #axis/adaptive_immunity #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: macrophage/microbiota/IL-1beta signals induce ILC3 IL-2, which supports intestinal Tregs and oral tolerance.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address gut/intestine with a focus on T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that innate lymphoid cells support regulatory T cells in the intestine through interleukin-2, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This paper provides a cytokine-support mechanism by which ILC3s maintain adaptive regulatory immunity, complementing the MHCII-based T-cell restraint branch.
 
 ## Key Findings
 
-- Sonnenberg1,2,3* Interleukin (IL)-2 is a pleiotropic cytokine that is necessary to prevent chronic inflammation in the gastrointestinal tract 1–4.
-- The protective effects of IL-2 involve the generation, maintenance and function of regulatory T (T reg) cells 4–8, and the use of low doses of IL-2 has emerged as a potential therapeutic strategy for patients with inflammatory bowel disease9.
-- However, the cellular and molecular pathways that control the production of IL-2 in the context of intestinal health are undefined.
-- Here we show, in a mouse model, that IL-2 is acutely required to maintain Treg cells and immunological homeostasis throughout the gastrointestinal tract.
-- Notably, lineage-specific deletion of IL-2 in T cells did not reduce Treg cells in the small intestine.
+- In the small intestine, ILC3s were identified as a major source of IL-2 in the reported system.
+- IL-1beta selectively induced ILC3 IL-2, downstream of macrophage MYD88/NOD2 and microbiota-linked sensing.
+- ILC3-derived IL-2 was required for maintaining small-intestine Tregs, immunological homeostasis, and oral tolerance to dietary antigens in the source model.
+- In Crohn's disease small-intestine samples, reduced ILC3 IL-2 correlated with lower Treg frequency, supporting human disease relevance within the gut.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that innate lymphoid cells support regulatory T cells in the intestine through interleukin-2.
-- High confidence:
-  the source is relevant to T cells in the detected context of gut/intestine.
-- Medium confidence:
-  mechanisms or mediators such as candidate mechanisms or mediators named in the source can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: intestinal ILC3-derived IL-2 supports Treg maintenance and oral tolerance in the reported models.
+- Medium-high confidence: this source supports ILC3s as regulators of adaptive regulatory immunity.
+- Low confidence: this source should not be generalized to lung Treg maintenance without pulmonary ILC3-IL-2 evidence.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: gut/intestine
-- Assay modalities detected from tags: flow cytometry, in vivo model, in vitro assay, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse intestinal perturbation with human Crohn's disease small-intestine association.
+- Compartment: small intestine.
+- Assay directness: strong for gut ILC3 IL-2 and Treg maintenance; indirect for lung.
+- Best wiki use: ILC3-Treg axis, IL-2, microbiota/macrophage/IL-1beta upstream logic.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Keep oral tolerance and small-intestine context explicit.
+- Correlation in Crohn's disease supports relevance but does not by itself prove causality in humans.
+- Do not treat ILC3-derived IL-2 as the dominant Treg-support pathway in every tissue.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements MHCII-mediated T-cell restraint by adding cytokine support of Tregs.
+- Supersession status: not superseded; later microbiota-specific Treg-selection sources refine the same adaptive-regulatory space.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Adaptive Immunity Source Review Notes](../audit/2026-04-30_focused_manual_ingest_adaptive_immunity.md)

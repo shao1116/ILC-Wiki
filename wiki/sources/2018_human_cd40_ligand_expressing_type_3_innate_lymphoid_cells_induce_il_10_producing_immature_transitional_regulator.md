@@ -10,79 +10,77 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the adaptive-immunity question, including model system, tissue compartment, relevant figures/text, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, immune-cell target, and whether evidence is primary perturbation, human association, ex vivo function, or review-level synthesis.
+
 ## Source Type
 
-- human-focused primary or translational study
-- Main detected cell focus: ILC3, T cells, B cells
-- Main detected context: asthma/allergy
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary human ILC3-B-cell coculture and tissue-localization study
+- Evidence profile: human tonsil and blood ILC3s, CD40L expression, BAFF and IL-15 crosstalk, naive B-cell coculture, IL-10-producing PD-L1-positive immature transitional regulatory B cells, and allergic/asthmatic patient association.
+- Knowledge note status: source-reviewed evidence note suitable for human mucosal/blood ILC3-B-cell regulatory framing.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium-high for source-specific human tonsil/blood evidence that CD40L-positive ILC3s can support regulatory B-cell differentiation in vitro and localize near B cells in tonsil.
 - Evidence tags:
-  #assay/flow #assay/in_vitro #assay/in_vivo #cell/B_cell #cell/ILC3 #cell/NK #cell/T_cell #cell/monocyte #outcome/airway_hyperresponsiveness #outcome/homeostasis #outcome/infection #outcome/repair #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/skin
-- Detected biological focus: ILC3, T cells, B cells
-- Detected mechanism or mediator terms: candidate mechanisms or mediators named in the source
-- Detected context: asthma/allergy
+  #source/primary #species/human #tissue/tonsil #tissue/blood #cell/ILC3 #cell/B_cell #assay/flow #assay/in_vitro #assay/imaging #outcome/homeostasis #outcome/inflammation #axis/adaptive_immunity #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: IL-15-activated CD40L-positive ILC3s provide BAFF/CD40L-linked help that supports IL-10-positive PD-L1-positive immature transitional regulatory B cells.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address asthma/allergy with a focus on ILC3, T cells, B cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that human CD40 ligand-expressing type 3 innate lymphoid cells induce IL-10-producing immature transitional regulatory B cells, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source is the strongest local-library anchor for ILC regulation of B-cell biology. It is human and allergy/asthma-adjacent, but the direct compartments are tonsil and blood rather than lung tissue.
 
 ## Key Findings
 
-- Mechanisms of allergy/immunology Human CD40 ligand–expressing type 3 innate lymphoid cells induce IL-10–producing immature transitional regulatory B cells Zsolt I.
-- Akdis has received a grant from the Swiss National Science Foundation and is employed by the Swiss Institute of Allergy and Asthma Research.
-- Akdis, MD, Swiss Institute of Allergy and Asthma Research (SIAF), Obere Str.
-- Objective: We aimed to investigate the ILC3–B-cell interaction that probably takes place in human tonsils.
-- Methods: ILC3s were isolated from peripheral blood and palatine tonsils, expanded, and cocultured with naive B cells.
+- Human tonsillar ILC3s can express CD40L and localize near B-cell areas.
+- IL-15 can induce CD40L on circulating and tonsillar ILC3s, with B-cell-derived signals including BAFF receptor-linked IL-15 contributing to the circuit.
+- CD40L-positive ILC3s supported B-cell survival, proliferation, and differentiation toward IL-10-positive PD-L1-positive immature transitional regulatory B cells in coculture.
+- ILC3 frequency was reduced in tonsils of allergic patients and peripheral blood of allergic asthmatic patients, supporting disease association but not lung-tissue causality.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that human CD40 ligand-expressing type 3 innate lymphoid cells induce IL-10-producing immature transitional regulatory B cells.
-- High confidence:
-  the source is relevant to ILC3, T cells, B cells in the detected context of asthma/allergy.
-- Medium confidence:
-  mechanisms or mediators such as candidate mechanisms or mediators named in the source can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium-high confidence: human CD40L-positive ILC3s can provide regulatory B-cell help in the reported tonsil/blood and coculture systems.
+- Medium confidence: this source supports an ILC3-Breg tolerance axis relevant to allergic disease framing.
+- Low confidence: this source should not be used to claim direct lung-resident ILC3 control of B cells in asthma without lung or airway B-cell data.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: human-focused primary or translational study.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: asthma/allergy
-- Assay modalities detected from tags: flow cytometry, in vivo model, in vitro assay
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: human tonsil, peripheral blood, allergic disease and allergic asthma association.
+- Compartment: tonsil and blood; not lung tissue.
+- Assay directness: strong for human coculture and tonsil localization; indirect for pulmonary disease mechanisms.
+- Best wiki use: ILC3-B-cell regulatory axis, CD40L/BAFF/IL-15, and human translational boundary.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Keep the tonsil/blood compartment visible.
+- B-cell regulatory phenotype should be described as IL-10-positive PD-L1-positive immature transitional B cells in the source context.
+- Allergic/asthmatic association does not prove pulmonary mechanism.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: adds a B-cell regulatory branch to ILC3 biology alongside T-cell tolerance branches.
+- Supersession status: not superseded; direct lung B-cell evidence remains a future gap.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
 - [ILC3](../entities/ILC3.md)
-- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Adaptive Immunity Source Review Notes](../audit/2026-04-30_focused_manual_ingest_adaptive_immunity.md)

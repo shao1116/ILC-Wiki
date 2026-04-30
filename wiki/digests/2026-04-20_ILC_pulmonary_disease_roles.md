@@ -14,7 +14,7 @@ tags:
 
 ## Scope
 
-This page is now a companion page to [Lung ILC Core Evidence Synthesis](./2026-04-22_lung_ILC_core_evidence_synthesis.md), not a parallel digest competing with it.
+This page is a companion page to [Lung ILC Core Evidence Synthesis](./2026-04-22_lung_ILC_core_evidence_synthesis.md), not a parallel digest competing with it.
 
 Use the core evidence page as the main cross-subset synthesis. Use this companion when you want the same biology rearranged by disease context rather than by cell state.
 

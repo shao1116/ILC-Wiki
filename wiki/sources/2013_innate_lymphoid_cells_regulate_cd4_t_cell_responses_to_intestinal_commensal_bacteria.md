@@ -10,76 +10,77 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the adaptive-immunity question, including model system, tissue compartment, relevant figures/text, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, immune-cell target, and whether evidence is primary perturbation, human association, ex vivo function, or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: T cells
-- Main detected context: gut/intestine
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary mouse and human mucosal ILC3-antigen-presentation study
+- Evidence profile: RORgammat-positive ILCs, MHCII expression, commensal-bacteria-specific CD4 T-cell restraint, selective ILC MHCII perturbation, mouse intestinal inflammation, and human small-intestine/mesenteric-lymph-node ILC MHCII context.
+- Knowledge note status: source-reviewed evidence note suitable for gut-labeled ILC3-CD4 T-cell tolerance framing.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: high for source-specific gut evidence that MHCII-positive RORgammat-lineage ILCs restrain commensal-bacteria-driven CD4 T-cell responses.
 - Evidence tags:
-  #assay/KO #assay/flow #assay/in_vitro #assay/in_vivo #cell/NK #cell/T_cell #cell/macrophage #outcome/homeostasis #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut
-- Detected biological focus: T cells
-- Detected mechanism or mediator terms: candidate mechanisms or mediators named in the source
-- Detected context: gut/intestine
+  #source/primary #species/mouse #species/human #tissue/gut #cell/ILC3 #cell/T_cell #assay/flow #assay/in_vivo #assay/KO #outcome/homeostasis #outcome/inflammation #axis/adaptive_immunity #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: RORgammat-positive ILC3-like cells use MHCII-linked antigen-presentation machinery to constrain commensal-specific CD4 T-cell responses in the intestine.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address gut/intestine with a focus on T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that innate lymphoid cells regulate CD4+ T-cell responses to intestinal commensal bacteria, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This paper is a foundation for the idea that ILCs can regulate adaptive immunity directly, but its durable claim should remain gut-labeled rather than promoted to lung causality.
 
 ## Key Findings
 
-- LETTER doi:10.1038/nature12240 Innate lymphoid cells regulate CD41 T -cell responses to intestinal commensal bacteria Matthew R.
-- Sonnenberg1,2 Innate lymphoid cells (ILCs) are a recently characterized family of immune cells that have critical roles in cytokine-mediated regu- lation of intestinal epithelial cell barrier integrity 1–10.
-- Alterations in ILC responses are associated with multiple chronic human dis- eases, including inflammatory bowel disease, implicating a role for ILCs in disease pathogenesis3,8,11–13.
-- Owing to an inability to target ILCs selectively, experimental studies assessing ILC function have predominantly used mice lacking adaptive immune cells1–10.
-- However, in lymphocyte-sufficient hosts ILCs are vastly outnumbered by CD41 T cells, which express similar profiles of effector cytokines.
+- RORgammat-positive ILCs express MHCII and antigen-processing machinery in the reported mucosal compartments.
+- These ILCs can process and present antigen, but the observed biological output is restraint of CD4 T-cell proliferation rather than classical priming.
+- Selective loss of MHCII in RORgammat-lineage ILCs caused dysregulated commensal-bacteria-dependent CD4 T-cell responses and intestinal inflammation in mice.
+- MHCII-positive ILCs were also documented in human mucosal/lymphoid compartments, supporting translational relevance while preserving tissue boundaries.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that innate lymphoid cells regulate CD4+ T-cell responses to intestinal commensal bacteria.
-- High confidence:
-  the source is relevant to T cells in the detected context of gut/intestine.
-- Medium confidence:
-  mechanisms or mediators such as candidate mechanisms or mediators named in the source can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: MHCII-positive RORgammat-lineage ILCs regulate commensal-specific CD4 T-cell responses in the reported intestinal systems.
+- Medium-high confidence: this source supports ILC3 antigen-presentation as an adaptive-immunity restraint mechanism.
+- Low confidence: this source should not be used to claim that lung ILC3s use the same MHCII program in pulmonary disease without direct lung evidence.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: gut/intestine
-- Assay modalities detected from tags: flow cytometry, in vivo model, in vitro assay, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse intestinal commensal-bacteria models with human mucosal/lymphoid validation.
+- Compartment: gut and intestine-draining lymphoid tissue.
+- Assay directness: strong for gut CD4 T-cell restraint through ILC MHCII perturbation; indirect for lung disease.
+- Best wiki use: ILC3-CD4 T-cell tolerance, MHCII antigen-presentation boundary, and adaptive-immunity overview.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Keep this source gut-labeled.
+- Do not equate MHCII expression with productive T-cell priming; the reported output is mainly restraint.
+- Do not merge this mechanism with dendritic-cell antigen presentation unless the source explicitly compares them.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: helps explain why antigen-presentation machinery on ILCs can restrain rather than amplify T-cell responses.
+- Supersession status: not superseded; later ILC3-Treg work refines, rather than replaces, this tolerance branch.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Adaptive Immunity Source Review Notes](../audit/2026-04-30_focused_manual_ingest_adaptive_immunity.md)

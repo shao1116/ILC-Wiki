@@ -10,80 +10,75 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.
+- Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.
+
 ## Source Type
 
-- human-focused primary or translational study
-- Main detected cell focus: ILC2, T cells
-- Main detected context: asthma/allergy
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- translational human asthma and mouse allergic-asthma study
+- Evidence profile: preschool and adult asthma cohorts, vitamin D status or supplementation context, ovalbumin-induced asthma model, lung immune-cell cytokine readouts, and Blimp-1-linked IL-10-producing lung lymphocyte states.
+- Knowledge note status: source-reviewed evidence note suitable for vitamin D, Blimp-1, and IL-10 restraint framing.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium-high for the source-specific association between vitamin D3 and reduced asthma manifestations plus Blimp-1/IL-10-linked immune regulation in the reported systems.
 - Evidence tags:
-  #assay/flow #assay/in_vitro #assay/in_vivo #cell/ILC2 #cell/T_cell #outcome/airway_hyperresponsiveness #outcome/homeostasis #source/literature_pdf #species/human #species/mouse #tissue/lung
-- Detected biological focus: ILC2, T cells
-- Detected mechanism or mediator terms: vitamin D
-- Detected context: asthma/allergy
+  #source/primary #species/human #species/mouse #tissue/lung #cell/ILC2 #cell/T_cell #assay/in_vivo #assay/in_vitro #assay/flow #outcome/airway_hyperresponsiveness #outcome/inflammation #axis/ILC_airway_inflammation #status/focused_crystallization
+- Primary biological axis: vitamin D3-associated asthma resolution through Blimp-1-linked regulatory programs in lung T cells and innate lymphoid cells.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address asthma/allergy with a focus on ILC2, T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that vitamin D(3) resolved human and experimental asthma via B lymphocyte-induced maturation protein 1 in T cells and innate lymphoid cells, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds a nutritional/immunoregulatory restraint branch to the ILC2 asthma map. It is useful because it links human asthma observations to experimental allergic-asthma data, while still requiring careful separation of association, supplementation, and mouse perturbation evidence.
 
 ## Key Findings
 
-- Vitamin D 3 resolved human and experimental asthma via B lymphocyte–induced maturation protein 1 in T cells and innate lymphoid cells Janina C.
-- Papadopoulos, MD,f,g and Susetta Finotto, PhDa,h Erlangen, Germany; Athens, Greece; and Manchester , United Kingdom Background: Vitamin D 3 (VitD3) is known to have immunomodulatory functions, and VitD 3 deﬁciency is associated with more severe asthma.
-- Objective: We aimed to assess the immunoregulatory effects of VitD 3 food supplementation on asthma manifestation, with particular focus on T cells and type 2 innate lymphoid cells.
-- Methods: Preschool children and adult asthmatic cohorts were analyzed in the context of VitD 3 supplementation and serum levels.
-- In a murine model of ovalbumin-induced asthma, effects of diet VitD 3 sufﬁciency and deﬁciency on T cells and type 2 innate lymphoid cells immune mechanisms were investigated.
+- The source reports less severe or better-controlled asthma in human cohorts with vitamin D3 sufficiency or supplementation context.
+- In an ovalbumin-induced mouse model, vitamin D3 supplementation decreased allergic asthma traits, IgE, type 2 cytokines, and IL-17A production by lung cells.
+- The study links vitamin D3 effects to upregulation of Blimp-1 in lung tissue-resident effector T cells and ILCs producing IL-10.
+- The source is best used as a regulatory restraint paper rather than as proof that vitamin D3 uniformly treats all asthma endotypes.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that vitamin D(3) resolved human and experimental asthma via B lymphocyte-induced maturation protein 1 in T cells and innate lymphoid cells.
-- High confidence:
-  the source is relevant to ILC2, T cells in the detected context of asthma/allergy.
-- Medium confidence:
-  mechanisms or mediators such as vitamin D can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium-high confidence: vitamin D3 is linked to reduced asthma manifestations and Blimp-1/IL-10 immune regulation in the reported human and mouse systems.
+- Medium confidence: lung ILCs participate in the reported Blimp-1/IL-10 regulatory program, but exact subset-level mapping should be checked before making ILC2-specific claims.
+- Low confidence: this source should not be generalized to clinical asthma treatment recommendations without trial-context support.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: human-focused primary or translational study.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: asthma/allergy
-- Assay modalities detected from tags: flow cytometry, in vivo model, in vitro assay
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: human preschool and adult asthma cohorts plus mouse ovalbumin-induced allergic asthma.
+- Assay directness: supportive for lung lymphocyte regulatory-state readouts; mixed for direct ILC2-only causality.
+- Best wiki use: vitamin D3/Blimp-1/IL-10 restraint framing and asthma immune-resolution context.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Do not convert vitamin D association into universal therapeutic causality.
+- Keep T cell and ILC contributions separate unless a specific result resolves the cell source.
+- The OVA mouse model should not be treated as equivalent to severe human asthma endotypes.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements pro-inflammatory ILC2/ILC3 asthma sources by adding an immune-resolution branch.
+- Supersession status: not superseded; use as regulatory context rather than a dominant asthma mechanism.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
 - [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC In Lung](../topics/ILC_in_lung.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Focused manual ingest batch 5 audit](../audit/2026-04-29_focused_manual_ingest_batch5.md)

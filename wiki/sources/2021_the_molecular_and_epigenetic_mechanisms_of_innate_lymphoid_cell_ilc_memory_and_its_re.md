@@ -10,75 +10,78 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.
+- Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.
+
 ## Source Type
 
-- review or conceptual synthesis
-- Main detected cell focus: not clearly resolved from title/early text
-- Main detected context: asthma/allergy
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary mouse ILC2 memory and epigenetic regulation study
+- Evidence profile: repetitive Alternaria exposure in Rag1-deficient mice, subthreshold recall challenge, ILC2 perturbation and adoptive transfer, ATAC-seq, scRNA-seq, and transcription-factor motif analysis.
+- Knowledge note status: source-reviewed evidence note suitable for allergen-experienced ILC2 memory and epigenetic preparedness.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: high for source-specific mouse evidence that repetitive allergen exposure can generate memory-like ILC2s that amplify later asthma-like responses.
 - Evidence tags:
-  #assay/KO #assay/RNAseq #assay/flow #assay/scRNAseq #cell/ILC2 #cell/NK #cell/T_cell #cell/macrophage #outcome/airway_hyperresponsiveness #outcome/homeostasis #outcome/inflammation #outcome/repair #source/review #species/mouse #tissue/lung
-- Detected biological focus: not resolved
-- Detected mechanism or mediator terms: candidate mechanisms or mediators named in the source
-- Detected context: asthma/allergy
+  #source/primary #species/mouse #tissue/lung #cell/ILC2 #assay/in_vivo #assay/KO #assay/flow #assay/scRNAseq #assay/ATACseq #outcome/airway_hyperresponsiveness #outcome/inflammation #axis/ILC_airway_inflammation #axis/ILC_plasticity #status/focused_crystallization
+- Primary biological axis: allergen-experienced memory-like lung ILC2s with distinct epigenetic accessibility and preparedness programs.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address asthma/allergy with a focus on innate lymphoid or neighboring immune biology. For current synthesis, it should be used primarily as evidence for the source-specific claim that the molecular and epigenetic mechanisms of innate lymphoid cell (ILC) memory and its relevance for asthma, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This paper strengthens the ILC2 memory branch with molecular depth. It connects allergen-experienced ILC2 behavior to epigenetic accessibility and transcriptional programs rather than only persistence or recall inflammation.
 
 ## Key Findings
 
-- Gorska1,5,a n dR a f e u lA l a m1,5 Repetitive exposure of Rag1−/− mice to the Alternaria allergen extract generated a form of memory that elicited an asthma- like response upon a subthreshold recall challenge 3 –15 wk later.
-- Genetic, pharmacologic, and antibody-mediated inhibition and adoptive transfer established an essential role for ILC2s in memory-driven asthma.
-- ATAC-seq demonstrated a distinct epigenetic landscape of memory ILC2s and identified Bach2 and AP1 (JunD and Fosl2) motifs as major drivers of altered gene accessibility. scRNA-seq, gene knockout, and signaling studies suggest that repetitive allergenic stress induces a gene repression program involving Nr4a2, Zeb1, Bach2, and JunD and a preparedness program involving Fhl2, FosB, Stat6, Srebf2, and MPP7 in memory ILC2s.
+- Repetitive Alternaria exposure in Rag1-deficient mice generated a memory-like response that elicited asthma-like inflammation after subthreshold recall challenge weeks later.
+- Genetic, pharmacologic, antibody-mediated inhibition, and adoptive transfer experiments supported an essential role for ILC2s in memory-driven asthma-like responses.
+- ATAC-seq identified a distinct epigenetic landscape in memory ILC2s.
+- The source highlights Bach2/AP1-linked motifs and repression/preparedness programs involving factors such as Nr4a2, Zeb1, Bach2, JunD, Fhl2, FosB, Stat6, Srebf2, and MPP7.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that the molecular and epigenetic mechanisms of innate lymphoid cell (ILC) memory and its relevance for asthma.
-- High confidence:
-  the source is relevant to the immune cell populations named by the source in the detected context of asthma/allergy.
-- Medium confidence:
-  mechanisms or mediators such as candidate mechanisms or mediators named in the source can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: mouse allergen-experienced ILC2s can acquire memory-like properties that amplify recall asthma-like responses.
+- Medium-high confidence: epigenetic and transcriptional preparedness programs are a useful mechanistic frame for ILC2 memory.
+- Low confidence: this source should not be used to claim antigen-specific adaptive memory or equivalent human lung ILC2 memory without direct human evidence.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: review or conceptual synthesis.
-- Species or sample frame detected: mouse
-- Tissue or disease context detected: asthma/allergy
-- Assay modalities detected from tags: flow cytometry, single-cell RNA-seq, RNA-seq, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse Alternaria allergen model in Rag1-deficient systems.
+- Compartment: lung allergic inflammation and ILC2 states.
+- Assay directness: strong for mouse ILC2-dependent memory-like behavior and molecular profiling.
+- Best wiki use: ILC2 memory, epigenetic preparedness, and allergen recall amplification.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- The memory-like label should not imply antigen receptor-dependent adaptive memory.
+- Rag1-deficient model context matters for interpretation.
+- Preserve the Alternaria and recall-challenge timing details when making disease claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements earlier allergen-experienced ILC2 memory literature by adding molecular and epigenetic mechanisms.
+- Supersession status: not superseded; strengthens the memory branch rather than replacing earlier sources.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Focused Manual Ingest Batch 6](../audit/2026-04-30_focused_manual_ingest_batch6.md)

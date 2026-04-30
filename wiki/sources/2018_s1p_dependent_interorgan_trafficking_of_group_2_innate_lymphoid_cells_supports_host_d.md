@@ -10,80 +10,78 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.
+- Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC2
-- Main detected context: lung/airway, gut/intestine
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary mouse interorgan ILC2 trafficking study
+- Evidence profile: IL-25 or helminth-induced inflammatory ILC2s, intestinal lamina propria origin, S1P-dependent lymphatic entry, blood circulation, and accumulation in peripheral tissues including lung.
+- Knowledge note status: source-reviewed evidence note suitable for ILC2 trafficking, lung-gut axis, and inflammatory ILC2 interpretation.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: high for source-specific mouse evidence that inflammatory ILC2s can traffic between tissues through S1P-dependent routes and accumulate in lung during type 2 challenge.
 - Evidence tags:
-  #assay/RNAseq #assay/flow #assay/in_vivo #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #outcome/homeostasis #outcome/infection #outcome/inflammation #outcome/repair #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung
-- Detected biological focus: ILC2
-- Detected mechanism or mediator terms: STING, autophagy/metabolism
-- Detected context: lung/airway, gut/intestine
+  #source/primary #species/mouse #tissue/gut #tissue/lung #cell/ILC2 #assay/in_vivo #assay/flow #assay/RNAseq #outcome/infection #outcome/repair #axis/ILC_lung_homeostasis #axis/ILC_plasticity #status/focused_crystallization
+- Primary biological axis: IL-25/helminth-induced iILC2 migration from intestinal tissue to peripheral sites, including lung, through S1P-dependent trafficking.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address lung/airway, gut/intestine with a focus on ILC2. For current synthesis, it should be used primarily as evidence for the source-specific claim that s1P-dependent interorgan trafficking of group 2 innate lymphoid cells supports host defense, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds a direct trafficking layer to the ILC2 lung model: some inflammatory ILC2 states are not purely local tissue-resident cells, and lung accumulation can reflect interorgan movement under type 2 inflammatory conditions.
 
 ## Key Findings
 
-- IMMUNOLOGY S1P-dependent interorgan trafficking of group 2 innate lymphoid cells supports host defense Yuefeng Huang,1*† Kairui Mao,2* Xi Chen,1 Ming-an Sun,3 Takeshi Kawabe,1 Weizhe Li,2 Nicholas Usher,1,4 Jinfang Zhu,1 Joseph F.
-- Germain 1,2† Innate lymphoid cells (ILCs) are innate counterparts of adaptive T lymphocytes, contributing to host defense, tissue repair, metabolic homeostasis, and inflammatory diseases.
-- ILCs have been considered to be tissue-resident cells, but whether ILCs move between tissue sites during infection has been unclear.
-- We show here that interleukin-25– or helminth-induced inflammatory ILC2s are circulating cells that arise from resting ILC2s residing in intestinal lamina propria.
-- They migrate to diverse tissues based on sphingosine 1-phosphate (S1P)–mediated chemotaxis that promotes lymphatic entry, blood circulation, and accumulation in peripheral sites, including the lung, where they contribute to anti-helminth defense and tissue repair.
+- IL-25- or helminth-induced inflammatory ILC2s arise from resting intestinal lamina propria ILC2s in the reported mouse systems.
+- S1P-mediated chemotaxis promotes lymphatic entry, blood circulation, and accumulation of these iILC2s in peripheral tissues, including lung.
+- The lung-relevant output includes contribution to anti-helminth defense and tissue repair in the source model.
+- The source supports a mouse inflammatory-trafficking branch, not a universal claim that all lung ILC2s are recruited from gut.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that s1P-dependent interorgan trafficking of group 2 innate lymphoid cells supports host defense.
-- High confidence:
-  the source is relevant to ILC2 in the detected context of lung/airway, gut/intestine.
-- Medium confidence:
-  mechanisms or mediators such as STING, autophagy/metabolism can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: S1P-dependent interorgan trafficking can position inflammatory ILC2s in lung in the reported mouse models.
+- Medium-high confidence: this source supports lung-gut axis framing for ILC2 state interpretation during helminth or IL-25-type inflammation.
+- Low confidence: this source should not be used to claim that steady-state human lung ILC2s are mostly gut-derived or that S1P trafficking dominates all pulmonary ILC2 responses.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: lung/airway, gut/intestine
-- Assay modalities detected from tags: flow cytometry, RNA-seq, in vivo model
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse IL-25 and helminth type 2 inflammatory models.
+- Compartment: intestinal lamina propria origin with peripheral accumulation including lung.
+- Assay directness: strong for mouse trafficking logic; indirect for human lung disease.
+- Best wiki use: ILC2 interorgan movement, lung-gut axis, and inflammatory ILC2 interpretation.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Preserve the mouse and type 2 challenge context.
+- Separate inflammatory circulating iILC2s from steady-state lung-resident ILC2s.
+- Do not merge this S1P trafficking source with unrelated metabolic or STING tags generated by automated detection.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements tissue-residency literature by showing that inflammatory ILC2s can be mobile under selected conditions.
+- Supersession status: not superseded; use alongside local lung niche and tissue-residency sources.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
 - [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
 - [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Focused Manual Ingest Batch 6](../audit/2026-04-30_focused_manual_ingest_batch6.md)

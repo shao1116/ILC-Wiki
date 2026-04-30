@@ -57,6 +57,7 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 - [Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s](../sources/2025_pulmonary_fibroblast_derived_stem_cell_factor_promotes_neutrophilic_asthma_by_augment.md) supports a disease-associated stromal mechanism in which pulmonary fibroblast-derived SCF augments ILC3 IL-17A production.
 - Together, these sources suggest that stromal cells can support either development/homeostasis or inflammatory output depending on context.
 
+- [Divergent ILC3 responses to PDGF-D control mucosal immunity](../sources/2026_divergent_ilc3_responses_to_pdgf_d_control_mucosal_immunity.md) reinforces species-aware ILC3 interpretation: PDGF-D can promote mouse IL-22/proliferation through PDGFRbeta but type 1-like TNF-alpha/IFN-gamma output through NKp44 engagement in humanized receptor context.
 ### Transcriptional identity and plasticity
 
 - [Reciprocal transcription factor networks govern tissue-resident ILC3 subset function and identity](../sources/2021_reciprocal_transcription_factor_networks_govern_tissue_resident_ilc3_subset_function.md) supports transcription-factor-network control of ILC3 subset function and identity.
@@ -69,6 +70,8 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 - [Tissue residency of innate lymphoid cells in lymphoid and nonlymphoid organs](../sources/2015_tissue_residency_of_innate_lymphoid_cells_in_lymphoid_and_nonlymphoid_organs.md) supports tissue residency as an organizing concept for ILC interpretation rather than assuming all ILC-like signals reflect circulating contamination.
 - [c-Kit-positive ILC2s exhibit an ILC3-like signature that may contribute to IL-17-mediated pathologies](../sources/2019_c_kit_positive_ilc2s_exhibit_an_ilc3_like_signature_that_may_contribute_to_il_17_medi.md) is a classification warning: IL-17-producing ILC-like states can include ILC2/ILC3-like boundary populations and should not automatically be called bona fide ILC3s without marker and context support.
 
+- [Interleukin-17D regulates group 3 innate lymphoid cell function through its receptor CD93](../sources/2021_interleukin_17d_regulates_group_3_innate_lymphoid_cell_function_through_its_receptor.md) supports a gut epithelial IL-17D/CD93 branch that promotes ILC3 IL-22 and antimicrobial peptide programs.
+- [Nucleophosmin 1 promotes mucosal immunity by supporting mitochondrial oxidative phosphorylation and ILC3 activity](../sources/2024_nucleophosmin_1_promotes_mucosal_immunity_by_supporting_mitochondrial_oxidative_phosphorylation_and_ilc3_activit.md) supports a gut-labeled NPM1-p65-TFAM mitochondrial OXPHOS branch for ILC3 IL-22 activity.
 ### Vitamin D, AHR, STING, nutrition, and ER stress
 
 - [Vitamin D downregulates the IL-23 receptor pathway in human mucosal group 3 innate lymphoid cells](../sources/2018_vitamin_d_downregulates_the_il_23_receptor_pathway_in_human_mucosal_group_3_innate_lymphoid_cells.md) supports vitamin D-mediated suppression of IL-23 pathway responses and ILC3 cytokine production in human mucosal ILC3s.
@@ -82,77 +85,139 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 - [Group 3 innate lymphoid cells secret neutrophil chemoattractants and are insensitive to glucocorticoid via aberrant GR phosphorylation](../sources/2023_group_3_innate_lymphoid_cells_secret_neutrophil_chemoattractants_and_are_insensitive.md) supports a mechanism where ILC3 neutrophil chemoattractant production is glucocorticoid-insensitive and linked to altered glucocorticoid receptor phosphorylation.
 - This source is especially important for steroid-resistant or non-eosinophilic asthma because it links cell function, inflammatory mediator production, and drug-response biology.
 
+### Adaptive-immunity regulation
+
+- [Innate lymphoid cells regulate CD4+ T-cell responses to intestinal commensal bacteria](../sources/2013_innate_lymphoid_cells_regulate_cd4_t_cell_responses_to_intestinal_commensal_bacteria.md) and [Group 3 innate lymphoid cells mediate intestinal selection of commensal bacteria-specific CD4+ T cells](../sources/2015_group_3_innate_lymphoid_cells_mediate_intestinal_selection_of_commensal_bacteria_specific_cd4_t_cells.md) support a gut ILC3-MHCII branch that restrains commensal-specific CD4 T-cell responses.
+- [Innate lymphoid cells support regulatory T cells in the intestine through interleukin-2](../sources/2019_innate_lymphoid_cells_support_regulatory_t_cells_in_the_intestine_through_interleukin.md) and [ILC3s select microbiota-specific regulatory T cells to establish tolerance in the gut](../sources/2022_ilc3s_select_microbiota_specific_regulatory_t_cells_to_establish_tolerance_in_the_gut.md) support intestinal ILC3-Treg maintenance and selection branches.
+- [Human CD40 ligand-expressing type 3 innate lymphoid cells induce IL-10-producing immature transitional regulatory B cells](../sources/2018_human_cd40_ligand_expressing_type_3_innate_lymphoid_cells_induce_il_10_producing_immature_transitional_regulator.md) supports a human tonsil/blood ILC3-CD40L/BAFF/IL-15 regulatory B-cell branch.
+- These mechanisms are central to ILC3 adaptive-immunity regulation but should stay gut/tonsil/blood-labeled unless direct lung evidence is added; see [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md).
+
 ### Checkpoint restraint and IL-23 counter-regulation
 
 - [CTLA-4-expressing ILC3s restrain interleukin-23-mediated inflammation](../sources/2024_ctla_4_expressing_ilc3s_restrain_interleukin_23_mediated_inflammation.md) supports an extrapulmonary checkpoint branch in which IL-23 can induce CTLA-4-positive ILC3s that restrain inflammatory T-cell programs; in this wiki it should be used as gut-labeled mechanism context rather than direct pulmonary proof.
+
+### Pulmonary infection and severe-asthma boundary branches
+
+- Mtb infection adds a protective IL-17/IL-22-CXCL13 regulatory branch for ILC3s in early pulmonary granuloma organization, distinct from IL-17-associated asthma or ARDS pathology ([Group 3 innate lymphoid cells mediate early protective immunity against tuberculosis](../sources/2019_group_3_innate_lymphoid_cells_mediate_early_protective_immunity_against_tuberculosis.md)).
+- Human severe-asthma sputum reinforces the classification problem for IL-17+ ILCs: bona fide ILC3s, c-kit+ IL-17A+ intermediate ILC2s, and mixed inflammatory airway states require separate marker and compartment labels ([A population of c-kit+ IL-17A+ ILC2s in sputum from individuals with severe asthma supports ILC2 to ILC3 trans-differentiation](../sources/2025_a_population_of_c_kit_il_17a_ilc2s_in_sputum_from_individuals_with_severe_asthma_supp.md)).
 
 ## Interpretation
 
 ILC3 regulation should be interpreted as a balance between identity-maintaining programs and inflammatory activation programs. RORgammat, AHR, circadian regulation, nutrition/iron, and stromal survival cues support identity and maintenance. IL-1beta, IL-23, SCF/KIT, NF-kappaB/MAPK, and disease-associated stromal signals can push ILC3s toward IL-17A, neutrophil chemoattractants, and inflammatory pathology. Vitamin D and CTLA-4-like restraint mechanisms may counter inflammatory IL-23-linked activity in some mucosal contexts. The map below separates maintenance-supporting, inflammatory, and restraining branches so positive and negative regulation are both explicit.
 
+### Identity and maintenance
+
 ```mermaid
-flowchart TD
-    accTitle: ILC3 Regulation Map
-    accDescr: Mechanistic map separating maintenance, inflammatory, and restraining controls of ILC3 function in the current wiki source set.
+flowchart TB
+    accTitle: ILC3 Identity And Maintenance
+    accDescr: Compact vertical map of ILC3 identity and maintenance programs.
 
-    subgraph maintenance["Positive regulation of identity or maintenance"]
-        identity["Identity programs<br/>RORgammat<br/>reciprocal TF networks"]
-        ahr["AHR support<br/>AHR, WASH"]
-        circadian["Circadian-epigenetic support<br/>RORgammat maintenance"]
-        nutrition["Nutritional/metabolic support<br/>CD71-iron axis"]
-        developmental["Developmental niche<br/>alveolar fibroblast<br/>IGF1"]
-        tolerance["Tolerance-supporting branch<br/>STING-linked microbiota<br/>sensing"]
-    end
+    support["Support cues"]
+    rorgt["RORgammat"]
+    ahr["AHR / WASH"]
+    clock["Circadian"]
+    iron["CD71 / iron"]
+    igf1["IGF1 niche"]
+    sting["STING"]
+    ilc3["ILC3"]
+    il22["IL-22"]
+    tissue["barrier / niche"]
 
-    subgraph inflammatory["Positive regulation of inflammatory output"]
-        cytokines["Cytokine activation<br/>IL-1beta, IL-23"]
-        macrophage["Myeloid licensing<br/>NLRP3 / macrophage<br/>IL-1beta"]
-        scf["Disease stromal amplifier<br/>SCF/KIT"]
-        signaling["Inflammatory signaling<br/>NF-kappaB / MAPK"]
-        stress["Stress-support pathway<br/>IRE1alpha-XBP1"]
-        resistance["Loss of steroid control<br/>aberrant GR<br/>phosphorylation"]
-    end
-
-    subgraph restraint["Negative regulation / counter-regulation"]
-        vitamin_d["Vitamin D brake<br/>reduced IL-23R<br/>pathway activity"]
-        ctla4["Checkpoint restraint<br/>CTLA-4-positive<br/>ILC3 branch"]
-    end
-
-    ilc3["ILC3 state"]
-    homeostasis["Homeostatic/protective outputs<br/>IL-22, tissue support<br/>development"]
-    pathology["Inflammatory outputs<br/>IL-17A, CXCL1/CXCL8<br/>neutrophilic disease"]
-
-    identity --> ilc3
+    support --> rorgt
+    support --> ahr
+    support --> clock
+    support --> iron
+    support --> igf1
+    support --> sting
+    rorgt --> ilc3
     ahr --> ilc3
-    circadian --> ilc3
-    nutrition --> ilc3
-    developmental --> ilc3
-    tolerance --> ilc3
+    clock --> ilc3
+    iron --> ilc3
+    igf1 --> ilc3
+    sting --> ilc3
+    ilc3 --> il22
+    il22 --> tissue
 
-    cytokines --> ilc3
-    macrophage --> ilc3
-    scf --> ilc3
-    signaling --> ilc3
-    stress --> ilc3
-    resistance --> ilc3
-
-    vitamin_d -. restrains .-> ilc3
-    ctla4 -. restrains .-> ilc3
-
-    ilc3 --> homeostasis
-    ilc3 --> pathology
-
-    classDef maintenance_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
-    classDef inflammatory_class fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
-    classDef restraint_class fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
+    classDef support_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
     classDef cell fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
-    classDef output_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
-
-    class identity,ahr,circadian,nutrition,developmental,tolerance maintenance_class
-    class cytokines,macrophage,scf,signaling,stress,resistance inflammatory_class
-    class vitamin_d,ctla4 restraint_class
+    classDef out fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+    class support,rorgt,ahr,clock,iron,igf1,sting support_class
     class ilc3 cell
-    class homeostasis,pathology output_class
+    class il22,tissue out
+```
+
+### Inflammatory activation
+
+```mermaid
+flowchart TB
+    accTitle: ILC3 Inflammatory Activation
+    accDescr: Compact vertical map of inflammatory ILC3 regulatory inputs and outputs.
+
+    trigger["Inflammatory cues"]
+    il1il23["IL-1b / IL-23"]
+    scf["SCF / KIT"]
+    nfkb["NF-kB / MAPK"]
+    xbp1["XBP1"]
+    gr["GR resistance"]
+    ilc3["ILC3"]
+    il17["IL-17A"]
+    chemokine["CXCL1 / CXCL8"]
+    neutrophil["neutrophilic disease"]
+
+    trigger --> il1il23
+    trigger --> scf
+    trigger --> nfkb
+    trigger --> xbp1
+    trigger --> gr
+    il1il23 --> ilc3
+    scf --> ilc3
+    nfkb --> ilc3
+    xbp1 --> ilc3
+    gr --> ilc3
+    ilc3 --> il17
+    ilc3 --> chemokine
+    il17 --> neutrophil
+    chemokine --> neutrophil
+
+    classDef cue fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef cell fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
+    classDef out fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+    class trigger,il1il23,nlrp3,scf,nfkb,xbp1,gr cue
+    class ilc3 cell
+    class il17,chemokine,neutrophil out
+```
+
+### Restraint and classification
+
+```mermaid
+flowchart TB
+    accTitle: ILC3 Restraint And Classification
+    accDescr: Compact vertical map of ILC3 restraint pathways and IL-17 classification boundaries.
+
+    ilc3["ILC3"]
+    brake["Restraint"]
+    vitd["Vitamin D"]
+    ctla4["CTLA-4"]
+    lower["lower output"]
+    boundary["IL-17+ ILC"]
+    bona["bona fide ILC3"]
+    ilc2like["c-kit+ ILC2"]
+    mixed["mixed gate"]
+
+    vitd --> brake
+    ctla4 --> brake
+    brake -.-> ilc3
+    ilc3 -.-> lower
+    boundary --> bona
+    boundary --> ilc2like
+    boundary --> mixed
+
+    classDef brake_class fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
+    classDef cell fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
+    classDef warn fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    class brake,vitd,ctla4,lower brake_class
+    class ilc3 cell
+    class boundary,bona,ilc2like,mixed warn
 ```
 
 ## Contradiction and supersession

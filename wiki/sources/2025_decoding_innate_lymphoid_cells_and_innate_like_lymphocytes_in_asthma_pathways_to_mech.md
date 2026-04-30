@@ -10,81 +10,75 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.
+- Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.
+
 ## Source Type
 
-- review or conceptual synthesis
-- Main detected cell focus: NK cells
-- Main detected context: lung/airway, asthma/allergy
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- current review of ILCs and innate-like lymphocytes in asthma
+- Evidence profile: ILC2, ILC3, NK/ILC1, iNKT, gamma-delta T, MAIT, cytokine regulation, metabolic/dietary cues, immune crosstalk, and therapeutic framing.
+- Knowledge note status: source-reviewed review note suitable for current asthma overview and citation routing.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium for current review-level organization of asthma ILC and innate-like lymphocyte mechanisms; claim strength depends on cited primary evidence.
 - Evidence tags:
-  #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #cell/macrophage #outcome/airway_hyperresponsiveness #outcome/infection #outcome/inflammation #outcome/repair #source/review #species/human #species/mouse #tissue/gut #tissue/lung #tissue/skin
-- Detected biological focus: NK cells
-- Detected mechanism or mediator terms: autophagy/metabolism
-- Detected context: lung/airway, asthma/allergy
+  #source/review #species/mixed #tissue/lung #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #outcome/airway_hyperresponsiveness #outcome/inflammation #axis/ILC_airway_inflammation #status/focused_crystallization
+- Primary biological axis: asthma is shaped by ILCs plus innate-like lymphocytes through cytokine, metabolic, dietary, and immune-crosstalk regulation.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address lung/airway, asthma/allergy with a focus on NK cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that decoding innate lymphoid cells and innate-like lymphocytes in asthma pathways to mechanisms and therapies, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This 2025 review is useful as a recent, broad asthma entry point, especially because it includes ILCs alongside innate-like lymphocytes. In the wiki it should guide readers, not replace primary source notes for mechanistic confidence.
 
 ## Key Findings
 
-- Among these, innate lymphoid cells (ILCs) and innate‑like lymphocytes have emerged as crucial players in shaping the disease phenotype.
-- Within the ILC family, group 2 ILCs (ILC2s), in particular, contribute significantly to type 2 inflammation through their rapid production of cytokines such as IL‑5 and IL‑13, promoting airway eosinophilia and airway hyperreactivity.
-- On the other hand, innate‑like lymphocytes such as invariant natural killer T (iNKT) cells can play either pathogenic or protective roles in asthma, depending on the stimuli and lung microenvironment.
-- Regulatory mechanisms, including cytokine signaling, metabolic and dietary cues, and interactions with other immune cells, play critical roles in modulating their functions.
-- In this review, we highlight current findings on the role of ILCs and innate‑like lymphocytes in asthma development and pathogenesis.
+- The review emphasizes ILC2 contributions to type 2 inflammation through rapid IL-5 and IL-13 production.
+- It frames T2-low/neutrophilic asthma as involving more complex innate and innate-like lymphocyte biology, including ILC3 and type 17 pathways.
+- It summarizes regulatory mechanisms including cytokines, metabolic or dietary cues, and crosstalk with other immune cells.
+- It discusses therapeutic directions but remains review-level evidence for treatment claims.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that decoding innate lymphoid cells and innate-like lymphocytes in asthma pathways to mechanisms and therapies.
-- High confidence:
-  the source is relevant to NK cells in the detected context of lung/airway, asthma/allergy.
-- Medium confidence:
-  mechanisms or mediators such as autophagy/metabolism can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium confidence: the review provides current asthma mechanism organization across ILCs and innate-like lymphocytes.
+- Low-to-medium confidence: specific therapeutic implications should be supported by primary clinical or intervention studies before promotion.
+- Low confidence: review-level pathway diagrams should not be treated as direct evidence that a mechanism is active in every asthma endotype.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: review or conceptual synthesis.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: lung/airway, asthma/allergy
-- Assay modalities detected from tags: not resolved from automated tags
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source type: narrative review.
+- Evidence directness: conceptual synthesis and citation routing.
+- Best wiki use: beginner-to-intermediate asthma overview and mechanism map.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- The review is broad; preserve the distinction between ILCs and innate-like T cells.
+- Do not use review summaries to override source-specific species, tissue, or assay boundaries.
+- Therapeutic framing should remain hypothesis/context unless anchored by primary intervention evidence.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements primary severe-asthma ILC2/ILC3 and ILC3 steroid-resistant asthma sources.
+- Supersession status: not superseded; it is a current overview but not a primary evidence anchor.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC In Lung](../topics/ILC_in_lung.md)
 
 ## Pages Updated From This Source
 
 - [ILC2](../entities/ILC2.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
-- [2026-04-20_ILC_research_trend_then_to_now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
-- [ILC2](../entities/ILC2.md)
-- [ILC2_roles_in_pulmonary_disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Focused manual ingest batch 5 audit](../audit/2026-04-29_focused_manual_ingest_batch5.md)

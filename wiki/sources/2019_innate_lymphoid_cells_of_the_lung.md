@@ -10,78 +10,77 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.
+- Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.
+
 ## Source Type
 
-- primary or literature research article
-- Main detected cell focus: NK cells, macrophages
-- Main detected context: lung/airway, asthma/allergy, viral infection, tumor/cancer
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- lung ILC review
+- Evidence profile: review-level synthesis of lung-resident innate cells, ILC1/ILC2/ILC3/NK functions, asthma, infection, repair, and tumor surveillance context.
+- Knowledge note status: source-reviewed review note suitable for orientation and source routing, not primary mechanistic confidence.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium for review-level lung ILC framing; individual mechanistic claims require primary source support.
 - Evidence tags:
-  #assay/RNAseq #assay/in_vitro #assay/in_vivo #assay/scRNAseq #cell/B_cell #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #cell/macrophage #cell/monocyte #outcome/airway_hyperresponsiveness #outcome/homeostasis #outcome/infection #outcome/repair #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung #tissue/nasal_polyp #tissue/skin
-- Detected biological focus: NK cells, macrophages
-- Detected mechanism or mediator terms: IL-17/IL-17A, IL-22
-- Detected context: lung/airway, asthma/allergy, viral infection, tumor/cancer
+  #source/review #species/mixed #tissue/lung #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #outcome/infection #outcome/inflammation #outcome/repair #outcome/tumor #axis/ILC_lung_homeostasis #axis/ILC_airway_inflammation #status/focused_crystallization
+- Primary biological axis: lung ILC subsets as tissue-positioned contributors to defense, allergy, repair, and immune pathology.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address lung/airway, asthma/allergy, viral infection, tumor/cancer with a focus on NK cells, macrophages. For current synthesis, it should be used primarily as evidence for the source-specific claim that innate Lymphoid Cells of the Lung, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This review gives readers a lung-specific orientation layer for the wiki. It should route users into primary sources rather than serving as the main evidence for any mechanistic claim.
 
 ## Key Findings
 
-- n: Fri, 25 Oct 2024 02:50:47 PH81CH19_Barlow ARI 24 December 2018 12:59 Annual Review of Physiology Innate Lymphoid Cells of the Lung Jillian L.
-- All rights reserved Keywords innate lymphoid cell, natural killer cell, lung, asthma Abstract Although, as the major organ of gas exchange, the lung is considered a non- lymphoid organ, an interconnected network of lung-resident innate cells, including epithelial cells, dendritic cells, macrophages, and natural killer cells is crucial for its protection.
-- These cells provide defense against a daily assault by airborne bacteria, viruses, and fungi, as well as prevent the devel- opment of cancer, allergy, and the outgrowth of commensals.
-- Our under- standing of this innate immune environment has recently changed with the discovery of a family of innate lymphoid cells (ILCs): ILC1s, ILC2s, and ILC3s.
-- All lack adaptive antigen receptors but can provide a substantial and rapid source of IFN-γ , IL-5 and IL-13, and IL-17A or IL-22, respectively.
+- The review frames the lung as a non-lymphoid organ with a coordinated innate immune network that includes epithelial cells, dendritic cells, macrophages, NK cells, and ILCs.
+- It summarizes ILC1, ILC2, and ILC3 effector logic around IFN-gamma, IL-5/IL-13, and IL-17A/IL-22 outputs.
+- It places lung ILCs across infection, allergy, repair, and tumor-related contexts.
+- Its best wiki role is orientation and terminology, not primary proof.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that innate Lymphoid Cells of the Lung.
-- High confidence:
-  the source is relevant to NK cells, macrophages in the detected context of lung/airway, asthma/allergy.
-- Medium confidence:
-  mechanisms or mediators such as IL-17/IL-17A, IL-22 can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium confidence: lung ILCs are a useful organizing frame for pulmonary barrier immunity.
+- Low-to-medium confidence: source-specific mechanistic details should be traced to primary papers before being used as durable claims.
+- Low confidence: this review alone should not support therapeutic, causal, or disease-endotype claims.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary or literature research article.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: lung/airway, asthma/allergy, viral infection, tumor/cancer
-- Assay modalities detected from tags: single-cell RNA-seq, RNA-seq, in vivo model, in vitro assay
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source type: narrative review.
+- Evidence directness: synthesis and citation routing.
+- Best wiki use: introductory lung ILC overview, reading route, and terminology alignment.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Keep review-level evidence distinct from primary evidence.
+- Do not let overview language erase species, disease, or tissue-compartment boundaries.
+- Use primary source pages for claim-level confidence.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: helps explain why lung ILCs can appear protective, pathogenic, or reparative depending on context.
+- Supersession status: not superseded; orientation value remains, with newer primary sources carrying stronger claim confidence.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 
 ## Pages Updated From This Source
 
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
-- [2026-04-20_ILC_research_trend_then_to_now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Focused Manual Ingest Batch 6](../audit/2026-04-30_focused_manual_ingest_batch6.md)

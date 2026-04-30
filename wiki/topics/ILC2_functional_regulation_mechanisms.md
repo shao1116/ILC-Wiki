@@ -55,10 +55,13 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - [Fevipiprant, a selective prostaglandin D2 receptor 2 antagonist, inhibits human group 2 innate lymphoid cell aggregation and function](../sources/2019_fevipiprant_a_selective_prostaglandin_d2_receptor_2_antagonist_inhibits_human_group_2_innate_lymphoid_cell_aggre.md) supports DP2 antagonism as an upstream inhibitory branch that blocks PGD2-driven migration, aggregation, and cytokine output in human ILC2s.
 - [Lipid-Droplet Formation Drives Pathogenic Group 2 Innate Lymphoid Cells in Airway Inflammation](../sources/2020_lipid_droplet_formation_drives_pathogenic_group_2_innate_lymphoid_cells_in_airway_inf.md) supports lipid-droplet biology as a pathogenic ILC2-state mechanism.
 
+- [Tissue-Restricted Adaptive Type 2 Immunity Is Orchestrated by Expression of the Costimulatory Molecule OX40L on Group 2 Innate Lymphoid Cells](../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on.md) supports OX40L as an IL-33-induced ILC2 costimulatory pathway that licenses local Th2/Treg expansion in mouse lung type 2 inflammation.
 ### Costimulatory and checkpoint control
 
 - [ICOS-ligand interaction is required for type 2 innate lymphoid cell function, homeostasis, and induction of airway hyperreactivity](../sources/2015_icos_icos_ligand_interaction_is_required_for_type_2_innate_lymphoid_cell_function_homeostasis_and_induction_of_a.md) supports ICOS-ligand interaction as a regulator of ILC2 function, homeostasis, and AHR.
 - [Tissue-Restricted Adaptive Type 2 Immunity Is Orchestrated by Expression of the Costimulatory Molecule OX40L on Group 2 Innate Lymphoid Cells](../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on.md) supports OX40L as a costimulatory ILC2-linked regulator of adaptive type 2 immunity.
+- In the current adaptive-immunity map, this OX40L branch is the clearest lung-direct ILC-to-T-cell/Treg mechanism; see [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md).
+
 - [The Role of the TL1ADR3 Axis in the Activation of Group 2 Innate Lymphoid Cells in Subjects with Eosinophilic Asthma](../sources/2020_the_role_of_the_tl1a_dr3_axis_in_the_activation_of_group_2_innate_lymphoid_cells_in_subjects_with_eosinophilic_a.md) supports TL1A/DR3 as a human eosinophilic-asthma-linked ILC2 activation axis.
 - [PD-1 pathway regulates ILC2 metabolism and PD-1 agonist treatment ameliorates airway hyperreactivity](../sources/2020_pd_1_pathway_regulates_ilc2_metabolism_and_pd_1_agonist_treatment_ameliorates_airway.md) supports PD-1 as a metabolic checkpoint that limits ILC2 viability and effector function.
 
@@ -71,6 +74,8 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - [Dopamine inhibits group 2 innate lymphoid cell-driven allergic lung inflammation by dampening mitochondrial activity](../sources/2023_dopamine_inhibits_group_2_innate_lymphoid_cell_driven_allergic_lung_inflammation_by_d.md) supports mitochondrial activity as a dopamine-sensitive ILC2 effector-control node.
 - [mTORC1 signaling in group 2 innate lymphoid cells coordinates neuro-immune crosstalk in allergic lung inflammation](../sources/2025_mtorc1_signaling_in_group_2_innate_lymphoid_cells_coordinates_neuro_immune_crosstalk.md) supports mTORC1 as a link between ILC2 metabolism and neuroimmune crosstalk.
 
+- [S1P-dependent interorgan trafficking of group 2 innate lymphoid cells supports host defense](../sources/2018_s1p_dependent_interorgan_trafficking_of_group_2_innate_lymphoid_cells_supports_host_d.md) supports S1P-dependent interorgan trafficking as a mouse inflammatory ILC2 positioning mechanism, separate from steady-state tissue residency.
+- [ILC2-derived LIF licences progress from tissue to systemic immunity](../sources/2024_ilc2_derived_lif_licences_progress_from_tissue_to_systemic_immunity.md) supports ILC2-derived LIF as a lung immune-egress regulator through lymphatic endothelial CCL21 and CCR7+ cell migration.
 ### Spatial niche, interferon, and inter-organ regulation
 
 - [Adventitial Stromal Cells Define Group 2 Innate Lymphoid Cell Tissue Niches](../sources/2019_adventitial_stromal_cells_define_group_2_innate_lymphoid_cell_tissue_niches.md) supports a stromal niche model in which ASCs provide IL-33/TSLP and receive IL-13-linked reciprocal feedback from ILC2s.
@@ -101,83 +106,130 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - [BATF promotes group 2 innate lymphoid cell-mediated lung tissue protection during acute respiratory virus infection](../sources/2022_batf_promotes_group_2_innate_lymphoid_cell_mediated_lung_tissue_protection_during_acu.md) supports BATF as a transcriptional regulator that maintains protective ILC2 identity and restricts pathogenic plasticity during acute respiratory viral infection.
 - [Dampening type 2 properties of group 2 innate lymphoid cells by a gammaherpesvirus infection reprograms alveolar macrophages](../sources/2023_dampening_type_2_properties_of_group_2_innate_lymphoid_cells_by_a_gammaherpesvirus_in.md) supports viral conditioning as a mechanism that reduces ILC2 type 2 expansion/cytokine output while enabling GM-CSF-dependent monocyte-to-AM imprinting.
 
+- [The molecular and epigenetic mechanisms of innate lymphoid cell (ILC) memory and its relevance for asthma](../sources/2021_the_molecular_and_epigenetic_mechanisms_of_innate_lymphoid_cell_ilc_memory_and_its_re.md) supports a mouse allergen-experienced ILC2 memory branch with epigenetic preparedness after repetitive Alternaria exposure.
+- [Trained immunity and tolerance in innate lymphoid cells, monocytes, and dendritic cells during allergen-specific immunotherapy](../sources/2021_trained_immunity_and_tolerance_in_innate_lymphoid_cells_monocytes_and_dendritic_cells_during_allergen_specific_i.md) adds human blood AIT-associated ILC remodeling; it should be used as translational immune-monitoring context rather than direct lung tissue evidence.
+### Severe-asthma boundary and restraint branches
+
+- Human severe-asthma sputum supports an IL-1beta/IL-18-associated ILC2-to-ILC3-like regulatory branch: sort-purified human ILC2s exposed to IL-1beta plus IL-18 upregulate c-kit, IL-17A, and mixed type 2/type 17 transcriptional features in vitro ([A population of c-kit+ IL-17A+ ILC2s in sputum from individuals with severe asthma supports ILC2 to ILC3 trans-differentiation](../sources/2025_a_population_of_c_kit_il_17a_ilc2s_in_sputum_from_individuals_with_severe_asthma_supp.md)).
+- MSC-mediated suppression and vitamin D3/Blimp-1/IL-10 regulation are useful restraint axes for ILC2 asthma output, but should remain broader immune-regulatory mechanisms rather than ILC2-exclusive pathways ([Mesenchymal Stem Cells Suppress Severe Asthma by Directly Regulating Th2 Cells and Type 2 Innate Lymphoid Cells](../sources/2021_mesenchymal_stem_cells_suppress_severe_asthma_by_directly_regulating_th2_cells_and_ty.md); [Vitamin D3 resolved human and experimental asthma via B lymphocyte-induced maturation protein 1 in T cells and innate lymphoid cells](../sources/2023_vitamin_d3_resolved_human_and_experimental_asthma_via_b_lymphocyte_induced_maturation_protein_1_in_t_cells_and_i.md)).
+
 ## Interpretation
 
 ILC2 function is regulated by layered controls rather than a single master pathway. Epithelial alarmins and lipid mediators provide rapid activation, costimulatory and checkpoint receptors tune expansion and function, metabolism sets effector capacity, neuroimmune inputs provide fast excitatory or inhibitory control, and infection can redirect ILC2 identity toward repair or niche-imprinting roles. The map below separates positive inputs, negative inputs, and state-rerouting signals so the reader can see both accelerating and restraining branches at a glance.
 
+### Activation and effector support
+
 ```mermaid
-flowchart TD
-    accTitle: ILC2 Regulation Map
-    accDescr: Mechanistic map separating positive, negative, and state-rerouting controls of ILC2 function in the current wiki source set.
+flowchart TB
+    accTitle: ILC2 Activation And Effector Support
+    accDescr: Compact vertical map of positive ILC2 regulatory inputs and output states.
 
-    subgraph positive["Positive regulation"]
-        alarmins["Alarmins<br/>IL-33/ST2, IL-25"]
-        lipids["Lipid amplifiers<br/>CysLT1/LTE4, PGD2/DP2"]
-        costim["Costimulation<br/>ICOS-L, OX40L, TL1A/DR3"]
-        metabolism["Metabolic support<br/>autophagy, OXPHOS-glycolysis<br/>HIF-1a, mTORC1, lipid droplets"]
-        niche["Stromal/spatial cues<br/>ASC IL-33/TSLP<br/>CCR8-CCL8, collagen-I"]
-        neuro_pos["Neuroimmune activators<br/>NMU/NMUR1, CB2"]
-        feedback["Cellular feedback<br/>eosinophils"]
-        repair_prog["Repair and niche programs<br/>BATF, GM-CSF,<br/>IL-13-trAM switch"]
-    end
+    cue["Activation cues"]
+    alarmin["IL-33 / IL-25"]
+    lipid["LTE4 / PGD2"]
+    costim["ICOS / OX40L / DR3"]
+    niche["ASC niche"]
+    neuro["NMU / CB2"]
+    metabolism["HIF-1a / mTORC1"]
+    ilc2["ILC2"]
+    type2["IL-5 / IL-13"]
+    repair["AREG / GM-CSF"]
+    disease["AHR / repair"]
 
-    subgraph negative["Negative regulation"]
-        il1b_brake["Cytokine brake<br/>IL-1b in early-life RV model"]
-        dp2_block["Lipid-pathway blockade<br/>fevipiprant / DP2 antagonism"]
-        checkpoint["Checkpoint restraint<br/>PD-1"]
-        metabolic_brake["Metabolic inhibition<br/>butyrate, dopamine"]
-        neuro_brake["Neuroimmune brakes<br/>PAC1/CGRP, beta2-AR"]
-        interferon["Interferon control<br/>IFN-gamma, TLR9-type I IFN<br/>STAT1"]
-        cholinergic["Indirect cholinergic brake<br/>tiotropium-basophil<br/>M3R axis"]
-        viral_dampen["Type 2 dampening<br/>gammaherpesvirus-conditioned<br/>suppression"]
-    end
-
-    subgraph rerouting["State rerouting and plasticity"]
-        plasticity["Plasticity cues<br/>IL-1b + IL-23 + TGF-beta"]
-        mechanics["Mechanical fibroblast cue<br/>IL-18-driven ILC2 to<br/>ILC1-like shift"]
-        lung_gut["Inter-organ specialization<br/>lung-gut trafficking<br/>and maturation"]
-    end
-
-    ilc2["ILC2 state"]
-    type2["Type 2 outputs<br/>IL-5, IL-13, AHR"]
-    repair["Repair/niche outputs<br/>AREG, GM-CSF<br/>macrophage imprinting"]
-    boundary["Boundary states<br/>IL-17-producing or<br/>ILC1-like programs"]
-
-    alarmins --> ilc2
-    lipids --> ilc2
+    cue --> alarmin
+    cue --> lipid
+    cue --> costim
+    cue --> niche
+    cue --> neuro
+    cue --> metabolism
+    alarmin --> ilc2
+    lipid --> ilc2
     costim --> ilc2
-    metabolism --> ilc2
     niche --> ilc2
-    neuro_pos --> ilc2
-    feedback --> ilc2
-    repair_prog --> ilc2
-
-    il1b_brake -. restrains .-> ilc2
-    dp2_block -. restrains .-> ilc2
-    checkpoint -. restrains .-> ilc2
-    metabolic_brake -. restrains .-> ilc2
-    neuro_brake -. restrains .-> ilc2
-    interferon -. restrains .-> ilc2
-    cholinergic -. restrains .-> ilc2
-    viral_dampen -. restrains .-> ilc2
-
-    plasticity -. reroutes .-> boundary
-    mechanics -. reroutes .-> boundary
-    lung_gut -. specializes .-> ilc2
+    neuro --> ilc2
+    metabolism --> ilc2
     ilc2 --> type2
     ilc2 --> repair
+    type2 --> disease
+    repair --> disease
 
-    classDef positive_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
-    classDef negative_class fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
-    classDef reroute_class fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
+    classDef cue_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef cell_class fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef out_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+    class cue,alarmin,lipid,costim,niche,neuro,metabolism cue_class
+    class ilc2 cell_class
+    class type2,repair,disease out_class
+```
+
+### Brakes and restraint
+
+```mermaid
+flowchart TB
+    accTitle: ILC2 Brakes And Restraint
+    accDescr: Compact vertical map of inhibitory ILC2 regulatory inputs.
+
+    brakes["Restraint cues"]
+    interferon["IFN axis"]
+    pd1["PD-1"]
+    dp2["DP2 block"]
+    metabolic["Butyrate / dopamine"]
+    neural["PAC1 / beta2-AR"]
+    il1b["IL-1beta brake"]
+    viral["Viral dampening"]
+    ilc2["ILC2"]
+    lower["Lower type 2 output"]
+
+    brakes --> interferon
+    brakes --> pd1
+    brakes --> dp2
+    brakes --> metabolic
+    brakes --> neural
+    brakes --> il1b
+    brakes --> viral
+    interferon -.-> ilc2
+    pd1 -.-> ilc2
+    dp2 -.-> ilc2
+    metabolic -.-> ilc2
+    neural -.-> ilc2
+    il1b -.-> ilc2
+    viral -.-> ilc2
+    ilc2 -.-> lower
+
+    classDef brake fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
     classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
-    classDef output_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
-
-    class alarmins,lipids,costim,metabolism,niche,neuro_pos,feedback,repair_prog positive_class
-    class il1b_brake,dp2_block,checkpoint,metabolic_brake,neuro_brake,interferon,cholinergic,viral_dampen negative_class
-    class plasticity,mechanics,lung_gut,boundary reroute_class
+    classDef output fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+    class brakes,interferon,pd1,dp2,metabolic,neural,il1b,viral brake
     class ilc2 cell
-    class type2,repair output_class
+    class lower output
+```
+
+### Plasticity and rerouting
+
+```mermaid
+flowchart TB
+    accTitle: ILC2 Plasticity And Rerouting
+    accDescr: Compact vertical map of ILC2 state rerouting and boundary-state cues.
+
+    ilc2["ILC2"]
+    cytokines["IL-1b / IL-18"]
+    type17["c-kit / IL-17A"]
+    nasal["IL-23 / TGF-beta"]
+    mechanics["IL-18 fibroblast"]
+    ilc1like["T-bet / IFN-g"]
+    lunggut["lung-gut axis"]
+    specialized["tissue imprint"]
+
+    ilc2 --> cytokines --> type17
+    ilc2 --> nasal --> type17
+    ilc2 --> mechanics --> ilc1like
+    ilc2 --> lunggut --> specialized
+
+    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef cue fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
+    classDef state fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+    class ilc2 cell
+    class cytokines,nasal,mechanics,lunggut cue
+    class type17,ilc1like,specialized state
 ```
 
 ## Contradiction and supersession

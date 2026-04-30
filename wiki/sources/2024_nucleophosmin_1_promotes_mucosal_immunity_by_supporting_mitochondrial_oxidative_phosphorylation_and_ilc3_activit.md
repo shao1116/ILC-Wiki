@@ -10,79 +10,78 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.
+- Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC3
-- Main detected context: tumor/cancer, gut/intestine
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary intestinal ILC3 metabolism study
+- Evidence profile: Npm1 deficiency, ILC3 IL-22 production, colitis and colitis-associated cancer context, mitochondrial biogenesis, oxidative phosphorylation, p65 cooperation, and TFAM transcription.
+- Knowledge note status: source-reviewed evidence note suitable for gut-labeled ILC3 metabolic regulation.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: high for source-specific gut evidence that NPM1 supports ILC3 activity through mitochondrial oxidative phosphorylation and TFAM-linked mitochondrial biology.
 - Evidence tags:
-  #assay/KO #assay/RNAseq #assay/flow #assay/in_vitro #assay/scRNAseq #cell/B_cell #cell/ILC3 #cell/NK #cell/T_cell #cell/macrophage #outcome/homeostasis #outcome/infection #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung
-- Detected biological focus: ILC3
-- Detected mechanism or mediator terms: IL-22, autophagy/metabolism
-- Detected context: tumor/cancer, gut/intestine
+  #source/primary #species/mouse #species/human #tissue/gut #cell/ILC3 #assay/KO #assay/flow #assay/scRNAseq #assay/RNAseq #assay/in_vitro #outcome/homeostasis #outcome/inflammation #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: NPM1-p65-TFAM support of mitochondrial OXPHOS and IL-22-producing ILC3 function in mucosal immunity.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address tumor/cancer, gut/intestine with a focus on ILC3. For current synthesis, it should be used primarily as evidence for the source-specific claim that nucleophosmin 1 promotes mucosal immunity by supporting mitochondrial oxidative phosphorylation and ILC3 activity, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds an ILC3-intrinsic metabolism branch. It is valuable for the regulation page, but must remain gut/mucosal-labeled rather than lung-specific.
 
 ## Key Findings
 
-- Here we examined the function of NPM1 in IBD and colitis-associated colorectal cancer (CAC).
-- Npm1 deficiency impaired the function of interleukin-22 (IL-22)-producing group three innate lymphoid cells (ILC3s).
-- Mice lacking Npm1 in ILC3s exhibited decreased IL-22 production and accelerated development of colitis.
-- NPM1 was important for mitochondrial biogenesis and metabolism by oxidative phosphorylation in ILC3s.
-- Further experiments revealed that NPM1 cooperates with p65 to promote mitochondrial transcription factor A (TFAM) transcription in ILC3s.
+- Npm1 deficiency impaired IL-22-producing ILC3 function.
+- ILC3-targeted Npm1 loss decreased IL-22 production and accelerated colitis development in the reported mouse systems.
+- NPM1 supported mitochondrial biogenesis and oxidative phosphorylation in ILC3s.
+- Mechanistically, NPM1 cooperated with p65 to promote TFAM transcription in ILC3s.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that nucleophosmin 1 promotes mucosal immunity by supporting mitochondrial oxidative phosphorylation and ILC3 activity.
-- High confidence:
-  the source is relevant to ILC3 in the detected context of tumor/cancer, gut/intestine.
-- Medium confidence:
-  mechanisms or mediators such as IL-22, autophagy/metabolism can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: NPM1 supports mitochondrial metabolism and IL-22-linked ILC3 activity in the reported mucosal systems.
+- Medium confidence: this source belongs in the broader ILC3 metabolic regulation map.
+- Low confidence: it should not be used as direct pulmonary ILC3 metabolism evidence without lung-matched data.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: tumor/cancer, gut/intestine
-- Assay modalities detected from tags: flow cytometry, single-cell RNA-seq, RNA-seq, in vitro assay, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse colitis and colitis-associated cancer systems with human/mucosal relevance context.
+- Compartment: intestinal mucosal immunity.
+- Assay directness: strong for ILC3-intrinsic metabolic mechanism in gut.
+- Best wiki use: ILC3 OXPHOS, mitochondrial biogenesis, NPM1-p65-TFAM branch.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Preserve gut/mucosal context.
+- Do not infer lung ILC3 metabolic dependence directly.
+- Keep NPM1 metabolism separate from nutrient/iron and ER-stress mechanisms unless comparing explicitly.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements CD71-iron and IRE1alpha/XBP1 sources by adding a mitochondrial OXPHOS branch.
+- Supersession status: not superseded; adds one metabolic mechanism layer.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
 - [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Focused Manual Ingest Batch 6](../audit/2026-04-30_focused_manual_ingest_batch6.md)

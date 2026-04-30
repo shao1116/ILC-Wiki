@@ -10,73 +10,75 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.
+- Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: not clearly resolved from title/early text
-- Main detected context: lung/airway
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- review of ILCs in lung infection and immunity
+- Evidence profile: lung-invading pathogen map, ILC subset effector functions, and review-level synthesis across viral, bacterial, fungal, and helminth contexts.
+- Knowledge note status: source-reviewed review note suitable for lung infection routing and evidence-map context.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium for review-level pathogen-to-ILC mapping; lower for mechanistic strength unless traced to primary sources.
 - Evidence tags:
-  #assay/flow #assay/in_vitro #assay/in_vivo #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/macrophage #outcome/airway_hyperresponsiveness #outcome/homeostasis #outcome/infection #outcome/inflammation #outcome/repair #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung #tissue/nasal_polyp #tissue/skin
-- Detected biological focus: not resolved
-- Detected mechanism or mediator terms: candidate mechanisms or mediators named in the source
-- Detected context: lung/airway
+  #source/review #species/mixed #tissue/lung #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #outcome/infection #outcome/repair #outcome/inflammation #axis/ILC_lung_infection #status/focused_crystallization
+- Primary biological axis: lung pathogens engage different ILC modules, including ILC2 repair/type 2 programs and ILC3 IL-17/IL-22 bacterial-defense programs.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address lung/airway with a focus on innate lymphoid or neighboring immune biology. For current synthesis, it should be used primarily as evidence for the source-specific claim that innate lymphoid cells in lung infection and immunity, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This review is a useful reference-map page for readers entering the lung infection branch. It links pathogen classes to ILC outputs but should remain a route into primary source notes rather than a high-confidence mechanistic anchor.
 
 ## Key Findings
 
-- The title-level claim is that innate lymphoid cells in lung infection and immunity.
+- The review organizes lung ILC responses across respiratory viruses, bacterial pathogens such as Streptococcus pneumoniae and Mycobacterium tuberculosis, fungal infection, and helminth contexts.
+- It highlights ILC2-derived amphiregulin/IL-5/IL-13 and ILC3-derived IL-17/IL-22 as recurring lung infection or repair mediators.
+- It underscores that lung ILCs can contribute to both protection and immune pathology depending on pathogen and timing.
+- The page is best used as a disease-orientation map for source navigation.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that innate lymphoid cells in lung infection and immunity.
-- High confidence:
-  the source is relevant to the immune cell populations named by the source in the detected context of lung/airway.
-- Medium confidence:
-  mechanisms or mediators such as candidate mechanisms or mediators named in the source can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium confidence: lung infection is a major organizing context for ILC2 and ILC3 biology.
+- Low-to-medium confidence: specific mediator-pathogen claims should be checked against cited primary papers.
+- Low confidence: this review should not be used alone to make causal or therapeutic claims.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: lung/airway
-- Assay modalities detected from tags: flow cytometry, in vivo model, in vitro assay
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source type: narrative review.
+- Evidence directness: synthesis across primary studies.
+- Best wiki use: infection reading route, pathogen table interpretation, and lung ILC subset overview.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Pathogen categories should not be collapsed; influenza, RSV, pneumococcus, Mtb, and fungi differ sharply.
+- Review tables may include unpublished or preliminary context; cite primary sources for durable claims.
+- Protective and pathogenic ILC roles must be time- and model-labeled.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: explains why infection sources may show both repair and pathology.
+- Supersession status: not superseded; use as an orientation layer.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC In Lung](../topics/ILC_in_lung.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Focused manual ingest batch 5 audit](../audit/2026-04-29_focused_manual_ingest_batch5.md)

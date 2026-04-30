@@ -10,75 +10,75 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.
+- Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.
+
 ## Source Type
 
-- primary or literature research article
-- Main detected cell focus: ILC2
-- Main detected context: asthma/allergy, nervous system
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- review of ILC2s as interacting regulators in asthma
+- Evidence profile: epithelial alarmins, stromal and neuronal cues, ILC2 cytokines, asthma severity associations, lung inflammation models, and ILC2 plasticity.
+- Knowledge note status: source-reviewed review note suitable for ILC2 asthma regulatory architecture.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium for review-level organization of ILC2 asthma regulation; primary sources should anchor individual claims.
 - Evidence tags:
-  #assay/KO #assay/in_vivo #assay/scRNAseq #cell/B_cell #cell/ILC2 #cell/NK #cell/T_cell #cell/macrophage #outcome/airway_hyperresponsiveness #outcome/homeostasis #outcome/infection #outcome/inflammation #outcome/repair #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung #tissue/nasal_polyp #tissue/skin
-- Detected biological focus: ILC2
-- Detected mechanism or mediator terms: candidate mechanisms or mediators named in the source
-- Detected context: asthma/allergy, nervous system
+  #source/review #species/mixed #tissue/lung #cell/ILC2 #assay/in_vivo #assay/scRNAseq #outcome/airway_hyperresponsiveness #outcome/inflammation #axis/ILC_airway_inflammation #axis/ILC_plasticity #status/focused_crystallization
+- Primary biological axis: ILC2s integrate epithelial, stromal, neuronal, and inflammatory cues to regulate asthma pathology and potential plasticity.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address asthma/allergy, nervous system with a focus on ILC2. For current synthesis, it should be used primarily as evidence for the source-specific claim that group 2 Innate Lymphoid Cells Team Players in Regulating Asthma, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This review is a good regulatory-architecture source for ILC2 asthma. It helps connect alarmins, stromal cues, neuronal inputs, and plasticity without turning any one pathway into a universal driver.
 
 ## Key Findings
 
-- All rights reserved ∗These authors contributed equally to this article Keywords asthma,allergy,innate lymphoid cells,alarmin,type 2 immunity, neuroimmunity Abstract Type 2 immunity helps protect the host from infection,but it also plays key roles in tissue homeostasis,metabolism,and repair.Unfortunately,inappro- priate type 2 immune reactions may lead to allergy and asthma.
+- The review frames lung ILC2s as rapid responders to local environmental cues that produce IL-5 and IL-13 after tissue damage or infection.
+- It emphasizes ILC2 association with allergic asthma severity and experimental lung-inflammation pathology.
+- It highlights stromal and neuronal microenvironmental cues as important regulators of ILC2 function.
+- It recognizes ILC2 plasticity as an important interpretive issue for asthma mechanisms.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that group 2 Innate Lymphoid Cells Team Players in Regulating Asthma.
-- High confidence:
-  the source is relevant to ILC2 in the detected context of asthma/allergy, nervous system.
-- Medium confidence:
-  mechanisms or mediators such as candidate mechanisms or mediators named in the source can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium confidence: ILC2 asthma regulation is multi-input and niche-conditioned.
+- Low-to-medium confidence: individual regulatory pathways should be promoted only when paired with primary sources.
+- Low confidence: review-level statements should not be used as direct proof of human therapeutic efficacy.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary or literature research article.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: asthma/allergy, nervous system
-- Assay modalities detected from tags: single-cell RNA-seq, in vivo model, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source type: review.
+- Evidence directness: synthesis of mouse and human ILC2 literature.
+- Best wiki use: ILC2 regulatory architecture, asthma overview, and reading-route support.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Review-level synthesis should not replace source-specific model labels.
+- Some mechanisms are mouse-heavy; keep human translation explicit.
+- Use this page to orient readers before sending them to primary source notes.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements focused primary ILC2 asthma sources.
+- Supersession status: not superseded; newer 2024-2026 sources refine specific branches.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
-- [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
 - [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC In Lung](../topics/ILC_in_lung.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page was updated from this automated ingest alone; prioritize this source for manual crystallization if it becomes project-relevant.
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Focused manual ingest batch 5 audit](../audit/2026-04-29_focused_manual_ingest_batch5.md)

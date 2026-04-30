@@ -10,80 +10,78 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.
+- Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC3, T cells
-- Main detected context: the source-specific biological context
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary ILC3 transcription-factor network study
+- Evidence profile: tissue-resident ILC3 subset identity, single-cell and transcriptomic profiling, RORgammat-associated ILC3 programs, and reciprocal transcription-factor networks.
+- Knowledge note status: source-reviewed evidence note suitable for ILC3 identity and plasticity scaffolding.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium-high for source-specific evidence that reciprocal transcription-factor networks shape tissue-resident ILC3 subset identity and function.
 - Evidence tags:
-  #assay/RNAseq #assay/flow #assay/in_vivo #assay/scRNAseq #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #outcome/airway_hyperresponsiveness #outcome/homeostasis #outcome/infection #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut
-- Detected biological focus: ILC3, T cells
-- Detected mechanism or mediator terms: IL-17/IL-17A, IL-22, RORgammat
-- Detected context: the source-specific biological context
+  #source/primary #species/mouse #tissue/gut #cell/ILC3 #assay/flow #assay/scRNAseq #assay/RNAseq #assay/in_vivo #outcome/homeostasis #axis/ILC_plasticity #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: transcription-factor-network control of tissue-resident ILC3 heterogeneity, subset function, and identity.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address the source-specific biological context with a focus on ILC3, T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that reciprocal transcription factor networks govern tissue-resident ILC3 subset function and identity, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source strengthens the ILC3 identity layer. It is useful for preventing oversimplified RORgammat-only interpretations and for explaining why ILC3 subset function depends on reciprocal TF networks.
 
 ## Key Findings
 
-- l: matthew.hepworth@manchester.ac.uk; d.withers@bham.ac.uk I LCs are integral to the maintenance of tissue homeostasis1, func- tioning to interpret a wealth of environmental cues and translate these signals into appropriate responses2.
-- This role is orchestrated through production of effector cytokine profiles once considered limited to CD4 + helper T (T H) cell subsets 3.
-- Group 1 ILCs (ILC1s) express interferon (IFN)-γ and T-bet, group 2 ILCs (ILC2s) produce interleukin (IL)-4, IL-5, IL-9 and IL-13 and express high levels of GATA3, while group 3 ILCs (ILC3s) are characterized by produc - tion of IL-22 and IL-17 and RORγt expression 4.
-- However, unlike T cells, ILCs do not require the provision of polarizing signals or antigen to express subset-associated TFs during development, nor to acquire core effector functions5.
-- Nonetheless, ILCs exhibit exten- sive plasticity and heterogeneity, even within subgroups that express the same ‘master’ TFs6,7.
+- The source frames ILC3s as heterogeneous tissue-resident cells whose effector functions are not explained only by a single master transcription factor.
+- Reciprocal transcription-factor networks govern ILC3 subset function and identity in the reported system.
+- The source supports careful interpretation of ILC3 plasticity and subset labels.
+- Current wiki use should treat it mainly as identity scaffolding rather than direct pulmonary disease evidence.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that reciprocal transcription factor networks govern tissue-resident ILC3 subset function and identity.
-- High confidence:
-  the source is relevant to ILC3, T cells in the detected context of the source-specific biological context.
-- Medium confidence:
-  mechanisms or mediators such as IL-17/IL-17A, IL-22, RORgammat can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium-high confidence: reciprocal TF networks are important for tissue-resident ILC3 subset identity in the reported models.
+- Medium confidence: the source supports ILC3 taxonomy and plasticity caution across tissues.
+- Low confidence: it should not be used alone to assign lung disease causality.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: the source-specific biological context
-- Assay modalities detected from tags: flow cytometry, single-cell RNA-seq, RNA-seq, in vivo model
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: primarily mouse tissue-resident ILC3 profiling and perturbation context.
+- Compartment: source text is strongest for tissue-resident/gut ILC3 identity rather than lung disease.
+- Assay directness: strong for ILC3 subset identity; indirect for pulmonary disease.
+- Best wiki use: ILC3 transcriptional identity, plasticity boundaries, and subset interpretation.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Keep this as a mechanism/taxonomy source, not a lung outcome source.
+- Do not collapse ILC3 subsets into a single IL-17/IL-22 cell type.
+- Preserve assay and tissue boundaries when using it in pulmonary interpretation.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: explains why ILC3 studies can differ by subset, tissue, and inflammatory context.
+- Supersession status: not superseded; useful as an identity scaffold.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
 - [ILC3](../entities/ILC3.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
+- [ILC2](../entities/ILC2.md)
 - [ILC3](../entities/ILC3.md)
-- [ILC3](../entities/ILC3.md)
-- [ILC3_functional_regulation_mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Focused Manual Ingest Batch 6](../audit/2026-04-30_focused_manual_ingest_batch6.md)

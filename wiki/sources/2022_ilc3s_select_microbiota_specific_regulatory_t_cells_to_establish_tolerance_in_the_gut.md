@@ -10,78 +10,77 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the adaptive-immunity question, including model system, tissue compartment, relevant figures/text, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, immune-cell target, and whether evidence is primary perturbation, human association, ex vivo function, or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC3, T cells
-- Main detected context: gut/intestine
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary mouse and human gut-draining lymphoid tissue ILC3-Treg selection study
+- Evidence profile: RORgammat-positive Tregs, LTi-like ILC3s, MHCII antigen presentation, alphaV integrin, IL-2 competition, microbiota-specific Treg selection, Th17 diversion, and IBD-associated impairment.
+- Knowledge note status: source-reviewed evidence note suitable for gut-labeled ILC3 selection of microbiota-specific Tregs.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: high for source-specific gut evidence that ILC3s select microbiota-specific regulatory T cells and prevent inflammatory Th17 diversion.
 - Evidence tags:
-  #assay/flow #assay/in_vitro #assay/scRNAseq #cell/B_cell #cell/ILC2 #cell/ILC3 #cell/T_cell #cell/macrophage #cell/monocyte #outcome/homeostasis #outcome/infection #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut
-- Detected biological focus: ILC3, T cells
-- Detected mechanism or mediator terms: RORgammat
-- Detected context: gut/intestine
+  #source/primary #species/mouse #species/human #tissue/gut #cell/ILC3 #cell/Treg #cell/T_cell #assay/scRNAseq #assay/flow #assay/in_vivo #assay/KO #outcome/homeostasis #outcome/inflammation #axis/adaptive_immunity #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: LTi-like MHCII-positive ILC3s promote microbiota-specific RORgammat-positive Tregs through antigen presentation, alphaV integrin, and IL-2 competition.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address gut/intestine with a focus on ILC3, T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that iLC3s select microbiota-specific regulatory T cells to establish tolerance in the gut, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This is one of the strongest mechanistic sources for ILC3 regulation of Treg/Th17 fate decisions, but it remains a gut tolerance paper.
 
 ## Key Findings
 
-- 744 | Nature | Vol 610 | 27 October 2022 Article ILC3s select microbiota-specific regulatory T cells to establish tolerance in the gut Mengze Lyu1,2,3,12, Hiroaki Suzuki1,2,3,11,12, Lan Kang1,2,3, Fabrina Gaspal4, Wenqing Zhou1,2,3, Jeremy Goc1,2,3, Lei Zhou1,2,3, Jordan Zhou1,2,3, Wen Zhang1,2,3, JRI Live Cell Bank*, Zeli Shen5, James G.
-- Sonnenberg1,2,3 ✉ Microbial colonization of the mammalian intestine elicits inflammatory or tolerogenic T cell responses, but the mechanisms controlling these distinct outcomes remain poorly understood, and accumulating evidence indicates that aberrant immunity to intestinal microbiota is causally associated with infectious, inflammatory and malignant diseases1– 8.
-- Here we define a critical pathway controlling the fate of inflammatory versus tolerogenic T cells that respond to the microbiota and express the transcription factor RORγt.
-- We profiled all RORγt+ immune cells at single-cell resolution from the intestine-draining lymph nodes of mice and reveal a dominant presence of T regulatory (Treg) cells and lymphoid tissue inducer-like group 3 innate lymphoid cells (ILC3s), which co-localize at interfollicular regions.
-- These ILC3s are distinct from extrathymic AIRE-expressing cells, abundantly express major histocompatibility complex class II, and are necessary and sufficient to promote microbiota-specific RORγt + Treg cells and prevent their expansion as inflammatory T helper 17 cells.
+- RORgammat-positive Tregs and LTi-like ILC3s co-localized in intestine-draining lymphoid-tissue regions in the reported system.
+- ILC3s were necessary and sufficient to promote microbiota-specific RORgammat-positive Tregs and prevent expansion of inflammatory Th17 cells.
+- The mechanism involved ILC3 antigen presentation, alphaV integrin, and competition for IL-2.
+- ILC3-Treg interactions were impaired in IBD-associated context, supporting disease relevance within intestinal tolerance.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that iLC3s select microbiota-specific regulatory T cells to establish tolerance in the gut.
-- High confidence:
-  the source is relevant to ILC3, T cells in the detected context of gut/intestine.
-- Medium confidence:
-  mechanisms or mediators such as RORgammat can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: ILC3s select microbiota-specific Tregs and constrain Th17 diversion in the reported gut systems.
+- Medium-high confidence: this source supports an adaptive-immunity decision-node model for ILC3s.
+- Low confidence: it should not be used as direct proof of lung Treg selection by ILC3s without pulmonary data.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: gut/intestine
-- Assay modalities detected from tags: flow cytometry, single-cell RNA-seq, in vitro assay
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse gut-draining lymphoid tissue with human IBD-relevant context.
+- Compartment: intestine-draining lymphoid tissue and gut tolerance.
+- Assay directness: strong for microbiota-specific Treg selection; indirect for lung.
+- Best wiki use: ILC3-Treg selection, Th17 diversion, MHCII/alphaV/IL-2 mechanism.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Preserve microbiota-specific and gut-draining lymphoid context.
+- Do not collapse Treg maintenance through IL-2 and Treg selection through antigen presentation into one undifferentiated mechanism.
+- Human IBD relevance does not establish pulmonary generality.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: explains how ILC3s can restrain inflammatory T-cell fates while supporting regulatory T-cell selection.
+- Supersession status: not superseded; integrates with 2013/2015 MHCII and 2019 IL-2 Treg-support papers.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
 - [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page was updated from this automated ingest alone; prioritize this source for manual crystallization if it becomes project-relevant.
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Adaptive Immunity Source Review Notes](../audit/2026-04-30_focused_manual_ingest_adaptive_immunity.md)
