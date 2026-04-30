@@ -10,73 +10,77 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the adaptive-immunity follow-up question, including model system, tissue compartment, immune-cell target, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, disease model, and whether evidence is primary perturbation, human association, ex vivo function, lineage taxonomy, or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: not clearly resolved from title/early text
-- Main detected context: the source-specific biological context
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+primary mouse RORgammat-positive dendritic-cell lineage study
+- Evidence profile: lineage tracing, single-cell transcriptomics, RORgammat-positive DC progenitors, lymphoid-derived RORgammat-positive DC lineage, and peripheral Treg-mediated immune homeostasis.
+- Knowledge note status: source-reviewed boundary note for separating ILC3 from RORgammat-positive DC adaptive-tolerance mechanisms.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+Overall confidence: high for source-specific mouse evidence that RORgammat-positive DCs are a distinct lymphoid-derived lineage important for peripheral Treg homeostasis.
 - Evidence tags:
-  #assay/RNAseq #assay/flow #assay/scRNAseq #cell/B_cell #cell/ILC3 #cell/NK #cell/monocyte #outcome/homeostasis #outcome/inflammation #source/literature_pdf #species/mouse #tissue/gut #tissue/skin
-- Detected biological focus: not resolved
-- Detected mechanism or mediator terms: RORgammat
-- Detected context: the source-specific biological context
+  #source/primary #species/mouse #tissue/gut #cell/dendritic_cell #cell/Treg #cell/ILC3 #assay/scRNAseq #assay/RNAseq #assay/flow #outcome/homeostasis #axis/adaptive_immunity #axis/taxonomy #status/focused_crystallization
+- Primary biological axis: RORgammat-positive DCs are lineage-distinct from ILC3s and contribute to peripheral Treg-mediated homeostasis.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address the source-specific biological context with a focus on innate lymphoid or neighboring immune biology. For current synthesis, it should be used primarily as evidence for the source-specific claim that rORγt+ dendritic cells are a distinct lymphoid-derived lineage, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source is a classification guardrail: not every RORgammat-positive lymphoid-derived antigen-presenting tolerance signal should be assigned to ILC3s.
 
 ## Key Findings
 
-- Using lineage tracing and single- cell transcriptomics, we unveiled bone marrow–resident Rorc(t)+ progenitors, which include a RORγt+ innate lymphoid progenitor (RILP) that generates both ILC3s and RORγt + DCs, and a pre–RORγt + DC precursor committed exclusively to the RORγt + DC lineage.
-- Together, these findings define murine RORγt+ DCs as a lymphoid- derived lineage whose enhancer- and transcription factor–driven development is essential for peripheral Treg cell–mediated immune homeostasis.
+- Lineage tracing and single-cell transcriptomics identified bone-marrow Rorc(t)+ progenitors linked to ILC3 and RORgammat-positive DC lineages.
+- The source defines murine RORgammat-positive DCs as a distinct lymphoid-derived lineage.
+- This lineage is described as important for peripheral Treg-mediated immune homeostasis.
+- For this wiki, the value is taxonomy and attribution caution, not lung ILC3 mechanism evidence.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that rORγt+ dendritic cells are a distinct lymphoid-derived lineage.
-- High confidence:
-  the source is relevant to the immune cell populations named by the source in the detected context of the source-specific biological context.
-- Medium confidence:
-  mechanisms or mediators such as RORgammat can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: RORgammat-positive DCs are a distinct lineage in the reported mouse system.
+- Medium-high confidence: this source should sharpen attribution boundaries for Treg tolerance mechanisms near ILC3 biology.
+- Low confidence: it is not direct lung ILC3 evidence.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: mouse
-- Tissue or disease context detected: the source-specific biological context
-- Assay modalities detected from tags: flow cytometry, single-cell RNA-seq, RNA-seq
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse lineage tracing and single-cell transcriptomics.
+- Compartment: immune developmental and peripheral homeostasis context.
+- Assay directness: strong for lineage boundary; indirect for lung.
+- Best wiki use: taxonomy guardrail for ILC3-adjacent tolerance mechanisms.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Do not relabel RORgammat-positive DC functions as ILC3 functions.
+- Keep as a boundary source.
+- Avoid pulmonary extrapolation.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: may refine interpretation of RORgammat-positive antigen-presenting cells near ILC3 biology.
+- Supersession status: recent taxonomy update; does not supersede ILC3 MHCII papers but adds caution.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page was updated from this automated ingest alone; prioritize this source for manual crystallization if it becomes project-relevant.
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Adaptive Immunity Source Review Notes 2](../audit/2026-04-30_focused_manual_ingest_adaptive_immunity_batch2.md)

@@ -12,11 +12,11 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 ## Coverage snapshot
 
 - Ingested paper source pages currently present: 142
-- Source pages in `focused manual crystallization mode`: 96
-- Source pages in `provisional bulk-ingest mode`: 46
+- Source pages in `focused manual crystallization mode`: 106
+- Source pages in `provisional bulk-ingest mode`: 36
 - Entity/topic/digest synthesis pages currently scanned for direct source links: 11
-- Paper source pages currently linked directly from scanned synthesis pages: 100
-- Paper source pages still source-library only: 42
+- Paper source pages currently linked directly from scanned synthesis pages: 105
+- Paper source pages still source-library only: 37
 - All ingested sources remain discoverable through [ingestion_manifest](../sources/source_index.md).
 - Counting note: focused/provisional counts describe source-page review mode; direct-link coverage describes whether a paper is cited from the scanned knowledge-layer pages. These are related but not interchangeable metrics.
 
@@ -32,17 +32,17 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 
 | Assigned role | Sources | Currently directly linked | Currently source-library only |
 |---|---:|---:|---:|
-| ILC3; mechanism/regulation | 26 | 13 | 13 |
+| ILC3; mechanism/regulation | 26 | 14 | 12 |
 | ILC2; pulmonary/disease; mechanism/regulation | 24 | 24 | 0 |
 | ILC2; mechanism/regulation | 13 | 10 | 3 |
-| manual-review context | 13 | 6 | 7 |
+| manual-review context | 13 | 8 | 5 |
 | pulmonary/disease | 13 | 11 | 2 |
-| ILC2 | 10 | 6 | 4 |
+| ILC2 | 10 | 7 | 3 |
 | ILC3 | 8 | 5 | 3 |
 | ILC2; pulmonary/disease | 6 | 6 | 0 |
 | ILC3; pulmonary/disease | 6 | 6 | 0 |
 | mechanism/regulation | 5 | 2 | 3 |
-| ILC3; pulmonary/disease; mechanism/regulation | 4 | 1 | 3 |
+| ILC3; pulmonary/disease; mechanism/regulation | 4 | 2 | 2 |
 | ILC2; ILC3; pulmonary/disease; mechanism/regulation | 2 | 2 | 0 |
 | ILC2; review/context | 2 | 1 | 1 |
 | pulmonary/disease; mechanism/regulation | 2 | 2 | 0 |
@@ -59,14 +59,13 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 These source pages are present in the library but are not directly linked from the 10 scanned entity/topic/digest synthesis pages. Some are intentionally background, review, extrapulmonary, or lower-priority mechanism context.
 
 - [Development, Differentiation, and Diversity of Innate Lymphoid Cells](../sources/2014_development_differentiation_and_diversity_of_innate_lymphoid_cells.md) (provisional)
-- [Microbiota-Dependent Crosstalk Between Macrophages and ILC3 Promotes Intestinal Homeostasis](../sources/2014_microbiota_dependent_crosstalk_between_macrophages_and_ilc3_promotes_intestinal_homeo.md) (provisional)
-- [Innate lymphoid cells as regulators of immunity, inflammation and tissue homeostasis](../sources/2016_innate_lymphoid_cells_as_regulators_of_immunity_inflammation_and_tissue_homeostasis.md) (provisional)
+- [Innate lymphoid cells as regulators of immunity, inflammation and tissue homeostasis](../sources/2016_innate_lymphoid_cells_as_regulators_of_immunity_inflammation_and_tissue_homeostasis.md) (focused)
 - [The evolution of innate lymphoid cells](../sources/2016_the_evolution_of_innate_lymphoid_cells.md) (provisional)
 - [Innate lymphoid cells: major players in inflammatory diseases](../sources/2017_innate_lymphoid_cells_major_players_in_inflammatory_diseases.md) (provisional)
 - [Regulatory Innate Lymphoid Cells Control Innate Intestinal Inflammation](../sources/2017_regulatory_innate_lymphoid_cells_control_innate_intestinal_inflammation.md) (provisional)
 - [Aryl Hydrocarbon Receptor Signaling Cell Intrinsically Inhibits Intestinal Group 2 Innate Lymphoid Cell Function](../sources/2018_aryl_hydrocarbon_receptor_signaling_cell_intrinsically_inhibits_intestinal_group_2_in.md) (provisional)
 - [Innate lymphoid cells in lung infection and immunity](../sources/2018_innate_lymphoid_cells_in_lung_infection_and_immunity.md) (focused)
-- [Orchestration of intestinal homeostasis and tolerance by group 3 innate lymphoid cells](../sources/2018_orchestration_of_intestinal_homeostasis_and_tolerance_by_group_3_innate_lymphoid_cell.md) (provisional)
+- [Orchestration of intestinal homeostasis and tolerance by group 3 innate lymphoid cells](../sources/2018_orchestration_of_intestinal_homeostasis_and_tolerance_by_group_3_innate_lymphoid_cell.md) (focused)
 - [The group 2 innate lymphoid cell ( ILC 2) regulatory network and its underlying mechanisms](../sources/2018_the_group_2_innate_lymphoid_cell_ilc_2_regulatory_network_and_its_underlying_mechanisms.md) (provisional)
 - [The Tumor Necrosis Factor Superfamily Member RANKL Suppresses Effector Cytokine Production in Group 3 Innate Lymphoid Cells](../sources/2018_the_tumor_necrosis_factor_superfamily_member_rankl_suppresses_effector_cytokine_production_in_group_3_innate_lym.md) (provisional)
 - [A circadian clock is essential for homeostasis of group 3 innate lymphoid cells in the gut](../sources/2019_a_circadian_clock_is_essential_for_homeostasis_of_group_3_innate_lymphoid_cells_in_th.md) (provisional)
@@ -76,11 +75,8 @@ These source pages are present in the library but are not directly linked from t
 - [Activation and Suppression of Group 3 Innate Lymphoid Cells in the Gut](../sources/2020_activation_and_suppression_of_group_3_innate_lymphoid_cells_in_the_gut.md) (provisional)
 - [Feeding-dependent VIP neuron-ILC3 circuit regulates the intestinal barrier](../sources/2020_feeding_dependent_vip_neuron_ilc3_circuit_regulates_the_intestinal_barrier.md) (provisional)
 - [Helper-like Innate Lymphoid Cells in Humans and Mice](../sources/2020_helper_like_innate_lymphoid_cells_in_humans_and_mice.md) (provisional)
-- [ILC2s are the predominant source of intestinal ILC-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md) (provisional)
 - [Plasticity of innate lymphoid cell subsets](../sources/2020_plasticity_of_innate_lymphoid_cell_subsets.md) (provisional)
 - [The neuropeptide VIP confers anticipatory mucosal immunity by regulating ILC3 activity](../sources/2020_the_neuropeptide_vip_confers_anticipatory_mucosal_immunity_by_regulating_ilc3_activit.md) (provisional)
-- [Antigen-presenting innate lymphoid cells orchestrate neuroinflammation](../sources/2021_antigen_presenting_innate_lymphoid_cells_orchestrate_neuroinflammation.md) (provisional)
-- [Dysregulation of ILC3s unleashes progression and immunotherapy resistance in colon cancer](../sources/2021_dysregulation_of_ilc3s_unleashes_progression_and_immunotherapy_resistance_in_colon_cancer.md) (provisional)
 - [Group 2 Innate Lymphoid Cells: Team Players in Regulating Asthma](../sources/2021_group_2_innate_lymphoid_cells_team_players_in_regulating_asthma.md) (focused)
 - [RORalpha is a critical checkpoint for T cell and ILC2 commitment in the embryonic thymus](../sources/2021_roralpha_is_a_critical_checkpoint_for_t_cell_and_ilc2_commitment_in_the_embryonic_thymus.md) (provisional)
 - [Skin-resident innate lymphoid cells converge on a pathogenic effector state](../sources/2021_skin_resident_innate_lymphoid_cells_converge_on_a_pathogenic_effector_state.md) (provisional)
@@ -99,7 +95,6 @@ These source pages are present in the library but are not directly linked from t
 - [ILC3s promote intestinal tuft cell hyperplasia and anthelmintic immunity through RANK signaling](../sources/2025_ilc3s_promote_intestinal_tuft_cell_hyperplasia_and_anthelmintic_immunity_through_rank.md) (provisional)
 - [Immunotherapy for asthma](../sources/2025_immunotherapy_for_asthma.md) (provisional)
 - [Tuft cell IL-17RB restrains IL-25 bioavailability and reveals context-dependent ILC2 hypoproliferation](../sources/2025_tuft_cell_il_17rb_restrains_il_25_bioavailability_and_reveals_context_dependent_ilc2_hypoproliferation.md) (provisional)
-- [RORgammat + dendritic cells are a distinct lymphoid-derived lineage](../sources/2026_rorgammat_dendritic_cells_are_a_distinct_lymphoid_derived_lineage.md) (provisional)
 
 ## Full source assignment
 
@@ -116,7 +111,7 @@ These source pages are present in the library but are not directly linked from t
 | [Differentiation of Type 1 ILCs from a Common Progenitor to All Helper-like Innate Lymphoid Cell Lineages](../sources/2014_differentiation_of_type_1_ilcs_from_a_common_progenitor_to_all_helper_like_innate_lymphoid_cell_lineages.md) | ILC3; mechanism/regulation | ILC3 entity and taxonomy/boundary-state context | currently directly cited from synthesis pages |
 | [Innate lymphoid cells and asthma](../sources/2014_innate_lymphoid_cells_and_asthma.md) | pulmonary/disease | disease-first companion and core synthesis context | currently directly cited from synthesis pages |
 | [Interleukin-17-producing innate lymphoid cells and the NLRP3 inflammasome facilitate obesity-associated airway hyperreactivity](../sources/2014_interleukin_17_producing_innate_lymphoid_cells_and_the_nlrp3_inflammasome_facilitate.md) | pulmonary/disease | disease-first companion and core synthesis context | currently directly cited from synthesis pages |
-| [Microbiota-dependent crosstalk between macrophages and ILC3 promotes intestinal homeostasis](../sources/2014_microbiota_dependent_crosstalk_between_macrophages_and_ilc3_promotes_intestinal_homeo.md) | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently source-library only |
+| [Microbiota-dependent crosstalk between macrophages and ILC3 promotes intestinal homeostasis](../sources/2014_microbiota_dependent_crosstalk_between_macrophages_and_ilc3_promotes_intestinal_homeo.md) | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently directly cited from synthesis pages |
 | [Group 3 innate lymphoid cells mediate intestinal selection of commensal bacteriaâ€“specific CD4+ T cells](../sources/2015_group_3_innate_lymphoid_cells_mediate_intestinal_selection_of_commensal_bacteria_specific_cd4_t_cells.md) | ILC3 | ILC3 entity and mechanism context | currently directly cited from synthesis pages |
 | [ICOS-ligand interaction is required for type 2 innate lymphoid cell function, homeostasis, and induction of airway hyperreactivity](../sources/2015_icos_icos_ligand_interaction_is_required_for_type_2_innate_lymphoid_cell_function_homeostasis_and_induction_of_a.md) | ILC2; pulmonary/disease; mechanism/regulation | ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
 | [Interleukin-33 and Interferon-gamma Counter-Regulate Group 2 Innate Lymphoid Cell Activation during Immune Perturbation](../sources/2015_interleukin_33_and_interferon_gamma_counter_regulate_group_2_innate_lymphoid_cell_activation_during_immune_pertu.md) | ILC2; mechanism/regulation | ILC2 entity and interferon/niche-regulation context | currently directly cited from synthesis pages |
@@ -175,7 +170,7 @@ These source pages are present in the library but are not directly linked from t
 | [Helper-like Innate Lymphoid Cells in Humans and Mice](../sources/2020_helper_like_innate_lymphoid_cells_in_humans_and_mice.md) | manual-review context | background/manual triage | currently source-library only |
 | [IL-1beta prevents ILC2 expansion, type 2 cytokine secretion, and mucus metaplasia in response to early-life rhinovirus infection in mice](../sources/2020_il_1beta_prevents_ilc2_expansion_type_2_cytokine_secretion_and_mucus_metaplasia_in_response_to_early_life_rhinov.md) | ILC2; mechanism/regulation | ILC2 entity and mechanism context | currently directly cited from synthesis pages |
 | [ILC2-driven innate immune checkpoint mechanism antagonizes NK cell antimetastatic function in the lung](../sources/2020_ilc2_driven_innate_immune_checkpoint_mechanism_antagonizes_nk_cell_antimetastatic_fun.md) | ILC2; pulmonary/disease | ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
-| [ILC2s are the predominant source of intestinal ILC-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md) | ILC2 | ILC2 entity and mechanism context | currently source-library only |
+| [ILC2s are the predominant source of intestinal ILC-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md) | ILC2 | ILC2 entity and mechanism context | currently directly cited from synthesis pages |
 | [Insulin-like Growth Factor 1 Supports a Pulmonary Niche that Promotes Type 3 Innate Lymphoid Cell Development in Newborn Lungs](../sources/2020_insulin_like_growth_factor_1_supports_a_pulmonary_niche_that_promotes_type_3_innate_lymphoid_cell_development_in.md) | ILC3; pulmonary/disease; review/context | ILC3 disease topic / ILC3 mechanism topic | currently directly cited from synthesis pages |
 | [Lipid-Droplet Formation Drives Pathogenic Group 2 Innate Lymphoid Cells in Airway Inflammation](../sources/2020_lipid_droplet_formation_drives_pathogenic_group_2_innate_lymphoid_cells_in_airway_inf.md) | ILC2; pulmonary/disease | ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
 | [PD-1 pathway regulates ILC2 metabolism and PD-1 agonist treatment ameliorates airway hyperreactivity](../sources/2020_pd_1_pathway_regulates_ilc2_metabolism_and_pd_1_agonist_treatment_ameliorates_airway.md) | ILC2; pulmonary/disease; mechanism/regulation | ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
@@ -185,9 +180,9 @@ These source pages are present in the library but are not directly linked from t
 | [The neuropeptide VIP confers anticipatory mucosal immunity by regulating ILC3 activity](../sources/2020_the_neuropeptide_vip_confers_anticipatory_mucosal_immunity_by_regulating_ilc3_activit.md) | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently source-library only |
 | [The Role of the TL1ADR3 Axis in the Activation of Group 2 Innate Lymphoid Cells in Subjects with Eosinophilic Asthma](../sources/2020_the_role_of_the_tl1a_dr3_axis_in_the_activation_of_group_2_innate_lymphoid_cells_in_subjects_with_eosinophilic_a.md) | ILC2; pulmonary/disease; mechanism/regulation | ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
 | [Tissue-Specific Features of Innate Lymphoid Cells](../sources/2020_tissue_specific_features_of_innate_lymphoid_cells.md) | manual-review context | background/manual triage | currently directly cited from synthesis pages |
-| [Antigen-presenting innate lymphoid cells orchestrate neuroinflammation](../sources/2021_antigen_presenting_innate_lymphoid_cells_orchestrate_neuroinflammation.md) | manual-review context | background/manual triage | currently source-library only |
+| [Antigen-presenting innate lymphoid cells orchestrate neuroinflammation](../sources/2021_antigen_presenting_innate_lymphoid_cells_orchestrate_neuroinflammation.md) | manual-review context | background/manual triage | currently directly cited from synthesis pages |
 | [Dichotomous metabolic networks govern human ILC2 proliferation and function](../sources/2021_dichotomous_metabolic_networks_govern_human_ilc2_proliferation_and_function.md) | ILC2 | ILC2 entity and mechanism context | currently directly cited from synthesis pages |
-| [Dysregulation of ILC3s unleashes progression and immunotherapy resistance in colon cancer](../sources/2021_dysregulation_of_ilc3s_unleashes_progression_and_immunotherapy_resistance_in_colon_cancer.md) | ILC3; pulmonary/disease; mechanism/regulation | ILC3 disease topic / ILC3 mechanism topic | currently source-library only |
+| [Dysregulation of ILC3s unleashes progression and immunotherapy resistance in colon cancer](../sources/2021_dysregulation_of_ilc3s_unleashes_progression_and_immunotherapy_resistance_in_colon_cancer.md) | ILC3; pulmonary/disease; mechanism/regulation | ILC3 disease topic / ILC3 mechanism topic | currently directly cited from synthesis pages |
 | [Group 2 Innate Lymphoid Cells: Team Players in Regulating Asthma](../sources/2021_group_2_innate_lymphoid_cells_team_players_in_regulating_asthma.md) | ILC2; pulmonary/disease; review/context | ILC2 disease framing and review-level asthma context | currently source-library only |
 | [ILC3-derived acetylcholine promotes protease-driven allergic lung pathology](../sources/2021_ilc3_derived_acetylcholine_promotes_protease_driven_allergic_lung_pathology.md) | ILC3; pulmonary/disease | ILC3 disease topic / ILC3 mechanism topic | currently directly cited from synthesis pages |
 | [Interleukin-17D regulates group 3 innate lymphoid cell function through its receptor CD93](../sources/2021_interleukin_17d_regulates_group_3_innate_lymphoid_cell_function_through_its_receptor.md) | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently directly cited from synthesis pages |
@@ -245,7 +240,7 @@ These source pages are present in the library but are not directly linked from t
 | [Tuft cell IL-17RB restrains IL-25 bioavailability and reveals context-dependent ILC2 hypoproliferation](../sources/2025_tuft_cell_il_17rb_restrains_il_25_bioavailability_and_reveals_context_dependent_ilc2_hypoproliferation.md) | ILC2; ILC3 | ILC2 entity and mechanism context | currently source-library only |
 | [Divergent ILC3 responses to PDGF-D control mucosal immunity](../sources/2026_divergent_ilc3_responses_to_pdgf_d_control_mucosal_immunity.md) | ILC3; mechanism/regulation | ILC3 entity and extrapulmonary mechanism context | currently directly cited from synthesis pages |
 | [Innate type 2 lymphocytes trigger an inflammatory switch in alveolar macrophages](../sources/2026_innate_type_2_lymphocytes_trigger_an_inflammatory_switch_in_alveolar_macrophages.md) | ILC2; pulmonary/disease; mechanism/regulation | ILC2 entity / ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
-| [RORgammat + dendritic cells are a distinct lymphoid-derived lineage](../sources/2026_rorgammat_dendritic_cells_are_a_distinct_lymphoid_derived_lineage.md) | manual-review context | background/manual triage | currently source-library only |
+| [RORgammat + dendritic cells are a distinct lymphoid-derived lineage](../sources/2026_rorgammat_dendritic_cells_are_a_distinct_lymphoid_derived_lineage.md) | manual-review context | background/manual triage | currently directly cited from synthesis pages |
 
 ## Actions from this audit
 

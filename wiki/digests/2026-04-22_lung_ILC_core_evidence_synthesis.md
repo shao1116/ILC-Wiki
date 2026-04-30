@@ -89,6 +89,7 @@ flowchart TB
 - Pulmonary fibroblast-derived SCF/KIT signaling is a focused stromal axis that can augment ILC3 IL-17A and neutrophilic asthma-like inflammation.
 - ILC3 regulation also includes restraint programs; current source-linked context includes a gut-labeled CTLA-4-positive ILC3 checkpoint branch downstream of IL-23.
 - ILC3 adaptive-immunity regulation includes gut-labeled MHCII/CD4 T-cell restraint, IL-2- and MHCII-linked Treg maintenance or selection, and a human tonsil/blood CD40L/BAFF/IL-15 regulatory B-cell branch.
+- ILC3 antigen-presentation outcomes are context-dependent across extrapulmonary sources: gut tolerance, CNS neuroinflammation, colon-cancer immunotherapy responsiveness, and RORgammat-positive DC boundary biology should not be collapsed into one lung ILC3 claim.
 
 - ILC3 regulation also includes identity, nutrient, and stress-support programs; current source-linked context includes AHR/WASH maintenance, vitamin D-mediated IL-23 restraint, a CD71-iron axis, and IRE1alpha/XBP1-dependent cytokine sustainment, though these mechanisms are currently best labeled as extrapulmonary or mucosal context unless matched lung evidence is present.
 - ILC plasticity is not a side issue: ILC2-to-ILC1-like conversion, memory-like ILC2s, IL-17-producing ST2+ ILC2s, c-Kit+ ILC2/ILC3-like states, severe-asthma sputum intermediate ILC2s, and memory-like ILC3s all shape interpretation.
@@ -185,6 +186,12 @@ Use this page as the first evidence synthesis layer after the homepage. For cell
 - [ILC3s select microbiota-specific regulatory T cells to establish tolerance in the gut](../sources/2022_ilc3s_select_microbiota_specific_regulatory_t_cells_to_establish_tolerance_in_the_gut.md)
 - [Human CD40 ligand-expressing type 3 innate lymphoid cells induce IL-10-producing immature transitional regulatory B cells](../sources/2018_human_cd40_ligand_expressing_type_3_innate_lymphoid_cells_induce_il_10_producing_immature_transitional_regulator.md)
 - [The interplay between innate lymphoid cells and T cells](../sources/2020_the_interplay_between_innate_lymphoid_cells_and_t_cells.md)
+- [Microbiota-dependent crosstalk between macrophages and ILC3 promotes intestinal homeostasis](../sources/2014_microbiota_dependent_crosstalk_between_macrophages_and_ilc3_promotes_intestinal_homeo.md)
+- [ILC2s are the predominant source of intestinal ILC-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md)
+- [Antigen-presenting innate lymphoid cells orchestrate neuroinflammation](../sources/2021_antigen_presenting_innate_lymphoid_cells_orchestrate_neuroinflammation.md)
+- [Dysregulation of ILC3s unleashes progression and immunotherapy resistance in colon cancer](../sources/2021_dysregulation_of_ilc3s_unleashes_progression_and_immunotherapy_resistance_in_colon_cancer.md)
+- [ILC3s sense gut microbiota through STING to initiate immune tolerance](../sources/2025_ilc3s_sense_gut_microbiota_through_sting_to_initiate_immune_tolerance.md)
+- [RORgammat+ dendritic cells are a distinct lymphoid-derived lineage](../sources/2026_rorgammat_dendritic_cells_are_a_distinct_lymphoid_derived_lineage.md)
 
 ### ILC3 defense, injury, asthma, and classification
 

@@ -36,6 +36,12 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
   human tonsil and blood ILC3s can provide CD40L/BAFF/IL-15-linked help that supports IL-10-positive PD-L1-positive immature transitional regulatory B cells; allergic/asthmatic associations are informative but not lung-tissue causality ([Human CD40 ligand-expressing type 3 innate lymphoid cells induce IL-10-producing immature transitional regulatory B cells](../sources/2018_human_cd40_ligand_expressing_type_3_innate_lymphoid_cells_induce_il_10_producing_immature_transitional_regulator.md)).
 - Medium confidence:
   review-level ILC-T-cell literature is useful for organizing the field but should not replace primary source links when making mechanism claims ([The interplay between innate lymphoid cells and T cells](../sources/2020_the_interplay_between_innate_lymphoid_cells_and_t_cells.md)).
+- Medium-high confidence:
+  ILC3 antigen-presentation outcomes are context-dependent: gut ILC3-MHCII pathways can support tolerance, CNS-infiltrating inflammatory ILC3s can restimulate pathogenic T cells, and colon-cancer ILC3-MHCII can shape microbiota-linked type 1 antitumor immunity ([Antigen-presenting innate lymphoid cells orchestrate neuroinflammation](../sources/2021_antigen_presenting_innate_lymphoid_cells_orchestrate_neuroinflammation.md); [Dysregulation of ILC3s unleashes progression and immunotherapy resistance in colon cancer](../sources/2021_dysregulation_of_ilc3s_unleashes_progression_and_immunotherapy_resistance_in_colon_cancer.md)).
+- Medium-high confidence:
+  newer gut evidence adds ILC3-intrinsic STING as an upstream sensing and migration mechanism for microbiota-specific Treg tolerance ([ILC3s sense gut microbiota through STING to initiate immune tolerance](../sources/2025_ilc3s_sense_gut_microbiota_through_sting_to_initiate_immune_tolerance.md)).
+- Medium confidence:
+  RORgammat-positive dendritic-cell lineage evidence is a taxonomy guardrail: some RORgammat-positive antigen-presenting tolerance biology is ILC3-adjacent but should not automatically be assigned to ILC3s ([RORgammat+ dendritic cells are a distinct lymphoid-derived lineage](../sources/2026_rorgammat_dendritic_cells_are_a_distinct_lymphoid_derived_lineage.md)).
 - Low confidence:
   direct lung ILC3 regulation of T cells, Tregs, or B cells remains underdeveloped in the current source library.
 
@@ -64,6 +70,17 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
 - Human CD40L-positive ILC3s can localize near B-cell regions in tonsil and support B-cell survival, proliferation, and IL-10-positive PD-L1-positive immature transitional regulatory B-cell differentiation in coculture.
 - The key molecular frame is CD40L, BAFF, and IL-15-linked crosstalk.
 - This is a human regulatory B-cell axis, but direct pulmonary compartment evidence is not yet present in this source set.
+
+### Context-dependent antigen presentation
+
+- ILC3 antigen-presentation biology can be tolerogenic, inflammatory, or tumor-immunity-linked depending on tissue context. Gut ILC3s often appear in tolerance circuits, CNS-infiltrating inflammatory ILC3s can restimulate pathogenic T cells, and colon-cancer ILC3-MHCII can support microbiota-linked type 1 immunity and anti-PD-1 responsiveness.
+- This context dependence is important for lung interpretation: detecting MHCII or antigen-presentation signatures in ILC-like cells would not by itself determine whether the output is tolerance, inflammation, or antitumor immunity.
+
+### Indirect tolerance and taxonomy boundaries
+
+- Gut ILC3s can also support adaptive tolerance indirectly through myeloid intermediates, including an ILC3-GM-CSF-myeloid regulatory circuit that is relevant to Treg-associated homeostasis ([Microbiota-dependent crosstalk between macrophages and ILC3 promotes intestinal homeostasis](../sources/2014_microbiota_dependent_crosstalk_between_macrophages_and_ilc3_promotes_intestinal_homeo.md)).
+- Intestinal ILC2-derived IL-10 adds a regulatory ILC2 state, but this is gut context and should not be converted into a default lung ILC2 claim ([ILC2s are the predominant source of intestinal ILC-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md)).
+- RORgammat-positive DCs are an ILC3-adjacent lineage-boundary issue for Treg homeostasis; this source should prevent over-attribution of RORgammat-positive antigen-presenting tolerance biology to ILC3s.
 
 ### Review-level field frame
 

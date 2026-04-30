@@ -108,3 +108,5 @@
 - 2026-04-30: Completed focused manual ingest batch 6 for 10 previously provisional sources. Updated source-reviewed notes, ILC2/ILC3 entity hubs, disease and regulation topic pages, the core evidence synthesis, index project-note links, manifest tags, and audit trail. ILC3 gut/mucosal mechanisms were kept as context rather than direct lung claims.
 
 - 2026-04-30: Completed adaptive-immunity source review for ILC regulation of T cells, B cells, and Tregs. Promoted six source pages, added the ILC Regulation Of Adaptive Immunity topic, updated ILC2/ILC3 hubs and mechanism pages, refreshed core synthesis, manifest tags, and audit trail.
+
+- 2026-04-30: Completed adaptive-immunity source review 2 for 10 additional sources. Added context-dependent ILC3 antigen-presentation branches, indirect ILC3-myeloid-Treg tolerance, gut ILC2 IL-10 regulatory context, review-level orientation sources, and a RORgammat-positive DC lineage boundary.

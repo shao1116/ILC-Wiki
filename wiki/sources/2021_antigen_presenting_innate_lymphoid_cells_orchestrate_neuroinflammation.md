@@ -10,77 +10,77 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the adaptive-immunity follow-up question, including model system, tissue compartment, immune-cell target, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, disease model, and whether evidence is primary perturbation, human association, ex vivo function, lineage taxonomy, or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC3, T cells
-- Main detected context: nervous system
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+primary mouse and human neuroinflammation ILC3 antigen-presentation study
+- Evidence profile: CNS-infiltrating inflammatory ILC3s, MHCII antigen presentation, myelin-specific T-cell restimulation, multiple-sclerosis-like disease, and human multiple sclerosis association.
+- Knowledge note status: source-reviewed evidence note for extrapulmonary ILC3-T-cell antigen-presentation context.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+Overall confidence: high for source-specific CNS evidence that antigen-presenting inflammatory ILC3s can restimulate pathogenic T cells in neuroinflammation.
 - Evidence tags:
-  #assay/flow #assay/in_vitro #cell/ILC1 #cell/ILC3 #cell/T_cell #cell/macrophage #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut
-- Detected biological focus: ILC3, T cells
-- Detected mechanism or mediator terms: candidate mechanisms or mediators named in the source
-- Detected context: nervous system
+  #source/primary #species/mouse #species/human #tissue/CNS #cell/ILC3 #cell/T_cell #assay/flow #assay/in_vivo #assay/in_vitro #outcome/inflammation #axis/adaptive_immunity #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: CNS-infiltrating ILC3s can act as antigen-presenting cells that promote myelin-specific T-cell responses in neuroinflammation.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address nervous system with a focus on ILC3, T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that antigen-presenting innate lymphoid cells orchestrate neuroinflammation, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source broadens the ILC3 antigen-presentation model beyond gut tolerance by showing a pathogenic T-cell restimulation branch in CNS inflammation.
 
 ## Key Findings
 
-- Nature | Vol 600 | 23/30 December 2021 | 707 Article Antigen-presenting innate lymphoid cells orchestrate neuroinflammation John B.
-- Here we define a population of inflammatory group 3 innate lymphoid cells (ILC3s) that infiltrate the CNS in a mouse model of multiple sclerosis.
-- These ILC3s are derived from the circulation, localize in proximity to infiltrating T cells in the CNS, function as antigen-presenting cells that restimulate myelin-specific T cells, and are increased in individuals with multiple sclerosis.
-- Notably, antigen presentation by inflammatory ILC3s is required to promote T cell responses in the CNS and the development of multiple-sclerosis-like disease in mouse models.
-- By contrast, conventional and tissue-resident ILC3s in the periphery do not appear to contribute to disease induction, but instead limit autoimmune T cell responses and prevent multiple-sclerosis-like disease when experimentally targeted to present myelin antigen.
+- In a mouse multiple-sclerosis-like model, inflammatory ILC3s infiltrated the CNS and localized near T cells.
+- These ILC3s functioned as antigen-presenting cells that restimulated myelin-specific T cells.
+- Antigen presentation by inflammatory ILC3s was required to promote T-cell responses and disease development in the reported model.
+- Human multiple sclerosis association supports relevance, but this is CNS rather than lung evidence.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that antigen-presenting innate lymphoid cells orchestrate neuroinflammation.
-- High confidence:
-  the source is relevant to ILC3, T cells in the detected context of nervous system.
-- Medium confidence:
-  mechanisms or mediators such as candidate mechanisms or mediators named in the source can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: inflammatory CNS ILC3s can promote pathogenic T-cell responses through antigen presentation in the reported system.
+- Medium-high confidence: ILC3 antigen presentation can be tolerogenic or inflammatory depending on tissue and activation state.
+- Low confidence: direct pulmonary extrapolation is not justified.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: nervous system
-- Assay modalities detected from tags: flow cytometry, in vitro assay
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse neuroinflammation model with human multiple sclerosis association.
+- Compartment: CNS and circulation.
+- Assay directness: strong for CNS ILC3-T-cell interaction; indirect for lung.
+- Best wiki use: contrast with gut tolerogenic MHCII ILC3 pathways.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Keep CNS context explicit.
+- Do not merge pathogenic CNS antigen presentation with gut tolerance without noting directionality.
+- Not direct lung disease evidence.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: contrasts with gut ILC3-MHCII tolerance, showing context-dependent antigen-presentation outcomes.
+- Supersession status: not superseded.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
 - [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Adaptive Immunity Source Review Notes 2](../audit/2026-04-30_focused_manual_ingest_adaptive_immunity_batch2.md)

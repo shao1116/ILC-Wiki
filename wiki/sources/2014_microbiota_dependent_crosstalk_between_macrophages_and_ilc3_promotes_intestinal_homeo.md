@@ -10,78 +10,77 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the adaptive-immunity follow-up question, including model system, tissue compartment, immune-cell target, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, disease model, and whether evidence is primary perturbation, human association, ex vivo function, lineage taxonomy, or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC3, macrophages, T cells
-- Main detected context: gut/intestine
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+primary gut ILC3-myeloid tolerance study
+- Evidence profile: microbiota-dependent macrophage-ILC3 crosstalk, ILC3-derived GM-CSF/CSF2, myeloid regulatory function, Treg-supportive intestinal homeostasis.
+- Knowledge note status: source-reviewed evidence note for gut-labeled indirect ILC3 support of adaptive tolerance.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+Overall confidence: high for source-specific gut evidence that microbiota-conditioned ILC3-myeloid crosstalk supports intestinal regulatory homeostasis.
 - Evidence tags:
-  #assay/KO #assay/flow #assay/in_vitro #assay/in_vivo #cell/ILC3 #cell/NK #cell/T_cell #cell/macrophage #cell/monocyte #outcome/homeostasis #outcome/inflammation #outcome/repair #source/literature_pdf #species/human #species/mouse #tissue/gut
-- Detected biological focus: ILC3, macrophages, T cells
-- Detected mechanism or mediator terms: GM-CSF
-- Detected context: gut/intestine
+  #source/primary #species/mouse #tissue/gut #cell/ILC3 #cell/macrophage #cell/Treg #assay/in_vivo #assay/flow #outcome/homeostasis #outcome/inflammation #axis/adaptive_immunity #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: microbiota signals promote an ILC3-GM-CSF-myeloid circuit that supports regulatory intestinal immunity.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address gut/intestine with a focus on ILC3, macrophages, T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that microbiota-dependent crosstalk between macrophages and ILC3 promotes intestinal homeostasis, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds an indirect adaptive-immunity branch: ILC3s can support Treg-permissive tolerance through myeloid intermediates rather than only through direct T-cell contact.
 
 ## Key Findings
 
-- M icrobiota-Dependent Crosstalk Betw een Macrophages and ILC3 Prom otes Intestinal Homeostasis Arthur Mortha, Aleksey Chudnovskiy, Daigo Hashimoto, Milena Bogunovic, S ean P.
-- A ccumulated evidence suggests that gut commensals contribute to the m aintenance of intestinal homeostasis, partly through their ability to control t he differentiation of effector T lymphocytes in the mucosa and to modu-l ate inﬂ ammatory responses through the induction of regulatory T cells (T re gs) and interleukin-10 (IL-10) production.
-- Tissue-resident mononuclear p hagocytes (MNPs), including macrophages (MPs) and dendritic cells (DCs), a re speciﬁ cally equipped to detect a wide range of microbial signals a nd to capture, process, and p resent extracellular antigenic m aterial to T lymphocytes.
-- Despite their key r ole in microbial sensing and i mmune tolerance, the cellular an d molecular cues that translate m icrobial signals into immuno-r egulatory MNPs in the intestine a re not completely understood.R ationale: The cytokine g ranulocyte-macrophage colony-s timulating factor (GM-CSF), r ecently renamed Csf2, is a key d eterminant of myeloid lineage d ifferentiation and is required f or the optimal function of tissue M NPs.
-- These results prompted us to further explore the contribution of C sf2 to intestinal immune homeostasis in vivo.
+- Microbiota-dependent ILC3-macrophage crosstalk promotes intestinal homeostasis in the reported system.
+- ILC3-derived GM-CSF/CSF2 supports mononuclear phagocyte regulatory function.
+- The regulatory myeloid output is relevant to Treg-associated tolerance, but the ILC3-to-Treg link is indirect.
+- The source should remain gut-labeled and should not be used as pulmonary macrophage or lung Treg causality.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that microbiota-dependent crosstalk between macrophages and ILC3 promotes intestinal homeostasis.
-- High confidence:
-  the source is relevant to ILC3, macrophages, T cells in the detected context of gut/intestine.
-- Medium confidence:
-  mechanisms or mediators such as GM-CSF can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: gut ILC3-myeloid crosstalk supports intestinal regulatory homeostasis in the reported model.
+- Medium-high confidence: this source supports an indirect ILC3-myeloid-Treg tolerance pathway.
+- Low confidence: direct lung Treg or lung macrophage claims are not justified from this source alone.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: gut/intestine
-- Assay modalities detected from tags: flow cytometry, in vivo model, in vitro assay, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Species/context: mouse gut microbiota and intestinal homeostasis models.
+- Compartment: intestine.
+- Assay directness: strong for gut ILC3-myeloid regulatory crosstalk; indirect for lung and for direct ILC3-Treg contact.
+- Best wiki use: indirect adaptive tolerance context.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Preserve the myeloid intermediate.
+- Keep gut context explicit.
+- Do not collapse GM-CSF-driven myeloid regulation with direct ILC3-MHCII T-cell selection.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements direct ILC3-T-cell/Treg sources by adding a myeloid intermediary.
+- Supersession status: not superseded.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
 - [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Adaptive Immunity Source Review Notes 2](../audit/2026-04-30_focused_manual_ingest_adaptive_immunity_batch2.md)

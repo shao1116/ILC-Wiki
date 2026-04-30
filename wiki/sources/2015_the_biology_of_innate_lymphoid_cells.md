@@ -10,76 +10,76 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the adaptive-immunity follow-up question, including model system, tissue compartment, immune-cell target, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, disease model, and whether evidence is primary perturbation, human association, ex vivo function, lineage taxonomy, or review-level synthesis.
+
 ## Source Type
 
-- review or conceptual synthesis
-- Main detected cell focus: not clearly resolved from title/early text
-- Main detected context: gut/intestine, nervous system
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+review on foundational ILC biology
+- Evidence profile: ILC subset biology, developmental and functional parallels with T helper cells, tissue homeostasis, infection, and inflammation.
+- Knowledge note status: source-reviewed review note for broad biology framing.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+Overall confidence: medium for review-level foundational framing.
 - Evidence tags:
-  #assay/KO #assay/in_vitro #assay/in_vivo #cell/B_cell #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #cell/macrophage #cell/monocyte #outcome/airway_hyperresponsiveness #outcome/homeostasis #outcome/infection #outcome/inflammation #outcome/repair #source/review #species/human #species/mouse #tissue/gut #tissue/lung
-- Detected biological focus: not resolved
-- Detected mechanism or mediator terms: candidate mechanisms or mediators named in the source
-- Detected context: gut/intestine, nervous system
+  #source/review #species/human #species/mouse #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/T_cell #outcome/homeostasis #outcome/inflammation #axis/adaptive_immunity #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: ILC subsets mirror selected helper T-cell effector programs without antigen-specific receptors.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address gut/intestine, nervous system with a focus on innate lymphoid or neighboring immune biology. For current synthesis, it should be used primarily as evidence for the source-specific claim that the biology of innate lymphoid cells, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source is helpful for explaining why ILC-adaptive comparisons are biologically meaningful, while still emphasizing that ILCs are not antigen-receptor-dependent lymphocytes.
 
 ## Key Findings
 
-- T he innate and adaptive immune systems have evolved to simul- taneously facilitate peaceful cohabitation with the trillions of beneficial microorganisms that constitute the microbiota, to provide host defence against infectious agents, and to initiate the repair and remodelling processes that restore and maintain tissue homeostasis1,2.
-- Groundbreaking studies over the past five years for- mally identified innate lymphoid cells (ILCs) as part of the innate immune system; these cells can directly communicate with a wide variety of haematopoietic and non-haematopoietic cells to orches - trate immunity, inflammation and homeostasis in multiple tissues throughout the body3–5.
-- ILCs are a distinct arm of the innate immune system that are regulated by multiple endogenous mammalian cell-derived factors including neuropeptides, hormones, eicosanoids, cytokines and other alarmins3–5.
-- The specialized distribution of ILCs in lymphoid and non-lymphoid tissues across multiple species, coupled with their functional heterogeneity 3, has provoked a fundamental reassess - ment of how ILCs integrate innate and adaptive immune responses and control diverse physiological processes.
-- In this Review, we sum- marize the recent findings of multiple groups that converged on the identification of ILCs and discuss our current understanding of the developmental and functional heterogeneity of this cell population.
+- The review summarizes ILC1/ILC2/ILC3 subset organization and functional parallels with helper T-cell programs.
+- It frames ILCs as rapid tissue immune regulators involved in homeostasis, infection, and inflammation.
+- It supports vocabulary for comparing innate and adaptive lymphoid functions.
+- It should not be used as a primary source for a specific lung disease mechanism.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that the biology of innate lymphoid cells.
-- High confidence:
-  the source is relevant to the immune cell populations named by the source in the detected context of gut/intestine, nervous system.
-- Medium confidence:
-  mechanisms or mediators such as candidate mechanisms or mediators named in the source can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium confidence: useful for broad conceptual framing.
+- Low confidence: not adequate as a stand-alone citation for specific pulmonary claims.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: review or conceptual synthesis.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: gut/intestine, nervous system
-- Assay modalities detected from tags: in vivo model, in vitro assay, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source type: review.
+- Compartment: broad ILC biology.
+- Assay directness: review-level only.
+- Best wiki use: conceptual background.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Separate helper-T-cell analogy from direct adaptive-immunity regulation.
+- Use primary sources for detailed mechanisms.
+- Avoid overstating conservation across tissues.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: none; review context.
+- Supersession status: older but still useful for foundational framing.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- [2026-04-20_ILC_research_trend_then_to_now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Adaptive Immunity Source Review Notes 2](../audit/2026-04-30_focused_manual_ingest_adaptive_immunity_batch2.md)
