@@ -1004,81 +1004,74 @@
 </ul>
 <h2 id="ingest-mode">Ingest Mode</h2>
 <ul>
-<li>Mode: <code>provisional bulk-ingest mode</code></li>
-<li>Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.</li>
-<li>Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.</li>
+<li>Mode: <code>focused manual crystallization mode</code></li>
+<li>Meaning: this source page has been manually reviewed for the adaptive-immunity follow-up question, including model system, tissue compartment, immune-cell target, assay directness, and claim-level boundaries.</li>
+<li>Required boundary: reusable claims should preserve species, tissue, disease model, and whether evidence is primary perturbation, human association, ex vivo function, lineage taxonomy, or review-level synthesis.</li>
 </ul>
 <h2 id="source-type">Source Type</h2>
-<ul>
-<li>primary or literature research article</li>
-<li>Main detected cell focus: ILC3, T cells</li>
-<li>Main detected context: gut/intestine</li>
-<li>Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.</li>
-</ul>
+<p>primary gut ILC3-STING-Treg tolerance study
+- Evidence profile: ILC3 microbiota sensing, STING signaling, CCR7-dependent migration to gut-draining lymph nodes, antigen-presentation signatures, microbiota-specific Tregs, and chronic inflammation restraint.
+- Knowledge note status: source-reviewed evidence note for gut ILC3 innate-sensing-to-adaptive-tolerance axis.</p>
 <h2 id="evidence-profile">Evidence Profile</h2>
-<ul>
-<li>Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.</li>
-<li>Evidence tags:
-  #assay/KO #assay/RNAseq #assay/in_vivo #assay/scRNAseq #cell/B_cell #cell/ILC2 #cell/ILC3 #cell/T_cell #cell/macrophage #outcome/homeostasis #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut</li>
-<li>Detected biological focus: ILC3, T cells</li>
-<li>Detected mechanism or mediator terms: STING</li>
-<li>Detected context: gut/intestine</li>
-</ul>
+<p>Overall confidence: high for source-specific gut evidence that ILC3-intrinsic STING supports microbiota-specific Treg instruction and inflammatory restraint.
+- Evidence tags:
+  #source/primary #species/mouse #species/human #tissue/gut #cell/ILC3 #cell/Treg #cell/T_cell #assay/scRNAseq #assay/RNAseq #assay/in_vivo #assay/KO #outcome/homeostasis #outcome/inflammation #axis/adaptive_immunity #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: ILC3 STING links microbial sensing, lymph-node migration, antigen-presentation programs, and microbiota-specific Treg tolerance.</p>
 <h2 id="why-it-matters-here">Why It Matters Here</h2>
-<p>This source matters to the ILC-in-lung wiki because it appears to address gut/intestine with a focus on ILC3, T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that iLC3s sense gut microbiota through STING to initiate immune tolerance, then upgraded or narrowed after manual review of the full methods, figures, and model system.</p>
+<p>This recent source adds an upstream sensing mechanism to the ILC3-Treg tolerance model: microbiota-derived signals can be read through ILC3 STING.</p>
 <h2 id="key-findings">Key Findings</h2>
 <ul>
-<li>Zhou et al. demonstrate that ILC3s are a ROR γ t + APC that sense the microbiota through STING to induce microbio ta- specific Treg cells.</li>
-<li>However, if this pathway becomes uncontroll ed, as in the context of intestinal inflammat ion, it provokes the depletion of these tissue- protective ILC3s.</li>
-<li>Following colonization with the pathobiont Helicobacter hepaticus, group 3 innate lymphoid cells (ILC3s) were a key ROR γ t + antigen-pre- senting cell that expressed low levels of pattern-reco gnition receptors but upregulated signatures for antigen presentation and STING signaling.</li>
-<li>We revealed that STING signaling in ILC3s permitted direct sensing of mi- crobes and enhanced CCR7-dep endent migration to gut-draining lymph nodes.</li>
-<li>ILC3-intrinsic STING signaling supported the instruction of microbiota-sp ecific regulatory T cells and restrained chronic inflamma- tion.</li>
+<li>ILC3s were described as RORgammat-positive antigen-presenting cells that sense microbiota through STING in the reported gut context.</li>
+<li>ILC3-intrinsic STING enhanced CCR7-dependent migration to gut-draining lymph nodes.</li>
+<li>STING signaling supported microbiota-specific regulatory T-cell instruction and restrained chronic inflammation.</li>
+<li>Uncontrolled inflammatory context depleted tissue-protective ILC3s, adding a disease-state caveat.</li>
 </ul>
 <h2 id="claim-level-confidence">Claim-Level Confidence</h2>
 <ul>
-<li>High confidence:
-  this source directly supports the title/abstract-level claim that iLC3s sense gut microbiota through STING to initiate immune tolerance.</li>
-<li>High confidence:
-  the source is relevant to ILC3, T cells in the detected context of gut/intestine.</li>
-<li>Medium confidence:
-  mechanisms or mediators such as STING can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.</li>
-<li>Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.</li>
+<li>High confidence: gut ILC3 STING supports microbiota-specific Treg tolerance in the reported source.</li>
+<li>Medium-high confidence: STING belongs in the ILC3 adaptive-tolerance mechanism map.</li>
+<li>Low confidence: lung ILC3 STING-Treg claims require pulmonary evidence.</li>
 </ul>
 <h2 id="methods-and-context">Methods and Context</h2>
 <ul>
-<li>Source kind inferred from title/tags/text: primary or literature research article.</li>
-<li>Species or sample frame detected: human, mouse</li>
-<li>Tissue or disease context detected: gut/intestine</li>
-<li>Assay modalities detected from tags: single-cell RNA-seq, RNA-seq, in vivo model, genetic or knockout perturbation</li>
-<li>Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.</li>
+<li>Species/context: gut microbiota and inflammatory tolerance models with human relevance context.</li>
+<li>Compartment: gut and gut-draining lymph nodes.</li>
+<li>Assay directness: strong for gut tolerance axis; indirect for lung.</li>
+<li>Best wiki use: ILC3 sensing-to-Treg pathway.</li>
 </ul>
 <h2 id="caveats">Caveats</h2>
 <ul>
-<li>This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.</li>
-<li>Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.</li>
-<li>For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.</li>
-<li>Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.</li>
+<li>Keep gut and lymph-node context explicit.</li>
+<li>Do not treat STING as universally protective; inflammatory context can change ILC3 fate.</li>
+<li>Avoid direct pulmonary extrapolation.</li>
 </ul>
 <h2 id="contradiction-and-supersession">Contradiction and Supersession</h2>
 <ul>
-<li>Contradiction status:
-  not assessed during bulk ingestion.</li>
-<li>Supersession status:
-  not assessed during bulk ingestion.</li>
+<li>Contradiction status: adds a sensing/migration layer to earlier MHCII/Treg selection sources.</li>
+<li>Supersession status: recent extension, not replacement.</li>
 </ul>
 <h2 id="related-pages">Related Pages</h2>
 <ul>
 <li><a href="../../projects/ILC_in_lung_project/">ILC_in_lung_project</a></li>
 <li><a href="../../topics/ILC_in_lung/">ILC_in_lung</a></li>
-<li><a href="../../audit/2026-04-20_reference_coverage_audit/">Reference coverage audit</a></li>
+<li><a href="../../topics/ILC_regulation_of_adaptive_immunity/">ILC Regulation Of Adaptive Immunity</a></li>
+<li><a href="../../digests/2026-04-22_lung_ILC_core_evidence_synthesis/">Lung ILC Core Evidence Synthesis</a></li>
+<li><a href="../../entities/ILC2/">ILC2</a></li>
 <li><a href="../../entities/ILC3/">ILC3</a></li>
+<li><a href="../../topics/ILC2_functional_regulation_mechanisms/">ILC2 functional regulation mechanisms</a></li>
 <li><a href="../../topics/ILC3_functional_regulation_mechanisms/">ILC3 functional regulation mechanisms</a></li>
+<li><a href="../../audit/2026-04-20_reference_coverage_audit/">Reference coverage audit</a></li>
 </ul>
 <h2 id="pages-updated-from-this-source">Pages Updated From This Source</h2>
 <ul>
+<li><a href="../../topics/ILC_regulation_of_adaptive_immunity/">ILC Regulation Of Adaptive Immunity</a></li>
+<li><a href="../../topics/ILC_in_lung/">ILC_in_lung</a></li>
+<li><a href="../../entities/ILC2/">ILC2</a></li>
 <li><a href="../../entities/ILC3/">ILC3</a></li>
-<li><a href="../../topics/ILC3_functional_regulation_mechanisms/">ILC3_functional_regulation_mechanisms</a></li>
+<li><a href="../../topics/ILC2_functional_regulation_mechanisms/">ILC2 functional regulation mechanisms</a></li>
+<li><a href="../../topics/ILC3_functional_regulation_mechanisms/">ILC3 functional regulation mechanisms</a></li>
+<li><a href="../../digests/2026-04-22_lung_ILC_core_evidence_synthesis/">Lung ILC Core Evidence Synthesis</a></li>
+<li><a href="../../audit/2026-04-30_focused_manual_ingest_adaptive_immunity_batch2/">Adaptive Immunity Source Review Notes 2</a></li>
 </ul>
 
 
