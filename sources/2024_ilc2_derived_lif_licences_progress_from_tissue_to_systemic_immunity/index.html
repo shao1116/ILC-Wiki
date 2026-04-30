@@ -701,6 +701,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/ILC_regulation_of_adaptive_immunity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ILC Regulation Of Adaptive Immunity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -976,81 +1004,79 @@
 </ul>
 <h2 id="ingest-mode">Ingest Mode</h2>
 <ul>
-<li>Mode: <code>provisional bulk-ingest mode</code></li>
-<li>Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.</li>
-<li>Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.</li>
+<li>Mode: <code>focused manual crystallization mode</code></li>
+<li>Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.</li>
+<li>Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.</li>
 </ul>
 <h2 id="source-type">Source Type</h2>
 <ul>
-<li>primary or literature research article</li>
-<li>Main detected cell focus: ILC2</li>
-<li>Main detected context: lung/airway, asthma/allergy, viral infection</li>
-<li>Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.</li>
+<li>primary mouse pulmonary immunity and ILC2-derived LIF study</li>
+<li>Evidence profile: ILC2-derived LIF, lung immune-cell egress to lymph nodes, viral infection, chronic pulmonary allergen challenge, pulmonary lymphatic endothelial CCL21, and CCR7+ cell migration.</li>
+<li>Knowledge note status: source-reviewed evidence note suitable for lung ILC2 tissue-to-systemic immunity framing.</li>
 </ul>
 <h2 id="evidence-profile">Evidence Profile</h2>
 <ul>
-<li>Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.</li>
+<li>Overall confidence: high for source-specific mouse evidence that ILC2-derived LIF regulates immune-cell egress from lung to draining lymph nodes through lymphatic CCL21.</li>
 <li>Evidence tags:
-  #assay/KO #assay/RNAseq #assay/flow #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/T_cell #cell/macrophage #cell/monocyte #outcome/airway_hyperresponsiveness #outcome/homeostasis #outcome/infection #outcome/inflammation #outcome/repair #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung</li>
-<li>Detected biological focus: ILC2</li>
-<li>Detected mechanism or mediator terms: candidate mechanisms or mediators named in the source</li>
-<li>Detected context: lung/airway, asthma/allergy, viral infection</li>
+  #source/primary #species/mouse #tissue/lung #cell/ILC2 #cell/dendritic_cell #cell/lymphatic_endothelium #assay/in_vivo #assay/KO #assay/flow #assay/RNAseq #outcome/infection #outcome/inflammation #axis/ILC_lung_infection #axis/ILC_regulation #status/focused_crystallization</li>
+<li>Primary biological axis: ILC2-derived LIF licenses pulmonary lymphatic CCL21 and CCR7+ immune-cell egress, balancing local and systemic immunity.</li>
 </ul>
 <h2 id="why-it-matters-here">Why It Matters Here</h2>
-<p>This source matters to the ILC-in-lung wiki because it appears to address lung/airway, asthma/allergy, viral infection with a focus on ILC2. For current synthesis, it should be used primarily as evidence for the source-specific claim that iLC2-derived LIF licences progress from tissue to systemic immunity, then upgraded or narrowed after manual review of the full methods, figures, and model system.</p>
+<p>This source extends the ILC2 model beyond local cytokine output: lung ILC2s can regulate whether immune responses remain tissue-localized or progress toward lymph-node/systemic immunity.</p>
 <h2 id="key-findings">Key Findings</h2>
 <ul>
-<li>Here we show that disruption of leukaemia inhibitory factor (LIF) production from group 2 innate lymphoid cells (ILC2s) prevents immune cells leaving the lungs to migrate to the lymph nodes (LNs).</li>
-<li>In the absence of LIF , viral infection leads to plasmacytoid dendritic cells (pDCs) becoming retained in the lungs where they improve tissue-localized, antiviral immunity, whereas chronic pulmonary allergen challenge leads to marked immune cell accumulation and the formation of tertiary lymphoid structures in the lung.</li>
-<li>Mechanistically, ILC2-derived LIF induces the production of the chemokine CCL21 from lymphatic endothelial cells lining the pulmonary lymphatic vessels, thus licensing the homing of CCR7+ immune cells (including dendritic cells) to LNs.</li>
-<li>Consequently, ILC2-derived LIF dictates the egress of immune cells from the lungs to regulate tissue-localized versus systemic immunity and the balance between allergen and viral responsiveness in the lungs.</li>
-<li>The lungs are constantly exposed to the inhalation of both infectious and non-infectious agents.</li>
+<li>Disruption of ILC2-derived LIF prevents immune cells from leaving lung tissue and migrating to lymph nodes.</li>
+<li>In the absence of LIF, viral infection retains pDCs in lung and improves tissue-localized antiviral immunity in the reported model.</li>
+<li>During chronic pulmonary allergen challenge, absent LIF is associated with immune-cell accumulation and tertiary lymphoid structure formation in lung.</li>
+<li>Mechanistically, ILC2-derived LIF induces CCL21 from pulmonary lymphatic endothelial cells, supporting CCR7+ immune-cell homing to lymph nodes.</li>
 </ul>
 <h2 id="claim-level-confidence">Claim-Level Confidence</h2>
 <ul>
-<li>High confidence:
-  this source directly supports the title/abstract-level claim that iLC2-derived LIF licences progress from tissue to systemic immunity.</li>
-<li>High confidence:
-  the source is relevant to ILC2 in the detected context of lung/airway, asthma/allergy.</li>
-<li>Medium confidence:
-  mechanisms or mediators such as candidate mechanisms or mediators named in the source can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.</li>
-<li>Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.</li>
+<li>High confidence: ILC2-derived LIF controls lung immune-cell egress through a lymphatic CCL21/CCR7 axis in the reported mouse systems.</li>
+<li>Medium-high confidence: the source supports a local-versus-systemic immunity branch for lung ILC2 biology.</li>
+<li>Low confidence: this should not be generalized to all viral infections, all allergens, or human lung disease without matching data.</li>
 </ul>
 <h2 id="methods-and-context">Methods and Context</h2>
 <ul>
-<li>Source kind inferred from title/tags/text: primary or literature research article.</li>
-<li>Species or sample frame detected: human, mouse</li>
-<li>Tissue or disease context detected: lung/airway, asthma/allergy, viral infection</li>
-<li>Assay modalities detected from tags: flow cytometry, RNA-seq, genetic or knockout perturbation</li>
-<li>Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.</li>
+<li>Species/context: mouse viral infection and chronic pulmonary allergen challenge.</li>
+<li>Compartment: lung tissue, lymphatic endothelium, and lymph nodes.</li>
+<li>Assay directness: strong for lung-to-lymph-node trafficking regulation in the source models.</li>
+<li>Best wiki use: ILC2-derived LIF, tissue-localized versus systemic immunity, pDC retention, and TLS context.</li>
 </ul>
 <h2 id="caveats">Caveats</h2>
 <ul>
-<li>This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.</li>
-<li>Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.</li>
-<li>For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.</li>
-<li>Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.</li>
+<li>Preserve the directionality: LIF promotes egress; loss of LIF retains selected immune cells in lung.</li>
+<li>TLS formation is linked to chronic allergen challenge in the reported system, not a universal consequence of ILC2 activity.</li>
+<li>Human clinical implications remain hypothesis-level.</li>
 </ul>
 <h2 id="contradiction-and-supersession">Contradiction and Supersession</h2>
 <ul>
-<li>Contradiction status:
-  not assessed during bulk ingestion.</li>
-<li>Supersession status:
-  not assessed during bulk ingestion.</li>
+<li>Contradiction status: explains why retaining immune cells in lung can be beneficial in viral infection yet potentially pathological during chronic allergen exposure.</li>
+<li>Supersession status: not superseded; adds a distinct trafficking-egress branch.</li>
 </ul>
 <h2 id="related-pages">Related Pages</h2>
 <ul>
 <li><a href="../../projects/ILC_in_lung_project/">ILC_in_lung_project</a></li>
 <li><a href="../../topics/ILC_in_lung/">ILC_in_lung</a></li>
-<li><a href="../../audit/2026-04-20_reference_coverage_audit/">Reference coverage audit</a></li>
+<li><a href="../../digests/2026-04-22_lung_ILC_core_evidence_synthesis/">Lung ILC Core Evidence Synthesis</a></li>
 <li><a href="../../entities/ILC2/">ILC2</a></li>
+<li><a href="../../entities/ILC3/">ILC3</a></li>
 <li><a href="../../topics/ILC2_roles_in_pulmonary_disease/">ILC2 roles in pulmonary disease</a></li>
-<li><a href="../../digests/2026-04-20_ILC_pulmonary_disease_roles/">Lung ILC Disease Roles Companion</a></li>
+<li><a href="../../topics/ILC2_functional_regulation_mechanisms/">ILC2 functional regulation mechanisms</a></li>
+<li><a href="../../topics/ILC3_roles_in_pulmonary_disease/">ILC3 roles in pulmonary disease</a></li>
+<li><a href="../../topics/ILC3_functional_regulation_mechanisms/">ILC3 functional regulation mechanisms</a></li>
+<li><a href="../../audit/2026-04-20_reference_coverage_audit/">Reference coverage audit</a></li>
 </ul>
 <h2 id="pages-updated-from-this-source">Pages Updated From This Source</h2>
 <ul>
-<li>No topic/entity/digest page currently cites this source directly; prioritize it through the <a href="../../audit/2026-04-20_reference_coverage_audit/">reference coverage audit</a> if its assigned role is lung-relevant.</li>
+<li><a href="../../entities/ILC2/">ILC2</a></li>
+<li><a href="../../entities/ILC3/">ILC3</a></li>
+<li><a href="../../topics/ILC2_roles_in_pulmonary_disease/">ILC2 roles in pulmonary disease</a></li>
+<li><a href="../../topics/ILC2_functional_regulation_mechanisms/">ILC2 functional regulation mechanisms</a></li>
+<li><a href="../../topics/ILC3_roles_in_pulmonary_disease/">ILC3 roles in pulmonary disease</a></li>
+<li><a href="../../topics/ILC3_functional_regulation_mechanisms/">ILC3 functional regulation mechanisms</a></li>
+<li><a href="../../digests/2026-04-22_lung_ILC_core_evidence_synthesis/">Lung ILC Core Evidence Synthesis</a></li>
+<li><a href="../../audit/2026-04-30_focused_manual_ingest_batch6/">Focused Manual Ingest Batch 6</a></li>
 </ul>
 
 

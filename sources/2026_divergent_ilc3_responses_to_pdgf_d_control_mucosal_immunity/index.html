@@ -701,6 +701,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/ILC_regulation_of_adaptive_immunity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ILC Regulation Of Adaptive Immunity
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -976,81 +1004,79 @@
 </ul>
 <h2 id="ingest-mode">Ingest Mode</h2>
 <ul>
-<li>Mode: <code>provisional bulk-ingest mode</code></li>
-<li>Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.</li>
-<li>Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.</li>
+<li>Mode: <code>focused manual crystallization mode</code></li>
+<li>Meaning: this source page was manually reviewed for source text, model context, assay directness, and claim boundaries.</li>
+<li>Durable synthesis status: selected source-specific claims were propagated into entity/topic/digest pages only where evidence strength and context labels are preserved.</li>
 </ul>
 <h2 id="source-type">Source Type</h2>
 <ul>
-<li>primary research article with animal-model evidence</li>
-<li>Main detected cell focus: ILC3</li>
-<li>Main detected context: asthma/allergy, tumor/cancer, gut/intestine</li>
-<li>Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.</li>
+<li>primary human/mouse comparative ILC3 receptor-response study</li>
+<li>Evidence profile: PDGF-D, human NKp44+ ILC3s, mouse PDGFRbeta response, NKp44-transgenic mice, IL-22, proliferation, TNF-alpha, IFN-gamma, and enteric infection outcomes.</li>
+<li>Knowledge note status: source-reviewed evidence note suitable for species-divergent ILC3 regulation and receptor-boundary interpretation.</li>
 </ul>
 <h2 id="evidence-profile">Evidence Profile</h2>
 <ul>
-<li>Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.</li>
+<li>Overall confidence: high for source-specific evidence that PDGF-D drives divergent ILC3 responses depending on receptor context and species system.</li>
 <li>Evidence tags:
-  #assay/KO #assay/flow #assay/scRNAseq #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #cell/macrophage #cell/monocyte #outcome/homeostasis #outcome/infection #outcome/inflammation #outcome/repair #source/literature_pdf #species/human #species/mouse #tissue/gut</li>
-<li>Detected biological focus: ILC3</li>
-<li>Detected mechanism or mediator terms: candidate mechanisms or mediators named in the source</li>
-<li>Detected context: asthma/allergy, tumor/cancer, gut/intestine</li>
+  #source/primary #species/human #species/mouse #tissue/gut #cell/ILC3 #assay/in_vivo #assay/flow #assay/scRNAseq #assay/KO #outcome/infection #outcome/inflammation #axis/ILC_regulation #axis/ILC_plasticity #status/focused_crystallization</li>
+<li>Primary biological axis: PDGF-D induces IL-22/proliferation through mouse PDGFRbeta but type 1-like TNF/IFN-gamma responses through human NKp44 engagement.</li>
 </ul>
 <h2 id="why-it-matters-here">Why It Matters Here</h2>
-<p>This source matters to the ILC-in-lung wiki because it appears to address asthma/allergy, tumor/cancer, gut/intestine with a focus on ILC3. For current synthesis, it should be used primarily as evidence for the source-specific claim that divergent ILC3 responses to PDGF-D control mucosal immunity, then upgraded or narrowed after manual review of the full methods, figures, and model system.</p>
+<p>This recent source is useful because it forces a species-aware ILC3 model. PDGF-D does not map to one universal ILC3 output; receptor context changes whether the response resembles IL-22 support or type 1 inflammation.</p>
 <h2 id="key-findings">Key Findings</h2>
 <ul>
-<li>Fachi1<em>, Sarah de Oliveira1,2, Tihana Trsan1, Martina Molgora3, Patrick Fernandes Rodrigues1, Susan Gilfillan1, Alina Ulezko Antonova1, Hao- Wei Chang1, Silvia Penati1, Siyan Cao4, Marina Cella1, Marco Colonna1</em> Platelet- derived growth factor D (PDGF- D) acts as a noncanonical ligand for human NKp44+ group 3 innate lymphoid cells (ILC3s).</li>
-<li>However, mice lack NKp44, raising the question of whether PDGF- D regulates murine ILC3s through a distinct pathway.</li>
-<li>We show that PDGF- D promoted interleukin- 22 (IL- 22) production and ILC3 proliferation in mice through PDGF receptor β (PDGFRβ), a canonical receptor absent in human ILC3s.</li>
-<li>Using NKp44- transgenic mice, we demonstrate that PDGF- D engagement of NKp44 instead induced a type 1 effector program marked by tumor necrosis factor–α and interferon- γ (IFN- γ) production.</li>
-<li>Although early IFN- γ release protected mice from enteric infections, sustained IFN- γ was detrimental.</li>
+<li>PDGF-D acts as a noncanonical ligand for human NKp44+ ILC3s.</li>
+<li>In mice, PDGF-D promoted IL-22 production and ILC3 proliferation through PDGFRbeta, because mice lack NKp44.</li>
+<li>In NKp44-transgenic mouse systems, PDGF-D engagement of NKp44 induced a type 1 effector program marked by TNF-alpha and IFN-gamma.</li>
+<li>Early IFN-gamma release was protective against enteric infection in the reported system, whereas sustained IFN-gamma was detrimental.</li>
 </ul>
 <h2 id="claim-level-confidence">Claim-Level Confidence</h2>
 <ul>
-<li>High confidence:
-  this source directly supports the title/abstract-level claim that divergent ILC3 responses to PDGF-D control mucosal immunity.</li>
-<li>High confidence:
-  the source is relevant to ILC3 in the detected context of asthma/allergy, tumor/cancer.</li>
-<li>Medium confidence:
-  mechanisms or mediators such as candidate mechanisms or mediators named in the source can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.</li>
-<li>Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.</li>
+<li>High confidence: PDGF-D effects on ILC3s are receptor- and species-context dependent in the reported systems.</li>
+<li>Medium-high confidence: this source is a strong guardrail for translating ILC3 receptor biology between mouse and human.</li>
+<li>Low confidence: this source should not be used as direct pulmonary ILC3 evidence without lung-specific data.</li>
 </ul>
 <h2 id="methods-and-context">Methods and Context</h2>
 <ul>
-<li>Source kind inferred from title/tags/text: primary research article with animal-model evidence.</li>
-<li>Species or sample frame detected: human, mouse</li>
-<li>Tissue or disease context detected: asthma/allergy, tumor/cancer, gut/intestine</li>
-<li>Assay modalities detected from tags: flow cytometry, single-cell RNA-seq, genetic or knockout perturbation</li>
-<li>Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.</li>
+<li>Species/context: human NKp44+ ILC3 framing, mouse PDGFRbeta biology, and NKp44-transgenic mouse systems.</li>
+<li>Compartment: mucosal/enteric immunity.</li>
+<li>Assay directness: strong for species/receptor divergence; indirect for lung disease.</li>
+<li>Best wiki use: ILC3 receptor translation, PDGF-D, NKp44, PDGFRbeta, IL-22 versus type 1-like output.</li>
 </ul>
 <h2 id="caveats">Caveats</h2>
 <ul>
-<li>This source page was rewritten from extracted title/abstract/early text and automated tags; it is not yet a substitute for a full manual paper read.</li>
-<li>Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.</li>
-<li>For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.</li>
-<li>Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.</li>
+<li>Preserve species and receptor labels.</li>
+<li>Do not treat mouse PDGF-D/PDGFRbeta and human PDGF-D/NKp44 responses as interchangeable.</li>
+<li>Keep pulmonary extrapolation as hypothesis-level.</li>
 </ul>
 <h2 id="contradiction-and-supersession">Contradiction and Supersession</h2>
 <ul>
-<li>Contradiction status:
-  not assessed during bulk ingestion.</li>
-<li>Supersession status:
-  not assessed during bulk ingestion.</li>
+<li>Contradiction status: resolves apparent PDGF-D differences by receptor context rather than treating them as conflicting findings.</li>
+<li>Supersession status: recent source that updates species-boundary interpretation but does not replace lung-specific ILC3 evidence.</li>
 </ul>
 <h2 id="related-pages">Related Pages</h2>
 <ul>
 <li><a href="../../projects/ILC_in_lung_project/">ILC_in_lung_project</a></li>
 <li><a href="../../topics/ILC_in_lung/">ILC_in_lung</a></li>
-<li><a href="../../audit/2026-04-20_reference_coverage_audit/">Reference coverage audit</a></li>
+<li><a href="../../digests/2026-04-22_lung_ILC_core_evidence_synthesis/">Lung ILC Core Evidence Synthesis</a></li>
+<li><a href="../../entities/ILC2/">ILC2</a></li>
 <li><a href="../../entities/ILC3/">ILC3</a></li>
+<li><a href="../../topics/ILC2_roles_in_pulmonary_disease/">ILC2 roles in pulmonary disease</a></li>
+<li><a href="../../topics/ILC2_functional_regulation_mechanisms/">ILC2 functional regulation mechanisms</a></li>
 <li><a href="../../topics/ILC3_roles_in_pulmonary_disease/">ILC3 roles in pulmonary disease</a></li>
-<li><a href="../../digests/2026-04-20_ILC_pulmonary_disease_roles/">Lung ILC Disease Roles Companion</a></li>
+<li><a href="../../topics/ILC3_functional_regulation_mechanisms/">ILC3 functional regulation mechanisms</a></li>
+<li><a href="../../audit/2026-04-20_reference_coverage_audit/">Reference coverage audit</a></li>
 </ul>
 <h2 id="pages-updated-from-this-source">Pages Updated From This Source</h2>
 <ul>
-<li>No topic/entity/digest page was updated from this automated ingest alone; prioritize this source for manual crystallization if it becomes project-relevant.</li>
+<li><a href="../../entities/ILC2/">ILC2</a></li>
+<li><a href="../../entities/ILC3/">ILC3</a></li>
+<li><a href="../../topics/ILC2_roles_in_pulmonary_disease/">ILC2 roles in pulmonary disease</a></li>
+<li><a href="../../topics/ILC2_functional_regulation_mechanisms/">ILC2 functional regulation mechanisms</a></li>
+<li><a href="../../topics/ILC3_roles_in_pulmonary_disease/">ILC3 roles in pulmonary disease</a></li>
+<li><a href="../../topics/ILC3_functional_regulation_mechanisms/">ILC3 functional regulation mechanisms</a></li>
+<li><a href="../../digests/2026-04-22_lung_ILC_core_evidence_synthesis/">Lung ILC Core Evidence Synthesis</a></li>
+<li><a href="../../audit/2026-04-30_focused_manual_ingest_batch6/">Focused Manual Ingest Batch 6</a></li>
 </ul>
 
 
