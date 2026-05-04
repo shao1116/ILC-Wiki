@@ -10,78 +10,74 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the ILC2 regulatory-context question, including tissue compartment, model system, regulatory mediator, assay directness, and whether the source is primary or review-level evidence.
+- Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary perturbation or review-level synthesis.
+
 ## Source Type
 
-- primary or literature research article
-- Main detected cell focus: ILC2
-- Main detected context: gut/intestine, nervous system
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary gut neuroimmune ILC2 tissue-protection study
+- Evidence profile: enteric-neuron-derived ADM2 promotes AREG-positive tissue-protective ILC2 responses and limits intestinal inflammation.
+- Knowledge note status: source-reviewed evidence note suitable for ILC2 regulation context.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: source-specific confidence is assigned to the biological claim below, not to PDF processing.
 - Evidence tags:
-  #assay/RNAseq #assay/flow #cell/ILC2 #cell/T_cell #outcome/inflammation #outcome/repair #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung
-- Detected biological focus: ILC2
-- Detected mechanism or mediator terms: CGRP/PAC1
-- Detected context: gut/intestine, nervous system
+  #source/primary #species/mouse #species/human #tissue/gut #cell/ILC2 #assay/RNAseq #assay/flow #outcome/inflammation #outcome/repair #axis/neuroimmune #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: enteric-neuron-derived ADM2 promotes AREG-positive tissue-protective ILC2 responses and limits intestinal inflammation.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address gut/intestine, nervous system with a focus on ILC2. For current synthesis, it should be used primarily as evidence for the source-specific claim that cGRP-related neuropeptide adrenomedullin 2 promotes tissue-protective ILC2 responses and limits intestinal inflammation, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds ADM2 promotes tissue-protective intestinal ILC2 responses to the ILC2 regulatory map. Its durable use depends on tissue and source-type boundaries: primary studies can support source-specific mechanisms, while reviews should orient interpretation and point to primary anchors.
 
 ## Key Findings
 
-- We demonstrate that enteric neurons produce calcitonin gene-related peptide-related adrenomedullin 2 (ADM2) and identify a previously unrecognized role for the ADM2 pathway in promoting intestinal tissue-protective functions of group 2 innate lymphoid cells (ILC2s).
-- Genomic or ILC2-intrinsic deletion of ADM2 receptor subunits resulted in a significant reduction in tissue-protective ILC2 responses, defective amphiregulin (AREG) production and increased susceptibility to intestinal damage and inflammation.
-- Conversely, therapeutic delivery of recombinant ADM2 elicited tissue-protective AREG+ ILC2s and limited intestinal inflammation.
-- Expression of genes encoding human ADM2 receptor (CALCRL and RAMP3) was altered in participants with inflammatory bowel diseases and associated with reduced expression of AREG in ILC2s.
-- Collectively, these findings identify that the ADM2–ADM2 receptor pathway can promote tissue-protective functions of ILC2s in the context of intestinal damage and inflammation.
+- Enteric neurons were reported to produce ADM2, a CGRP-related neuropeptide.
+- ILC2-intrinsic deletion of ADM2 receptor components reduced tissue-protective ILC2 responses and amphiregulin production.
+- Recombinant ADM2 elicited AREG-positive ILC2s and limited intestinal inflammation in the reported setting.
+- Human IBD-associated receptor-expression observations support relevance but not direct lung causality.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that cGRP-related neuropeptide adrenomedullin 2 promotes tissue-protective ILC2 responses and limits intestinal inflammation.
-- High confidence:
-  the source is relevant to ILC2 in the detected context of gut/intestine, nervous system.
-- Medium confidence:
-  mechanisms or mediators such as CGRP/PAC1 can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: ADM2 promotes tissue-protective intestinal ILC2 responses in the reported systems.
+- Medium confidence: ADM2 adds a neuroimmune tissue-repair branch to ILC2 regulation.
+- Low confidence: direct airway or lung ADM2-ILC2 function is not established by this source.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary or literature research article.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: gut/intestine, nervous system
-- Assay modalities detected from tags: flow cytometry, RNA-seq
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source-specific context: mouse intestinal inflammation and human IBD-associated expression context with flow and RNA-seq support.
+- Best wiki use: ILC2 functional regulation, tissue-context guardrails, and source routing.
+- Assay directness: strongest for the source tissue/model; indirect for lung disease unless lung data are present.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Separate ADM2 from CGRP/PAC1 lung ILC2 mechanisms unless direct overlap is shown.
+- Preserve species, tissue compartment, mediator, and disease-model labels.
+- Reviews should frame the field; primary sources should anchor causal claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements the current ILC2 regulatory map by adding tissue-context, developmental, metabolic, neuroimmune, epithelial, or therapeutic framing.
+- Supersession status: not superseded; use alongside direct pulmonary ILC2 sources with explicit evidence labels.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC2](../entities/ILC2.md)
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC2](../entities/ILC2.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
+- [ILC2 Regulatory Context Source Review Notes](../audit/2026-05-04_focused_manual_ingest_ILC2_regulatory_context.md)

@@ -38,6 +38,8 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
   infection can reprogram ILC2 output and alter macrophage/niche consequences.
 - Low confidence:
   mechanisms from gut or nasal inflammation should not be assumed to operate identically in lung ILC2s.
+- Medium confidence:
+  extrapulmonary ILC2 regulatory context now includes aryl-hydrocarbon-receptor/AHR and RXRgamma nuclear-receptor restraint, RORalpha developmental lineage boundaries, ADM2 tissue-protective neuroimmune signaling, and tuft-cell IL-17RB control of IL-25 bioavailability; these refine regulatory vocabulary but should stay tissue-labeled.
 
 ## Established observations
 
@@ -46,6 +48,8 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - IL-33/ST2 and IL-25 appear repeatedly as upstream ILC2 activation axes in asthma, allergen, and viral airway models.
 - [Kinetics of the accumulation of group 2 innate lymphoid cells in IL-33-induced and IL-25-induced murine models of asthma a potential role for the chemokine CXCL16](../sources/2019_kinetics_of_the_accumulation_of_group_2_innate_lymphoid_cells_in_il_33_induced_and_il_25_induced_murine_models_o.md) links IL-33/IL-25-driven models to ILC2 accumulation and CXCL16 as a candidate recruitment or positioning cue.
 - [IL-1beta prevents ILC2 expansion, type 2 cytokine secretion, and mucus metaplasia in response to early-life rhinovirus infection in mice](../sources/2020_il_1beta_prevents_ilc2_expansion_type_2_cytokine_secretion_and_mucus_metaplasia_in_response_to_early_life_rhinov.md) supports IL-1beta as a negative regulator of ILC2 expansion and type 2 output in early-life rhinovirus-like disease.
+- [Tuft cell IL-17RB restrains IL-25 bioavailability and reveals context-dependent ILC2 hypoproliferation](../sources/2025_tuft_cell_il_17rb_restrains_il_25_bioavailability_and_reveals_context_dependent_ilc2_hypoproliferation.md) refines the IL-25-ILC2 axis by showing epithelial control of IL-25 bioavailability in a gut tuft-cell circuit.
+
 - [IL-1beta, IL-23, and TGF-beta drive plasticity of human ILC2s towards IL-17-producing ILCs in nasal inflammation](../sources/2019_il_1beta_il_23_and_tgf_beta_drive_plasticity_of_human_ilc2s_towards_il_17_producing_ilcs_in_nasal_inflammation.md) supports a cytokine-driven plasticity branch, but nasal inflammation should stay context-labeled.
 
 ### Lipid mediators and inflammatory amplifiers
@@ -72,8 +76,11 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - [Dichotomous metabolic networks govern human ILC2 proliferation and function](../sources/2021_dichotomous_metabolic_networks_govern_human_ilc2_proliferation_and_function.md) supports a human baseline-versus-activated metabolic split in which circulating ILC2s rely on amino-acid-supported OXPHOS at rest but use glycolysis and mTOR for IL-33-driven effector activation.
 - [Blocking the HIF-1alpha glycolysis axis inhibits allergic airway inflammation by reducing ILC2 metabolism and function](../sources/2025_blocking_the_hif_1alpha_glycolysis_axis_inhibits_allergic_airway_inflammation_by_reducing_ilc2_metabolism_and_fu.md) supports HIF-1alpha/glycolysis as a pro-inflammatory ILC2 metabolic axis in allergic airway inflammation.
 - [Regulation of type 2 innate lymphoid cell-dependent airway hyperreactivity by butyrate](../sources/2018_regulation_of_type_2_innate_lymphoid_cell_dependent_airway_hyperreactivity_by_butyrat.md) supports butyrate/HDAC-linked suppression of ILC2 cytokine output and ILC2-dependent airway hyperreactivity in the reported systems.
+- [Aryl Hydrocarbon Receptor Signaling Cell Intrinsically Inhibits Intestinal Group 2 Innate Lymphoid Cell Function](../sources/2018_aryl_hydrocarbon_receptor_signaling_cell_intrinsically_inhibits_intestinal_group_2_in.md) adds a gut ILC2 aryl-hydrocarbon-receptor/AHR restraint branch, and [Retinoid X receptor gamma dictates the activation threshold of group 2 innate lymphoid cells and limits type 2 inflammation in the small intestine](../sources/2023_retinoid_x_receptor_gamma_dictates_the_activation_threshold_of_group_2_innate_lymphoi.md) adds an RXRgamma lipid-metabolic activation-threshold branch.
+
 - [Dopamine inhibits group 2 innate lymphoid cell-driven allergic lung inflammation by dampening mitochondrial activity](../sources/2023_dopamine_inhibits_group_2_innate_lymphoid_cell_driven_allergic_lung_inflammation_by_d.md) supports mitochondrial activity as a dopamine-sensitive ILC2 effector-control node.
 - [mTORC1 signaling in group 2 innate lymphoid cells coordinates neuro-immune crosstalk in allergic lung inflammation](../sources/2025_mtorc1_signaling_in_group_2_innate_lymphoid_cells_coordinates_neuro_immune_crosstalk.md) supports mTORC1 as a link between ILC2 metabolism and neuroimmune crosstalk.
+- [Metabolic features of innate lymphoid cells](../sources/2022_metabolic_features_of_innate_lymphoid_cells.md) is useful as review-level orientation for ILC metabolic adaptability, but individual pathway claims should remain anchored to primary sources.
 
 - [S1P-dependent interorgan trafficking of group 2 innate lymphoid cells supports host defense](../sources/2018_s1p_dependent_interorgan_trafficking_of_group_2_innate_lymphoid_cells_supports_host_d.md) supports S1P-dependent interorgan trafficking as a mouse inflammatory ILC2 positioning mechanism, separate from steady-state tissue residency.
 - [ILC2-derived LIF licences progress from tissue to systemic immunity](../sources/2024_ilc2_derived_lif_licences_progress_from_tissue_to_systemic_immunity.md) supports ILC2-derived LIF as a lung immune-egress regulator through lymphatic endothelial CCL21 and CCR7+ cell migration.
@@ -93,6 +100,8 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - [Cannabinoid receptor 2 engagement promotes group 2 innate lymphoid cell expansion and enhances airway hyperreactivity](../sources/2022_cannabinoid_receptor_2_engagement_promotes_group_2_innate_lymphoid_cell_expansion_and_enhances_airway_hyperreact.md) supports CB2 signaling as a positive receptor-level amplifier of activated ILC2 function and airway hyperreactivity.
 - [Basophils prime group 2 innate lymphoid cells for neuropeptide-mediated inhibition](../sources/2020_basophils_prime_group_2_innate_lymphoid_cells_for_neuropeptide_mediated_inhibition.md) supports cell-cell priming of ILC2s for neuropeptide-mediated inhibition.
 - [PAC1 constrains type 2 inflammation through promotion of CGRP signaling in ILC2s](../sources/2024_pac1_constrains_type_2_inflammation_through_promotion_of_cgrp_signaling_in_ilc2s.md) supports PAC1/CGRP-linked negative regulation of type 2 inflammation through ILC2s.
+- [CGRP-related neuropeptide adrenomedullin 2 promotes tissue-protective ILC2 responses and limits intestinal inflammation](../sources/2025_cgrp_related_neuropeptide_adrenomedullin_2_promotes_tissue_protective_ilc2_responses_and_limits_intestinal_infla.md) adds an enteric ADM2-ILC2-AREG tissue-protection branch; it is neuroimmune ILC2 context but not direct lung ADM2 evidence.
+
 - [beta(2)-adrenergic receptor-mediated negative regulation of group 2 innate lymphoid cell responses](../sources/2018_beta_2_adrenergic_receptor_mediated_negative_regulation_of_group_2_innate_lymphoid_cell_responses.md) supports beta2-adrenergic signaling as an inhibitory ILC2 regulatory axis.
 - [Long-acting muscarinic antagonist regulates group 2 innate lymphoid cell-dependent airway eosinophilic inflammation](../sources/2021_long_acting_muscarinic_antagonist_regulates_group_2_innate_lymphoid_cell_dependent_ai.md) supports a related but indirect cholinergic branch in which tiotropium restrains ILC2-dependent airway inflammation through basophil M3R signaling.
 
@@ -113,6 +122,12 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 
 - Human severe-asthma sputum supports an IL-1beta/IL-18-associated ILC2-to-ILC3-like regulatory branch: sort-purified human ILC2s exposed to IL-1beta plus IL-18 upregulate c-kit, IL-17A, and mixed type 2/type 17 transcriptional features in vitro ([A population of c-kit+ IL-17A+ ILC2s in sputum from individuals with severe asthma supports ILC2 to ILC3 trans-differentiation](../sources/2025_a_population_of_c_kit_il_17a_ilc2s_in_sputum_from_individuals_with_severe_asthma_supp.md)).
 - MSC-mediated suppression and vitamin D3/Blimp-1/IL-10 regulation are useful restraint axes for ILC2 asthma output, but should remain broader immune-regulatory mechanisms rather than ILC2-exclusive pathways ([Mesenchymal Stem Cells Suppress Severe Asthma by Directly Regulating Th2 Cells and Type 2 Innate Lymphoid Cells](../sources/2021_mesenchymal_stem_cells_suppress_severe_asthma_by_directly_regulating_th2_cells_and_ty.md); [Vitamin D3 resolved human and experimental asthma via B lymphocyte-induced maturation protein 1 in T cells and innate lymphoid cells](../sources/2023_vitamin_d3_resolved_human_and_experimental_asthma_via_b_lymphocyte_induced_maturation_protein_1_in_t_cells_and_i.md)).
+
+### Review-level orientation and tissue boundaries
+
+- [The group 2 innate lymphoid cell ( ILC 2) regulatory network and its underlying mechanisms](../sources/2018_the_group_2_innate_lymphoid_cell_ilc_2_regulatory_network_and_its_underlying_mechanisms.md), [Tissue-Specific Features of Innate Lymphoid Cells](../sources/2020_tissue_specific_features_of_innate_lymphoid_cells.md), and [Plasticity of innate lymphoid cell subsets](../sources/2020_plasticity_of_innate_lymphoid_cell_subsets.md) are useful review-level orientation sources for ILC2 regulatory networks, tissue specificity, and state plasticity.
+- [RORalpha is a critical checkpoint for T cell and ILC2 commitment in the embryonic thymus](../sources/2021_roralpha_is_a_critical_checkpoint_for_t_cell_and_ilc2_commitment_in_the_embryonic_thymus.md) adds developmental lineage-boundary context for ILC2 identity rather than mature lung disease regulation.
+- [Immunotherapy for asthma](../sources/2025_immunotherapy_for_asthma.md) is useful for asthma endotype and therapy framing, but ILC-specific claims should remain anchored to ILC-focused primary sources.
 
 ## Interpretation
 

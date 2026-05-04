@@ -93,6 +93,8 @@ flowchart TB
 - Gut/mucosal ILC3 source-reviewed context now includes RANKL/RANK restraint, BMAL1 and light/brain circadian timing, FFAR2 metabolite sensing, VIP receptor-context neuroimmune circuits, trained defense states, and HB-EGF tissue protection; these are useful regulatory comparators rather than direct pulmonary evidence.
 
 - ILC3 regulation also includes identity, nutrient, and stress-support programs; current source-linked context includes AHR/WASH maintenance, vitamin D-mediated IL-23 restraint, a CD71-iron axis, and IRE1alpha/XBP1-dependent cytokine sustainment, though these mechanisms are currently best labeled as extrapulmonary or mucosal context unless matched lung evidence is present.
+- ILC2 regulation now has a stronger tissue-boundary layer: gut AHR and RXRgamma restrain intestinal ILC2 activation, ADM2 promotes tissue-protective AREG-positive ILC2 responses, tuft-cell IL-17RB restrains IL-25 bioavailability, and RORalpha marks a thymic lineage-commitment checkpoint. These sources refine mechanism vocabulary but should not be promoted to direct lung causality.
+
 - ILC plasticity is not a side issue: ILC2-to-ILC1-like conversion, memory-like ILC2s, IL-17-producing ST2+ ILC2s, c-Kit+ ILC2/ILC3-like states, severe-asthma sputum intermediate ILC2s, and memory-like ILC3s all shape interpretation.
 
 ## Evidence layers
@@ -134,10 +136,13 @@ Use this page as the first evidence synthesis layer after the homepage. For cell
 - [IL-1beta prevents ILC2 expansion, type 2 cytokine secretion, and mucus metaplasia in response to early-life rhinovirus infection in mice](../sources/2020_il_1beta_prevents_ilc2_expansion_type_2_cytokine_secretion_and_mucus_metaplasia_in_response_to_early_life_rhinov.md)
 - [BATF promotes group 2 innate lymphoid cell-mediated lung tissue protection during acute respiratory virus infection](../sources/2022_batf_promotes_group_2_innate_lymphoid_cell_mediated_lung_tissue_protection_during_acu.md)
 - [Dampening type 2 properties of group 2 innate lymphoid cells by a gammaherpesvirus infection reprograms alveolar macrophages](../sources/2023_dampening_type_2_properties_of_group_2_innate_lymphoid_cells_by_a_gammaherpesvirus_in.md)
+- [Innate lymphoid cells in lung infection and immunity](../sources/2018_innate_lymphoid_cells_in_lung_infection_and_immunity.md)
 
 ### ILC2 allergic inflammation, regulation, and plasticity
 
 - [Lung type 2 innate lymphoid cells express cysteinyl leukotriene receptor 1 which regulates TH2 cytokine production](../sources/2013_lung_type_2_innate_lymphoid_cells_express_cysteinyl_leukotriene_receptor_1_which_regu.md)
+- [Group 2 Innate Lymphoid Cells: Team Players in Regulating Asthma](../sources/2021_group_2_innate_lymphoid_cells_team_players_in_regulating_asthma.md)
+- [Non-redundant functions of group 2 innate lymphoid cells](../sources/2022_non_redundant_functions_of_group_2_innate_lymphoid_cells.md)
 - [Cysteinyl leukotriene E4 activates human group 2 innate lymphoid cells and enhances the effect of prostaglandin D2 and epithelial cytokines](../sources/2017_cysteinyl_leukotriene_e4_activates_human_group_2_innate_lymphoid_cells_and_enhances_the_effect_of_prostaglandin.md)
 - [Kinetics of the accumulation of group 2 innate lymphoid cells in IL-33-induced and IL-25-induced murine models of asthma a potential role for the chemokine CXCL16](../sources/2019_kinetics_of_the_accumulation_of_group_2_innate_lymphoid_cells_in_il_33_induced_and_il_25_induced_murine_models_o.md)
 - [Pulmonary environmental cues drive group 2 innate lymphoid cell dynamics in mice and humans](../sources/2019_pulmonary_environmental_cues_drive_group_2_innate_lymphoid_cell_dynamics_in_mice_and_human.md)
@@ -187,6 +192,8 @@ Use this page as the first evidence synthesis layer after the homepage. For cell
 - [ILC3s select microbiota-specific regulatory T cells to establish tolerance in the gut](../sources/2022_ilc3s_select_microbiota_specific_regulatory_t_cells_to_establish_tolerance_in_the_gut.md)
 - [Human CD40 ligand-expressing type 3 innate lymphoid cells induce IL-10-producing immature transitional regulatory B cells](../sources/2018_human_cd40_ligand_expressing_type_3_innate_lymphoid_cells_induce_il_10_producing_immature_transitional_regulator.md)
 - [The interplay between innate lymphoid cells and T cells](../sources/2020_the_interplay_between_innate_lymphoid_cells_and_t_cells.md)
+- [Innate lymphoid cells as regulators of immunity, inflammation and tissue homeostasis](../sources/2016_innate_lymphoid_cells_as_regulators_of_immunity_inflammation_and_tissue_homeostasis.md)
+- [Orchestration of intestinal homeostasis and tolerance by group 3 innate lymphoid cells](../sources/2018_orchestration_of_intestinal_homeostasis_and_tolerance_by_group_3_innate_lymphoid_cell.md)
 - [Microbiota-dependent crosstalk between macrophages and ILC3 promotes intestinal homeostasis](../sources/2014_microbiota_dependent_crosstalk_between_macrophages_and_ilc3_promotes_intestinal_homeo.md)
 - [ILC2s are the predominant source of intestinal ILC-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md)
 - [Antigen-presenting innate lymphoid cells orchestrate neuroinflammation](../sources/2021_antigen_presenting_innate_lymphoid_cells_orchestrate_neuroinflammation.md)
@@ -220,6 +227,11 @@ Use this page as the first evidence synthesis layer after the homepage. For cell
 - [Vitamin D downregulates the IL-23 receptor pathway in human mucosal group 3 innate lymphoid cells](../sources/2018_vitamin_d_downregulates_the_il_23_receptor_pathway_in_human_mucosal_group_3_innate_lymphoid_cells.md)
 - [Nutrition impact on ILC3 maintenance and function centers on a cell-intrinsic CD71-iron axis](../sources/2023_nutrition_impact_on_ilc3_maintenance_and_function_centers_on_a_cell_intrinsic_cd71_iron_axis.md)
 - [The IRE1alpha/XBP1 pathway sustains cytokine responses of group 3 innate lymphoid cells in inflammatory bowel disease](../sources/2024_the_ire1alpha_xbp1_pathway_sustains_cytokine_responses_of_group_3_innate_lymphoid_cells_in_inflammatory_bowel_di.md)
+- [Aryl Hydrocarbon Receptor Signaling Cell Intrinsically Inhibits Intestinal Group 2 Innate Lymphoid Cell Function](../sources/2018_aryl_hydrocarbon_receptor_signaling_cell_intrinsically_inhibits_intestinal_group_2_in.md)
+- [Retinoid X receptor gamma dictates the activation threshold of group 2 innate lymphoid cells and limits type 2 inflammation in the small intestine](../sources/2023_retinoid_x_receptor_gamma_dictates_the_activation_threshold_of_group_2_innate_lymphoi.md)
+- [CGRP-related neuropeptide adrenomedullin 2 promotes tissue-protective ILC2 responses and limits intestinal inflammation](../sources/2025_cgrp_related_neuropeptide_adrenomedullin_2_promotes_tissue_protective_ilc2_responses_and_limits_intestinal_infla.md)
+- [Tuft cell IL-17RB restrains IL-25 bioavailability and reveals context-dependent ILC2 hypoproliferation](../sources/2025_tuft_cell_il_17rb_restrains_il_25_bioavailability_and_reveals_context_dependent_ilc2_hypoproliferation.md)
+
 - [The Tumor Necrosis Factor Superfamily Member RANKL Suppresses Effector Cytokine Production in Group 3 Innate Lymphoid Cells](../sources/2018_the_tumor_necrosis_factor_superfamily_member_rankl_suppresses_effector_cytokine_production_in_group_3_innate_lym.md)
 - [A circadian clock is essential for homeostasis of group 3 innate lymphoid cells in the gut](../sources/2019_a_circadian_clock_is_essential_for_homeostasis_of_group_3_innate_lymphoid_cells_in_th.md)
 - [Light-entrained and brain-tuned circadian circuits regulate ILC3s and gut homeostasis](../sources/2019_light_entrained_and_brain_tuned_circadian_circuits_regulate_ilc3s_and_gut_homeostasis.md)

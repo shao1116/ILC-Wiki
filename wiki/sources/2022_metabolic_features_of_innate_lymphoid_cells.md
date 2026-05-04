@@ -10,74 +10,73 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the ILC2 regulatory-context question, including tissue compartment, model system, regulatory mediator, assay directness, and whether the source is primary or review-level evidence.
+- Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary perturbation or review-level synthesis.
+
 ## Source Type
 
-- primary or literature research article
-- Main detected cell focus: not clearly resolved from title/early text
-- Main detected context: the source-specific biological context
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- review on ILC metabolic regulation
+- Evidence profile: ILC function depends on metabolic adaptability shaped by tissue environment, activation state, and disease context.
+- Knowledge note status: source-reviewed evidence note suitable for ILC2 regulation context.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: source-specific confidence is assigned to the biological claim below, not to PDF processing.
 - Evidence tags:
-  #assay/KO #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #cell/macrophage #cell/monocyte #outcome/homeostasis #outcome/infection #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung #tissue/skin
-- Detected biological focus: not resolved
-- Detected mechanism or mediator terms: autophagy/metabolism
-- Detected context: the source-specific biological context
+  #source/review #species/human #species/mouse #tissue/lung #tissue/gut #tissue/skin #cell/ILC1 #cell/ILC2 #cell/ILC3 #axis/metabolism #axis/ILC_regulation #outcome/homeostasis #outcome/inflammation #status/focused_crystallization
+- Primary biological axis: ILC function depends on metabolic adaptability shaped by tissue environment, activation state, and disease context.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address the source-specific biological context with a focus on innate lymphoid or neighboring immune biology. For current synthesis, it should be used primarily as evidence for the source-specific claim that metabolic features of innate lymphoid cells, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds metabolic features of ILCs review to the ILC2 regulatory map. Its durable use depends on tissue and source-type boundaries: primary studies can support source-specific mechanisms, while reviews should orient interpretation and point to primary anchors.
 
 ## Key Findings
 
-- This requires intrinsic and temporal metabolic adaptability to coordinately activate the immune response cascade.
-- Direct or indirect metabolic immune cell reprogramming may offer new approaches to modulate immune cells behavior for therapy to overcome dysregulation.
-- We focus on the innate lymphoid cell (ILC) family, highlighting the distinct metabolic characteristics of these cells, the impact of environmental factors, and the receptors that could alter immune cell functions through manipulation of metabolic pathways to potentially prevent or treat various diseases.
+- The review highlights metabolic adaptability as a central feature of ILC activation and function.
+- It is useful for placing autophagy, glycolysis, OXPHOS, lipid handling, mTOR, and tissue nutrient cues into one regulatory layer.
+- It should be treated as overview context rather than primary evidence for a specific metabolic perturbation.
+- Use primary source pages for autophagy, human ILC2 metabolism, HIF-1alpha/glycolysis, dopamine-mitochondrial activity, and ILC3 CD71-iron claims.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that metabolic features of innate lymphoid cells.
-- High confidence:
-  the source is relevant to the immune cell populations named by the source in the detected context of the source-specific biological context.
-- Medium confidence:
-  mechanisms or mediators such as autophagy/metabolism can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium confidence: useful review-level metabolic framework for ILC biology.
+- Low confidence: individual pathway causality should be sourced to primary studies.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary or literature research article.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: the source-specific biological context
-- Assay modalities detected from tags: genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source-specific context: review-level synthesis of ILC metabolism literature.
+- Best wiki use: ILC2 functional regulation, tissue-context guardrails, and source routing.
+- Assay directness: strongest for the source tissue/model; indirect for lung disease unless lung data are present.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Do not collapse all ILC metabolic pathways into a single universal mechanism.
+- Preserve species, tissue compartment, mediator, and disease-model labels.
+- Reviews should frame the field; primary sources should anchor causal claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements the current ILC2 regulatory map by adding tissue-context, developmental, metabolic, neuroimmune, epithelial, or therapeutic framing.
+- Supersession status: not superseded; use alongside direct pulmonary ILC2 sources with explicit evidence labels.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC2](../entities/ILC2.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
+- [ILC2 Regulatory Context Source Review Notes](../audit/2026-05-04_focused_manual_ingest_ILC2_regulatory_context.md)

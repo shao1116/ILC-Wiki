@@ -10,83 +10,74 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the ILC2 regulatory-context question, including tissue compartment, model system, regulatory mediator, assay directness, and whether the source is primary or review-level evidence.
+- Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary perturbation or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC2, ILC3
-- Main detected context: asthma/allergy, gut/intestine
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary gut ILC2 regulatory study
+- Evidence profile: AHR signaling intrinsically restrains intestinal ILC2 function by limiting ST2, IL-5, IL-13, and amphiregulin programs.
+- Knowledge note status: source-reviewed evidence note suitable for ILC2 regulation context.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: source-specific confidence is assigned to the biological claim below, not to PDF processing.
 - Evidence tags:
-  #assay/KO #assay/RNAseq #assay/flow #assay/in_vitro #assay/in_vivo #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #outcome/homeostasis #outcome/infection #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung #tissue/skin
-- Detected biological focus: ILC2, ILC3
-- Detected mechanism or mediator terms: IL-33, AHR, STING
-- Detected context: asthma/allergy, gut/intestine
+  #source/primary #species/mouse #tissue/gut #cell/ILC2 #cell/ILC3 #assay/KO #assay/RNAseq #assay/flow #assay/in_vivo #assay/in_vitro #outcome/homeostasis #outcome/inflammation #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: AHR signaling intrinsically restrains intestinal ILC2 function by limiting ST2, IL-5, IL-13, and amphiregulin programs.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address asthma/allergy, gut/intestine with a focus on ILC2, ILC3. For current synthesis, it should be used primarily as evidence for the source-specific claim that aryl Hydrocarbon Receptor Signaling Cell Intrinsically Inhibits Intestinal Group 2 Innate Lymphoid Cell Function, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds AHR cell-intrinsic restraint of intestinal ILC2s to the ILC2 regulatory map. Its durable use depends on tissue and source-type boundaries: primary studies can support source-specific mechanisms, while reviews should orient interpretation and point to primary anchors.
 
 ## Key Findings
 
-- Li et al. report that Ahr restricts intestinal ILC2 function in a cell-intrinsic manner, suggesting a central role for gut adaptation of Ahr expression in regulating the ILC2-ILC3 balance.
-- The intestine harbors all ILC subsets, but how these cells are balanced to achieve immune ho- meostasis and mount appropriate responses during infection remains elusive.
-- Here, we show that aryl hydrocarbon receptor (Ahr) expression in the gut reg- ulates ILC balance.
-- Among ILCs, Ahr is most highly expressed by gut ILC2s and controls chromatin accessibility at the Ahr locus via positive feedback.
-- Ahr signaling suppresses Gﬁ1 transcription-factor- mediated expression of the interleukin-33 (IL-33) re- ceptor ST2 in ILC2s and expression of ILC2 effector molecules IL-5, IL-13, and amphiregulin in a cell- intrinsic manner.
+- AHR was reported as highly expressed by gut ILC2s and as a cell-intrinsic brake on ILC2 function.
+- AHR signaling restrained ST2 expression and limited IL-5, IL-13, and amphiregulin-associated ILC2 output.
+- The source also frames AHR as a contributor to gut ILC2-ILC3 balance.
+- Use this as gut ILC2 restraint context rather than direct lung ILC2 evidence.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that aryl Hydrocarbon Receptor Signaling Cell Intrinsically Inhibits Intestinal Group 2 Innate Lymphoid Cell Function.
-- High confidence:
-  the source is relevant to ILC2, ILC3 in the detected context of asthma/allergy, gut/intestine.
-- Medium confidence:
-  mechanisms or mediators such as IL-33, AHR, STING can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: AHR intrinsically restrains intestinal ILC2 function in the reported mouse gut systems.
+- Medium confidence: AHR belongs in the broader ILC2 restraint vocabulary.
+- Low confidence: direct pulmonary ILC2 AHR causality is not established by this source.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: asthma/allergy, gut/intestine
-- Assay modalities detected from tags: flow cytometry, RNA-seq, in vivo model, in vitro assay, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source-specific context: mouse gut ILC analysis with genetic perturbation, flow cytometry, RNA-seq, and in vivo/in vitro support.
+- Best wiki use: ILC2 functional regulation, tissue-context guardrails, and source routing.
+- Assay directness: strongest for the source tissue/model; indirect for lung disease unless lung data are present.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Keep the intestinal, AHR, ST2, and ILC2-ILC3 balance context explicit.
+- Preserve species, tissue compartment, mediator, and disease-model labels.
+- Reviews should frame the field; primary sources should anchor causal claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements the current ILC2 regulatory map by adding tissue-context, developmental, metabolic, neuroimmune, epithelial, or therapeutic framing.
+- Supersession status: not superseded; use alongside direct pulmonary ILC2 sources with explicit evidence labels.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC2](../entities/ILC2.md)
-- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
-- [ILC3](../entities/ILC3.md)
-- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
-- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC2](../entities/ILC2.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
+- [ILC2 Regulatory Context Source Review Notes](../audit/2026-05-04_focused_manual_ingest_ILC2_regulatory_context.md)

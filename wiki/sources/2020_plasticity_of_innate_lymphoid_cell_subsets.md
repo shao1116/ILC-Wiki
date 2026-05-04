@@ -10,76 +10,73 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the ILC2 regulatory-context question, including tissue compartment, model system, regulatory mediator, assay directness, and whether the source is primary or review-level evidence.
+- Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary perturbation or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: NK cells, T cells
-- Main detected context: the source-specific biological context
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- review on ILC subset plasticity
+- Evidence profile: ILC subsets can shift transcriptional and cytokine programs in response to tissue and inflammatory cues.
+- Knowledge note status: source-reviewed evidence note suitable for ILC2 regulation context.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: source-specific confidence is assigned to the biological claim below, not to PDF processing.
 - Evidence tags:
-  #assay/RNAseq #assay/in_vitro #assay/scRNAseq #cell/B_cell #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #cell/macrophage #outcome/homeostasis #outcome/infection #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung
-- Detected biological focus: NK cells, T cells
-- Detected mechanism or mediator terms: IL-17/IL-17A, IL-22
-- Detected context: the source-specific biological context
+  #source/review #species/human #species/mouse #tissue/lung #tissue/gut #cell/ILC1 #cell/ILC2 #cell/ILC3 #outcome/inflammation #axis/ILC_plasticity #status/focused_crystallization
+- Primary biological axis: ILC subsets can shift transcriptional and cytokine programs in response to tissue and inflammatory cues.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address the source-specific biological context with a focus on NK cells, T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that plasticity of innate lymphoid cell subsets, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds ILC subset plasticity review to the ILC2 regulatory map. Its durable use depends on tissue and source-type boundaries: primary studies can support source-specific mechanisms, while reviews should orient interpretation and point to primary anchors.
 
 ## Key Findings
 
-- In 1986, a landmark publication by Tim Mossman and Robert Coffman described two subsets of CD4 + T cells, known as T helper 1 (T H1) cells and T H2 cells, that differed in their cytokine production profiles.
-- TH1 cells produce interferon- γ (IFNγ), whereas T H2 cells produce IL-4 and IL-5 (ref.
-- In 2005, a third subset of CD4+ T cells that produce IL-17 was described (known as TH17 cells)2,3.
-- In the following years, two further CD4+ T cell populations that produce IL-22 or IL-9 as signa- ture cytokines were described (TH22 cells and TH9 cells, respectively)4–6.
-- This subdivision based on cytokine pro- duction profiles turned out not to be unique to CD4 + T cells expressing the αβ T cell receptor (TCR) as it was also observed for natural killer T (NKT) cells and T cells expressing the γδ TCR7.
+- The review frames ILC subset plasticity as a general feature of ILC biology.
+- It is useful for interpreting ILC2-to-ILC1-like and ILC2/ILC3-like boundary states.
+- It supports cautious state-based language rather than rigid subset-only interpretation.
+- Use primary lung, nasal, or sputum sources for specific disease claims.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that plasticity of innate lymphoid cell subsets.
-- High confidence:
-  the source is relevant to NK cells, T cells in the detected context of the source-specific biological context.
-- Medium confidence:
-  mechanisms or mediators such as IL-17/IL-17A, IL-22 can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium-high confidence: ILC plasticity is a well-supported field concept.
+- Medium confidence: review-level support should be paired with primary disease-context evidence.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: the source-specific biological context
-- Assay modalities detected from tags: single-cell RNA-seq, RNA-seq, in vitro assay
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source-specific context: review-level synthesis of human and mouse ILC plasticity literature.
+- Best wiki use: ILC2 functional regulation, tissue-context guardrails, and source routing.
+- Assay directness: strongest for the source tissue/model; indirect for lung disease unless lung data are present.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Do not use broad plasticity framing to erase marker, tissue, or disease-model boundaries.
+- Preserve species, tissue compartment, mediator, and disease-model labels.
+- Reviews should frame the field; primary sources should anchor causal claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements the current ILC2 regulatory map by adding tissue-context, developmental, metabolic, neuroimmune, epithelial, or therapeutic framing.
+- Supersession status: not superseded; use alongside direct pulmonary ILC2 sources with explicit evidence labels.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC2](../entities/ILC2.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
+- [ILC2 Regulatory Context Source Review Notes](../audit/2026-05-04_focused_manual_ingest_ILC2_regulatory_context.md)
