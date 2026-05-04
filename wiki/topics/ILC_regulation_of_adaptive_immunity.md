@@ -79,6 +79,8 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
 ### Indirect tolerance and taxonomy boundaries
 
 - Gut ILC3s can also support adaptive tolerance indirectly through myeloid intermediates, including an ILC3-GM-CSF-myeloid regulatory circuit that is relevant to Treg-associated homeostasis ([Microbiota-dependent crosstalk between macrophages and ILC3 promotes intestinal homeostasis](../sources/2014_microbiota_dependent_crosstalk_between_macrophages_and_ilc3_promotes_intestinal_homeo.md)).
+- Gut ILC3 regulation also depends on non-adaptive timing, metabolite, and neuroimmune inputs such as RANKL/RANK, circadian programs, FFAR2, VIP circuits, and trained defense states; these shape the conditions under which adaptive-tolerance mechanisms operate, but are not direct adaptive-cell mechanisms by themselves.
+
 - Intestinal ILC2-derived IL-10 adds a regulatory ILC2 state, but this is gut context and should not be converted into a default lung ILC2 claim ([ILC2s are the predominant source of intestinal ILC-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md)).
 - RORgammat-positive DCs are an ILC3-adjacent lineage-boundary issue for Treg homeostasis; this source should prevent over-attribution of RORgammat-positive antigen-presenting tolerance biology to ILC3s.
 

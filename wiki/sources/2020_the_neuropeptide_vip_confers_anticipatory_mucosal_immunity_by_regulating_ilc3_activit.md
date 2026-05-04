@@ -10,80 +10,74 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the ILC3 mucosal-regulation question, including model system, tissue compartment, regulatory mediator, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary perturbation or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC3, NK cells
-- Main detected context: lung/airway, asthma/allergy, tumor/cancer, nervous system
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary neuroimmune ILC3 activity study
+- Evidence profile: VIP-linked neuroimmune sensing adjusts ILC3 activity and IL-22-associated mucosal defense timing.
+- Knowledge note status: source-reviewed evidence note suitable for gut/mucosal ILC3 regulation context.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium-high to high for source-specific gut/mucosal ILC3 biology; low for direct lung extrapolation unless matched pulmonary data are present.
 - Evidence tags:
-  #assay/KO #assay/RNAseq #assay/in_vitro #assay/scRNAseq #cell/ILC2 #cell/ILC3 #cell/NK #cell/monocyte #outcome/airway_hyperresponsiveness #outcome/homeostasis #outcome/inflammation #outcome/repair #source/literature_pdf #species/mouse #tissue/gut #tissue/lung
-- Detected biological focus: ILC3, NK cells
-- Detected mechanism or mediator terms: IL-22, autophagy/metabolism
-- Detected context: lung/airway, asthma/allergy, tumor/cancer, nervous system
+  #source/primary #species/mouse #tissue/gut #cell/ILC3 #assay/RNAseq #assay/scRNAseq #assay/in_vitro #assay/KO #outcome/homeostasis #outcome/inflammation #axis/ILC_regulation #axis/neuroimmune #status/focused_crystallization
+- Primary biological axis: VIP-linked neuroimmune sensing adjusts ILC3 activity and IL-22-associated mucosal defense timing.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address lung/airway, asthma/allergy, tumor/cancer, nervous system with a focus on ILC3, NK cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that the neuropeptide VIP confers anticipatory mucosal immunity by regulating ILC3 activity, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds VIP confers anticipatory mucosal immunity to the ILC3 regulatory map. It is useful for mechanism vocabulary and tissue-boundary-aware interpretation, but should not be promoted to direct lung causality without pulmonary evidence.
 
 ## Key Findings
 
-- litis-associated cancer 18, indicating a requirement for tight regulation of IL-22 signaling in the mucosal epithelium.
-- The mechanims that normally restrain the overproduction of IL-22 during continual antigenic exposure remain unclear.
-- Transcriptomic analyses have shown that ILCs express a large array of receptors involved in the recognition of neuropeptides, hormones and metabolic signals 19,20.
-- Hormone receptors such as the androgen receptor, expressed by ILC2s, protect against the development of experimental asthma in male mice 21, while the glu- cocorticoid receptor found on natural killer (NK) cells and ILC1s is triggered by lipopolysaccharide to downregulate the production of interferon-γ (IFN-γ) and confer protection against septic shock 22.
-- These receptors have tissue-specific functions in the lung, indicating that ILCs integrate their responses in the context of their environment.
+- The source frames VIP as a neuropeptide signal that regulates ILC3 activity in anticipatory mucosal immunity.
+- It links neuropeptide sensing to control of IL-22-associated mucosal epithelial responses.
+- It supports the broader concept that ILC3s integrate neural, metabolic, and environmental timing cues.
+- Automated lung/asthma tags should not be treated as source-specific lung evidence for this paper.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that the neuropeptide VIP confers anticipatory mucosal immunity by regulating ILC3 activity.
-- High confidence:
-  the source is relevant to ILC3, NK cells in the detected context of lung/airway, asthma/allergy.
-- Medium confidence:
-  mechanisms or mediators such as IL-22, autophagy/metabolism can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium-high confidence: VIP regulates ILC3 activity in the reported mucosal context.
+- Medium confidence: this supports neuroimmune timing logic for ILC3 regulation.
+- Low confidence: direct lung causality is not established.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: mouse
-- Tissue or disease context detected: lung/airway, asthma/allergy, tumor/cancer, nervous system
-- Assay modalities detected from tags: single-cell RNA-seq, RNA-seq, in vitro assay, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source-specific context: mouse mucosal neuroimmune analysis with transcriptomic and perturbation context.
+- Best wiki use: ILC3 functional regulation, mucosal barrier biology, and evidence-boundary framing.
+- Assay directness: strongest for the source tissue/model; indirect for lung disease unless lung data are present.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Keep mucosal context explicit and avoid over-reading automated lung tags.
+- Preserve species, tissue compartment, mediator, and disease-model labels.
+- Reviews should frame the field; primary sources should anchor causal claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements the current ILC3 regulatory map by adding gut/mucosal context rather than replacing lung-specific evidence.
+- Supersession status: not superseded; use alongside direct pulmonary ILC3 sources with explicit tissue labels.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC3](../entities/ILC3.md)
-- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC3](../entities/ILC3.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC3 Mucosal Regulation Source Review Notes](../audit/2026-05-04_focused_manual_ingest_ILC3_mucosal_regulation.md)

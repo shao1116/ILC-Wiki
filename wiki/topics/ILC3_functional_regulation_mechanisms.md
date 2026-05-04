@@ -37,6 +37,9 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 - Medium confidence:
   circadian control, vitamin D, AHR, STING, nutrition/iron, and ER-stress pathways are important cross-tissue ILC3 regulatory mechanisms.
 - Medium confidence:
+  gut/mucosal ILC3 regulation also includes RANKL/RANK restraint, FFAR2 metabolite sensing, VIP neuroimmune circuits, trained ILC3 defense states, and HB-EGF tissue-protection output; these are mechanism context unless matched lung evidence is present.
+
+- Medium confidence:
   glucocorticoid resistance in ILC3s is a disease-relevant regulatory mechanism for non-eosinophilic or steroid-resistant asthma.
 - Low confidence:
   many detailed ILC3 regulatory mechanisms come from gut or mucosal sources and require explicit tissue labels before being applied to lung.
@@ -79,6 +82,15 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 - [ILC3s sense gut microbiota through STING to initiate immune tolerance](../sources/2025_ilc3s_sense_gut_microbiota_through_sting_to_initiate_immune_tolerance.md) supports STING as a gut ILC3 microbiota-sensing/tolerance mechanism.
 - [Nutrition impact on ILC3 maintenance and function centers on a cell-intrinsic CD71-iron axis](../sources/2023_nutrition_impact_on_ilc3_maintenance_and_function_centers_on_a_cell_intrinsic_cd71_iron_axis.md) supports a nutrition/iron-linked ILC3 maintenance branch.
 - [The IRE1alphaXBP1 pathway sustains cytokine responses of group 3 innate lymphoid cells in inflammatory bowel disease](../sources/2024_the_ire1alpha_xbp1_pathway_sustains_cytokine_responses_of_group_3_innate_lymphoid_cells_in_inflammatory_bowel_di.md) supports an ER-stress/UPR-linked mechanism for ILC3 cytokine responses in IBD.
+
+### Gut/mucosal timing, metabolite, neuroimmune, and repair circuits
+
+- [The Tumor Necrosis Factor Superfamily Member RANKL Suppresses Effector Cytokine Production in Group 3 Innate Lymphoid Cells](../sources/2018_the_tumor_necrosis_factor_superfamily_member_rankl_suppresses_effector_cytokine_production_in_group_3_innate_lym.md) supports a gut CCR6-positive ILC3 RANKL/RANK restraint branch that limits IL-17A and IL-22 output.
+- [A circadian clock is essential for homeostasis of group 3 innate lymphoid cells in the gut](../sources/2019_a_circadian_clock_is_essential_for_homeostasis_of_group_3_innate_lymphoid_cells_in_th.md) and [Light-entrained and brain-tuned circadian circuits regulate ILC3s and gut homeostasis](../sources/2019_light_entrained_and_brain_tuned_circadian_circuits_regulate_ilc3s_and_gut_homeostasis.md) support circadian and organism-level timing control of intestinal ILC3 homeostasis.
+- [Metabolite-Sensing Receptor Ffar2 Regulates Colonic Group 3 Innate Lymphoid Cells and Gut Immunity](../sources/2019_metabolite_sensing_receptor_ffar2_regulates_colonic_group_3_innate_lymphoid_cells_and.md) supports microbial-metabolite sensing through FFAR2 as a colonic ILC3 expansion and IL-22-output mechanism.
+- [Feeding-dependent VIP neuron-ILC3 circuit regulates the intestinal barrier](../sources/2020_feeding_dependent_vip_neuron_ilc3_circuit_regulates_the_intestinal_barrier.md), [The neuropeptide VIP confers anticipatory mucosal immunity by regulating ILC3 activity](../sources/2020_the_neuropeptide_vip_confers_anticipatory_mucosal_immunity_by_regulating_ilc3_activit.md), and [Vasoactive intestinal peptide promotes host defense against enteric pathogens by modulating the recruitment of group 3 innate lymphoid cells](../sources/2021_vasoactive_intestinal_peptide_promotes_host_defense_against_enteric_pathogens_by_modu.md) show that VIP-linked neuroimmune control can either restrain IL-22 through VIPR2 or support ILC3 recruitment/defense through VPAC1 depending on receptor and context.
+- [Trained ILC3 responses promote intestinal defense](../sources/2022_trained_ilc3_responses_promote_intestinal_defense.md) supports durable trained ILC3 defense after enteric challenge, while [Group 3 innate lymphoid cells produce the growth factor HB-EGF to protect the intestine from TNF-mediated inflammation](../sources/2022_group_3_innate_lymphoid_cells_produce_the_growth_factor_hb_egf_to_protect_the_intestine_from_tnf_mediated_inflam.md) adds an ILC3 growth-factor tissue-protection branch.
+- [Activation and Suppression of Group 3 Innate Lymphoid Cells in the Gut](../sources/2020_activation_and_suppression_of_group_3_innate_lymphoid_cells_in_the_gut.md) is useful as review-level orientation for gut ILC3 regulatory inputs and brakes.
 
 ### Glucocorticoid resistance and inflammatory signaling
 

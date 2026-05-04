@@ -10,78 +10,74 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the ILC3 mucosal-regulation question, including model system, tissue compartment, regulatory mediator, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary perturbation or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC3
-- Main detected context: gut/intestine, nervous system
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary gut neuroimmune ILC3 study
+- Evidence profile: feeding activates VIPergic neurons near VIPR2-positive ILC3s; VIPR2 engagement restrains ILC3 IL-22 and tunes barrier/metabolic responses.
+- Knowledge note status: source-reviewed evidence note suitable for gut/mucosal ILC3 regulation context.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium-high to high for source-specific gut/mucosal ILC3 biology; low for direct lung extrapolation unless matched pulmonary data are present.
 - Evidence tags:
-  #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #outcome/homeostasis #outcome/infection #outcome/inflammation #source/literature_pdf #species/mouse #tissue/gut #tissue/lung
-- Detected biological focus: ILC3
-- Detected mechanism or mediator terms: autophagy/metabolism
-- Detected context: gut/intestine, nervous system
+  #source/primary #species/mouse #tissue/gut #cell/ILC3 #assay/in_vivo #outcome/homeostasis #outcome/infection #axis/ILC_regulation #axis/neuroimmune #status/focused_crystallization
+- Primary biological axis: feeding activates VIPergic neurons near VIPR2-positive ILC3s; VIPR2 engagement restrains ILC3 IL-22 and tunes barrier/metabolic responses.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address gut/intestine, nervous system with a focus on ILC3. For current synthesis, it should be used primarily as evidence for the source-specific claim that feeding-dependent VIP neuron-ILC3 circuit regulates the intestinal barrier, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds feeding-dependent VIP neuron-ILC3 barrier circuit to the ILC3 regulatory map. It is useful for mechanism vocabulary and tissue-boundary-aware interpretation, but should not be promoted to direct lung causality without pulmonary evidence.
 
 ## Key Findings
 
-- Nature | Vol 579 | 26 March 2020 | 575 Article Feeding-dependent VIP neuron–ILC3 circuit regulates the intestinal barrier Jhimmy Talbot1, Paul Hahn1, Lina Kroehling1, Henry Nguyen1, Dayi Li1 & Dan R.
-- Here we show in mice how a gut neuronal signal triggered by food intake is integrated with intestinal antimicrobial and metabolic responses that are controlled by type-3 innate lymphoid cells (ILC3) 1– 3.
-- Food consumption rapidly activates a population of enteric neurons that express vasoactive intestinal peptide (VIP) 4.
-- Projections of VIP-producing neurons (VIPergic neurons) in the lamina propria are in close proximity to clusters of ILC3 that selectively express VIP receptor type 2 (VIPR2; also known as VPAC2).
-- Production of interleukin (IL)-22 by ILC3, which is upregulated by the presence of commensal microorganisms such as segmented filamentous bacteria 5– 7, is inhibited upon engagement of VIPR2.
+- Food intake activated VIP-producing enteric neurons near intestinal ILC3 clusters.
+- ILC3s expressed VIPR2/VPAC2.
+- VIPR2 engagement inhibited ILC3 IL-22 production in the reported context.
+- The source supports a feeding-dependent gut neuroimmune brake on ILC3 barrier output.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that feeding-dependent VIP neuron-ILC3 circuit regulates the intestinal barrier.
-- High confidence:
-  the source is relevant to ILC3 in the detected context of gut/intestine, nervous system.
-- Medium confidence:
-  mechanisms or mediators such as autophagy/metabolism can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: feeding-linked VIP neuron signals regulate gut ILC3 IL-22/barrier biology in the reported mouse model.
+- Medium confidence: VIP can act as an ILC3 neuroimmune regulatory axis.
+- Low confidence: lung ILC3 VIP regulation is not shown.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: mouse
-- Tissue or disease context detected: gut/intestine, nervous system
-- Assay modalities detected from tags: not resolved from automated tags
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source-specific context: mouse feeding, enteric neuron, VIP/VIPR2, intestinal barrier and ILC3 functional assays.
+- Best wiki use: ILC3 functional regulation, mucosal barrier biology, and evidence-boundary framing.
+- Assay directness: strongest for the source tissue/model; indirect for lung disease unless lung data are present.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Separate VIPR2-mediated restraint from other VIP/VPAC1 recruitment findings.
+- Preserve species, tissue compartment, mediator, and disease-model labels.
+- Reviews should frame the field; primary sources should anchor causal claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements the current ILC3 regulatory map by adding gut/mucosal context rather than replacing lung-specific evidence.
+- Supersession status: not superseded; use alongside direct pulmonary ILC3 sources with explicit tissue labels.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC3](../entities/ILC3.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC3](../entities/ILC3.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC3 Mucosal Regulation Source Review Notes](../audit/2026-05-04_focused_manual_ingest_ILC3_mucosal_regulation.md)

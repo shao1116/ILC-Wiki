@@ -94,7 +94,7 @@ ILC subset labels are useful but incomplete. ILC2s can acquire memory-like behav
 
 ### 4. Adaptive Immunity Is A Cross-Subset Interface
 
-ILCs do not use antigen-specific receptors, but selected ILC states can still regulate adaptive immunity. The strongest lung-direct example in this source set is IL-33-induced ILC2 OX40L licensing local Th2 and Treg expansion in mouse type 2 inflammation. ILC3 evidence is richer in gut and mucosal lymphoid tissues, where MHCII, IL-2, alphaV integrin, CD40L, BAFF, IL-15, STING, GM-CSF-myeloid crosstalk, and CTLA-4-linked mechanisms regulate CD4 T cells, Tregs, and regulatory B cells. For a focused map, see [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md).
+ILCs do not use antigen-specific receptors, but selected ILC states can still regulate adaptive immunity. The strongest lung-direct example in this source set is IL-33-induced ILC2 OX40L licensing local Th2 and Treg expansion in mouse type 2 inflammation. ILC3 evidence is richer in gut and mucosal lymphoid tissues: MHCII, IL-2, alphaV integrin, CD40L, BAFF, IL-15, STING, GM-CSF-myeloid crosstalk, and CTLA-4 support adaptive-tolerance framing, while RANKL/RANK, circadian timing, FFAR2, VIP circuits, trained defense, and HB-EGF broaden the adjacent barrier-defense and tissue-protection context. For a focused map, see [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md).
 
 ### 5. Evidence Type Matters
 
@@ -139,7 +139,7 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 
 ## Wiki Status
 
-- The local source library currently contains 142 processed references, with 106 source pages promoted to `focused manual crystallization mode` and 36 retained as `provisional bulk-ingest mode`.
+- The local source library currently contains 142 processed references, with 116 source pages promoted to `focused manual crystallization mode` and 26 retained as `provisional bulk-ingest mode`.
 - Focused source pages are the preferred evidence layer for reusable biological claims because they include model context, assay directness, claim-level confidence, and caveats.
 - Provisional source pages are useful for routing and triage, but their biological claims should be manually checked before being reused in manuscripts, figures, grant text, or durable synthesis.
 - Batch provenance belongs in audit and log pages; digest, topic, and entity pages should read as biology-first knowledge nodes.

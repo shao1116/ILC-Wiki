@@ -10,79 +10,74 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the ILC3 mucosal-regulation question, including model system, tissue compartment, regulatory mediator, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary perturbation or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC3, T cells
-- Main detected context: tumor/cancer, gut/intestine
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary intestinal ILC3 cell-cell restraint study
+- Evidence profile: RANKL-RANK signaling restrains CCR6-positive ILC3 abundance and IL-17A/IL-22 output in gut-context models.
+- Knowledge note status: source-reviewed evidence note suitable for gut/mucosal ILC3 regulation context.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium-high to high for source-specific gut/mucosal ILC3 biology; low for direct lung extrapolation unless matched pulmonary data are present.
 - Evidence tags:
-  #assay/KO #assay/in_vitro #assay/in_vivo #cell/B_cell #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #outcome/homeostasis #outcome/infection #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung
-- Detected biological focus: ILC3, T cells
-- Detected mechanism or mediator terms: IL-23, IL-17/IL-17A, IL-22
-- Detected context: tumor/cancer, gut/intestine
+  #source/primary #species/mouse #tissue/gut #cell/ILC3 #assay/KO #assay/in_vivo #assay/in_vitro #outcome/homeostasis #outcome/infection #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: RANKL-RANK signaling restrains CCR6-positive ILC3 abundance and IL-17A/IL-22 output in gut-context models.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address tumor/cancer, gut/intestine with a focus on ILC3, T cells. For current synthesis, it should be used primarily as evidence for the source-specific claim that the Tumor Necrosis Factor Superfamily Member RANKL Suppresses Effector Cytokine Production in Group 3 Innate Lymphoid Cells, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds RANKL suppresses intestinal ILC3 effector cytokines to the ILC3 regulatory map. It is useful for mechanism vocabulary and tissue-boundary-aware interpretation, but should not be promoted to direct lung causality without pulmonary evidence.
 
 ## Key Findings
 
-- Bando et al. demonstrate that the TNF superfamily member RANKL suppresses the abundance and effector functions of intestinal CCR6 + ILC3s and that RANKL- mediated suppression occurs through ILC3-ILC3 interactions.
-- Here we found that the tumor necrosis factor (TNF) superfamily member receptor activator of nuclear factor kB ligand (RANKL) suppressed ILC3 activity in the intestine.
-- Deletion of RANKL in ILC3s and T cells increased C-C motif chemokine receptor 6 (CCR6) + ILC3 abundance and enhanced production of interleukin-17A (IL-17A) and IL-22 in response to IL-23 and during infection with the enteric mu- rine pathogen Citrobacter rodentium .
-- Additionally, CCR6 + ILC3s produced higher amounts of the master transcriptional regulator RORgt at steady state in the absence of RANKL.
-- RANKL-mediated suppression was independent of T cells, and instead occurred via interactions between CCR6 + ILC3s that ex- pressed both RANKL and its receptor, RANK.
+- RANKL suppressed intestinal CCR6-positive ILC3 abundance and effector cytokine production.
+- Loss of RANKL in ILC3/T-cell compartments increased CCR6-positive ILC3s and enhanced IL-17A/IL-22 responses to IL-23 and Citrobacter rodentium.
+- RANKL-mediated suppression was reported as T-cell independent and involved ILC3-ILC3 interactions through RANKL and RANK.
+- Use this as gut ILC3-intrinsic restraint context, not direct lung evidence.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that the Tumor Necrosis Factor Superfamily Member RANKL Suppresses Effector Cytokine Production in Group 3 Innate Lymphoid Cells.
-- High confidence:
-  the source is relevant to ILC3, T cells in the detected context of tumor/cancer, gut/intestine.
-- Medium confidence:
-  mechanisms or mediators such as IL-23, IL-17/IL-17A, IL-22 can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: RANKL restrains intestinal ILC3 effector output in the reported mouse systems.
+- Medium confidence: RANKL/RANK belongs in the broader ILC3 restraint vocabulary.
+- Low confidence: lung ILC3 RANKL function is not established by this source.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: tumor/cancer, gut/intestine
-- Assay modalities detected from tags: in vivo model, in vitro assay, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source-specific context: mouse intestinal ILC3 perturbation, IL-23 response, enteric infection, and in vitro/in vivo support.
+- Best wiki use: ILC3 functional regulation, mucosal barrier biology, and evidence-boundary framing.
+- Assay directness: strongest for the source tissue/model; indirect for lung disease unless lung data are present.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Keep gut, CCR6-positive ILC3, and RANKL/RANK context explicit.
+- Preserve species, tissue compartment, mediator, and disease-model labels.
+- Reviews should frame the field; primary sources should anchor causal claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements the current ILC3 regulatory map by adding gut/mucosal context rather than replacing lung-specific evidence.
+- Supersession status: not superseded; use alongside direct pulmonary ILC3 sources with explicit tissue labels.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC3](../entities/ILC3.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC3](../entities/ILC3.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC3 Mucosal Regulation Source Review Notes](../audit/2026-05-04_focused_manual_ingest_ILC3_mucosal_regulation.md)

@@ -10,78 +10,74 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the ILC3 mucosal-regulation question, including model system, tissue compartment, regulatory mediator, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary perturbation or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC3
-- Main detected context: gut/intestine, nervous system
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary neuroimmune circadian ILC3 study
+- Evidence profile: light-entrained and brain-tuned circuits regulate enteric ILC3 programs, gut defense, homeostasis, and host metabolism.
+- Knowledge note status: source-reviewed evidence note suitable for gut/mucosal ILC3 regulation context.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium-high to high for source-specific gut/mucosal ILC3 biology; low for direct lung extrapolation unless matched pulmonary data are present.
 - Evidence tags:
-  #assay/KO #assay/RNAseq #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #outcome/homeostasis #outcome/infection #outcome/inflammation #source/literature_pdf #species/mouse #tissue/gut #tissue/lung
-- Detected biological focus: ILC3
-- Detected mechanism or mediator terms: circadian clock, autophagy/metabolism
-- Detected context: gut/intestine, nervous system
+  #source/primary #species/mouse #tissue/gut #cell/ILC3 #assay/RNAseq #assay/KO #outcome/homeostasis #outcome/infection #axis/ILC_regulation #axis/neuroimmune #status/focused_crystallization
+- Primary biological axis: light-entrained and brain-tuned circuits regulate enteric ILC3 programs, gut defense, homeostasis, and host metabolism.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address gut/intestine, nervous system with a focus on ILC3. For current synthesis, it should be used primarily as evidence for the source-specific claim that light-entrained and brain-tuned circadian circuits regulate ILC3s and gut homeostasis, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds light and brain circuits tune gut ILC3s to the ILC3 regulatory map. It is useful for mechanism vocabulary and tissue-boundary-aware interpretation, but should not be promoted to direct lung causality without pulmonary evidence.
 
 ## Key Findings
 
-- Barbosa-Morais2, tânia Carvalho2 & Henrique V eiga-Fernandes1* Group 3 innate lymphoid cells (ILC3s) are major regulators of inflammation, infection, microbiota composition and metabolism1.
-- ILC3s and neuronal cells have been shown to interact at discrete mucosal locations to steer mucosal defence2,3.
-- Nevertheless, it is unclear whether neuroimmune circuits operate at an organismal level, integrating extrinsic environmental signals to orchestrate ILC3 responses.
-- Here we show that light-entrained and brain-tuned circadian circuits regulate enteric ILC3s, intestinal homeostasis, gut defence and host lipid metabolism in mice.
-- We found that enteric ILC3s display circadian expression of clock genes and ILC3- related transcription factors.
+- Enteric ILC3s displayed circadian expression of clock genes and ILC3-associated transcriptional programs.
+- Light-entrained and brain-tuned circuits regulated ILC3-associated gut homeostasis, defense, and lipid metabolism.
+- The source supports organism-level neuroimmune timing control over gut ILC3s.
+- For lung use, treat it as extrapulmonary neuroimmune timing context.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that light-entrained and brain-tuned circadian circuits regulate ILC3s and gut homeostasis.
-- High confidence:
-  the source is relevant to ILC3 in the detected context of gut/intestine, nervous system.
-- Medium confidence:
-  mechanisms or mediators such as circadian clock, autophagy/metabolism can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: light/brain circadian circuits regulate gut ILC3 programs in the reported mouse systems.
+- Medium confidence: systemic neuroimmune timing can shape ILC3 biology.
+- Low confidence: direct pulmonary ILC3 regulation is not established.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: mouse
-- Tissue or disease context detected: gut/intestine, nervous system
-- Assay modalities detected from tags: RNA-seq, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source-specific context: mouse gut neuroimmune/circadian perturbation and transcriptomic profiling.
+- Best wiki use: ILC3 functional regulation, mucosal barrier biology, and evidence-boundary framing.
+- Assay directness: strongest for the source tissue/model; indirect for lung disease unless lung data are present.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Keep gut, light-entrained, and brain-tuned context explicit.
+- Preserve species, tissue compartment, mediator, and disease-model labels.
+- Reviews should frame the field; primary sources should anchor causal claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements the current ILC3 regulatory map by adding gut/mucosal context rather than replacing lung-specific evidence.
+- Supersession status: not superseded; use alongside direct pulmonary ILC3 sources with explicit tissue labels.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC3](../entities/ILC3.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC3](../entities/ILC3.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC3 Mucosal Regulation Source Review Notes](../audit/2026-05-04_focused_manual_ingest_ILC3_mucosal_regulation.md)

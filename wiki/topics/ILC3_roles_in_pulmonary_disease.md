@@ -77,6 +77,11 @@ This page expands the disease branch of [ILC3](../entities/ILC3.md). Use the ent
 
 - Tuberculosis adds a protective lung ILC3 infection branch: in mouse Mtb infection, ILC3-derived IL-17/IL-22 supports CXCL13, early alveolar macrophage accumulation, granuloma organization, and Mtb control, while human blood ILC changes provide disease relevance but not direct tissue causality ([Group 3 innate lymphoid cells mediate early protective immunity against tuberculosis](../sources/2019_group_3_innate_lymphoid_cells_mediate_early_protective_immunity_against_tuberculosis.md)).
 - Severe-asthma sputum adds a human airway ILC3/neutrophilia branch and an ILC2/ILC3-like boundary-state branch; these should refine, not collapse, the existing ILC3 severe-asthma model ([A population of c-kit+ IL-17A+ ILC2s in sputum from individuals with severe asthma supports ILC2 to ILC3 trans-differentiation](../sources/2025_a_population_of_c_kit_il_17a_ilc2s_in_sputum_from_individuals_with_severe_asthma_supp.md)).
+### Extrapulmonary barrier-protection context
+
+- Gut/mucosal ILC3 sources add several barrier-regulation mechanisms that may be useful comparators for lung interpretation but are not direct pulmonary disease evidence: RANKL/RANK restraint, circadian timing, FFAR2 metabolite sensing, VIP neuroimmune signaling, trained ILC3 defense, and HB-EGF-mediated tissue protection.
+- These mechanisms should be used to generate careful hypotheses about lung ILC3 state control, not as direct support for asthma, ARDS, COPD, or pneumonia claims unless matching pulmonary data are added.
+
 ## Interpretation
 
 The ILC3 disease model in this wiki is organized around a tension between barrier defense and neutrophil-rich pathology. In bacterial infection and neonatal lung development, ILC3s appear as tissue-supportive cells linked to IL-22, IGF1-responsive developmental niches, and mucosal defense. In ARDS and neutrophilic/steroid-resistant asthma, ILC3s appear as inflammatory amplifiers linked to IL-17A, neutrophil chemoattractants, glucocorticoid resistance, and stromal/fibroblast activation.

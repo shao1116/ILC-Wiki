@@ -10,78 +10,74 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for the ILC3 mucosal-regulation question, including model system, tissue compartment, regulatory mediator, assay directness, and claim-level boundaries.
+- Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary perturbation or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC3
-- Main detected context: gut/intestine
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary gut ILC3 circadian-clock study
+- Evidence profile: ILC3-intrinsic circadian-clock programs, including BMAL1, sustain intestinal ILC3 homeostasis and tune effector-state balance.
+- Knowledge note status: source-reviewed evidence note suitable for gut/mucosal ILC3 regulation context.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: medium-high to high for source-specific gut/mucosal ILC3 biology; low for direct lung extrapolation unless matched pulmonary data are present.
 - Evidence tags:
-  #assay/KO #assay/RNAseq #assay/flow #cell/ILC2 #cell/ILC3 #cell/macrophage #outcome/homeostasis #outcome/infection #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut
-- Detected biological focus: ILC3
-- Detected mechanism or mediator terms: circadian clock
-- Detected context: gut/intestine
+  #source/primary #species/mouse #tissue/gut #cell/ILC3 #assay/KO #assay/RNAseq #assay/flow #outcome/homeostasis #outcome/inflammation #axis/ILC_regulation #status/focused_crystallization
+- Primary biological axis: ILC3-intrinsic circadian-clock programs, including BMAL1, sustain intestinal ILC3 homeostasis and tune effector-state balance.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address gut/intestine with a focus on ILC3. For current synthesis, it should be used primarily as evidence for the source-specific claim that a circadian clock is essential for homeostasis of group 3 innate lymphoid cells in the gut, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds BMAL1 circadian clock supports gut ILC3 homeostasis to the ILC3 regulatory map. It is useful for mechanism vocabulary and tissue-boundary-aware interpretation, but should not be promoted to direct lung causality without pulmonary evidence.
 
 ## Key Findings
 
-- Sonnenberg1,2,3* Group 3 innate lymphoid cells (ILC3s) critically orchestrate host-microbe interactions in the healthy mammalian intestine and become substantially impaired in the context of inflammatory bowel disease (IBD).
-- However, the molecular pathways controlling the homeostasis of ILC3s remain incompletely defined.
-- Here, we identify that intestinal ILC3s are highly enriched in expression of genes involved in the circadian clock and exhibit diurnal oscillations of these pathways in response to light cues.
-- Classical ILC3 effector functions also exhibited diurnal oscillations, and lineage-specific deletion of BMAL1, a master regulator of the circadian clock, resulted in markedly reduced ILC3s selectively in the intestine.
-- BMAL1-deficient ILC3s exhibit impaired expression of Nr1d1 and Per3, hyperactivation of RORt-dependent target genes, and elevated proapoptotic pathways.
+- Intestinal ILC3s were enriched for circadian-clock genes and showed diurnal oscillation.
+- Lineage-specific BMAL1 loss reduced intestinal ILC3s and disrupted clock-gene programs.
+- BMAL1-deficient ILC3s showed altered RORgammat-linked target-gene activity and increased proapoptotic pathways.
+- The source supports gut ILC3 homeostasis timing logic, not a general pulmonary circadian claim.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that a circadian clock is essential for homeostasis of group 3 innate lymphoid cells in the gut.
-- High confidence:
-  the source is relevant to ILC3 in the detected context of gut/intestine.
-- Medium confidence:
-  mechanisms or mediators such as circadian clock can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- High confidence: BMAL1/circadian-clock biology supports gut ILC3 homeostasis in the reported model.
+- Medium confidence: circadian state is a useful ILC3 regulatory layer.
+- Low confidence: direct lung ILC3 circadian causality is not shown here.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: gut/intestine
-- Assay modalities detected from tags: flow cytometry, RNA-seq, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source-specific context: mouse gut ILC3 lineage-specific clock perturbation, flow cytometry, and RNA-seq.
+- Best wiki use: ILC3 functional regulation, mucosal barrier biology, and evidence-boundary framing.
+- Assay directness: strongest for the source tissue/model; indirect for lung disease unless lung data are present.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Do not merge with lung ILC2 circadian or neuroimmune mechanisms without matching data.
+- Preserve species, tissue compartment, mediator, and disease-model labels.
+- Reviews should frame the field; primary sources should anchor causal claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: complements the current ILC3 regulatory map by adding gut/mucosal context rather than replacing lung-specific evidence.
+- Supersession status: not superseded; use alongside direct pulmonary ILC3 sources with explicit tissue labels.
 
 ## Related Pages
 
 - [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC3](../entities/ILC3.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [ILC3](../entities/ILC3.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [ILC Regulation Of Adaptive Immunity](../topics/ILC_regulation_of_adaptive_immunity.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC3 Mucosal Regulation Source Review Notes](../audit/2026-05-04_focused_manual_ingest_ILC3_mucosal_regulation.md)
