@@ -10,76 +10,69 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for final provisional-source cleanup, including source type, tissue context, model boundaries, and whether the source should enter durable synthesis.
+- Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary or review-level synthesis.
+
 ## Source Type
 
-- review or conceptual synthesis
-- Main detected cell focus: not clearly resolved from title/early text
-- Main detected context: gut/intestine
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- review of the first decade of ILC research
+- Evidence profile: field-history review of ILC discovery, subset taxonomy, tissue functions, and disease links.
+- Knowledge note status: source-reviewed evidence note; use according to the boundary notes below.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: source-specific biological confidence, not processing confidence.
 - Evidence tags:
-  #assay/in_vitro #assay/in_vivo #assay/scRNAseq #cell/B_cell #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #cell/macrophage #outcome/homeostasis #outcome/infection #outcome/repair #source/review #species/human #species/mouse #tissue/gut #tissue/lung #tissue/skin
-- Detected biological focus: not resolved
-- Detected mechanism or mediator terms: autophagy/metabolism
-- Detected context: gut/intestine
+  #source/review #species/human #species/mouse #cell/ILC1 #cell/ILC2 #cell/ILC3 #axis/ILC_history #axis/ILC_taxonomy #status/focused_crystallization
+- Primary biological axis: field-history review of ILC discovery, subset taxonomy, tissue functions, and disease links.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address gut/intestine with a focus on innate lymphoid or neighboring immune biology. For current synthesis, it should be used primarily as evidence for the source-specific claim that iLC 10 years on, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds ILC 10 years on to the reference library as trend digest and source spine. It should be used only where that role fits the reader-facing biology narrative.
 
 ## Key Findings
 
-- Leading Edge Review Innate Lymphoid Cells: 10 Years On Eric Vivier,1,2,* David Artis,3 Marco Colonna,4 Andreas Diefenbach,5,6,7 James P.
-- ILCs are largely tissue-resident cells and are deeply integrated into the fabric of tissues.
-- The discovery and investigation of ILCs over the past decade has changed our perception of immune regulation and how the immune system contributes to the maintenance of tissue homeostasis.
-- We now know that cytokine-producing ILCs contribute to mul- tiple immune pathways by, for example, sustaining appropriate immune responses to commensals and pathogens at mucosal barriers, potentiating adaptive immunity, and regulating tissue inﬂam- mation.
-- Critically, the biology of ILCs also extends beyond classical immunology to metabolic homeostasis, tissue remodeling, and dialog with the nervous system.
+- Useful as a field-history anchor for how ILC biology moved from discovery to tissue and disease mechanisms.
+- Supports beginner-facing trend synthesis.
+- Not a source for individual mechanistic claims unless paired with primary papers.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that iLC 10 years on.
-- High confidence:
-  the source is relevant to the immune cell populations named by the source in the detected context of gut/intestine.
-- Medium confidence:
-  mechanisms or mediators such as autophagy/metabolism can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium-high confidence: useful mature review for ILC field history.
+- Low confidence: not a primary mechanistic source.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: review or conceptual synthesis.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: gut/intestine
-- Assay modalities detected from tags: single-cell RNA-seq, in vivo model, in vitro assay
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source-specific context: review of the first decade of ILC research.
+- Best wiki use: trend digest and source spine.
+- Evidence directness: strongest for the source's own tissue/model; indirect for lung unless lung evidence is present.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Use for historical synthesis and reading routes.
+- Preserve species, tissue compartment, and source-type labels.
+- Do not use review-level sources as sole support for mechanism-specific causal claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: no direct contradiction resolved in this cleanup pass; use as context alongside primary source anchors.
+- Supersession status: not superseded, but some older reviews are best treated as historical or orientation sources.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- [2026-04-20_ILC_research_trend_then_to_now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
+- [Final Provisional Source Ingest Notes](../audit/2026-05-05_final_provisional_source_ingest.md)
+- Relevant entity/topic/digest pages were updated only where the source fit naturally.

@@ -114,3 +114,5 @@
 - 2026-05-04: Completed ILC3 mucosal regulation source review for 10 additional sources covering RANKL/RANK restraint, circadian timing, FFAR2, VIP neuroimmune circuits, trained ILC3 defense, and HB-EGF tissue protection. Updated ILC3 entity/topic pages, adaptive-immunity topic context, core synthesis, manifest tags, and audit trail.
 
 - 2026-05-04: Completed focused manual ingest for 10 ILC2 regulatory-context sources covering AHR, RXRgamma, RORalpha, ADM2, tuft-cell IL-17RB/IL-25, ILC metabolism, tissue specificity, plasticity, ILC2 regulatory networks, and asthma immunotherapy framing. Updated ILC2 entity/topic pages, core synthesis, trend digest, manifest tags, and audit trail.
+
+- 2026-05-05: Completed final focused ingest for all 16 remaining provisional source pages. Updated source modes, source notes, manifest tags, ILC2/ILC3 regulation context, adaptive-immunity review framing, trend/core source spines, audit trail, and coverage counts while preserving tissue and source-type boundaries.

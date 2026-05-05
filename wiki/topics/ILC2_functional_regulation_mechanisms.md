@@ -128,6 +128,7 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - [The group 2 innate lymphoid cell ( ILC 2) regulatory network and its underlying mechanisms](../sources/2018_the_group_2_innate_lymphoid_cell_ilc_2_regulatory_network_and_its_underlying_mechanisms.md), [Tissue-Specific Features of Innate Lymphoid Cells](../sources/2020_tissue_specific_features_of_innate_lymphoid_cells.md), and [Plasticity of innate lymphoid cell subsets](../sources/2020_plasticity_of_innate_lymphoid_cell_subsets.md) are useful review-level orientation sources for ILC2 regulatory networks, tissue specificity, and state plasticity.
 - [RORalpha is a critical checkpoint for T cell and ILC2 commitment in the embryonic thymus](../sources/2021_roralpha_is_a_critical_checkpoint_for_t_cell_and_ilc2_commitment_in_the_embryonic_thymus.md) adds developmental lineage-boundary context for ILC2 identity rather than mature lung disease regulation.
 - [Immunotherapy for asthma](../sources/2025_immunotherapy_for_asthma.md) is useful for asthma endotype and therapy framing, but ILC-specific claims should remain anchored to ILC-focused primary sources.
+- [Group 2 innate lymphoid cells promote inhibitory synapse development and social behavior](../sources/2024_group_2_innate_lymphoid_cells_promote_inhibitory_synapse_development_and_social_behav.md) is retained as extrapulmonary neuroimmune ILC2 context; it should not be used as lung neuroimmune or asthma evidence without pulmonary data.
 
 ## Interpretation
 

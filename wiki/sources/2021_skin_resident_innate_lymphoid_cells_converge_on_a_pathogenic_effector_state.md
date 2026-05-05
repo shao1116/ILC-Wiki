@@ -10,80 +10,69 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for final provisional-source cleanup, including source type, tissue context, model boundaries, and whether the source should enter durable synthesis.
+- Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary or review-level synthesis.
+
 ## Source Type
 
-- primary research article with animal-model evidence
-- Main detected cell focus: ILC2, ILC3, ILC1
-- Main detected context: skin
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- primary skin ILC state study
+- Evidence profile: skin-resident ILCs can converge on pathogenic effector programs in a tissue-specific inflammatory context.
+- Knowledge note status: source-reviewed evidence note; use according to the boundary notes below.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: source-specific biological confidence, not processing confidence.
 - Evidence tags:
-  #assay/KO #assay/flow #assay/scRNAseq #cell/B_cell #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #outcome/airway_hyperresponsiveness #outcome/inflammation #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung #tissue/skin
-- Detected biological focus: ILC2, ILC3, ILC1
-- Detected mechanism or mediator terms: IL-23, IL-22
-- Detected context: skin
+  #source/primary #species/human #species/mouse #tissue/skin #cell/ILC1 #cell/ILC2 #cell/ILC3 #assay/scRNAseq #outcome/inflammation #axis/ILC_plasticity #status/focused_crystallization
+- Primary biological axis: skin-resident ILCs can converge on pathogenic effector programs in a tissue-specific inflammatory context.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address skin with a focus on ILC2, ILC3, ILC1. For current synthesis, it should be used primarily as evidence for the source-specific claim that skin-resident innate lymphoid cells converge on a pathogenic effector state, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds Skin-resident ILCs converge on pathogenic effector state to the reference library as trend/plasticity comparator only. It should be used only where that role fits the reader-facing biology narrative.
 
 ## Key Findings
 
-- Flavell1,9 ✉ Tissue-resident innate lymphoid cells (ILCs) help sustain barrier function and respond to local signals.
-- ILCs are traditionally classified as ILC1, ILC2 or ILC3 on the basis of their expression of specific transcription factors and cytokines1.
-- In the skin, disease- specific production of ILC3-associated cytokines interleukin (IL)-17 and IL-22 in response to IL-23 signalling contributes to dermal inflammation in psoriasis.
-- However, it is not known whether this response is initiated by pre-committed ILCs or by cell-state transitions.
-- Here we show that the induction of psoriasis in mice by IL-23 or imiquimod reconfigures a spectrum of skin ILCs, which converge on a pathogenic ILC3-like state.
+- Adds extrapulmonary evidence that tissue-resident ILCs can converge on pathogenic effector states.
+- Useful as a plasticity/tissue-state comparator.
+- Not direct lung or airway evidence.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that skin-resident innate lymphoid cells converge on a pathogenic effector state.
-- High confidence:
-  the source is relevant to ILC2, ILC3, ILC1 in the detected context of skin.
-- Medium confidence:
-  mechanisms or mediators such as IL-23, IL-22 can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium-high confidence: skin-resident ILC state convergence is source-supported in its tissue context.
+- Low confidence: direct pulmonary inference is not supported.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: primary research article with animal-model evidence.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: skin
-- Assay modalities detected from tags: flow cytometry, single-cell RNA-seq, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source-specific context: primary skin ILC state study.
+- Best wiki use: trend/plasticity comparator only.
+- Evidence directness: strongest for the source's own tissue/model; indirect for lung unless lung evidence is present.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Keep skin-resident and disease-context labels explicit.
+- Preserve species, tissue compartment, and source-type labels.
+- Do not use review-level sources as sole support for mechanism-specific causal claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: no direct contradiction resolved in this cleanup pass; use as context alongside primary source anchors.
+- Supersession status: not superseded, but some older reviews are best treated as historical or orientation sources.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
-- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 - [ILC2](../entities/ILC2.md)
-- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
 - [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
+- [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [Final Provisional Source Ingest Notes](../audit/2026-05-05_final_provisional_source_ingest.md)
+- Relevant entity/topic/digest pages were updated only where the source fit naturally.

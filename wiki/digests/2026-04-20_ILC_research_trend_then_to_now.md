@@ -114,7 +114,16 @@ Our research axis is not a side note; it sits at several important inflection po
 
 - [ILC 10 years on](../sources/2018_innate_lymphoid_cells_10_years_on.md)
 - [The biology of innate lymphoid cells](../sources/2015_the_biology_of_innate_lymphoid_cells.md)
+- [Development, Differentiation, and Diversity of Innate Lymphoid Cells](../sources/2014_development_differentiation_and_diversity_of_innate_lymphoid_cells.md)
+- [The evolution of innate lymphoid cells](../sources/2016_the_evolution_of_innate_lymphoid_cells.md)
+- [Innate lymphoid cells: major players in inflammatory diseases](../sources/2017_innate_lymphoid_cells_major_players_in_inflammatory_diseases.md)
+- [ILC 10 years on](../sources/2018_innate_lymphoid_cells_10_years_on.md)
+- [Helper-like Innate Lymphoid Cells in Humans and Mice](../sources/2020_helper_like_innate_lymphoid_cells_in_humans_and_mice.md)
+
 - [Innate Lymphoid Cells Diversity, Plasticity, and Unique Functions in Immunity](../sources/2018_innate_lymphoid_cells_diversity_plasticity_and_unique_functions_in_immunity.md)
+- [Plasticity of innate lymphoid cell subsets](../sources/2020_plasticity_of_innate_lymphoid_cell_subsets.md)
+- [Skin-resident innate lymphoid cells converge on a pathogenic effector state](../sources/2021_skin_resident_innate_lymphoid_cells_converge_on_a_pathogenic_effector_state.md)
+
 - [Tissue-Specific Features of Innate Lymphoid Cells](../sources/2020_tissue_specific_features_of_innate_lymphoid_cells.md)
 - [Innate Lymphoid Cells of the Lung](../sources/2019_innate_lymphoid_cells_of_the_lung.md)
 - [Tissue-specific features of innate lymphoid cells in antiviral defense](../sources/2024_tissue_specific_features_of_innate_lymphoid_cells_in_antiviral_defense.md)

@@ -10,77 +10,69 @@
 
 ## Ingest Mode
 
-- Mode: `provisional bulk-ingest mode`
-- Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.
-- Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.
+- Mode: `focused manual crystallization mode`
+- Meaning: this source page has been manually reviewed for final provisional-source cleanup, including source type, tissue context, model boundaries, and whether the source should enter durable synthesis.
+- Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary or review-level synthesis.
+
 ## Source Type
 
-- human-focused primary or translational study
-- Main detected cell focus: not clearly resolved from title/early text
-- Main detected context: asthma/allergy
-- Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.
+- review on helper-like ILCs across species
+- Evidence profile: review-level comparison of helper-like ILC development, plasticity, and inflammatory disease roles in humans and mice.
+- Knowledge note status: source-reviewed evidence note; use according to the boundary notes below.
 
 ## Evidence Profile
 
-- Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.
+- Overall confidence: source-specific biological confidence, not processing confidence.
 - Evidence tags:
-  #assay/KO #assay/in_vitro #assay/in_vivo #cell/ILC1 #cell/ILC2 #cell/ILC3 #cell/NK #cell/T_cell #cell/macrophage #outcome/airway_hyperresponsiveness #outcome/homeostasis #outcome/infection #outcome/repair #source/literature_pdf #species/human #species/mouse #tissue/gut #tissue/lung #tissue/skin
-- Detected biological focus: not resolved
-- Detected mechanism or mediator terms: autophagy/metabolism
-- Detected context: asthma/allergy
+  #source/review #species/human #species/mouse #cell/ILC1 #cell/ILC2 #cell/ILC3 #axis/ILC_taxonomy #axis/ILC_plasticity #status/focused_crystallization
+- Primary biological axis: review-level comparison of helper-like ILC development, plasticity, and inflammatory disease roles in humans and mice.
 
 ## Why It Matters Here
 
-This source matters to the ILC-in-lung wiki because it appears to address asthma/allergy with a focus on innate lymphoid or neighboring immune biology. For current synthesis, it should be used primarily as evidence for the source-specific claim that helper-like Innate Lymphoid Cells in Humans and Mice, then upgraded or narrowed after manual review of the full methods, figures, and model system.
+This source adds Helper-like ILCs in humans and mice to the reference library as trend digest and taxonomy guardrails. It should be used only where that role fits the reader-facing biology narrative.
 
 ## Key Findings
 
-- Helper-like ILCs are considered the innate counterpart of T-helper cells because of similarities in their cytokine output and expression of key transcrip- tion factors.
-- ILCs provide and regula te innate immune functions before the development of adaptive immunity.
-- They are involved in host defense against pathogens, in ﬂammation, tissue repair, and metabolic homeostasis.
-- In this review, we summarize the latest resear ch on ILC development and plasticity in humans and mice, focusing on the pathogenic role of helper-like ILCs in inﬂammatory disorders, such as asthma, Crohn ’s disease (CD), and rheumatoid arthritis (RA).
-- Innate Lymphoid Cells in Immunity: A Double-Edged Sword ILCs are distinct from conventional lymphoi d lineages because they lack recombination- activating gene (RAG)-dependent rearranged antigen-speci ﬁc receptors [ 1–3].
+- Useful for cross-species helper-like ILC taxonomy and disease framing.
+- Supports caution when comparing human and mouse ILC states.
+- Review-level source; individual claims should be anchored to primary sources.
 
 ## Claim-Level Confidence
 
-- High confidence:
-  this source directly supports the title/abstract-level claim that helper-like Innate Lymphoid Cells in Humans and Mice.
-- High confidence:
-  the source is relevant to the immune cell populations named by the source in the detected context of asthma/allergy.
-- Medium confidence:
-  mechanisms or mediators such as autophagy/metabolism can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.
-- Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.
+- Medium confidence: useful cross-species review framing.
+- Low confidence: not a direct pulmonary mechanism source.
 
 ## Methods and Context
 
-- Source kind inferred from title/tags/text: human-focused primary or translational study.
-- Species or sample frame detected: human, mouse
-- Tissue or disease context detected: asthma/allergy
-- Assay modalities detected from tags: in vivo model, in vitro assay, genetic or knockout perturbation
-- Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.
+- Source-specific context: review on helper-like ILCs across species.
+- Best wiki use: trend digest and taxonomy guardrails.
+- Evidence directness: strongest for the source's own tissue/model; indirect for lung unless lung evidence is present.
 
 ## Caveats
 
-- This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.
-- Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.
-- For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.
-- Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.
+- Use as orientation, not as a primary claim anchor.
+- Preserve species, tissue compartment, and source-type labels.
+- Do not use review-level sources as sole support for mechanism-specific causal claims.
 
 ## Contradiction and Supersession
 
-- Contradiction status:
-  not assessed during bulk ingestion.
-- Supersession status:
-  not assessed during bulk ingestion.
+- Contradiction status: no direct contradiction resolved in this cleanup pass; use as context alongside primary source anchors.
+- Supersession status: not superseded, but some older reviews are best treated as historical or orientation sources.
 
 ## Related Pages
 
-- [ILC_in_lung_project](../projects/ILC_in_lung_project.md)
 - [ILC_in_lung](../topics/ILC_in_lung.md)
+- [ILC2](../entities/ILC2.md)
+- [ILC3](../entities/ILC3.md)
+- [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)
+- [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)
+- [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
+- [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
+- [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)
+- [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
 - [Reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md)
-- [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 
 ## Pages Updated From This Source
 
-- No topic/entity/digest page currently cites this source directly; prioritize it through the [reference coverage audit](../audit/2026-04-20_reference_coverage_audit.md) if its assigned role is lung-relevant.
+- [Final Provisional Source Ingest Notes](../audit/2026-05-05_final_provisional_source_ingest.md)
+- Relevant entity/topic/digest pages were updated only where the source fit naturally.
