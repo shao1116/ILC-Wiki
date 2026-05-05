@@ -1004,80 +1004,70 @@
 </ul>
 <h2 id="ingest-mode">Ingest Mode</h2>
 <ul>
-<li>Mode: <code>provisional bulk-ingest mode</code></li>
-<li>Meaning: this source page records source registration, extracted text, conservative tags, and provisional biological signals.</li>
-<li>Required boundary: do not promote claims from this page into durable topic/entity/project/digest synthesis until a focused manual crystallization pass checks the source text, figures, methods, model system, and assay context.</li>
+<li>Mode: <code>focused manual crystallization mode</code></li>
+<li>Meaning: this source page has been manually reviewed for final provisional-source cleanup, including source type, tissue context, model boundaries, and whether the source should enter durable synthesis.</li>
+<li>Required boundary: reusable claims should preserve species, tissue, mediator, disease model, and whether evidence is primary or review-level synthesis.</li>
 </ul>
 <h2 id="source-type">Source Type</h2>
 <ul>
-<li>primary research article with animal-model evidence</li>
-<li>Main detected cell focus: ILC2, ILC3</li>
-<li>Main detected context: gut/intestine</li>
-<li>Knowledge note status: provisional automated synthesis from extracted title/abstract/early text; detailed claims still require manual source review.</li>
+<li>primary gut ILC3-tuft-cell/RANK study</li>
+<li>Evidence profile: ILC3s promote intestinal tuft-cell hyperplasia and anthelmintic immunity through RANK signaling.</li>
+<li>Knowledge note status: source-reviewed evidence note; use according to the boundary notes below.</li>
 </ul>
 <h2 id="evidence-profile">Evidence Profile</h2>
 <ul>
-<li>Overall confidence: medium for the title/abstract-level biological claim; low for detailed mechanism strength until the full results, figures, and methods are manually checked.</li>
+<li>Overall confidence: source-specific biological confidence, not processing confidence.</li>
 <li>Evidence tags:
-  #assay/KO #assay/flow #assay/in_vitro #assay/in_vivo #cell/ILC2 #cell/ILC3 #cell/T_cell #outcome/homeostasis #outcome/infection #outcome/repair #source/literature_pdf #species/mouse #tissue/gut #tissue/lung #tissue/nasal_polyp</li>
-<li>Detected biological focus: ILC2, ILC3</li>
-<li>Detected mechanism or mediator terms: candidate mechanisms or mediators named in the source</li>
-<li>Detected context: gut/intestine</li>
+  #source/primary #species/mouse #tissue/gut #cell/ILC3 #cell/epithelial_cell #outcome/infection #axis/RANK #axis/ILC_regulation #status/focused_crystallization</li>
+<li>Primary biological axis: ILC3s promote intestinal tuft-cell hyperplasia and anthelmintic immunity through RANK signaling.</li>
 </ul>
 <h2 id="why-it-matters-here">Why It Matters Here</h2>
-<p>This source matters to the ILC-in-lung wiki because it appears to address gut/intestine with a focus on ILC2, ILC3. For current synthesis, it should be used primarily as evidence for the source-specific claim that iLC3s promote intestinal tuft cell hyperplasia and anthelmintic immunity through RANK signaling, then upgraded or narrowed after manual review of the full methods, figures, and model system.</p>
+<p>This source adds ILC3 RANK signaling promotes tuft-cell hyperplasia and anthelmintic immunity to the reference library as ILC3 gut epithelial crosstalk context. It should be used only where that role fits the reader-facing biology narrative.</p>
 <h2 id="key-findings">Key Findings</h2>
 <ul>
-<li>Group 3 in- nate lymphoid cells (ILC3s) are enriched in the intestine and play a critical role in immunity against extracellular bacteria and fungi.</li>
-<li>However, whether ILC3s are involved in intestinal helminth infection is still unclear.</li>
-<li>Here, we report that helminth infection reprograms ILC3s, which, in turn, promote anthelmintic immunity.</li>
-<li>ILC3- derived RANKL [receptor activator of NF- κB (nuclear factor κB) ligand] synergizes with interleukin- 13 (IL- 13) to facilitate intestinal tuft cell expansion after helminth infection, which further activates the tuft cell–group 2 innate lym- phoid cell (ILC2) circuit to control helminth infection.</li>
-<li>Deletion of RANKL in ILC3s or deletion of RANK or its down- stream adaptor RelB in intestinal epithelial cells substantially diminishes tuft cell hyperplasia and dampens anthelmintic immunity.</li>
+<li>Adds a gut ILC3-RANK-tuft-cell branch linked to anthelmintic immunity.</li>
+<li>Complements but should not be collapsed with RANKL/RANK restraint of ILC3 effector cytokines.</li>
+<li>Useful for gut epithelial crosstalk context, not direct lung evidence.</li>
 </ul>
 <h2 id="claim-level-confidence">Claim-Level Confidence</h2>
 <ul>
-<li>High confidence:
-  this source directly supports the title/abstract-level claim that iLC3s promote intestinal tuft cell hyperplasia and anthelmintic immunity through RANK signaling.</li>
-<li>High confidence:
-  the source is relevant to ILC2, ILC3 in the detected context of gut/intestine.</li>
-<li>Medium confidence:
-  mechanisms or mediators such as candidate mechanisms or mediators named in the source can be used as candidate regulatory links, but their direction and causal strength should be verified in the full results.</li>
-<li>Low confidence:
-  broad extrapolation from this source to all lung ILC biology, all species, or all pulmonary diseases is not justified unless the page explicitly documents matching tissue, disease model, species, and assay context.</li>
+<li>Medium-high confidence: source-specific intestinal ILC3-RANK-tuft-cell branch.</li>
+<li>Low confidence: direct pulmonary relevance is not established.</li>
 </ul>
 <h2 id="methods-and-context">Methods and Context</h2>
 <ul>
-<li>Source kind inferred from title/tags/text: primary research article with animal-model evidence.</li>
-<li>Species or sample frame detected: mouse</li>
-<li>Tissue or disease context detected: gut/intestine</li>
-<li>Assay modalities detected from tags: flow cytometry, in vivo model, in vitro assay, genetic or knockout perturbation</li>
-<li>Use this source page as a knowledge-oriented first pass; confirm experimental design, gating, perturbation, and outcome measures before manuscript-level use.</li>
+<li>Source-specific context: primary gut ILC3-tuft-cell/RANK study.</li>
+<li>Best wiki use: ILC3 gut epithelial crosstalk context.</li>
+<li>Evidence directness: strongest for the source's own tissue/model; indirect for lung unless lung evidence is present.</li>
 </ul>
 <h2 id="caveats">Caveats</h2>
 <ul>
-<li>This source page was rewritten from extracted title/abstract/early text and existing automated tags; it is not yet a substitute for a full manual paper read.</li>
-<li>Automated tags may over-call species, tissue, cell types, or assays because references, captions, and background text can be detected as article content.</li>
-<li>For direct lung-disease claims, prioritize sources whose own model or samples are lung, airway, pulmonary infection, asthma, COPD, ARDS, fibrosis, or lung tumor contexts.</li>
-<li>Extrapulmonary sources should be used as mechanism/context evidence unless a later manual review documents direct relevance to lung biology.</li>
+<li>Distinguish this RANK branch from RANKL-mediated ILC3 restraint.</li>
+<li>Preserve species, tissue compartment, and source-type labels.</li>
+<li>Do not use review-level sources as sole support for mechanism-specific causal claims.</li>
 </ul>
 <h2 id="contradiction-and-supersession">Contradiction and Supersession</h2>
 <ul>
-<li>Contradiction status:
-  not assessed during bulk ingestion.</li>
-<li>Supersession status:
-  not assessed during bulk ingestion.</li>
+<li>Contradiction status: no direct contradiction resolved in this cleanup pass; use as context alongside primary source anchors.</li>
+<li>Supersession status: not superseded, but some older reviews are best treated as historical or orientation sources.</li>
 </ul>
 <h2 id="related-pages">Related Pages</h2>
 <ul>
-<li><a href="../../projects/ILC_in_lung_project/">ILC_in_lung_project</a></li>
 <li><a href="../../topics/ILC_in_lung/">ILC_in_lung</a></li>
-<li><a href="../../audit/2026-04-20_reference_coverage_audit/">Reference coverage audit</a></li>
 <li><a href="../../entities/ILC2/">ILC2</a></li>
 <li><a href="../../entities/ILC3/">ILC3</a></li>
+<li><a href="../../topics/ILC2_functional_regulation_mechanisms/">ILC2 functional regulation mechanisms</a></li>
+<li><a href="../../topics/ILC3_functional_regulation_mechanisms/">ILC3 functional regulation mechanisms</a></li>
+<li><a href="../../topics/ILC2_roles_in_pulmonary_disease/">ILC2 roles in pulmonary disease</a></li>
+<li><a href="../../topics/ILC3_roles_in_pulmonary_disease/">ILC3 roles in pulmonary disease</a></li>
+<li><a href="../../digests/2026-04-22_lung_ILC_core_evidence_synthesis/">Lung ILC Core Evidence Synthesis</a></li>
+<li><a href="../../digests/2026-04-20_ILC_research_trend_then_to_now/">ILC Research Trend From Then To Now</a></li>
+<li><a href="../../audit/2026-04-20_reference_coverage_audit/">Reference coverage audit</a></li>
 </ul>
 <h2 id="pages-updated-from-this-source">Pages Updated From This Source</h2>
 <ul>
-<li>No topic/entity/digest page currently cites this source directly; prioritize it through the <a href="../../audit/2026-04-20_reference_coverage_audit/">reference coverage audit</a> if its assigned role is lung-relevant.</li>
+<li><a href="../../audit/2026-05-05_final_provisional_source_ingest/">Final Provisional Source Ingest Notes</a></li>
+<li>Relevant entity/topic/digest pages were updated only where the source fit naturally.</li>
 </ul>
 
 
