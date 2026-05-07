@@ -951,17 +951,17 @@
 
 <h1 id="reference-coverage-audit">Reference Coverage Audit</h1>
 <p>Created: 2026-04-20
-Refreshed: 2026-05-05</p>
+Refreshed: 2026-05-07</p>
 <h2 id="scope">Scope</h2>
 <p>This audit tracks how the current ILC-in-lung wiki uses the ingested source library across entity pages, topic pages, and digest pages. It is a routing audit, not a claim that every source has already been manually crystallized end to end.</p>
 <p>The audit now reflects the current architecture: <a href="../../entities/ILC2/">ILC2</a> and <a href="../../entities/ILC3/">ILC3</a> are the canonical cell hubs, <a href="../../digests/2026-04-22_lung_ILC_core_evidence_synthesis/">Lung ILC Core Evidence Synthesis</a> is the main cross-subset synthesis page, and <a href="../../digests/2026-04-20_ILC_pulmonary_disease_roles/">Lung ILC Disease Roles Companion</a> is the disease-first companion page.</p>
 <h2 id="coverage-snapshot">Coverage snapshot</h2>
 <ul>
-<li>Ingested paper source pages currently present: 142</li>
-<li>Source pages in <code>focused manual crystallization mode</code>: 142</li>
+<li>Ingested paper source pages currently present: 148</li>
+<li>Source pages in <code>focused manual crystallization mode</code>: 148</li>
 <li>Source pages in <code>provisional bulk-ingest mode</code>: 0</li>
 <li>Entity/topic/digest synthesis pages currently scanned for direct source links: 11</li>
-<li>Paper source pages currently linked directly from scanned synthesis pages: 142</li>
+<li>Paper source pages currently linked directly from scanned synthesis pages: 148</li>
 <li>Paper source pages still source-library only: 0</li>
 <li>All ingested sources remain discoverable through <a href="../../sources/source_index/">ingestion_manifest</a>.</li>
 <li>Counting note: focused/provisional counts describe source-page review mode; direct-link coverage describes whether a paper is cited from the scanned knowledge-layer pages. These are related but not interchangeable metrics.</li>
@@ -987,14 +987,14 @@ Refreshed: 2026-05-05</p>
 <tbody>
 <tr>
 <td>ILC3; mechanism/regulation</td>
-<td style="text-align: right;">26</td>
-<td style="text-align: right;">26</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">28</td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td>ILC2; pulmonary/disease; mechanism/regulation</td>
-<td style="text-align: right;">24</td>
-<td style="text-align: right;">24</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">25</td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
@@ -1028,13 +1028,13 @@ Refreshed: 2026-05-05</p>
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
-<td>ILC2; pulmonary/disease</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: right;">6</td>
+<td>ILC3; pulmonary/disease</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
-<td>ILC3; pulmonary/disease</td>
+<td>ILC2; pulmonary/disease</td>
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">0</td>
@@ -1046,15 +1046,15 @@ Refreshed: 2026-05-05</p>
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
-<td>ILC3; pulmonary/disease; mechanism/regulation</td>
+<td>ILC2; ILC3; pulmonary/disease; mechanism/regulation</td>
 <td style="text-align: right;">4</td>
 <td style="text-align: right;">4</td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
-<td>ILC2; ILC3; pulmonary/disease; mechanism/regulation</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">2</td>
+<td>ILC3; pulmonary/disease; mechanism/regulation</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">4</td>
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
@@ -1114,7 +1114,7 @@ Refreshed: 2026-05-05</p>
 </tbody>
 </table>
 <h2 id="current-source-library-only-references">Current source-library-only references</h2>
-<p>No current source-library-only references remain after the final provisional-source review. All 142 source pages are directly linked from at least one scanned entity, topic, or digest synthesis page.</p>
+<p>These source pages are present in the library but are not directly linked from the 10 scanned entity/topic/digest synthesis pages. Some are intentionally background, review, extrapulmonary, or lower-priority mechanism context.</p>
 <h2 id="full-source-assignment">Full source assignment</h2>
 <table>
 <thead>
@@ -1983,6 +1983,12 @@ Refreshed: 2026-05-05</p>
 <li>Re-run this audit after each focused source-review round so coverage counts and route labels stay synchronized with the live wiki.</li>
 </ul>
 <p>| <a href="../../sources/2025_a_population_of_c_kit_il_17a_ilc2s_in_sputum_from_individuals_with_severe_asthma_supp/">A population of c-kit+ IL-17A+ ILC2s in sputum from individuals with severe asthma supports ILC2 to ILC3 trans-differentiation</a> | ILC2; ILC3; pulmonary/disease; mechanism/regulation | ILC2/ILC3 entity, disease, and mechanism context | currently directly cited from synthesis pages |</p>
+<p>| <a href="../../sources/2025_microbial_dysbiosis_sculpts_a_systemic_ilc3_il_17_axis_governing_lung_inflammatory_re/">Microbial dysbiosis sculpts a systemic ILC3/IL-17 axis governing lung inflammatory responses and central hematopoiesis</a> | ILC3; pulmonary/disease | ILC3 entity / ILC3 disease topic / ILC3 mechanism topic | currently directly cited from synthesis pages |
+| <a href="../../sources/2026_bach2_controls_ilc3_function_via_ppargamma_dependent_mitochondrial_metabolism/">BACH2 controls ILC3 function via PPARgamma-dependent mitochondrial metabolism</a> | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently directly cited from synthesis pages |
+| <a href="../../sources/2026_il_9_and_blimp_1_protect_the_transcriptional_identity_of_group_2_innate_lymphocytes_in_allergic_asthma/">IL-9 and Blimp-1 protect the transcriptional identity of group 2 innate lymphocytes in allergic asthma</a> | ILC2; pulmonary/disease; mechanism/regulation | ILC2 entity / ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
+| <a href="../../sources/2026_innate_lymphoid_cells_integrate_sensing_and_plasticity_to_control_fungal_infections/">Innate lymphoid cells integrate sensing and plasticity to control fungal infections</a> | ILC2; ILC3; pulmonary/disease; mechanism/regulation | ILC2/ILC3 entity, disease, and mechanism context | currently directly cited from synthesis pages |
+| <a href="../../sources/2026_lingo4_coordinates_ilc3_intrinsic_il_22_production_and_microbiota_mediated_ilc3_homeostasis/">LINGO4 coordinates ILC3-intrinsic IL-22 production and microbiota-mediated ILC3 homeostasis</a> | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently directly cited from synthesis pages |</p>
+<p>| <a href="../../sources/2025_severe_asthma_is_characterized_by_a_sex_specific_ilc_landscape_and_aberrant_airway_pr/">Severe asthma is characterized by a sex-specific ILC landscape and aberrant airway profile that is suppressed by anti-IL-5/5Ralpha biologics</a> | ILC2; ILC3; pulmonary/disease; mechanism/regulation | ILC2/ILC3 entity, disease, and mechanism context | currently directly cited from synthesis pages |</p>
 <h2 id="follow-up-manual-review-priorities">Follow-up manual review priorities</h2>
 <ul>
 <li>First priority: current source-library-only papers assigned to pulmonary disease roles, because these most directly affect reusable disease interpretation.</li>
