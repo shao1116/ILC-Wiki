@@ -44,6 +44,7 @@ This page expands the disease branch of [ILC3](../entities/ILC3.md). Use the ent
 - [Activation of Type 3 innate lymphoid cells and interleukin 22 secretion in the lungs during Streptococcus pneumoniae infection](../sources/2014_activation_of_type_3_innate_lymphoid_cells_and_interleukin_22_secretion_in_the_lungs.md) supports a lung ILC3 branch in which ILC3s accumulate during Streptococcus pneumoniae infection and produce IL-22.
 - In that source, ILC3 IL-22 production is linked to innate immune stimulation and is framed as protective during bacterial respiratory infection.
 - This branch should be interpreted separately from IL-17A/neutrophil-dominant inflammatory disease because IL-22 host defense and IL-17A pathology are not the same outcome.
+- [Innate lymphoid cells integrate sensing and plasticity to control fungal infections](../sources/2026_innate_lymphoid_cells_integrate_sensing_and_plasticity_to_control_fungal_infections.md) adds a direct pulmonary fungal-infection branch: ILCs can sense fungal components, participate in Aspergillus lung infection outcomes, and shift toward ILC3-like programs under inflammatory cytokine pressure.
 
 ### Neonatal lung development and homeostatic niche
 
@@ -64,6 +65,7 @@ This page expands the disease branch of [ILC3](../entities/ILC3.md). Use the ent
 - [Group 3 innate lymphoid cells secret neutrophil chemoattractants and are insensitive to glucocorticoid via aberrant GR phosphorylation](../sources/2023_group_3_innate_lymphoid_cells_secret_neutrophil_chemoattractants_and_are_insensitive.md) supports an ILC3 branch in non-eosinophilic asthma where ILC3s produce neutrophil chemoattractants and show glucocorticoid resistance.
 - [Group 3 Innate Lymphoid Cells A Potential Therapeutic Target for Steroid Resistant Asthma](../sources/2024_group_3_innate_lymphoid_cells_a_potential_therapeutic_target_for_steroid_resistant_asthma.md) provides a review-level frame linking ILC3s to steroid-resistant asthma.
 - [Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s](../sources/2025_pulmonary_fibroblast_derived_stem_cell_factor_promotes_neutrophilic_asthma_by_augment.md) supports a stromal niche branch where fibroblast-derived SCF/KIT signaling augments IL-17A production from ILC3s.
+- [Microbial dysbiosis sculpts a systemic ILC3/IL-17 axis governing lung inflammatory responses and central hematopoiesis](../sources/2025_microbial_dysbiosis_sculpts_a_systemic_ilc3_il_17_axis_governing_lung_inflammatory_re.md) supports a gut-lung inflammatory branch in which streptomycin-induced dysbiosis primes lung ILC3/Th17 IL-17 responses and hypersensitivity-pneumonitis pathology through IL-23, bile-acid metabolite, and mTORC1-linked mechanisms.
 
 ### Protease-driven allergic lung pathology
 
@@ -77,6 +79,7 @@ This page expands the disease branch of [ILC3](../entities/ILC3.md). Use the ent
 
 - Tuberculosis adds a protective lung ILC3 infection branch: in mouse Mtb infection, ILC3-derived IL-17/IL-22 supports CXCL13, early alveolar macrophage accumulation, granuloma organization, and Mtb control, while human blood ILC changes provide disease relevance but not direct tissue causality ([Group 3 innate lymphoid cells mediate early protective immunity against tuberculosis](../sources/2019_group_3_innate_lymphoid_cells_mediate_early_protective_immunity_against_tuberculosis.md)).
 - Severe-asthma sputum adds a human airway ILC3/neutrophilia branch and an ILC2/ILC3-like boundary-state branch; these should refine, not collapse, the existing ILC3 severe-asthma model ([A population of c-kit+ IL-17A+ ILC2s in sputum from individuals with severe asthma supports ILC2 to ILC3 trans-differentiation](../sources/2025_a_population_of_c_kit_il_17a_ilc2s_in_sputum_from_individuals_with_severe_asthma_supp.md)).
+- [Severe asthma is characterized by a sex-specific ILC landscape and aberrant airway profile that is suppressed by anti-IL-5/5Ralpha biologics](../sources/2025_severe_asthma_is_characterized_by_a_sex_specific_ilc_landscape_and_aberrant_airway_pr.md) adds a broader human severe-asthma ILC landscape: sputum RORgammat+ ILC3s and IL-17A+ ILCs are increased in severe asthma, while female severe-asthma blood shows stronger ILC3/IL-17/IL-22 signals; this supports compartment- and sex-aware interpretation rather than ILC3-only causality.
 ### Extrapulmonary barrier-protection context
 
 - Gut/mucosal ILC3 sources add several barrier-regulation mechanisms that may be useful comparators for lung interpretation but are not direct pulmonary disease evidence: RANKL/RANK restraint, circadian timing, FFAR2 metabolite sensing, VIP neuroimmune signaling, trained ILC3 defense, and HB-EGF-mediated tissue protection.

@@ -1,7 +1,7 @@
 # Reference Coverage Audit
 
 Created: 2026-04-20
-Refreshed: 2026-05-05
+Refreshed: 2026-05-07
 
 ## Scope
 
@@ -11,11 +11,11 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 
 ## Coverage snapshot
 
-- Ingested paper source pages currently present: 142
-- Source pages in `focused manual crystallization mode`: 142
+- Ingested paper source pages currently present: 148
+- Source pages in `focused manual crystallization mode`: 148
 - Source pages in `provisional bulk-ingest mode`: 0
 - Entity/topic/digest synthesis pages currently scanned for direct source links: 11
-- Paper source pages currently linked directly from scanned synthesis pages: 142
+- Paper source pages currently linked directly from scanned synthesis pages: 148
 - Paper source pages still source-library only: 0
 - All ingested sources remain discoverable through [ingestion_manifest](../sources/source_index.md).
 - Counting note: focused/provisional counts describe source-page review mode; direct-link coverage describes whether a paper is cited from the scanned knowledge-layer pages. These are related but not interchangeable metrics.
@@ -32,18 +32,18 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 
 | Assigned role | Sources | Currently directly linked | Currently source-library only |
 |---|---:|---:|---:|
-| ILC3; mechanism/regulation | 26 | 26 | 0 |
-| ILC2; pulmonary/disease; mechanism/regulation | 24 | 24 | 0 |
+| ILC3; mechanism/regulation | 28 | 28 | 0 |
+| ILC2; pulmonary/disease; mechanism/regulation | 25 | 25 | 0 |
 | ILC2; mechanism/regulation | 13 | 13 | 0 |
 | manual-review context | 13 | 13 | 0 |
 | pulmonary/disease | 13 | 13 | 0 |
 | ILC2 | 10 | 10 | 0 |
 | ILC3 | 8 | 8 | 0 |
+| ILC3; pulmonary/disease | 7 | 7 | 0 |
 | ILC2; pulmonary/disease | 6 | 6 | 0 |
-| ILC3; pulmonary/disease | 6 | 6 | 0 |
 | mechanism/regulation | 5 | 5 | 0 |
+| ILC2; ILC3; pulmonary/disease; mechanism/regulation | 4 | 4 | 0 |
 | ILC3; pulmonary/disease; mechanism/regulation | 4 | 4 | 0 |
-| ILC2; ILC3; pulmonary/disease; mechanism/regulation | 2 | 2 | 0 |
 | ILC2; review/context | 2 | 2 | 0 |
 | pulmonary/disease; mechanism/regulation | 2 | 2 | 0 |
 | review/context | 2 | 2 | 0 |
@@ -56,7 +56,7 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 
 ## Current source-library-only references
 
-No current source-library-only references remain after the final provisional-source review. All 142 source pages are directly linked from at least one scanned entity, topic, or digest synthesis page.
+These source pages are present in the library but are not directly linked from the 10 scanned entity/topic/digest synthesis pages. Some are intentionally background, review, extrapulmonary, or lower-priority mechanism context.
 
 ## Full source assignment
 
@@ -213,6 +213,14 @@ No current source-library-only references remain after the final provisional-sou
 - Re-run this audit after each focused source-review round so coverage counts and route labels stay synchronized with the live wiki.
 
 | [A population of c-kit+ IL-17A+ ILC2s in sputum from individuals with severe asthma supports ILC2 to ILC3 trans-differentiation](../sources/2025_a_population_of_c_kit_il_17a_ilc2s_in_sputum_from_individuals_with_severe_asthma_supp.md) | ILC2; ILC3; pulmonary/disease; mechanism/regulation | ILC2/ILC3 entity, disease, and mechanism context | currently directly cited from synthesis pages |
+
+| [Microbial dysbiosis sculpts a systemic ILC3/IL-17 axis governing lung inflammatory responses and central hematopoiesis](../sources/2025_microbial_dysbiosis_sculpts_a_systemic_ilc3_il_17_axis_governing_lung_inflammatory_re.md) | ILC3; pulmonary/disease | ILC3 entity / ILC3 disease topic / ILC3 mechanism topic | currently directly cited from synthesis pages |
+| [BACH2 controls ILC3 function via PPARgamma-dependent mitochondrial metabolism](../sources/2026_bach2_controls_ilc3_function_via_ppargamma_dependent_mitochondrial_metabolism.md) | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently directly cited from synthesis pages |
+| [IL-9 and Blimp-1 protect the transcriptional identity of group 2 innate lymphocytes in allergic asthma](../sources/2026_il_9_and_blimp_1_protect_the_transcriptional_identity_of_group_2_innate_lymphocytes_in_allergic_asthma.md) | ILC2; pulmonary/disease; mechanism/regulation | ILC2 entity / ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
+| [Innate lymphoid cells integrate sensing and plasticity to control fungal infections](../sources/2026_innate_lymphoid_cells_integrate_sensing_and_plasticity_to_control_fungal_infections.md) | ILC2; ILC3; pulmonary/disease; mechanism/regulation | ILC2/ILC3 entity, disease, and mechanism context | currently directly cited from synthesis pages |
+| [LINGO4 coordinates ILC3-intrinsic IL-22 production and microbiota-mediated ILC3 homeostasis](../sources/2026_lingo4_coordinates_ilc3_intrinsic_il_22_production_and_microbiota_mediated_ilc3_homeostasis.md) | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently directly cited from synthesis pages |
+
+| [Severe asthma is characterized by a sex-specific ILC landscape and aberrant airway profile that is suppressed by anti-IL-5/5Ralpha biologics](../sources/2025_severe_asthma_is_characterized_by_a_sex_specific_ilc_landscape_and_aberrant_airway_pr.md) | ILC2; ILC3; pulmonary/disease; mechanism/regulation | ILC2/ILC3 entity, disease, and mechanism context | currently directly cited from synthesis pages |
 
 ## Follow-up manual review priorities
 

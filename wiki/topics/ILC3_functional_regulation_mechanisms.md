@@ -38,6 +38,8 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
   circadian control, vitamin D, AHR, STING, nutrition/iron, and ER-stress pathways are important cross-tissue ILC3 regulatory mechanisms.
 - Medium confidence:
   gut/mucosal ILC3 regulation also includes RANKL/RANK restraint, FFAR2 metabolite sensing, VIP neuroimmune circuits, trained ILC3 defense states, and HB-EGF tissue-protection output; these are mechanism context unless matched lung evidence is present.
+- Medium-high confidence:
+  BACH2-PPARgamma and LINGO4-linked pathways support metabolic/homeostatic control of gut ILC3s, while dysbiosis and fungal-infection sources support lung-relevant type 3 inflammatory and plasticity branches ([BACH2 controls ILC3 function via PPARgamma-dependent mitochondrial metabolism](../sources/2026_bach2_controls_ilc3_function_via_ppargamma_dependent_mitochondrial_metabolism.md); [LINGO4 coordinates ILC3-intrinsic IL-22 production and microbiota-mediated ILC3 homeostasis](../sources/2026_lingo4_coordinates_ilc3_intrinsic_il_22_production_and_microbiota_mediated_ilc3_homeostasis.md); [Microbial dysbiosis sculpts a systemic ILC3/IL-17 axis governing lung inflammatory responses and central hematopoiesis](../sources/2025_microbial_dysbiosis_sculpts_a_systemic_ilc3_il_17_axis_governing_lung_inflammatory_re.md); [Innate lymphoid cells integrate sensing and plasticity to control fungal infections](../sources/2026_innate_lymphoid_cells_integrate_sensing_and_plasticity_to_control_fungal_infections.md)).
 
 - Medium confidence:
   glucocorticoid resistance in ILC3s is a disease-relevant regulatory mechanism for non-eosinophilic or steroid-resistant asthma.
@@ -82,6 +84,8 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 - [ILC3s sense gut microbiota through STING to initiate immune tolerance](../sources/2025_ilc3s_sense_gut_microbiota_through_sting_to_initiate_immune_tolerance.md) supports STING as a gut ILC3 microbiota-sensing/tolerance mechanism.
 - [Nutrition impact on ILC3 maintenance and function centers on a cell-intrinsic CD71-iron axis](../sources/2023_nutrition_impact_on_ilc3_maintenance_and_function_centers_on_a_cell_intrinsic_cd71_iron_axis.md) supports a nutrition/iron-linked ILC3 maintenance branch.
 - [The IRE1alphaXBP1 pathway sustains cytokine responses of group 3 innate lymphoid cells in inflammatory bowel disease](../sources/2024_the_ire1alpha_xbp1_pathway_sustains_cytokine_responses_of_group_3_innate_lymphoid_cells_in_inflammatory_bowel_di.md) supports an ER-stress/UPR-linked mechanism for ILC3 cytokine responses in IBD.
+- [BACH2 controls ILC3 function via PPARgamma-dependent mitochondrial metabolism](../sources/2026_bach2_controls_ilc3_function_via_ppargamma_dependent_mitochondrial_metabolism.md) supports a gut ILC3 BACH2-PPARgamma-OXPHOS branch that sustains ILC3 function and colitis restraint in the reported systems.
+- [LINGO4 coordinates ILC3-intrinsic IL-22 production and microbiota-mediated ILC3 homeostasis](../sources/2026_lingo4_coordinates_ilc3_intrinsic_il_22_production_and_microbiota_mediated_ilc3_homeostasis.md) supports a gut ILC3 LINGO4-STAT3/mitochondrial-fitness branch that coordinates IL-22 production and microbiota-dependent ILC3 homeostasis.
 
 ### Gut/mucosal timing, metabolite, neuroimmune, and repair circuits
 
@@ -114,6 +118,8 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 
 - Mtb infection adds a protective IL-17/IL-22-CXCL13 regulatory branch for ILC3s in early pulmonary granuloma organization, distinct from IL-17-associated asthma or ARDS pathology ([Group 3 innate lymphoid cells mediate early protective immunity against tuberculosis](../sources/2019_group_3_innate_lymphoid_cells_mediate_early_protective_immunity_against_tuberculosis.md)).
 - Human severe-asthma sputum reinforces the classification problem for IL-17+ ILCs: bona fide ILC3s, c-kit+ IL-17A+ intermediate ILC2s, and mixed inflammatory airway states require separate marker and compartment labels ([A population of c-kit+ IL-17A+ ILC2s in sputum from individuals with severe asthma supports ILC2 to ILC3 trans-differentiation](../sources/2025_a_population_of_c_kit_il_17a_ilc2s_in_sputum_from_individuals_with_severe_asthma_supp.md)).
+- [Innate lymphoid cells integrate sensing and plasticity to control fungal infections](../sources/2026_innate_lymphoid_cells_integrate_sensing_and_plasticity_to_control_fungal_infections.md) adds direct mouse lung fungal-infection evidence in which fungal sensing and inflammatory cytokines promote ILC activation and ILC3-like skewing; lineage and transfer context should remain explicit.
+- [Microbial dysbiosis sculpts a systemic ILC3/IL-17 axis governing lung inflammatory responses and central hematopoiesis](../sources/2025_microbial_dysbiosis_sculpts_a_systemic_ilc3_il_17_axis_governing_lung_inflammatory_re.md) adds a mouse gut-lung type 3 inflammation branch in which streptomycin dysbiosis primes IL-23-linked lung ILC3/Th17 responses during hypersensitivity pneumonitis.
 
 ## Interpretation
 

@@ -116,3 +116,17 @@
 - 2026-05-04: Completed focused manual ingest for 10 ILC2 regulatory-context sources covering AHR, RXRgamma, RORalpha, ADM2, tuft-cell IL-17RB/IL-25, ILC metabolism, tissue specificity, plasticity, ILC2 regulatory networks, and asthma immunotherapy framing. Updated ILC2 entity/topic pages, core synthesis, trend digest, manifest tags, and audit trail.
 
 - 2026-05-05: Completed final focused ingest for all 16 remaining provisional source pages. Updated source modes, source notes, manifest tags, ILC2/ILC3 regulation context, adaptive-immunity review framing, trend/core source spines, audit trail, and coverage counts while preserving tissue and source-type boundaries.
+
+- 2026-05-07: Ingested 5 new PDF files from `ILC_in_lung/RAW/`; created source pages and extracted text files, moved processed PDFs into `RAW/processed/`, and kept these as provisional knowledge-oriented source notes without promoting durable topic/entity/digest claims.
+  - BACH2 controls ILC3 function via PPARγ-dependent mitochondrial metabolism
+  - IL-9 and Blimp-1 protect the transcriptional identity of group 2 innate lymphocytes in allergic asthma
+  - Innate lymphoid cells integrate sensing and plasticity to control fungal infections
+  - LINGO4 coordinates ILC3-intrinsic IL-22 production and microbiota-mediated ILC3 homeostasis
+  - Microbial dysbiosis sculpts a systemic ILC3_IL-17 axis governing lung inflammatory responses and central hematopoiesis
+
+- 2026-05-07: Deep-ingested five newly added RAW PDFs as focused source-reviewed notes; corrected three detected-year/source-filename artifacts; updated ILC2/ILC3 entity, topic, overview, and core synthesis pages with context-labeled claims.
+
+- 2026-05-07: Ingested 1 new PDF files from `ILC_in_lung/RAW/`; created source pages and extracted text files, moved processed PDFs into `RAW/processed/`, and kept these as provisional knowledge-oriented source notes without promoting durable topic/entity/digest claims.
+  - Severe asthma is characterized by a sex-specific ILC landscape and aberrant airway profile that is suppressed by anti–IL-55Rα biologics
+
+- 2026-05-07: Deep-ingested `Severe asthma is characterized by a sex-specific ILC landscape and aberrant airway profile that is suppressed by anti-IL-5/5Ralpha biologics`; updated human severe-asthma ILC2/ILC3 disease and regulation pages with compartment- and sex-labeled claims.

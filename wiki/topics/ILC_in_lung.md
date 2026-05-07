@@ -82,7 +82,7 @@ flowchart TB
 
 The ILC2 source set is strongest around asthma and allergic airway inflammation, respiratory viral infection, post-viral repair, metabolic regulation, neuroimmune regulation, tissue niches, and plasticity. ILC2s often amplify type 2 inflammation through IL-5 and IL-13, but they can also support epithelial repair through amphiregulin-associated programs and participate in stromal or macrophage niche remodeling.
 
-Recent focused source notes add an important spatial and regulatory layer: lung ILC2s can sit in adventitial/peribronchovascular niches supported by IL-33/TSLP-producing stromal cells, while IFN-gamma can suppress ILC2 function or constrain type 2 lymphocyte movement during mixed inflammation. These claims now live primarily in [ILC2](../entities/ILC2.md), with disease and mechanism expansion in [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md), [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md), and [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md).
+Spatial and regulatory evidence adds an important layer: lung ILC2s can sit in adventitial/peribronchovascular niches supported by IL-33/TSLP-producing stromal cells, while IFN-gamma can suppress ILC2 function or constrain type 2 lymphocyte movement during mixed inflammation. These claims are organized primarily in [ILC2](../entities/ILC2.md), with disease and mechanism expansion in [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md), [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md), and [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md).
 
 ### 2. ILC3s: Defense, IL-17 Inflammation, And Severe Asthma Branches
 
@@ -135,11 +135,13 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 - Which ILC mechanisms are conserved between mouse allergic airway models and human asthma endotypes?
 - When do respiratory viruses induce pathogenic ILC2-driven AHR versus protective ILC2-mediated repair?
 - Which IL-17-producing ILC populations in lung disease are bona fide ILC3s, plastic ILC2-derived states, or mixed-gate populations?
+- How do gut microbiome state, fungal sensing, and cytokine-conditioned ILC plasticity reshape lung type 3 inflammation across HP, fungal infection, severe asthma, and ARDS-like contexts?
+- In severe asthma, how should sex, blood-versus-sputum compartment, and biologic therapy status be preserved when interpreting ILC2/ILC3 abundance or cytokine output?
 - Which evidence layer should be prioritized next: human BAL, bronchial biopsy, sputum, lung scRNA-seq, spatial data, or perturbation models?
 
 ## Wiki Status
 
-- The local source library currently contains 142 processed references, with 142 source pages promoted to `focused manual crystallization mode` and 0 retained as `provisional bulk-ingest mode`.
+- The local source library currently contains 148 processed references, with 148 source pages promoted to `focused manual crystallization mode` and 0 retained as `provisional bulk-ingest mode`.
 - Focused source pages are the preferred evidence layer for reusable biological claims because they include model context, assay directness, claim-level confidence, and caveats.
 - Provisional source pages are useful for routing and triage, but their biological claims should be manually checked before being reused in manuscripts, figures, grant text, or durable synthesis.
 - Batch provenance belongs in audit and log pages; digest, topic, and entity pages should read as biology-first knowledge nodes.
