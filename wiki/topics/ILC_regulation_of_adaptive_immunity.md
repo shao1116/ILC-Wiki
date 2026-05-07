@@ -16,7 +16,7 @@ tags:
 
 ## Scope
 
-This topic page organizes evidence that innate lymphoid cells regulate adaptive immunity, with emphasis on T cells, regulatory T cells, and B cells. It is written for the ILC-in-lung wiki, but the evidence base is deliberately tissue-labeled: the clearest direct lung anchor is ILC2 OX40L control of local Th2 and Treg expansion in mouse type 2 inflammation, whereas much of the ILC3 evidence comes from gut, intestine-draining lymphoid tissue, tonsil, and blood.
+This topic page organizes evidence that innate lymphoid cells regulate adaptive immunity, with emphasis on T cells, regulatory T cells, and B cells. It is written for the ILC-in-lung wiki, but the evidence base is deliberately tissue-labeled: the clearest direct lung anchors are ILC2 PD-L1 control of Th2 polarization, ILC2 OX40L control of local Th2/Treg expansion, and ILC2-Treg feedback through OX40L/OX40 and CCL1/CCR8-linked circuits in mouse type 2 inflammation, whereas much of the ILC3 evidence comes from gut, intestine-draining lymphoid tissue, tonsil, and blood.
 
 Use this page when the question is "how can ILCs shape adaptive immune responses?" For lung disease claims, prioritize lung or airway sources and keep extrapulmonary mechanisms as context until pulmonary evidence is available.
 
@@ -28,6 +28,11 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
 
 - High confidence:
   mouse lung ILC2s can use IL-33-induced OX40L to license local Th2 and Treg expansion during type 2 inflammation ([Tissue-Restricted Adaptive Type 2 Immunity Is Orchestrated by Expression of the Costimulatory Molecule OX40L on Group 2 Innate Lymphoid Cells](../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on.md)).
+- High confidence:
+  mouse lung ILC2s can upregulate PD-L1 after IL-33/ST2-linked activation and promote CD4 T-cell GATA3, IL-13, and Th2 polarization through PD-L1:PD-1 contact in primary helminth-associated type 2 immunity ([ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md)).
+- High confidence:
+  mouse lung ILC2s also support a Gata3high Treg feedback arm: ILC2 OX40L and CCL1/CCR8-linked positioning promote local Gata3high Treg accumulation, while those Tregs tune ILC2 OX40L availability and restrain effector-memory Th2 expansion after allergen exposure ([Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md)).
+
 - High confidence:
   gut ILC3s can restrain commensal-specific CD4 T-cell responses through MHCII-linked antigen-presentation programs ([Innate lymphoid cells regulate CD4+ T-cell responses to intestinal commensal bacteria](../sources/2013_innate_lymphoid_cells_regulate_cd4_t_cell_responses_to_intestinal_commensal_bacteria.md); [Group 3 innate lymphoid cells mediate intestinal selection of commensal bacteria-specific CD4+ T cells](../sources/2015_group_3_innate_lymphoid_cells_mediate_intestinal_selection_of_commensal_bacteria_specific_cd4_t_cells.md)).
 - High confidence:
@@ -57,6 +62,14 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
 - ILC2s are not only cytokine producers. In mouse lung type 2 inflammation, IL-33 can induce OX40L on ILC2s, and ILC2-targeted OX40L loss impairs local adaptive type 2 inflammation after helminth or allergen challenge.
 - The adaptive cell partners in this source include Th2 cells and Tregs. This is currently the strongest lung-direct ILC-to-adaptive-immunity axis in the wiki.
 - Keep the species and perturbation context visible: this is mouse lung/adipose tissue evidence, not direct proof of human asthma therapeutic response.
+- PD-L1 adds a separate ILC2-to-Th2 checkpoint branch: in mouse N. brasiliensis infection, activated lung ILC2s use PD-L1 to engage PD-1 on CD4 T cells and promote GATA3 and IL-13, with conditional ILC-lineage Cd274 loss reducing adaptive Th2 output and worm clearance.
+- Newer OX40L/OX40 evidence turns the lung ILC2 costimulation branch into a feedback circuit: ILC2s support Gata3high Tregs, and Gata3high Tregs restrain effector-memory Th2 expansion by tuning OX40L availability on ILC2s.
+
+### ILC2-Treg feedback in lung type 2 inflammation
+
+- In mouse IL-33 and allergen lung models, Gata3high Tregs localize near ILC2-rich adventitial/peribronchovascular niches and depend on CCL1-CCR8 plus OX40L-OX40-linked dialogue for efficient local accumulation.
+- Treg-intrinsic OX40 loss reduces Gata3high Treg expansion and shifts the inflamed lung and mediastinal lymph node toward higher Th2/Treg ratios and effector-memory Th2 expansion.
+- This branch should be read as a local restraint circuit, not simply as ILC2 activation: ILC2-derived OX40L can support adaptive type 2 immunity, but Gata3high Tregs feed back to limit OX40L availability and cap the magnitude of the response.
 
 ### ILC3 control of CD4 T-cell tolerance
 
@@ -103,9 +116,13 @@ flowchart TB
     accTitle: ILC Adaptive Immunity T Cell Map
     accDescr: Compact map of lung ILC2 costimulation and gut ILC3 T-cell tolerance mechanisms.
 
-    lung["Mouse lung"] --> ilc2["ILC2 OX40L"]
+    lung["Mouse lung"] --> pdl1["ILC2 PD-L1"]
+    lung --> ilc2["ILC2 OX40L"]
+    pdl1 --> th2_pol["Th2 polarization"]
     ilc2 --> th2["Th2 expansion"]
-    ilc2 --> treg_lung["Treg expansion"]
+    ilc2 --> treg_lung["Gata3high Treg"]
+    treg_lung -.-> ox40l_tune["OX40L tuning"]
+    ox40l_tune -.-> th2
     gut["Gut / LN"] --> ilc3_mhcii["MHCII+ ILC3"]
     ilc3_mhcii --> cd4["CD4 restraint"]
     ilc3_mhcii --> treg_gut["Treg selection"]
@@ -115,8 +132,8 @@ flowchart TB
     classDef ilc fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
     classDef adaptive fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
     class lung,gut tissue
-    class ilc2,ilc3_mhcii ilc
-    class th2,treg_lung,cd4,treg_gut,tolerance adaptive
+    class pdl1,ilc2,ilc3_mhcii ilc
+    class th2_pol,th2,treg_lung,ox40l_tune,cd4,treg_gut,tolerance adaptive
 ```
 
 ### B-cell and checkpoint branches
@@ -144,7 +161,7 @@ flowchart TB
 
 ## Interpretation
 
-ILC regulation of adaptive immunity should be modeled as a set of tissue-specific interfaces rather than as one universal function. In lung, the clearest current interface is ILC2 OX40L costimulation of local type 2 adaptive immunity. In gut and mucosal lymphoid tissues, ILC3s can regulate CD4 T-cell tolerance, Treg maintenance/selection, and regulatory B-cell differentiation through MHCII, IL-2, alphaV integrin, CD40L, BAFF, IL-15, and CTLA-4-linked pathways.
+ILC regulation of adaptive immunity should be modeled as a set of tissue-specific interfaces rather than as one universal function. In lung, the clearest current interfaces are ILC2 PD-L1 costimulation of Th2 polarization, ILC2 OX40L licensing of local type 2 adaptive immunity, and ILC2-Treg feedback that limits effector-memory Th2 expansion. In gut and mucosal lymphoid tissues, ILC3s can regulate CD4 T-cell tolerance, Treg maintenance/selection, and regulatory B-cell differentiation through MHCII, IL-2, alphaV integrin, CD40L, BAFF, IL-15, and CTLA-4-linked pathways.
 
 The practical rule is to keep lung-direct evidence and extrapulmonary mechanism evidence in separate mental bins. Gut ILC3 tolerance biology is highly informative for how ILCs can shape adaptive immunity, but it should be cited as gut/mucosal context until matching lung, BAL, sputum, bronchial biopsy, or pulmonary lymph-node evidence is available.
 
@@ -158,6 +175,9 @@ The practical rule is to keep lung-direct evidence and extrapulmonary mechanism 
 ## Related pages
 
 - [ILC2](../entities/ILC2.md)
+- [ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md)
+- [Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md)
+
 - [ILC3](../entities/ILC3.md)
 - [ILC2 functional regulation mechanisms](./ILC2_functional_regulation_mechanisms.md)
 - [ILC3 functional regulation mechanisms](./ILC3_functional_regulation_mechanisms.md)

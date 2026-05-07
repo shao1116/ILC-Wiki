@@ -130,3 +130,9 @@
   - Severe asthma is characterized by a sex-specific ILC landscape and aberrant airway profile that is suppressed by anti–IL-55Rα biologics
 
 - 2026-05-07: Deep-ingested `Severe asthma is characterized by a sex-specific ILC landscape and aberrant airway profile that is suppressed by anti-IL-5/5Ralpha biologics`; updated human severe-asthma ILC2/ILC3 disease and regulation pages with compartment- and sex-labeled claims.
+
+- 2026-05-07: Ingested 2 new PDF files from `ILC_in_lung/RAW/`; created source pages and extracted text files, moved processed PDFs into `RAW/processed/`, and kept these as provisional knowledge-oriented source notes without promoting durable topic/entity/digest claims.
+  - Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity
+  - ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control
+
+- 2026-05-07: Deep-ingested `ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control` and `Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity`; corrected the PD-L1 source year to 2017 and updated ILC2 adaptive-immunity, regulation, disease-role, overview, trend, and core synthesis pages with lung-direct mouse PD-L1/Th2 and OX40L/Gata3high Treg feedback claims.

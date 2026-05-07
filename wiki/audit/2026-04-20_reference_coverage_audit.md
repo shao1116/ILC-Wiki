@@ -11,11 +11,11 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 
 ## Coverage snapshot
 
-- Ingested paper source pages currently present: 148
-- Source pages in `focused manual crystallization mode`: 148
+- Ingested paper source pages currently present: 150
+- Source pages in `focused manual crystallization mode`: 150
 - Source pages in `provisional bulk-ingest mode`: 0
 - Entity/topic/digest synthesis pages currently scanned for direct source links: 11
-- Paper source pages currently linked directly from scanned synthesis pages: 148
+- Paper source pages currently linked directly from scanned synthesis pages: 150
 - Paper source pages still source-library only: 0
 - All ingested sources remain discoverable through [ingestion_manifest](../sources/source_index.md).
 - Counting note: focused/provisional counts describe source-page review mode; direct-link coverage describes whether a paper is cited from the scanned knowledge-layer pages. These are related but not interchangeable metrics.
@@ -33,7 +33,7 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 | Assigned role | Sources | Currently directly linked | Currently source-library only |
 |---|---:|---:|---:|
 | ILC3; mechanism/regulation | 28 | 28 | 0 |
-| ILC2; pulmonary/disease; mechanism/regulation | 25 | 25 | 0 |
+| ILC2; pulmonary/disease; mechanism/regulation | 27 | 27 | 0 |
 | ILC2; mechanism/regulation | 13 | 13 | 0 |
 | manual-review context | 13 | 13 | 0 |
 | pulmonary/disease | 13 | 13 | 0 |
@@ -221,6 +221,9 @@ These source pages are present in the library but are not directly linked from t
 | [LINGO4 coordinates ILC3-intrinsic IL-22 production and microbiota-mediated ILC3 homeostasis](../sources/2026_lingo4_coordinates_ilc3_intrinsic_il_22_production_and_microbiota_mediated_ilc3_homeostasis.md) | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently directly cited from synthesis pages |
 
 | [Severe asthma is characterized by a sex-specific ILC landscape and aberrant airway profile that is suppressed by anti-IL-5/5Ralpha biologics](../sources/2025_severe_asthma_is_characterized_by_a_sex_specific_ilc_landscape_and_aberrant_airway_pr.md) | ILC2; ILC3; pulmonary/disease; mechanism/regulation | ILC2/ILC3 entity, disease, and mechanism context | currently directly cited from synthesis pages |
+
+| [ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md) | ILC2; pulmonary/disease; mechanism/regulation | ILC2 entity / ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
+| [Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md) | ILC2; pulmonary/disease; mechanism/regulation | ILC2 entity / ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
 
 ## Follow-up manual review priorities
 

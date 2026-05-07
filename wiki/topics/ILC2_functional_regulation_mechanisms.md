@@ -18,7 +18,7 @@ tags:
 
 ## Scope
 
-This topic page organizes mechanisms that regulate `ILC2` function in the current `ILC_in_lung` wiki. It focuses on upstream epithelial alarmins, lipid mediators, costimulatory/checkpoint pathways, metabolic programs, neuroimmune signals, cytokine-driven plasticity, and infection-conditioned niche effects.
+This topic page organizes mechanisms that regulate `ILC2` function in the current `ILC_in_lung` wiki. It focuses on upstream epithelial alarmins, lipid mediators, costimulatory/checkpoint pathways, adaptive-immunity feedback circuits, metabolic programs, neuroimmune signals, cytokine-driven plasticity, and infection-conditioned niche effects.
 
 This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md).
 
@@ -61,11 +61,15 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - [Lipid-Droplet Formation Drives Pathogenic Group 2 Innate Lymphoid Cells in Airway Inflammation](../sources/2020_lipid_droplet_formation_drives_pathogenic_group_2_innate_lymphoid_cells_in_airway_inf.md) supports lipid-droplet biology as a pathogenic ILC2-state mechanism.
 
 - [Tissue-Restricted Adaptive Type 2 Immunity Is Orchestrated by Expression of the Costimulatory Molecule OX40L on Group 2 Innate Lymphoid Cells](../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on.md) supports OX40L as an IL-33-induced ILC2 costimulatory pathway that licenses local Th2/Treg expansion in mouse lung type 2 inflammation.
+
 ### Costimulatory and checkpoint control
 
 - [ICOS-ligand interaction is required for type 2 innate lymphoid cell function, homeostasis, and induction of airway hyperreactivity](../sources/2015_icos_icos_ligand_interaction_is_required_for_type_2_innate_lymphoid_cell_function_homeostasis_and_induction_of_a.md) supports ICOS-ligand interaction as a regulator of ILC2 function, homeostasis, and AHR.
 - [Tissue-Restricted Adaptive Type 2 Immunity Is Orchestrated by Expression of the Costimulatory Molecule OX40L on Group 2 Innate Lymphoid Cells](../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on.md) supports OX40L as a costimulatory ILC2-linked regulator of adaptive type 2 immunity.
-- In the current adaptive-immunity map, this OX40L branch is the clearest lung-direct ILC-to-T-cell/Treg mechanism; see [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md).
+- [ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md) adds an ILC2-to-Th2 checkpoint branch in which IL-33/ST2-activated pulmonary ILC2s use PD-L1:PD-1 contact to promote CD4 T-cell GATA3 and IL-13 in mouse helminth-associated type 2 immunity.
+- [Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md) refines OX40L regulation by showing that ILC2s also support Gata3high Treg accumulation, and that these Tregs feed back to tune OX40L availability and restrain effector-memory Th2 expansion.
+
+- In the adaptive-immunity map, lung-direct ILC2 evidence now separates PD-L1-to-Th2 polarization, OX40L-to-Th2/Treg licensing, and Gata3high Treg feedback; see [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md).
 - Gut ILC2-derived IL-10 adds a regulatory cytokine branch distinct from lung OX40L costimulation; it is useful for ILC2 state diversity but should remain gut-labeled ([ILC2s are the predominant source of intestinal ILC-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md)).
 
 - [The Role of the TL1ADR3 Axis in the Activation of Group 2 Innate Lymphoid Cells in Subjects with Eosinophilic Asthma](../sources/2020_the_role_of_the_tl1a_dr3_axis_in_the_activation_of_group_2_innate_lymphoid_cells_in_subjects_with_eosinophilic_a.md) supports TL1A/DR3 as a human eosinophilic-asthma-linked ILC2 activation axis.
@@ -135,7 +139,7 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 
 ## Interpretation
 
-ILC2 function is regulated by layered controls rather than a single master pathway. Epithelial alarmins and lipid mediators provide rapid activation, costimulatory and checkpoint receptors tune expansion and function, metabolism sets effector capacity, neuroimmune inputs provide fast excitatory or inhibitory control, and infection can redirect ILC2 identity toward repair or niche-imprinting roles. The map below separates positive inputs, negative inputs, and state-rerouting signals so the reader can see both accelerating and restraining branches at a glance.
+ILC2 function is regulated by layered controls rather than a single master pathway. Epithelial alarmins and lipid mediators provide rapid activation, costimulatory and checkpoint receptors tune ILC2-adaptive dialogue, metabolism sets effector capacity, neuroimmune inputs provide fast excitatory or inhibitory control, and infection can redirect ILC2 identity toward repair or niche-imprinting roles. The map below separates positive inputs, negative inputs, and state-rerouting signals so the reader can see both accelerating and restraining branches at a glance.
 
 ### Activation and effector support
 
@@ -147,7 +151,7 @@ flowchart TB
     cue["Activation cues"]
     alarmin["IL-33 / IL-25"]
     lipid["LTE4 / PGD2"]
-    costim["ICOS / OX40L / DR3"]
+    costim["ICOS / OX40L / PD-L1"]
     niche["ASC niche"]
     neuro["NMU / CB2"]
     metabolism["HIF-1a / mTORC1"]
@@ -191,6 +195,7 @@ flowchart TB
     brakes["Restraint cues"]
     interferon["IFN axis"]
     pd1["PD-1"]
+    treg["Gata3high Treg"]
     dp2["DP2 block"]
     metabolic["Butyrate / dopamine"]
     neural["PAC1 / beta2-AR"]
@@ -201,6 +206,7 @@ flowchart TB
 
     brakes --> interferon
     brakes --> pd1
+    brakes --> treg
     brakes --> dp2
     brakes --> metabolic
     brakes --> neural
@@ -208,6 +214,7 @@ flowchart TB
     brakes --> viral
     interferon -.-> ilc2
     pd1 -.-> ilc2
+    treg -.-> lower
     dp2 -.-> ilc2
     metabolic -.-> ilc2
     neural -.-> ilc2
@@ -218,7 +225,7 @@ flowchart TB
     classDef brake fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
     classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
     classDef output fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
-    class brakes,interferon,pd1,dp2,metabolic,neural,il1b,viral brake
+    class brakes,interferon,pd1,treg,dp2,metabolic,neural,il1b,viral brake
     class ilc2 cell
     class lower output
 ```
