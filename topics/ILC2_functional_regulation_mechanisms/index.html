@@ -1424,7 +1424,7 @@
 
 <h1 id="ilc2-functional-regulation-mechanisms">ILC2 Functional Regulation Mechanisms</h1>
 <h2 id="scope">Scope</h2>
-<p>This topic page organizes mechanisms that regulate <code>ILC2</code> function in the current <code>ILC_in_lung</code> wiki. It focuses on upstream epithelial alarmins, lipid mediators, costimulatory/checkpoint pathways, metabolic programs, neuroimmune signals, cytokine-driven plasticity, and infection-conditioned niche effects.</p>
+<p>This topic page organizes mechanisms that regulate <code>ILC2</code> function in the current <code>ILC_in_lung</code> wiki. It focuses on upstream epithelial alarmins, lipid mediators, costimulatory/checkpoint pathways, adaptive-immunity feedback circuits, metabolic programs, neuroimmune signals, cytokine-driven plasticity, and infection-conditioned niche effects.</p>
 <p>This page is a regulation map. For disease outcomes, see <a href="../ILC2_roles_in_pulmonary_disease/">ILC2 Roles In Pulmonary Disease</a>.</p>
 <h2 id="evidence-tags">Evidence tags</h2>
 <p><code>#cell/ILC2</code> <code>#tissue/lung</code> <code>#assay/flow</code> <code>#assay/scRNAseq</code> <code>#assay/in_vivo</code> <code>#assay/in_vitro</code> <code>#outcome/airway_hyperresponsiveness</code> <code>#outcome/infection</code> <code>#outcome/repair</code> <code>#axis/ILC_airway_inflammation</code> <code>#axis/ILC_lung_infection</code> <code>#axis/ILC_plasticity</code></p>
@@ -1473,7 +1473,13 @@
 <ul>
 <li><a href="../../sources/2015_icos_icos_ligand_interaction_is_required_for_type_2_innate_lymphoid_cell_function_homeostasis_and_induction_of_a/">ICOS-ligand interaction is required for type 2 innate lymphoid cell function, homeostasis, and induction of airway hyperreactivity</a> supports ICOS-ligand interaction as a regulator of ILC2 function, homeostasis, and AHR.</li>
 <li><a href="../../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on/">Tissue-Restricted Adaptive Type 2 Immunity Is Orchestrated by Expression of the Costimulatory Molecule OX40L on Group 2 Innate Lymphoid Cells</a> supports OX40L as a costimulatory ILC2-linked regulator of adaptive type 2 immunity.</li>
-<li>In the current adaptive-immunity map, this OX40L branch is the clearest lung-direct ILC-to-T-cell/Treg mechanism; see <a href="../ILC_regulation_of_adaptive_immunity/">ILC Regulation Of Adaptive Immunity</a>.</li>
+<li><a href="../../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control/">ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control</a> adds an ILC2-to-Th2 checkpoint branch in which IL-33/ST2-activated pulmonary ILC2s use PD-L1:PD-1 contact to promote CD4 T-cell GATA3 and IL-13 in mouse helminth-associated type 2 immunity.</li>
+<li>
+<p><a href="../../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni/">Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity</a> refines OX40L regulation by showing that ILC2s also support Gata3high Treg accumulation, and that these Tregs feed back to tune OX40L availability and restrain effector-memory Th2 expansion.</p>
+</li>
+<li>
+<p>In the adaptive-immunity map, lung-direct ILC2 evidence now separates PD-L1-to-Th2 polarization, OX40L-to-Th2/Treg licensing, and Gata3high Treg feedback; see <a href="../ILC_regulation_of_adaptive_immunity/">ILC Regulation Of Adaptive Immunity</a>.</p>
+</li>
 <li>
 <p>Gut ILC2-derived IL-10 adds a regulatory cytokine branch distinct from lung OX40L costimulation; it is useful for ILC2 state diversity but should remain gut-labeled (<a href="../../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10/">ILC2s are the predominant source of intestinal ILC-derived IL-10</a>).</p>
 </li>
@@ -1559,7 +1565,7 @@
 <li><a href="../../sources/2024_group_2_innate_lymphoid_cells_promote_inhibitory_synapse_development_and_social_behav/">Group 2 innate lymphoid cells promote inhibitory synapse development and social behavior</a> is retained as extrapulmonary neuroimmune ILC2 context; it should not be used as lung neuroimmune or asthma evidence without pulmonary data.</li>
 </ul>
 <h2 id="interpretation">Interpretation</h2>
-<p>ILC2 function is regulated by layered controls rather than a single master pathway. Epithelial alarmins and lipid mediators provide rapid activation, costimulatory and checkpoint receptors tune expansion and function, metabolism sets effector capacity, neuroimmune inputs provide fast excitatory or inhibitory control, and infection can redirect ILC2 identity toward repair or niche-imprinting roles. The map below separates positive inputs, negative inputs, and state-rerouting signals so the reader can see both accelerating and restraining branches at a glance.</p>
+<p>ILC2 function is regulated by layered controls rather than a single master pathway. Epithelial alarmins and lipid mediators provide rapid activation, costimulatory and checkpoint receptors tune ILC2-adaptive dialogue, metabolism sets effector capacity, neuroimmune inputs provide fast excitatory or inhibitory control, and infection can redirect ILC2 identity toward repair or niche-imprinting roles. The map below separates positive inputs, negative inputs, and state-rerouting signals so the reader can see both accelerating and restraining branches at a glance.</p>
 <h3 id="activation-and-effector-support">Activation and effector support</h3>
 <pre class="mermaid"><code>flowchart TB
     accTitle: ILC2 Activation And Effector Support
@@ -1568,7 +1574,7 @@
     cue["Activation cues"]
     alarmin["IL-33 / IL-25"]
     lipid["LTE4 / PGD2"]
-    costim["ICOS / OX40L / DR3"]
+    costim["ICOS / OX40L / PD-L1"]
     niche["ASC niche"]
     neuro["NMU / CB2"]
     metabolism["HIF-1a / mTORC1"]
@@ -1608,6 +1614,7 @@
     brakes["Restraint cues"]
     interferon["IFN axis"]
     pd1["PD-1"]
+    treg["Gata3high Treg"]
     dp2["DP2 block"]
     metabolic["Butyrate / dopamine"]
     neural["PAC1 / beta2-AR"]
@@ -1618,6 +1625,7 @@
 
     brakes --&gt; interferon
     brakes --&gt; pd1
+    brakes --&gt; treg
     brakes --&gt; dp2
     brakes --&gt; metabolic
     brakes --&gt; neural
@@ -1625,6 +1633,7 @@
     brakes --&gt; viral
     interferon -.-&gt; ilc2
     pd1 -.-&gt; ilc2
+    treg -.-&gt; lower
     dp2 -.-&gt; ilc2
     metabolic -.-&gt; ilc2
     neural -.-&gt; ilc2
@@ -1635,7 +1644,7 @@
     classDef brake fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
     classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
     classDef output fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
-    class brakes,interferon,pd1,dp2,metabolic,neural,il1b,viral brake
+    class brakes,interferon,pd1,treg,dp2,metabolic,neural,il1b,viral brake
     class ilc2 cell
     class lower output</code></pre>
 <h3 id="plasticity-and-rerouting">Plasticity and rerouting</h3>
