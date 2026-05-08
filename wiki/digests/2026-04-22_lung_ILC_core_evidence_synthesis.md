@@ -80,7 +80,7 @@ flowchart TB
 - ILC2 disease activity is regulated by epithelial alarmins, lipid mediators, neuroimmune cues, metabolic state, checkpoint pathways, microbial metabolites, and stromal or cellular feedback.
 - ILC2s can regulate adaptive type 2 immunity through OX40L-mediated local Th2 and Treg expansion in mouse lung type 2 inflammation.
 - ILC2s can also regulate adaptive Th2 polarization through a PD-L1:PD-1 contact pathway in mouse primary helminth-associated type 2 immunity.
-- ILC2-OX40L biology includes a restraint arm: Gata3high Tregs supported by ILC2 dialogue can feed back on OX40L availability and limit effector-memory Th2 expansion after allergen exposure.
+- ILC2-OX40L biology includes a restraint arm: Gata3high Tregs supported by ILC2 dialogue can feed back on OX40L bioavailability on ILC2s and limit effector-memory Th2 expansion after allergen exposure.
 
 - Activated pulmonary ILC2s are also shaped by spatial guidance cues, including CCR8-CCL8 positioning signals and collagen-I-dependent migratory behavior in inflamed lung.
 - ILC2 neuroimmune regulation is receptor- and context-dependent rather than uniformly activating: some circuits amplify type 2 inflammation, whereas others support tissue-protective amphiregulin programs or constrain IL-13-dominant pathology.

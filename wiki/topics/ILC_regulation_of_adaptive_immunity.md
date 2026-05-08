@@ -31,7 +31,7 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
 - High confidence:
   mouse lung ILC2s can upregulate PD-L1 after IL-33/ST2-linked activation and promote CD4 T-cell GATA3, IL-13, and Th2 polarization through PD-L1:PD-1 contact in primary helminth-associated type 2 immunity ([ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md)).
 - High confidence:
-  mouse lung ILC2s also support a Gata3high Treg feedback arm: ILC2 OX40L and CCL1/CCR8-linked positioning promote local Gata3high Treg accumulation, while those Tregs tune ILC2 OX40L availability and restrain effector-memory Th2 expansion after allergen exposure ([Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md)).
+  mouse lung ILC2s also support a Gata3high Treg feedback arm: ILC2 OX40L-OX40 and CCL1-CCR8 dialogue promotes local Gata3high Treg accumulation, while those Tregs tune ILC2 OX40L availability and restrain effector-memory Th2 expansion after allergen exposure ([Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md)).
 
 - High confidence:
   gut ILC3s can restrain commensal-specific CD4 T-cell responses through MHCII-linked antigen-presentation programs ([Innate lymphoid cells regulate CD4+ T-cell responses to intestinal commensal bacteria](../sources/2013_innate_lymphoid_cells_regulate_cd4_t_cell_responses_to_intestinal_commensal_bacteria.md); [Group 3 innate lymphoid cells mediate intestinal selection of commensal bacteria-specific CD4+ T cells](../sources/2015_group_3_innate_lymphoid_cells_mediate_intestinal_selection_of_commensal_bacteria_specific_cd4_t_cells.md)).
@@ -67,9 +67,9 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
 
 ### ILC2-Treg feedback in lung type 2 inflammation
 
-- In mouse IL-33 and allergen lung models, Gata3high Tregs localize near ILC2-rich adventitial/peribronchovascular niches and depend on CCL1-CCR8 plus OX40L-OX40-linked dialogue for efficient local accumulation.
-- Treg-intrinsic OX40 loss reduces Gata3high Treg expansion and shifts the inflamed lung and mediastinal lymph node toward higher Th2/Treg ratios and effector-memory Th2 expansion.
-- This branch should be read as a local restraint circuit, not simply as ILC2 activation: ILC2-derived OX40L can support adaptive type 2 immunity, but Gata3high Tregs feed back to limit OX40L availability and cap the magnitude of the response.
+- In mouse IL-33 and allergen lung models, Gata3high Tregs localize near ILC2-rich adventitial/peribronchovascular niches and depend on CCL1-CCR8 chemotaxis plus OX40L-OX40 costimulation for efficient local accumulation.
+- Treg-intrinsic OX40 loss impairs IL-33-driven Gata3high Treg expansion. After allergen exposure, it reduces relative Gata3high Treg enrichment and shifts the inflamed lung and mediastinal lymph node toward higher Th2/Treg ratios and effector-memory Th2 expansion.
+- This branch should be read as a local restraint circuit, not simply as ILC2 activation: ILC2-derived OX40L can support adaptive type 2 immunity, but Gata3high Tregs feed back to limit OX40L bioavailability on ILC2s and cap the magnitude of the response.
 
 ### ILC3 control of CD4 T-cell tolerance
 

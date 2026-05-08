@@ -52,9 +52,11 @@ flowchart TD
     baseline["Human lung baseline"] --> allergy["Allergic amplification"]
     baseline --> viral["Viral AHR versus repair"]
     baseline --> plasticity["Plasticity / boundary states"]
+    baseline --> neuro["Neuroimmune<br/>NMU / CGRP"]
     allergy --> regulators["Regulatory architecture"]
     viral --> regulators
     plasticity --> regulators
+    neuro --> regulators
     regulators --> guardrails["Interpretation guardrails"]
 
     classDef entry fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
@@ -63,7 +65,7 @@ flowchart TD
     classDef caution fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
 
     class baseline entry
-    class allergy,viral,plasticity branch
+    class allergy,viral,plasticity,neuro branch
     class regulators mech
     class guardrails caution
 ```

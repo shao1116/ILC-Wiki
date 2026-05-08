@@ -67,7 +67,7 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - [ICOS-ligand interaction is required for type 2 innate lymphoid cell function, homeostasis, and induction of airway hyperreactivity](../sources/2015_icos_icos_ligand_interaction_is_required_for_type_2_innate_lymphoid_cell_function_homeostasis_and_induction_of_a.md) supports ICOS-ligand interaction as a regulator of ILC2 function, homeostasis, and AHR.
 - [Tissue-Restricted Adaptive Type 2 Immunity Is Orchestrated by Expression of the Costimulatory Molecule OX40L on Group 2 Innate Lymphoid Cells](../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on.md) supports OX40L as a costimulatory ILC2-linked regulator of adaptive type 2 immunity.
 - [ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md) adds an ILC2-to-Th2 checkpoint branch in which IL-33/ST2-activated pulmonary ILC2s use PD-L1:PD-1 contact to promote CD4 T-cell GATA3 and IL-13 in mouse helminth-associated type 2 immunity.
-- [Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md) refines OX40L regulation by showing that ILC2s also support Gata3high Treg accumulation, and that these Tregs feed back to tune OX40L availability and restrain effector-memory Th2 expansion.
+- [Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md) refines OX40L regulation by showing that ILC2s support Gata3high Treg accumulation, and that these Tregs feed back to tune OX40L bioavailability on ILC2s and restrain effector-memory Th2 expansion.
 
 - In the adaptive-immunity map, lung-direct ILC2 evidence now separates PD-L1-to-Th2 polarization, OX40L-to-Th2/Treg licensing, and Gata3high Treg feedback; see [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md).
 - Gut ILC2-derived IL-10 adds a regulatory cytokine branch distinct from lung OX40L costimulation; it is useful for ILC2 state diversity but should remain gut-labeled ([ILC2s are the predominant source of intestinal ILC-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md)).
@@ -198,7 +198,10 @@ flowchart TB
     treg["Gata3high Treg"]
     dp2["DP2 block"]
     metabolic["Butyrate / dopamine"]
-    neural["PAC1 / beta2-AR"]
+    cgrp["CGRP"]
+    pac1["PAC1"]
+    cgrp_response["CGRP response"]
+    beta2["beta2-AR"]
     il1b["IL-1beta brake"]
     viral["Viral dampening"]
     ilc2["ILC2"]
@@ -209,7 +212,9 @@ flowchart TB
     brakes --> treg
     brakes --> dp2
     brakes --> metabolic
-    brakes --> neural
+    brakes --> cgrp
+    brakes --> pac1
+    brakes --> beta2
     brakes --> il1b
     brakes --> viral
     interferon -.-> ilc2
@@ -217,7 +222,10 @@ flowchart TB
     treg -.-> lower
     dp2 -.-> ilc2
     metabolic -.-> ilc2
-    neural -.-> ilc2
+    cgrp --> cgrp_response
+    pac1 --> cgrp_response
+    cgrp_response -.-> ilc2
+    beta2 -.-> ilc2
     il1b -.-> ilc2
     viral -.-> ilc2
     ilc2 -.-> lower
@@ -225,9 +233,48 @@ flowchart TB
     classDef brake fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
     classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
     classDef output fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
-    class brakes,interferon,pd1,treg,dp2,metabolic,neural,il1b,viral brake
+    class brakes,interferon,pd1,treg,dp2,metabolic,cgrp,pac1,cgrp_response,beta2,il1b,viral brake
     class ilc2 cell
     class lower output
+```
+
+### CGRP-family neuroimmune branches
+
+PAC1 is shown here as an ILC2-intrinsic enabler of CGRP-response programs, not as a CGRP-family ligand.
+
+```mermaid
+flowchart TB
+    accTitle: ILC2 CGRP Family Neuroimmune Branches
+    accDescr: Compact map separating lung CGRP/PAC1 restraint from gut ADM2-associated repair context.
+
+    family["CGRP family"]
+    cgrp["CGRP"]
+    pac1["PAC1"]
+    restraint_state["ILC2 restraint"]
+    adm2["ADM2"]
+    adm2r["ADM2R"]
+    repair_state["ILC2 repair"]
+    il13["Lower IL-13"]
+    prolif["Lower proliferation"]
+    areg["AREG"]
+    lung["Mouse airway"]
+    gut["Gut context"]
+
+    family --> cgrp
+    cgrp --> restraint_state
+    pac1 --> restraint_state
+    restraint_state -.-> il13 --> lung
+    restraint_state -.-> prolif --> lung
+    family --> adm2 --> adm2r --> repair_state --> areg --> gut
+
+    classDef family_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
+    classDef cue fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
+    classDef cell fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef output fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
+    class family family_class
+    class cgrp,pac1,adm2,adm2r cue
+    class restraint_state,repair_state cell
+    class il13,prolif,areg,lung,gut output
 ```
 
 ### Plasticity and rerouting

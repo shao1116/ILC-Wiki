@@ -53,7 +53,7 @@ This page expands the disease branch of [ILC2](../entities/ILC2.md). Use the ent
 - [The molecular and epigenetic mechanisms of innate lymphoid cell (ILC) memory and its relevance for asthma](../sources/2021_the_molecular_and_epigenetic_mechanisms_of_innate_lymphoid_cell_ilc_memory_and_its_re.md) strengthens the allergen-memory branch by linking mouse memory-like ILC2 recall responses to chromatin accessibility and transcriptional preparedness programs.
 - [Tissue-Restricted Adaptive Type 2 Immunity Is Orchestrated by Expression of the Costimulatory Molecule OX40L on Group 2 Innate Lymphoid Cells](../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on.md) adds a mouse ILC2-OX40L branch in which IL-33-activated ILC2s license tissue-restricted Th2/Treg responses during pulmonary type 2 inflammation.
 - [ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md) adds a mouse lung ILC2-PD-L1 branch in which activated ILC2s promote CD4 T-cell GATA3/IL-13 and primary helminth-associated type 2 immunity; this is a disease-relevant adaptive interface, not direct human asthma proof.
-- [Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md) adds a lung type 2 restraint branch in which ILC2-supported Gata3high Tregs limit effector-memory Th2 expansion and allergic inflammation through OX40L/OX40-linked feedback.
+- [Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md) adds a lung type 2 restraint branch in which ILC2-supported Gata3high Tregs limit effector-memory Th2 expansion and allergic inflammation by tuning OX40L bioavailability on ILC2s.
 
 - [IL-9 and Blimp-1 protect the transcriptional identity of group 2 innate lymphocytes in allergic asthma](../sources/2026_il_9_and_blimp_1_protect_the_transcriptional_identity_of_group_2_innate_lymphocytes_in_allergic_asthma.md) adds a mouse allergic-asthma ILC2 identity branch: IL-9-induced Blimp-1 supports IL-5/IL-13 type 2 output and limits type 1 cytokine deviation, while Blimp-1 loss also increases IL-9 and mast-cell recruitment.
 - [Severe asthma is characterized by a sex-specific ILC landscape and aberrant airway profile that is suppressed by anti-IL-5/5Ralpha biologics](../sources/2025_severe_asthma_is_characterized_by_a_sex_specific_ilc_landscape_and_aberrant_airway_pr.md) adds human severe-asthma blood/sputum evidence that airway ILC2 signatures, more than blood ILC2 signatures, align with reduced lung function; anti-IL-5/5Ralpha biologics selectively reduce IL-5+/IL-13+ airway ILCs without reducing core airway ILC2 abundance.
@@ -119,6 +119,7 @@ flowchart TD
     accDescr: Working map of ILC2 roles across lung disease states in the current wiki source set.
 
     cues["Tissue cues"]
+    neuro["Neuroimmune<br/>NMU / CGRP"]
     ilc2["Lung ILC2"]
     type2["Type 2 output<br/>IL-5, IL-13"]
     repair["Repair output<br/>AREG"]
@@ -128,6 +129,7 @@ flowchart TD
     niche["Niche effects<br/>AM or NK"]
 
     cues --> ilc2
+    cues --> neuro --> ilc2
     ilc2 --> type2 --> asthma
     ilc2 --> repair --> virus
     ilc2 --> plastic --> asthma
@@ -138,7 +140,7 @@ flowchart TD
     classDef output_class fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
     classDef disease fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
 
-    class cues cue
+    class cues,neuro cue
     class ilc2 cell
     class type2,repair,plastic output_class
     class asthma,virus,niche disease

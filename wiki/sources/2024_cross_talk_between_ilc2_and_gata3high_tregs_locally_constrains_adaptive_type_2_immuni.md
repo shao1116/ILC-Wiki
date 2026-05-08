@@ -38,13 +38,13 @@ This source sharpens the lung ILC2-adaptive-immunity map by showing that ILC2 co
 - Bulk RNA-seq and receptor-ligand analysis identified Ccr8, Tnfrsf4/OX40, and tissue-residency features in Gata3high Tregs; Ccr8 deficiency impaired IL-33-driven Gata3high Treg expansion.
 - ILC2-deficient mice showed impaired tissue Treg expansion after IL-33, and ILC2-linked OX40L, rather than ICOSL, was required for Gata3high Treg expansion in the tested IL-33 setting.
 - Treg-intrinsic OX40 deletion impaired Gata3high Treg expansion in lung and other tissues after IL-33 exposure without broadly disrupting baseline Treg suppressive function.
-- After Alternaria or papain challenge, OX40 Treg-conditional knockout mice showed exaggerated eosinophilic/type 2 lung inflammation, increased Th2/Treg ratios, and amplified effector-memory Th2 cells in mediastinal lymph nodes.
+- After Alternaria or papain challenge, OX40 Treg-conditional knockout mice showed exaggerated eosinophilic/type 2 lung inflammation, reduced relative Gata3high Treg enrichment, increased Th2/Treg ratios, and amplified effector-memory Th2 cells in mediastinal lymph nodes.
 - Gata3high Tregs directly reduced OX40L surface availability on IL-33-stimulated ILC2s in coculture, and anti-OX40L treatment reduced the amplified effector-memory Th2 phenotype and allergic inflammation in OX40 Treg-conditional knockout mice.
 - Human lung cancer scRNA-seq analysis identified GATA3high Treg subsets expressing TNFRSF4, CCR8, CXCR6, and GATA3, supporting a cross-species comparator but not proving the mouse circuit in human asthma.
 
 ## Claim-Level Confidence
 
-- High confidence: in mouse IL-33 and allergen lung models, ILC2-Treg dialogue through OX40L/OX40 and CCL1/CCR8-linked positioning supports Gata3high Treg accumulation.
+- High confidence: in mouse IL-33 and allergen lung models, ILC2-Treg dialogue through OX40L/OX40 costimulation and CCL1/CCR8-linked chemotaxis supports local Gata3high Treg accumulation.
 - High confidence: loss of Treg-intrinsic OX40 causes exaggerated adaptive type 2 inflammation and effector-memory Th2 expansion in the reported mouse airway models.
 - Medium-high confidence: Gata3high Tregs can tune ILC2 OX40L availability, making the ILC2-OX40L pathway a bidirectional feedback circuit rather than a one-way Th2 amplifier.
 - Medium confidence: human scRNA-seq Treg states provide translational plausibility for GATA3high CCR8+ OX40+ Tregs in lung tissue, but not direct functional proof in human asthma.
