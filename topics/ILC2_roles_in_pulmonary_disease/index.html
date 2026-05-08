@@ -1295,7 +1295,7 @@
 <li><a href="../../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on/">Tissue-Restricted Adaptive Type 2 Immunity Is Orchestrated by Expression of the Costimulatory Molecule OX40L on Group 2 Innate Lymphoid Cells</a> adds a mouse ILC2-OX40L branch in which IL-33-activated ILC2s license tissue-restricted Th2/Treg responses during pulmonary type 2 inflammation.</li>
 <li><a href="../../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control/">ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control</a> adds a mouse lung ILC2-PD-L1 branch in which activated ILC2s promote CD4 T-cell GATA3/IL-13 and primary helminth-associated type 2 immunity; this is a disease-relevant adaptive interface, not direct human asthma proof.</li>
 <li>
-<p><a href="../../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni/">Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity</a> adds a lung type 2 restraint branch in which ILC2-supported Gata3high Tregs limit effector-memory Th2 expansion and allergic inflammation through OX40L/OX40-linked feedback.</p>
+<p><a href="../../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni/">Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity</a> adds a lung type 2 restraint branch in which ILC2-supported Gata3high Tregs limit effector-memory Th2 expansion and allergic inflammation by tuning OX40L bioavailability on ILC2s.</p>
 </li>
 <li>
 <p><a href="../../sources/2026_il_9_and_blimp_1_protect_the_transcriptional_identity_of_group_2_innate_lymphocytes_in_allergic_asthma/">IL-9 and Blimp-1 protect the transcriptional identity of group 2 innate lymphocytes in allergic asthma</a> adds a mouse allergic-asthma ILC2 identity branch: IL-9-induced Blimp-1 supports IL-5/IL-13 type 2 output and limits type 1 cytokine deviation, while Blimp-1 loss also increases IL-9 and mast-cell recruitment.</p>
@@ -1368,6 +1368,7 @@
     accDescr: Working map of ILC2 roles across lung disease states in the current wiki source set.
 
     cues["Tissue cues"]
+    neuro["Neuroimmune&lt;br/&gt;NMU / CGRP"]
     ilc2["Lung ILC2"]
     type2["Type 2 output&lt;br/&gt;IL-5, IL-13"]
     repair["Repair output&lt;br/&gt;AREG"]
@@ -1377,6 +1378,7 @@
     niche["Niche effects&lt;br/&gt;AM or NK"]
 
     cues --&gt; ilc2
+    cues --&gt; neuro --&gt; ilc2
     ilc2 --&gt; type2 --&gt; asthma
     ilc2 --&gt; repair --&gt; virus
     ilc2 --&gt; plastic --&gt; asthma
@@ -1387,7 +1389,7 @@
     classDef output_class fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
     classDef disease fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
 
-    class cues cue
+    class cues,neuro cue
     class ilc2 cell
     class type2,repair,plastic output_class
     class asthma,virus,niche disease</code></pre>

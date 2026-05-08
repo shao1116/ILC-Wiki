@@ -1561,9 +1561,11 @@
     baseline["Human lung baseline"] --&gt; allergy["Allergic amplification"]
     baseline --&gt; viral["Viral AHR versus repair"]
     baseline --&gt; plasticity["Plasticity / boundary states"]
+    baseline --&gt; neuro["Neuroimmune&lt;br/&gt;NMU / CGRP"]
     allergy --&gt; regulators["Regulatory architecture"]
     viral --&gt; regulators
     plasticity --&gt; regulators
+    neuro --&gt; regulators
     regulators --&gt; guardrails["Interpretation guardrails"]
 
     classDef entry fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
@@ -1572,7 +1574,7 @@
     classDef caution fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
 
     class baseline entry
-    class allergy,viral,plasticity branch
+    class allergy,viral,plasticity,neuro branch
     class regulators mech
     class guardrails caution</code></pre>
 <h2 id="major-biological-branches">Major biological branches</h2>
