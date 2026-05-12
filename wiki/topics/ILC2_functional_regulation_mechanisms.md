@@ -51,6 +51,8 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - [Tuft cell IL-17RB restrains IL-25 bioavailability and reveals context-dependent ILC2 hypoproliferation](../sources/2025_tuft_cell_il_17rb_restrains_il_25_bioavailability_and_reveals_context_dependent_ilc2_hypoproliferation.md) refines the IL-25-ILC2 axis by showing epithelial control of IL-25 bioavailability in a gut tuft-cell circuit.
 - [IL-9 and Blimp-1 protect the transcriptional identity of group 2 innate lymphocytes in allergic asthma](../sources/2026_il_9_and_blimp_1_protect_the_transcriptional_identity_of_group_2_innate_lymphocytes_in_allergic_asthma.md) adds a lung allergic-asthma state-fidelity branch in which IL-33/IL-25-induced IL-9 upregulates Blimp-1 to maintain ILC2 type 2 identity while restraining IFN-gamma/TNF programs.
 
+- [IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages](../sources/2026_il_33_induced_ilc2_effector_cytokine_responses_promote_the_expansion_of_red_pulp_macr.md) adds a systemic/splenic IL-33 branch in which activated ILC2s use IL-4/IL-13 and GM-CSF to promote red pulp macrophage expansion; this is type 2 macrophage crosstalk context, not a pulmonary macrophage claim.
+
 - [IL-1beta, IL-23, and TGF-beta drive plasticity of human ILC2s towards IL-17-producing ILCs in nasal inflammation](../sources/2019_il_1beta_il_23_and_tgf_beta_drive_plasticity_of_human_ilc2s_towards_il_17_producing_ilcs_in_nasal_inflammation.md) supports a cytokine-driven plasticity branch, but nasal inflammation should stay context-labeled.
 
 ### Lipid mediators and inflammatory amplifiers
@@ -114,6 +116,8 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 
 - [Mechanics-activated fibroblasts promote pulmonary group 2 innate lymphoid cell plasticity propelling silicosis progression](../sources/2024_mechanics_activated_fibroblasts_promote_pulmonary_group_2_innate_lymphoid_cell_plasti.md) supports a fibroblast-mechanics axis in which IL-18-producing fibroblasts promote pulmonary ILC2-to-ILC1-like plasticity in silicosis-associated inflammation.
 - [Eosinophils promote effector functions of lung group 2 innate lymphoid cells in allergic airway inflammation in mice](../sources/2023_eosinophils_promote_effector_functions_of_lung_group_2_innate_lymphoid_cells_in_aller.md) supports eosinophils as positive feedback partners that can augment lung ILC2 effector function in allergic airway inflammation.
+
+- [IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages](../sources/2026_il_33_induced_ilc2_effector_cytokine_responses_promote_the_expansion_of_red_pulp_macr.md) broadens cellular-feedback regulation to a spleen/systemic macrophage compartment: short-term high IL-33 activates ILC2s, and IL-4Ralpha plus GM-CSF receptor pathways support red pulp macrophage expansion.
 - [Tissue signals imprint ILC2 identity with anticipatory function](../sources/2018_tissue_signals_imprint_ilc2_identity_with_anticipatory_function.md) supports the broader principle that local tissue cues can imprint ILC2 identity and prepare context-specific effector capacity.
 
 ### Infection-conditioned reprogramming
@@ -158,6 +162,7 @@ flowchart TB
     ilc2["ILC2"]
     type2["IL-5 / IL-13"]
     repair["AREG / GM-CSF"]
+    rpm["RPM expansion"]
     disease["AHR / repair"]
 
     cue --> alarmin
@@ -174,6 +179,8 @@ flowchart TB
     metabolism --> ilc2
     ilc2 --> type2
     ilc2 --> repair
+    type2 --> rpm
+    repair --> rpm
     type2 --> disease
     repair --> disease
 
@@ -182,7 +189,7 @@ flowchart TB
     classDef out_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
     class cue,alarmin,lipid,costim,niche,neuro,metabolism cue_class
     class ilc2 cell_class
-    class type2,repair,disease out_class
+    class type2,repair,rpm,disease out_class
 ```
 
 ### Brakes and restraint

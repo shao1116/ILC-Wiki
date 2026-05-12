@@ -41,6 +41,11 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 - Medium-high confidence:
   BACH2-PPARgamma and LINGO4-linked pathways support metabolic/homeostatic control of gut ILC3s, while dysbiosis and fungal-infection sources support lung-relevant type 3 inflammatory and plasticity branches ([BACH2 controls ILC3 function via PPARgamma-dependent mitochondrial metabolism](../sources/2026_bach2_controls_ilc3_function_via_ppargamma_dependent_mitochondrial_metabolism.md); [LINGO4 coordinates ILC3-intrinsic IL-22 production and microbiota-mediated ILC3 homeostasis](../sources/2026_lingo4_coordinates_ilc3_intrinsic_il_22_production_and_microbiota_mediated_ilc3_homeostasis.md); [Microbial dysbiosis sculpts a systemic ILC3/IL-17 axis governing lung inflammatory responses and central hematopoiesis](../sources/2025_microbial_dysbiosis_sculpts_a_systemic_ilc3_il_17_axis_governing_lung_inflammatory_re.md); [Innate lymphoid cells integrate sensing and plasticity to control fungal infections](../sources/2026_innate_lymphoid_cells_integrate_sensing_and_plasticity_to_control_fungal_infections.md)).
 
+- Medium-high confidence:
+  gut eosinophil-derived COX-2/PGE2 can enhance colonic ILC3 IL-22 through EP4 and protect epithelial barrier function in mouse colitis, adding a lipid-mediator crosstalk branch that remains gut-labeled ([Eosinophil-derived COX-2 protects against experimental colitis through the PGE2-IL-22 axis](../sources/2026_eosinophil_derived_cox_2_protects_against_experimental_colitis_through_the_pge2_il_22.md)).
+- Medium-high confidence:
+  activated peripheral/splenic ILC3s can promote CD4 T-cell and T-dependent B-cell responses through MHCII/costimulatory antigen presentation, contrasting with gut tolerogenic ILC3-MHCII outputs ([Activated group 3 innate lymphoid cells promote T-cell-mediated immune responses](../sources/2014_activated_group_3_innate_lymphoid_cells_promote_t_cell_mediated_immune_responses.md)).
+
 - Medium confidence:
   glucocorticoid resistance in ILC3s is a disease-relevant regulatory mechanism for non-eosinophilic or steroid-resistant asthma.
 - Low confidence:
@@ -87,6 +92,8 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 - [BACH2 controls ILC3 function via PPARgamma-dependent mitochondrial metabolism](../sources/2026_bach2_controls_ilc3_function_via_ppargamma_dependent_mitochondrial_metabolism.md) supports a gut ILC3 BACH2-PPARgamma-OXPHOS branch that sustains ILC3 function and colitis restraint in the reported systems.
 - [LINGO4 coordinates ILC3-intrinsic IL-22 production and microbiota-mediated ILC3 homeostasis](../sources/2026_lingo4_coordinates_ilc3_intrinsic_il_22_production_and_microbiota_mediated_ilc3_homeostasis.md) supports a gut ILC3 LINGO4-STAT3/mitochondrial-fitness branch that coordinates IL-22 production and microbiota-dependent ILC3 homeostasis.
 
+- [Eosinophil-derived COX-2 protects against experimental colitis through the PGE2-IL-22 axis](../sources/2026_eosinophil_derived_cox_2_protects_against_experimental_colitis_through_the_pge2_il_22.md) adds a gut lipid-mediator crosstalk branch in which eosinophil COX-2-derived PGE2 enhances EP4-dependent colonic ILC3 IL-22 output during experimental colitis.
+
 ### Gut/mucosal timing, metabolite, neuroimmune, and repair circuits
 
 - [The Tumor Necrosis Factor Superfamily Member RANKL Suppresses Effector Cytokine Production in Group 3 Innate Lymphoid Cells](../sources/2018_the_tumor_necrosis_factor_superfamily_member_rankl_suppresses_effector_cytokine_production_in_group_3_innate_lym.md) supports a gut CCR6-positive ILC3 RANKL/RANK restraint branch that limits IL-17A and IL-22 output.
@@ -107,6 +114,8 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 - [Innate lymphoid cells regulate CD4+ T-cell responses to intestinal commensal bacteria](../sources/2013_innate_lymphoid_cells_regulate_cd4_t_cell_responses_to_intestinal_commensal_bacteria.md) and [Group 3 innate lymphoid cells mediate intestinal selection of commensal bacteria-specific CD4+ T cells](../sources/2015_group_3_innate_lymphoid_cells_mediate_intestinal_selection_of_commensal_bacteria_specific_cd4_t_cells.md) support a gut ILC3-MHCII branch that restrains commensal-specific CD4 T-cell responses.
 - [Innate lymphoid cells support regulatory T cells in the intestine through interleukin-2](../sources/2019_innate_lymphoid_cells_support_regulatory_t_cells_in_the_intestine_through_interleukin.md) and [ILC3s select microbiota-specific regulatory T cells to establish tolerance in the gut](../sources/2022_ilc3s_select_microbiota_specific_regulatory_t_cells_to_establish_tolerance_in_the_gut.md) support intestinal ILC3-Treg maintenance and selection branches.
 - [Human CD40 ligand-expressing type 3 innate lymphoid cells induce IL-10-producing immature transitional regulatory B cells](../sources/2018_human_cd40_ligand_expressing_type_3_innate_lymphoid_cells_induce_il_10_producing_immature_transitional_regulator.md) supports a human tonsil/blood ILC3-CD40L/BAFF/IL-15 regulatory B-cell branch.
+
+- [Activated group 3 innate lymphoid cells promote T-cell-mediated immune responses](../sources/2014_activated_group_3_innate_lymphoid_cells_promote_t_cell_mediated_immune_responses.md) adds an activating peripheral/splenic branch in which IL-1beta-activated NCR- ILC3s process antigen, express MHCII/costimulatory molecules, promote CD4 T-cell proliferation, and support T-dependent B-cell responses.
 - These mechanisms are central to ILC3 adaptive-immunity regulation but should stay gut/tonsil/blood-labeled unless direct lung evidence is added; see [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md).
 - Additional source-reviewed context now separates indirect ILC3-myeloid-Treg support, STING-linked microbiota sensing, CNS inflammatory antigen presentation, colon-cancer immunotherapy biology, and RORgammat-positive DC lineage boundaries ([Microbiota-dependent crosstalk between macrophages and ILC3 promotes intestinal homeostasis](../sources/2014_microbiota_dependent_crosstalk_between_macrophages_and_ilc3_promotes_intestinal_homeo.md); [ILC3s sense gut microbiota through STING to initiate immune tolerance](../sources/2025_ilc3s_sense_gut_microbiota_through_sting_to_initiate_immune_tolerance.md); [Antigen-presenting innate lymphoid cells orchestrate neuroinflammation](../sources/2021_antigen_presenting_innate_lymphoid_cells_orchestrate_neuroinflammation.md); [Dysregulation of ILC3s unleashes progression and immunotherapy resistance in colon cancer](../sources/2021_dysregulation_of_ilc3s_unleashes_progression_and_immunotherapy_resistance_in_colon_cancer.md); [RORgammat+ dendritic cells are a distinct lymphoid-derived lineage](../sources/2026_rorgammat_dendritic_cells_are_a_distinct_lymphoid_derived_lineage.md)).
 
@@ -139,6 +148,7 @@ flowchart TB
     iron["CD71 / iron"]
     igf1["IGF1 niche"]
     sting["STING"]
+    pge2["PGE2 / EP4"]
     ilc3["ILC3"]
     il22["IL-22"]
     tissue["barrier / niche"]
@@ -149,19 +159,21 @@ flowchart TB
     support --> iron
     support --> igf1
     support --> sting
+    support --> pge2
     rorgt --> ilc3
     ahr --> ilc3
     clock --> ilc3
     iron --> ilc3
     igf1 --> ilc3
     sting --> ilc3
+    pge2 --> ilc3
     ilc3 --> il22
     il22 --> tissue
 
     classDef support_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
     classDef cell fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
     classDef out fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
-    class support,rorgt,ahr,clock,iron,igf1,sting support_class
+    class support,rorgt,ahr,clock,iron,igf1,sting,pge2 support_class
     class ilc3 cell
     class il22,tissue out
 ```

@@ -47,7 +47,7 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
   regulatory ILC-like intestinal inflammation sources are useful for restraint vocabulary, but they should remain gut innate-inflammation context unless adaptive-cell targets are source-specific ([Regulatory Innate Lymphoid Cells Control Innate Intestinal Inflammation](../sources/2017_regulatory_innate_lymphoid_cells_control_innate_intestinal_inflammation.md)).
 
 - Medium-high confidence:
-  ILC3 antigen-presentation outcomes are context-dependent: gut ILC3-MHCII pathways can support tolerance, CNS-infiltrating inflammatory ILC3s can restimulate pathogenic T cells, and colon-cancer ILC3-MHCII can shape microbiota-linked type 1 antitumor immunity ([Antigen-presenting innate lymphoid cells orchestrate neuroinflammation](../sources/2021_antigen_presenting_innate_lymphoid_cells_orchestrate_neuroinflammation.md); [Dysregulation of ILC3s unleashes progression and immunotherapy resistance in colon cancer](../sources/2021_dysregulation_of_ilc3s_unleashes_progression_and_immunotherapy_resistance_in_colon_cancer.md)).
+  ILC3 antigen-presentation outcomes are context-dependent: activated peripheral/splenic ILC3s can promote cognate CD4 T-cell and T-dependent B-cell responses, gut ILC3-MHCII pathways can support tolerance, CNS-infiltrating inflammatory ILC3s can restimulate pathogenic T cells, and colon-cancer ILC3-MHCII can shape microbiota-linked type 1 antitumor immunity ([Activated group 3 innate lymphoid cells promote T-cell-mediated immune responses](../sources/2014_activated_group_3_innate_lymphoid_cells_promote_t_cell_mediated_immune_responses.md); [Antigen-presenting innate lymphoid cells orchestrate neuroinflammation](../sources/2021_antigen_presenting_innate_lymphoid_cells_orchestrate_neuroinflammation.md); [Dysregulation of ILC3s unleashes progression and immunotherapy resistance in colon cancer](../sources/2021_dysregulation_of_ilc3s_unleashes_progression_and_immunotherapy_resistance_in_colon_cancer.md)).
 - Medium-high confidence:
   newer gut evidence adds ILC3-intrinsic STING as an upstream sensing and migration mechanism for microbiota-specific Treg tolerance ([ILC3s sense gut microbiota through STING to initiate immune tolerance](../sources/2025_ilc3s_sense_gut_microbiota_through_sting_to_initiate_immune_tolerance.md)).
 - Medium confidence:
@@ -91,8 +91,10 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
 
 ### Context-dependent antigen presentation
 
-- ILC3 antigen-presentation biology can be tolerogenic, inflammatory, or tumor-immunity-linked depending on tissue context. Gut ILC3s often appear in tolerance circuits, CNS-infiltrating inflammatory ILC3s can restimulate pathogenic T cells, and colon-cancer ILC3-MHCII can support microbiota-linked type 1 immunity and anti-PD-1 responsiveness.
-- This context dependence is important for lung interpretation: detecting MHCII or antigen-presentation signatures in ILC-like cells would not by itself determine whether the output is tolerance, inflammation, or antitumor immunity.
+- ILC3 antigen-presentation biology can be activating, tolerogenic, inflammatory, or tumor-immunity-linked depending on tissue context.
+- In a peripheral/splenic mouse immunization setting, IL-1beta-activated NCR- ILC3s upregulate MHCII and CD80/CD86, process antigen, promote OT-II CD4 T-cell proliferation, and support T-dependent antibody responses; ILC3-specific MHCII loss reduces those adaptive outputs.
+- Gut ILC3s often appear in tolerance circuits, CNS-infiltrating inflammatory ILC3s can restimulate pathogenic T cells, and colon-cancer ILC3-MHCII can support microbiota-linked type 1 immunity and anti-PD-1 responsiveness.
+- This context dependence is important for lung interpretation: detecting MHCII or antigen-presentation signatures in ILC-like cells would not by itself determine whether the output is immune activation, tolerance, inflammation, or antitumor immunity.
 
 ### Indirect tolerance and taxonomy boundaries
 
@@ -123,6 +125,9 @@ flowchart TB
     ilc2 --> treg_lung["Gata3high Treg"]
     treg_lung -.-> ox40l_tune["OX40L tuning"]
     ox40l_tune -.-> th2
+    spleen["Peripheral spleen"] --> act_ilc3["Activated ILC3"]
+    act_ilc3 --> priming["CD4 priming"]
+    priming --> td_bcell["TD B-cell help"]
     gut["Gut / LN"] --> ilc3_mhcii["MHCII+ ILC3"]
     ilc3_mhcii --> cd4["CD4 restraint"]
     ilc3_mhcii --> treg_gut["Treg selection"]
@@ -131,9 +136,9 @@ flowchart TB
     classDef tissue fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
     classDef ilc fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
     classDef adaptive fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
-    class lung,gut tissue
-    class pdl1,ilc2,ilc3_mhcii ilc
-    class th2_pol,th2,treg_lung,ox40l_tune,cd4,treg_gut,tolerance adaptive
+    class lung,gut,spleen tissue
+    class pdl1,ilc2,ilc3_mhcii,act_ilc3 ilc
+    class th2_pol,th2,treg_lung,ox40l_tune,cd4,treg_gut,tolerance,priming,td_bcell adaptive
 ```
 
 ### B-cell and checkpoint branches
@@ -178,6 +183,7 @@ The practical rule is to keep lung-direct evidence and extrapulmonary mechanism 
 - [ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md)
 - [Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md)
 
+- [Activated group 3 innate lymphoid cells promote T-cell-mediated immune responses](../sources/2014_activated_group_3_innate_lymphoid_cells_promote_t_cell_mediated_immune_responses.md)
 - [ILC3](../entities/ILC3.md)
 - [ILC2 functional regulation mechanisms](./ILC2_functional_regulation_mechanisms.md)
 - [ILC3 functional regulation mechanisms](./ILC3_functional_regulation_mechanisms.md)

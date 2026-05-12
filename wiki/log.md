@@ -136,3 +136,9 @@
   - ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control
 
 - 2026-05-07: Deep-ingested `ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control` and `Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity`; corrected the PD-L1 source year to 2017 and updated ILC2 adaptive-immunity, regulation, disease-role, overview, trend, and core synthesis pages with lung-direct mouse PD-L1/Th2 and OX40L/Gata3high Treg feedback claims.
+
+- 2026-05-11: Ingested 3 new PDF files from `ILC_in_lung/RAW/`; created source pages and extracted text files, moved processed PDFs into `RAW/processed/`, and kept these as provisional knowledge-oriented source notes without promoting durable topic/entity/digest claims.
+  - Activated group 3 innate lymphoid cells promote T-cell–mediated immune responses
+  - Eosinophil-derived COX-2 protects against experimental colitis through the PGE2–IL-22 axis
+  - IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages
+- 2026-05-11: Deep-reviewed three newly added RAW PDFs. Added activated peripheral/splenic ILC3 antigen-presentation context for adaptive immunity, gut eosinophil/PGE2/EP4 regulation of ILC3 IL-22, and systemic/splenic IL-33-ILC2 red pulp macrophage crosstalk while preserving non-lung evidence boundaries.

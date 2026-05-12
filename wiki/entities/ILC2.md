@@ -98,6 +98,8 @@ flowchart TD
 - Spatial guidance branch: during airway inflammation, activated pulmonary ILC2s aggregate in peribronchial and perivascular regions and use CCR8-CCL8 and matrix cues such as collagen-I to navigate inflamed lung tissue ([Pulmonary environmental cues drive group 2 innate lymphoid cell dynamics in mice and humans](../sources/2019_pulmonary_environmental_cues_drive_group_2_innate_lymphoid_cell_dynamics_in_mice_and_human.md)).
 - Human airway crosstalk: induced-sputum asthma data link ILC2s with M2-like macrophage polarization, whereas ILC1/ILC3s align with M1-like macrophage polarization in noneosinophilic asthma contexts ([Innate immune crosstalk in asthmatic airways Innate lymphoid cells coordinate polarization of lung macrophages](../sources/2019_innate_immune_crosstalk_in_asthmatic_airways_innate_lymphoid_cells_coordinate_polarization_of_lung_macrophages.md)).
 
+- Systemic macrophage crosstalk: elevated IL-33 can expand splenic ILC2s and red pulp macrophages in mice, with ILC2-derived IL-4/IL-13 and GM-CSF supporting RPM proliferation; keep this as spleen/systemic type 2 context rather than lung macrophage causality ([IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages](../sources/2026_il_33_induced_ilc2_effector_cytokine_responses_promote_the_expansion_of_red_pulp_macr.md)).
+
 ## Regulatory architecture
 
 ### Activation and amplification layer
@@ -178,6 +180,8 @@ ILC2s should be modeled as lung and airway signal integrators rather than a sing
 - High confidence for source-specific mouse lung branches: ILC2 PD-L1 can promote Th2 polarization through T-cell PD-1 in primary helminth-associated type 2 immunity, and ILC2-OX40L can also support Gata3high Treg-mediated restraint of effector-memory Th2 expansion in allergen-driven lung inflammation ([ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md); [Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md)).
 
 - Medium confidence: intestinal ILC2s can occupy an IL-10-producing regulatory state, but this is gut-labeled context and should not be treated as default lung ILC2 behavior ([ILC2s are the predominant source of intestinal ILC-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md)).
+
+- Medium-high confidence: in a mouse systemic/splenic type 2 setting, high IL-33 can activate splenic ILC2s to expand red pulp macrophages through IL-4/IL-13 and GM-CSF; this broadens ILC2-macrophage crosstalk but is not direct lung evidence ([IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages](../sources/2026_il_33_induced_ilc2_effector_cytokine_responses_promote_the_expansion_of_red_pulp_macr.md)).
 
 ## Reading routes
 

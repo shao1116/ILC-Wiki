@@ -1,7 +1,7 @@
 # Reference Coverage Audit
 
 Created: 2026-04-20
-Refreshed: 2026-05-07
+Refreshed: 2026-05-11
 
 ## Scope
 
@@ -11,11 +11,11 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 
 ## Coverage snapshot
 
-- Ingested paper source pages currently present: 150
-- Source pages in `focused manual crystallization mode`: 150
+- Ingested paper source pages currently present: 153
+- Source pages in `focused manual crystallization mode`: 153
 - Source pages in `provisional bulk-ingest mode`: 0
 - Entity/topic/digest synthesis pages currently scanned for direct source links: 11
-- Paper source pages currently linked directly from scanned synthesis pages: 150
+- Paper source pages currently linked directly from scanned synthesis pages: 153
 - Paper source pages still source-library only: 0
 - All ingested sources remain discoverable through [ingestion_manifest](../sources/source_index.md).
 - Counting note: focused/provisional counts describe source-page review mode; direct-link coverage describes whether a paper is cited from the scanned knowledge-layer pages. These are related but not interchangeable metrics.
@@ -32,9 +32,9 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 
 | Assigned role | Sources | Currently directly linked | Currently source-library only |
 |---|---:|---:|---:|
-| ILC3; mechanism/regulation | 28 | 28 | 0 |
+| ILC3; mechanism/regulation | 30 | 30 | 0 |
 | ILC2; pulmonary/disease; mechanism/regulation | 27 | 27 | 0 |
-| ILC2; mechanism/regulation | 13 | 13 | 0 |
+| ILC2; mechanism/regulation | 14 | 14 | 0 |
 | manual-review context | 13 | 13 | 0 |
 | pulmonary/disease | 13 | 13 | 0 |
 | ILC2 | 10 | 10 | 0 |
@@ -224,6 +224,10 @@ These source pages are present in the library but are not directly linked from t
 
 | [ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md) | ILC2; pulmonary/disease; mechanism/regulation | ILC2 entity / ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
 | [Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md) | ILC2; pulmonary/disease; mechanism/regulation | ILC2 entity / ILC2 disease topic / ILC2 mechanism topic | currently directly cited from synthesis pages |
+
+| [Activated group 3 innate lymphoid cells promote T-cell-mediated immune responses](../sources/2014_activated_group_3_innate_lymphoid_cells_promote_t_cell_mediated_immune_responses.md) | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently directly cited from synthesis pages |
+| [Eosinophil-derived COX-2 protects against experimental colitis through the PGE2-IL-22 axis](../sources/2026_eosinophil_derived_cox_2_protects_against_experimental_colitis_through_the_pge2_il_22.md) | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently directly cited from synthesis pages |
+| [IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages](../sources/2026_il_33_induced_ilc2_effector_cytokine_responses_promote_the_expansion_of_red_pulp_macr.md) | ILC2; mechanism/regulation | ILC2 entity and mechanism context | currently directly cited from synthesis pages |
 
 ## Follow-up manual review priorities
 
