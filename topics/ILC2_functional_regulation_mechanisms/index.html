@@ -1476,6 +1476,9 @@
 <p><a href="../../sources/2026_il_9_and_blimp_1_protect_the_transcriptional_identity_of_group_2_innate_lymphocytes_in_allergic_asthma/">IL-9 and Blimp-1 protect the transcriptional identity of group 2 innate lymphocytes in allergic asthma</a> adds a lung allergic-asthma state-fidelity branch in which IL-33/IL-25-induced IL-9 upregulates Blimp-1 to maintain ILC2 type 2 identity while restraining IFN-gamma/TNF programs.</p>
 </li>
 <li>
+<p><a href="../../sources/2026_il_33_induced_ilc2_effector_cytokine_responses_promote_the_expansion_of_red_pulp_macr/">IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages</a> adds a systemic/splenic IL-33 branch in which activated ILC2s use IL-4/IL-13 and GM-CSF to promote red pulp macrophage expansion; this is type 2 macrophage crosstalk context, not a pulmonary macrophage claim.</p>
+</li>
+<li>
 <p><a href="../../sources/2019_il_1beta_il_23_and_tgf_beta_drive_plasticity_of_human_ilc2s_towards_il_17_producing_ilcs_in_nasal_inflammation/">IL-1beta, IL-23, and TGF-beta drive plasticity of human ILC2s towards IL-17-producing ILCs in nasal inflammation</a> supports a cytokine-driven plasticity branch, but nasal inflammation should stay context-labeled.</p>
 </li>
 </ul>
@@ -1558,7 +1561,12 @@
 <h3 id="stromal-mechanical-and-cellular-feedback-regulation">Stromal, mechanical, and cellular-feedback regulation</h3>
 <ul>
 <li><a href="../../sources/2024_mechanics_activated_fibroblasts_promote_pulmonary_group_2_innate_lymphoid_cell_plasti/">Mechanics-activated fibroblasts promote pulmonary group 2 innate lymphoid cell plasticity propelling silicosis progression</a> supports a fibroblast-mechanics axis in which IL-18-producing fibroblasts promote pulmonary ILC2-to-ILC1-like plasticity in silicosis-associated inflammation.</li>
-<li><a href="../../sources/2023_eosinophils_promote_effector_functions_of_lung_group_2_innate_lymphoid_cells_in_aller/">Eosinophils promote effector functions of lung group 2 innate lymphoid cells in allergic airway inflammation in mice</a> supports eosinophils as positive feedback partners that can augment lung ILC2 effector function in allergic airway inflammation.</li>
+<li>
+<p><a href="../../sources/2023_eosinophils_promote_effector_functions_of_lung_group_2_innate_lymphoid_cells_in_aller/">Eosinophils promote effector functions of lung group 2 innate lymphoid cells in allergic airway inflammation in mice</a> supports eosinophils as positive feedback partners that can augment lung ILC2 effector function in allergic airway inflammation.</p>
+</li>
+<li>
+<p><a href="../../sources/2026_il_33_induced_ilc2_effector_cytokine_responses_promote_the_expansion_of_red_pulp_macr/">IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages</a> broadens cellular-feedback regulation to a spleen/systemic macrophage compartment: short-term high IL-33 activates ILC2s, and IL-4Ralpha plus GM-CSF receptor pathways support red pulp macrophage expansion.</p>
+</li>
 <li><a href="../../sources/2018_tissue_signals_imprint_ilc2_identity_with_anticipatory_function/">Tissue signals imprint ILC2 identity with anticipatory function</a> supports the broader principle that local tissue cues can imprint ILC2 identity and prepare context-specific effector capacity.</li>
 </ul>
 <h3 id="infection-conditioned-reprogramming">Infection-conditioned reprogramming</h3>
@@ -1603,6 +1611,7 @@
     ilc2["ILC2"]
     type2["IL-5 / IL-13"]
     repair["AREG / GM-CSF"]
+    rpm["RPM expansion"]
     disease["AHR / repair"]
 
     cue --&gt; alarmin
@@ -1619,6 +1628,8 @@
     metabolism --&gt; ilc2
     ilc2 --&gt; type2
     ilc2 --&gt; repair
+    type2 --&gt; rpm
+    repair --&gt; rpm
     type2 --&gt; disease
     repair --&gt; disease
 
@@ -1627,7 +1638,7 @@
     classDef out_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
     class cue,alarmin,lipid,costim,niche,neuro,metabolism cue_class
     class ilc2 cell_class
-    class type2,repair,disease out_class</code></pre>
+    class type2,repair,rpm,disease out_class</code></pre>
 <h3 id="brakes-and-restraint">Brakes and restraint</h3>
 <pre class="mermaid"><code>flowchart TB
     accTitle: ILC2 Brakes And Restraint
