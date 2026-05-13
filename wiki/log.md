@@ -1,5 +1,14 @@
 # Wiki Log
 
+## 2026-05-13
+
+- Added evidence matrices to `ILC2 Functional Regulation Mechanisms` and `ILC3 Functional Regulation Mechanisms` with explicit mechanism, ILC subset, tissue, species, perturbation, output, and caveat columns.
+- Added a `Disease anchor` column to the ILC2 and ILC3 evidence matrices, distinguishing asthma-like models, infection models, colitis/IBD contexts, hypersensitivity pneumonitis, immunization models, developmental contexts, and homeostasis-only sources.
+- Added adaptive-immunity subsection tables for `ILC2 -> Th2 / Treg`, `ILC3 -> CD4 T Cell / Treg`, and `ILC3 -> B Cell / Regulatory B Cell`.
+- Checked the added rows against existing source-reviewed notes and kept lung, gut, spleen, tonsil, blood, sputum, and ex vivo evidence boundaries explicit.
+- Added audit record `audit/2026-05-13_evidence_matrices_and_adaptive_immunity_tables.md`.
+- Refined public-site presentation with shorter MkDocs navigation labels, a more compact homepage entry table, lead-paragraph styling, cleaner table scrolling, metadata tag pills, and figure-like Mermaid containers.
+
 ## 2026-04-20
 
 - Created the initial `ILC_in_lung` wiki skeleton.
@@ -142,3 +151,5 @@
   - Eosinophil-derived COX-2 protects against experimental colitis through the PGE2–IL-22 axis
   - IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages
 - 2026-05-11: Deep-reviewed three newly added RAW PDFs. Added activated peripheral/splenic ILC3 antigen-presentation context for adaptive immunity, gut eosinophil/PGE2/EP4 regulation of ILC3 IL-22, and systemic/splenic IL-33-ILC2 red pulp macrophage crosstalk while preserving non-lung evidence boundaries.
+
+- 2026-05-13: Audited reader-facing claims and mechanism diagrams against the recently reviewed ILC2/ILC3 sources. Corrected ILC2 RPM diagram logic, refined the CGRP/PAC1 and ILC3 PGE2/EP4 diagram labels, tightened activated ILC3 adaptive-immunity wording, and replaced remaining reader-facing curation vocabulary with evidence-facing wording. Added `audit/2026-05-13_reader_facing_claim_and_diagram_audit.md`.

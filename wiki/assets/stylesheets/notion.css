@@ -7,6 +7,10 @@
   --md-primary-bg-color: #37352f;
   --md-accent-fg-color: #2563eb;
   --md-typeset-a-color: #2563eb;
+  --ilc-border: #e7e5df;
+  --ilc-muted: #6f6d68;
+  --ilc-soft: #fafaf8;
+  --ilc-soft-blue: #f3f7fb;
 }
 
 body {
@@ -41,12 +45,12 @@ body {
 }
 
 .md-content {
-  max-width: 980px;
+  max-width: 1060px;
 }
 
 .md-content__inner {
   margin: 0 auto;
-  padding-top: 2.2rem;
+  padding-top: 2rem;
 }
 
 .md-typeset {
@@ -56,25 +60,25 @@ body {
 
 .md-typeset h1 {
   color: #2f3437;
-  font-size: 2rem;
+  font-size: 1.95rem;
   font-weight: 700;
   letter-spacing: 0;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.95rem;
 }
 
 .md-typeset h2 {
   color: #2f3437;
-  font-size: 1.22rem;
+  font-size: 1.16rem;
   font-weight: 650;
   letter-spacing: 0;
-  margin-top: 2.3rem;
-  padding-top: 1.05rem;
-  border-top: 1px solid #ededeb;
+  margin-top: 2.05rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid var(--ilc-border);
 }
 
 .md-typeset h3 {
   color: #2f3437;
-  font-size: 1rem;
+  font-size: 0.96rem;
   font-weight: 650;
   letter-spacing: 0;
 }
@@ -84,22 +88,107 @@ body {
   color: #37352f;
 }
 
-.md-typeset table:not([class]) {
-  border: 1px solid #ededeb;
+.md-typeset h2#scope + p,
+.md-typeset h2#welcome + p {
+  color: #4f4d48;
+  font-size: 0.9rem;
+  line-height: 1.72;
+  max-width: 46rem;
+}
+
+.md-typeset h2#scope + p + p,
+.md-typeset h2#welcome + p + p {
+  color: var(--ilc-muted);
+  max-width: 46rem;
+}
+
+.md-typeset hr {
+  border-bottom-color: var(--ilc-border);
+  margin: 2rem 0 1.4rem;
+}
+
+.md-typeset .md-typeset__scrollwrap {
+  margin: 1rem 0 1.35rem;
+}
+
+.md-typeset .md-typeset__table {
+  border: 1px solid var(--ilc-border);
   border-radius: 8px;
   box-shadow: none;
+  display: block;
+  overflow-x: auto;
+}
+
+.md-typeset table:not([class]) {
+  border: 0;
+  box-shadow: none;
+  display: table !important;
   font-size: 0.74rem;
+  line-height: 1.48;
+  max-width: none !important;
+  min-width: 0;
+  width: 100% !important;
+}
+
+.md-typeset table:not([class]):has(th:nth-child(8)) {
+  table-layout: fixed;
+  min-width: 1860px;
+  width: 1860px !important;
+}
+
+.md-typeset table:not([class]) th:nth-child(1),
+.md-typeset table:not([class]) td:nth-child(1) {
+  min-width: 9rem;
+}
+
+.md-typeset table:not([class]) th:nth-child(2),
+.md-typeset table:not([class]) td:nth-child(2) {
+  min-width: 6rem;
+}
+
+.md-typeset table:not([class]) th:nth-child(3),
+.md-typeset table:not([class]) td:nth-child(3),
+.md-typeset table:not([class]) th:nth-child(4),
+.md-typeset table:not([class]) td:nth-child(4) {
+  min-width: 10rem;
+}
+
+.md-typeset table:not([class]) th:nth-child(5),
+.md-typeset table:not([class]) td:nth-child(5),
+.md-typeset table:not([class]) th:nth-child(6),
+.md-typeset table:not([class]) td:nth-child(6),
+.md-typeset table:not([class]) th:nth-child(7),
+.md-typeset table:not([class]) td:nth-child(7) {
+  min-width: 14rem;
+}
+
+.md-typeset table:not([class]) th:nth-child(8),
+.md-typeset table:not([class]) td:nth-child(8) {
+  min-width: 16rem;
 }
 
 .md-typeset table:not([class]) th {
-  background: #f7f7f5;
+  background: var(--ilc-soft);
   color: #37352f;
   font-weight: 650;
+  letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .md-typeset table:not([class]) td,
 .md-typeset table:not([class]) th {
-  border-color: #ededeb;
+  border-color: var(--ilc-border);
+  padding: 0.58em 0.82em;
+  vertical-align: top;
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background: #fcfcfb;
+}
+
+.md-typeset table:not([class]) td:last-child {
+  color: #575550;
+  min-width: 15rem;
 }
 
 .md-typeset code {
@@ -120,11 +209,27 @@ body {
   border: 1px solid #e4e4df;
   border-radius: 999px;
   color: #5f5e5b;
-  font-size: 0.66rem;
+  font-size: 0.62rem;
   font-weight: 500;
   line-height: 1.35;
-  padding: 0.1rem 0.42rem;
+  padding: 0.08rem 0.38rem;
   white-space: nowrap;
+}
+
+.md-typeset details {
+  border: 1px solid var(--ilc-border);
+  border-radius: 8px;
+  box-shadow: none;
+  margin: 0.8rem 0;
+  padding: 0.2rem 0.75rem;
+}
+
+.md-typeset details > summary {
+  color: #4f4d48;
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0;
+  padding: 0.35rem 0;
 }
 
 .md-sidebar {
@@ -132,7 +237,7 @@ body {
 }
 
 .md-sidebar--primary .md-nav {
-  font-size: 0.72rem;
+  font-size: 0.71rem;
 }
 
 .md-sidebar--primary .md-nav__title {
@@ -162,7 +267,7 @@ body {
 }
 
 .md-sidebar--secondary .md-nav {
-  font-size: 0.68rem;
+  font-size: 0.67rem;
 }
 
 .md-sidebar--secondary .md-nav__title {

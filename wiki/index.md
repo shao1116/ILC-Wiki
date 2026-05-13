@@ -1,6 +1,6 @@
 # ILC In Lung Wiki
 
-Last updated: 2026-05-11
+Last updated: 2026-05-13
 
 ## Welcome
 
@@ -10,15 +10,14 @@ This homepage is designed as a starting point for browsing. Start with the overv
 
 ## Start Here
 
-| Goal                                       | Best entry point                                                                              |
-| ------------------------------------------ | --------------------------------------------------------------------------------------------- |
-| Understand the whole wiki                  | [ILC In Lung](./topics/ILC_in_lung.md)                                                        |
-| Learn the field history                    | [ILC Research Trend From Then To Now](./digests/2026-04-20_ILC_research_trend_then_to_now.md) |
-| See the strongest integrated evidence      | [Lung ILC Core Evidence Synthesis](./digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)  |
-| Focus on ILC2                              | [ILC2](./entities/ILC2.md)                                                                    |
-| Focus on ILC3                              | [ILC3](./entities/ILC3.md)                                                                    |
-| Understand ILC-adaptive immunity crosstalk | [ILC Regulation Of Adaptive Immunity](./topics/ILC_regulation_of_adaptive_immunity.md)        |
-| Browse the reference library               | [Reference Library](./sources/source_index.md)                                          |
+| Goal | Best entry point |
+|---|---|
+| Orient quickly | [ILC In Lung](./topics/ILC_in_lung.md) |
+| Read the core synthesis | [Lung ILC Core Evidence Synthesis](./digests/2026-04-22_lung_ILC_core_evidence_synthesis.md) |
+| Follow the field history | [ILC Research Trend From Then To Now](./digests/2026-04-20_ILC_research_trend_then_to_now.md) |
+| Work by cell type | [ILC2](./entities/ILC2.md) / [ILC3](./entities/ILC3.md) |
+| Compare regulatory mechanisms | [ILC2 Regulation](./topics/ILC2_functional_regulation_mechanisms.md) / [ILC3 Regulation](./topics/ILC3_functional_regulation_mechanisms.md) |
+| Trace references | [Reference Library](./sources/source_index.md) |
 
 ## Core Knowledge Map
 
@@ -27,10 +26,10 @@ flowchart TB
     accTitle: Core Knowledge Map
     accDescr: Homepage map showing how readers should move from field orientation into core synthesis, entity hubs, topic pages, and source traceability.
 
-    home["Start<br/>ILC in lung overview"] --> trend["Field history"]
-    home --> core["Core evidence synthesis"]
-    core --> ilc2["ILC2 hub"]
-    core --> ilc3["ILC3 hub"]
+    home["Overview"] --> trend["Field history"]
+    home --> core["Core synthesis"]
+    core --> ilc2["ILC2"]
+    core --> ilc3["ILC3"]
     ilc2 --> ilc2_disease["Disease roles"]
     ilc2 --> ilc2_reg["Regulation map"]
     ilc3 --> ilc3_disease["Disease roles"]
@@ -90,11 +89,11 @@ The sections below preserve reference structure and project notes. Most readers 
 <ul>
   <li><a href="./audit/2026-04-22_topic_entity_integration_audit/">Topic And Entity Integration Notes</a></li>
   <li><a href="./audit/2026-04-23_focused_manual_crystallization_ILC2_niche_interferon_type2/">ILC2 Niche And Interferon Notes</a></li>
-  <li><a href="./audit/2026-04-30_focused_manual_ingest_batch6/">Focused Source Review Notes 6</a></li>
+  <li><a href="./audit/2026-04-30_focused_manual_ingest_batch6/">Source Review Notes 6</a></li>
   <li><a href="./audit/2026-04-30_focused_manual_ingest_adaptive_immunity/">Adaptive Immunity Source Review Notes</a></li>
 
-  <li><a href="./audit/2026-04-29_focused_manual_ingest_batch5/">Focused Source Review Notes 5</a></li>
-  <li><a href="./audit/2026-04-24_focused_manual_crystallization_batch4/">Focused Source Review Notes 4</a></li>
+  <li><a href="./audit/2026-04-29_focused_manual_ingest_batch5/">Source Review Notes 5</a></li>
+  <li><a href="./audit/2026-04-24_focused_manual_crystallization_batch4/">Source Review Notes 4</a></li>
   <li><a href="./audit/2026-04-22_public_export_setup/">Public Site Setup Notes</a></li>
   <li><a href="./audit/2026-04-22_ingest_mode_schema_update/">Source-Mode Notes</a></li>
   <li><a href="./audit/2026-04-22_focused_manual_crystallization_batch3/">Detailed Source Review Notes</a></li>

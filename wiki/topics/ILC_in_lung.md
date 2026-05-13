@@ -118,17 +118,16 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 
 ## Page Map
 
-| Question                          | Best Page                                                                                      |
-| --------------------------------- | ---------------------------------------------------------------------------------------------- |
-| How did the field evolve?         | [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md) |
-| What is the overall story?        | [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)  |
-| What do ILC2s do in lung disease? | [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md)                        |
-| What regulates ILC2 function?     | [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md)            |
-| What do ILC3s do in lung disease? | [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md)                        |
-| What regulates ILC3 function?     | [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md)            |
-| How do ILCs regulate adaptive immunity? | [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md)           |
-
-| Which claims are citation-ready?  | Source pages marked as source-reviewed evidence notes                                          |
+| Question                                | Best Page                                                                                      |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| How did the field evolve?               | [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md) |
+| What is the overall story?              | [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md)  |
+| What do ILC2s do in lung disease?       | [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md)                        |
+| What regulates ILC2 function?           | [ILC2 Functional Regulation Mechanisms](./ILC2_functional_regulation_mechanisms.md)            |
+| What do ILC3s do in lung disease?       | [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md)                        |
+| What regulates ILC3 function?           | [ILC3 Functional Regulation Mechanisms](./ILC3_functional_regulation_mechanisms.md)            |
+| How do ILCs regulate adaptive immunity? | [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md)                |
+| Which pages preserve model details?     | Source notes with species, tissue, assay, and claim-confidence context                         |
 
 ## Open Questions
 
@@ -139,12 +138,11 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 - In severe asthma, how should sex, blood-versus-sputum compartment, and biologic therapy status be preserved when interpreting ILC2/ILC3 abundance or cytokine output?
 - Which evidence layer should be prioritized next: human BAL, bronchial biopsy, sputum, lung scRNA-seq, spatial data, or perturbation models?
 
-## Wiki Status
+## Source Library
 
-- The local source library currently contains 153 processed references, with 153 source pages promoted to `focused manual crystallization mode` and 0 retained as `provisional bulk-ingest mode`.
-- Focused source pages are the preferred evidence layer for reusable biological claims because they include model context, assay directness, claim-level confidence, and caveats.
-- Provisional source pages are useful for routing and triage, but their biological claims should be manually checked before being reused in manuscripts, figures, grant text, or durable synthesis.
-- Batch provenance belongs in audit and log pages; digest, topic, and entity pages should read as biology-first knowledge nodes.
+- The local source library currently contains 153 processed references, with 153 source notes carrying model-context evidence summaries and 0 retained as initial catalog notes.
+- Source notes are the preferred evidence layer for reusable biological claims because they preserve model context, assay directness, and caveats.
+- Claims should still be checked against the cited source before being reused in manuscripts, figures, or grant text, especially when extrapolating from mouse, gut, blood, nasal airway, sputum, or review-level evidence to lung disease.
 
 ## Related Pages
 

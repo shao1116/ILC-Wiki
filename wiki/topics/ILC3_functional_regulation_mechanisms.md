@@ -117,7 +117,7 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 
 - [Activated group 3 innate lymphoid cells promote T-cell-mediated immune responses](../sources/2014_activated_group_3_innate_lymphoid_cells_promote_t_cell_mediated_immune_responses.md) adds an activating peripheral/splenic branch in which IL-1beta-activated NCR- ILC3s process antigen, express MHCII/costimulatory molecules, promote CD4 T-cell proliferation, and support T-dependent B-cell responses.
 - These mechanisms are central to ILC3 adaptive-immunity regulation but should stay gut/tonsil/blood-labeled unless direct lung evidence is added; see [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md).
-- Additional source-reviewed context now separates indirect ILC3-myeloid-Treg support, STING-linked microbiota sensing, CNS inflammatory antigen presentation, colon-cancer immunotherapy biology, and RORgammat-positive DC lineage boundaries ([Microbiota-dependent crosstalk between macrophages and ILC3 promotes intestinal homeostasis](../sources/2014_microbiota_dependent_crosstalk_between_macrophages_and_ilc3_promotes_intestinal_homeo.md); [ILC3s sense gut microbiota through STING to initiate immune tolerance](../sources/2025_ilc3s_sense_gut_microbiota_through_sting_to_initiate_immune_tolerance.md); [Antigen-presenting innate lymphoid cells orchestrate neuroinflammation](../sources/2021_antigen_presenting_innate_lymphoid_cells_orchestrate_neuroinflammation.md); [Dysregulation of ILC3s unleashes progression and immunotherapy resistance in colon cancer](../sources/2021_dysregulation_of_ilc3s_unleashes_progression_and_immunotherapy_resistance_in_colon_cancer.md); [RORgammat+ dendritic cells are a distinct lymphoid-derived lineage](../sources/2026_rorgammat_dendritic_cells_are_a_distinct_lymphoid_derived_lineage.md)).
+- Related evidence separates indirect ILC3-myeloid-Treg support, STING-linked microbiota sensing, CNS inflammatory antigen presentation, colon-cancer immunotherapy biology, and RORgammat-positive DC lineage boundaries ([Microbiota-dependent crosstalk between macrophages and ILC3 promotes intestinal homeostasis](../sources/2014_microbiota_dependent_crosstalk_between_macrophages_and_ilc3_promotes_intestinal_homeo.md); [ILC3s sense gut microbiota through STING to initiate immune tolerance](../sources/2025_ilc3s_sense_gut_microbiota_through_sting_to_initiate_immune_tolerance.md); [Antigen-presenting innate lymphoid cells orchestrate neuroinflammation](../sources/2021_antigen_presenting_innate_lymphoid_cells_orchestrate_neuroinflammation.md); [Dysregulation of ILC3s unleashes progression and immunotherapy resistance in colon cancer](../sources/2021_dysregulation_of_ilc3s_unleashes_progression_and_immunotherapy_resistance_in_colon_cancer.md); [RORgammat+ dendritic cells are a distinct lymphoid-derived lineage](../sources/2026_rorgammat_dendritic_cells_are_a_distinct_lymphoid_derived_lineage.md)).
 
 ### Checkpoint restraint and IL-23 counter-regulation
 
@@ -134,12 +134,35 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 
 ILC3 regulation should be interpreted as a balance between identity-maintaining programs and inflammatory activation programs. RORgammat, AHR, circadian regulation, nutrition/iron, and stromal survival cues support identity and maintenance. IL-1beta, IL-23, SCF/KIT, NF-kappaB/MAPK, and disease-associated stromal signals can push ILC3s toward IL-17A, neutrophil chemoattractants, and inflammatory pathology. Vitamin D and CTLA-4-like restraint mechanisms may counter inflammatory IL-23-linked activity in some mucosal contexts. The map below separates maintenance-supporting, inflammatory, and restraining branches so positive and negative regulation are both explicit.
 
-### Identity and maintenance
+## Evidence Matrix
+
+This matrix links the regulation map to source-bounded evidence. `Perturbation` lists the strongest direct test described in the cited source; lung and gut evidence are separated because many ILC3 mechanisms are tissue restricted.
+
+| Mechanism | ILC subset | Tissue (lung or gut?) | Species (Human or mouse?) | Disease anchor | Perturbation (knockout or inhibitor?) | Main output | Caveat |
+|---|---|---|---|---|---|---|---|
+| [IL-23-driven IL-22 response in pneumococcal infection](../sources/2014_activation_of_type_3_innate_lymphoid_cells_and_interleukin_22_secretion_in_the_lungs.md) | ILC3 | Lung | Mouse | Streptococcus pneumoniae lung infection | Pneumococcal infection with IL-23 / IL-22 axis testing | Lung ILC3 activation and IL-22-associated host defense | Infection model evidence should not be generalized to sterile asthma or fibrosis. |
+| [Newborn lung IGF1 niche support](../sources/2020_insulin_like_growth_factor_1_supports_a_pulmonary_niche_that_promotes_type_3_innate_lymphoid_cell_development_in.md) | ILC3 | Lung, newborn developmental context | Mouse, with premature-infant/BPD comparison | Neonatal pneumonia susceptibility; bronchopulmonary dysplasia comparison | Conditional loss of fibroblast IGF1 or ILC precursor IGF1 receptor | ILC precursor expansion and maturation, pulmonary ILC3 development, neonatal antibacterial defense | Developmental lung biology may not translate to adult inflammatory disease. |
+| [Fibroblast-derived SCF-KIT support](../sources/2025_pulmonary_fibroblast_derived_stem_cell_factor_promotes_neutrophilic_asthma_by_augment.md) | ILC3 | Lung | Mouse | Neutrophilic asthma-like airway inflammation | c-Kit deficiency, fibroblast-specific SCF deletion, imatinib | ILC3 proliferation, IL-17A production, neutrophilic asthma-like inflammation | Strong mouse lung evidence; human asthma relevance still needs direct validation. |
+| [IL-1beta-induced chemokine output with steroid insensitivity](../sources/2023_group_3_innate_lymphoid_cells_secret_neutrophil_chemoattractants_and_are_insensitive.md) | ILC3 | Blood / asthma-associated human ILC3 assays | Human | Non-eosinophilic or steroid-resistant asthma | IL-1beta stimulation, dexamethasone, pathway inhibitor logic | CXCL8 and CXCL1 production with dexamethasone-insensitive behavior | Ex vivo human evidence; not direct lung-tissue perturbation. |
+| [NLRP3-IL-1beta axis in obesity-associated airway hyperreactivity](../sources/2014_interleukin_17_producing_innate_lymphoid_cells_and_the_nlrp3_inflammasome_facilitate.md) | IL-17-producing type 3-like ILCs | Lung / airway | Mouse | Obesity-associated airway hyperreactivity | IL-1 receptor or NLRP3-linked perturbation in obese airway model | Expansion of IL-17-producing innate lymphoid cells and airway hyperreactivity | Older nomenclature and model context require careful mapping onto modern ILC3 definitions. |
+| [Vitamin D restraint of IL-23R pathway](../sources/2018_vitamin_d_downregulates_the_il_23_receptor_pathway_in_human_mucosal_group_3_innate_lymphoid_cells.md) | ILC3 | Mucosal tissue, mainly gut-associated | Human | Mucosal IL-23 inflammation / IBD-relevant context | Vitamin D treatment in human mucosal ILC3 assays | Reduced IL-23R-pathway responsiveness | Human mucosal evidence; indirect for lung ILC3 regulation. |
+| [AHR / WASH support of NKp46+ ILC3](../sources/2017_wash_maintains_nkp46_ilc3_cells_by_promoting_ahr_expression.md) | NKp46+ ILC3 | Gut | Mouse | No disease model; gut ILC3 homeostasis | WASH deficiency with AHR-linked rescue logic | Maintenance of NKp46+ ILC3 cells | Gut homeostasis evidence; useful as pathway logic only for lung. |
+| [STING-dependent microbiota-specific tolerance](../sources/2025_ilc3s_sense_gut_microbiota_through_sting_to_initiate_immune_tolerance.md) | ILC3 | Gut and gut-draining lymphoid tissue | Mouse | Microbiota-specific gut immune tolerance | ILC3-intrinsic STING perturbation | ILC3 migration and microbiota-specific Treg selection | Extrapulmonary tolerance mechanism; not evidence for pulmonary adaptive regulation. |
+| [Eosinophil COX-2-PGE2-EP4-IL-22 axis](../sources/2026_eosinophil_derived_cox_2_protects_against_experimental_colitis_through_the_pge2_il_22.md) | CCR6+ ILC3 | Gut / colon | Mouse, with human IBD context | Experimental colitis / IBD-relevant barrier inflammation | Eosinophil-specific Ptgs2 deletion, PGE2 analog, EP4 antagonism | ILC3 IL-22, epithelial STAT3, barrier protection in colitis | Strong gut evidence; should not be written as a lung mechanism. |
+| [CTLA-4+ regulatory ILC3 branch](../sources/2024_ctla_4_expressing_ilc3s_restrain_interleukin_23_mediated_inflammation.md) | CTLA-4+ ILC3 | Gut | Mouse, with human IBD-associated mucosal evidence | IL-23-mediated intestinal inflammation / IBD context | CTLA-4-linked ILC3 perturbation in IL-23-driven inflammation | Restraint of intestinal inflammation | Checkpoint function is gut-supported; lung relevance remains untested here. |
+| [BACH2-PPARgamma mitochondrial support](../sources/2026_bach2_controls_ilc3_function_via_ppargamma_dependent_mitochondrial_metabolism.md) | ILC3 | Gut | Mouse, with human IBD-associated intestinal context | Colitis / IBD-associated intestinal inflammation | BACH2 perturbation and pharmacologic PPARgamma activation | PPARgamma-linked mitochondrial oxidative phosphorylation, ILC3 cytokine function, colitis restraint | BACH2 is a positive regulator of intestinal ILC3 function in this source; pulmonary extrapolation should remain explicit. |
+| [LINGO4 support of ILC3 stability and IL-22](../sources/2026_lingo4_coordinates_ilc3_intrinsic_il_22_production_and_microbiota_mediated_ilc3_homeostasis.md) | ILC3 | Gut | Mouse | No disease model; microbiota-mediated gut homeostasis | LINGO4 perturbation | ILC3 stability and IL-22 production supporting gut homeostasis | Gut homeostatic mechanism; not direct lung evidence. |
+| [PDGF-D / PDGFR-beta and NKp44-linked regulation](../sources/2026_divergent_ilc3_responses_to_pdgf_d_control_mucosal_immunity.md) | ILC3 | Mucosal context | Human and mouse comparative evidence | Mucosal immunity; species-comparative inflammatory context | PDGF-D / receptor-axis perturbation | Divergent cytokine and activation outputs across species context | Species differences are central to the claim; avoid flattening human and mouse results. |
+| [Activated MHCII+ peripheral ILC3 antigen-presentation program](../sources/2014_activated_group_3_innate_lymphoid_cells_promote_t_cell_mediated_immune_responses.md) | NCR- ILC3 | Spleen / peripheral lymphoid tissue | Mouse | Immunization / T-dependent antibody response model | RORgammat-lineage ILC3 MHCII deletion, antigen-specific T-cell assays | CD4 T-cell proliferation and T-dependent antibody support | Lymphoid-tissue activation evidence; indirect for lung disease. |
+| [Fungal-infection-associated ILC plasticity](../sources/2026_innate_lymphoid_cells_integrate_sensing_and_plasticity_to_control_fungal_infections.md) | ILC2-to-ILC3-like plasticity | Lung | Mouse | Pulmonary fungal infection | Fungal infection and cytokine / transfer-linked plasticity logic | Increased type 3-like inflammatory output and pathology | Plasticity evidence is model specific and should not imply all ILC2s become ILC3s. |
+| [Microbial dysbiosis gut-lung type 3 axis](../sources/2025_microbial_dysbiosis_sculpts_a_systemic_ilc3_il_17_axis_governing_lung_inflammatory_re.md) | ILC3 / type 3 immune axis | Gut-lung systemic axis | Mouse | Hypersensitivity pneumonitis after antibiotic dysbiosis | Streptomycin dysbiosis and IL-23-linked perturbation | Lung ILC3/Th17 priming during hypersensitivity pneumonitis | This is a dysbiosis-conditioned gut-lung mechanism, not a baseline lung ILC3 program. |
+
+### Identity and IL-22 support
 
 ```mermaid
 flowchart TB
-    accTitle: ILC3 Identity And Maintenance
-    accDescr: Compact vertical map of ILC3 identity and maintenance programs.
+    accTitle: ILC3 Identity And IL22 Support
+    accDescr: Compact vertical map of ILC3 identity cues, sensing inputs, and IL-22-supporting crosstalk.
 
     support["Support cues"]
     rorgt["RORgammat"]
@@ -147,11 +170,12 @@ flowchart TB
     clock["Circadian"]
     iron["CD71 / iron"]
     igf1["IGF1 niche"]
-    sting["STING"]
+    sting["STING sensing"]
     pge2["PGE2 / EP4"]
     ilc3["ILC3"]
     il22["IL-22"]
-    tissue["barrier / niche"]
+    barrier["barrier support"]
+    niche["niche support"]
 
     support --> rorgt
     support --> ahr
@@ -166,16 +190,17 @@ flowchart TB
     iron --> ilc3
     igf1 --> ilc3
     sting --> ilc3
-    pge2 --> ilc3
+    pge2 --> il22
     ilc3 --> il22
-    il22 --> tissue
+    il22 --> barrier
+    ilc3 --> niche
 
     classDef support_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
     classDef cell fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
     classDef out fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
     class support,rorgt,ahr,clock,iron,igf1,sting,pge2 support_class
     class ilc3 cell
-    class il22,tissue out
+    class il22,barrier,niche out
 ```
 
 ### Inflammatory activation
@@ -214,7 +239,7 @@ flowchart TB
     classDef cue fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
     classDef cell fill:#f6eefc,stroke:#7a55a3,stroke-width:2px,color:#2d1645
     classDef out fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
-    class trigger,il1il23,nlrp3,scf,nfkb,xbp1,gr cue
+    class trigger,il1il23,scf,nfkb,xbp1,gr cue
     class ilc3 cell
     class il17,chemokine,neutrophil out
 ```

@@ -2,7 +2,7 @@
 
 ## Scope
 
-This digest is an entry-level map of how the ILC field, especially lung and airway ILC research, moved from discovery to disease mechanism. It is not a bibliometric history of every ILC paper. Instead, it follows selected landmark and source-reviewed papers to explain what researchers learned at each stage, why those discoveries changed the field, and where our own work (Ya-Jen Chang, Christina Li-Ping Thio, and Jheng-Syuan Shao) fits within that broader trajectory.
+This digest is an entry-level map of how the ILC field, especially lung and airway ILC research, moved from discovery to disease mechanism. It is not a bibliometric history of every ILC paper. Instead, it follows selected landmark papers to explain what researchers learned at each stage, why those discoveries changed the field, and where our own work (Ya-Jen Chang, Christina Li-Ping Thio, and Jheng-Syuan Shao) fits within that broader trajectory.
 
 The central trend is simple: ILC research moved from asking whether innate lymphoid cells exist and matter, to asking which ILC state acts in which tissue niche, during which disease phase, through which regulatory pathway.
 
@@ -76,7 +76,7 @@ This stage also sharpened the standard for interpretation: each regulatory node 
 
 The most recent literature is increasingly endotype-aware. Asthma is no longer treated as a single ILC2-dominated type 2 disease. Current lung ILC interpretation increasingly separates eosinophilic/type 2 asthma, viral airway hyperreactivity, steroid-resistant asthma, neutrophilic asthma, smoking-associated asthma, ARDS-like acute injury, respiratory infection, and repair.
 
-This matters because therapeutic imagination changes when the mechanism changes. Targeting an IL-33/IL-13 ILC2 axis is conceptually different from targeting a fibroblast SCF/KIT-ILC3-IL-17A-neutrophil axis, and both are different from supporting BATF-associated repair ILC2 states during acute viral injury.
+This matters because therapeutic interpretation changes when the mechanism changes. Targeting an IL-33/IL-13 ILC2 axis is conceptually different from targeting a fibroblast SCF/KIT-ILC3-IL-17A-neutrophil axis, and both are different from supporting BATF-associated repair ILC2 states during acute viral injury.
 
 ## Role Of Our Research In This Trajectory
 
@@ -84,7 +84,7 @@ Our research axis is not a side note; it sits at several important inflection po
 
 - `Ya-Jen Chang first-author, 2011`: the influenza-induced AHR study helped establish that innate lymphoid/natural-helper-cell pathways can mediate airway physiology independently of adaptive TH2 immunity. In this timeline, it belongs to the lung functional anchoring phase.
 - `Christina Li-Ping Thio first-author, 2018`: the butyrate study helped move the field from ILC2 presence and activation toward functional regulation, showing that butyrate can suppress ILC2 cytokine output and ILC2-dependent AHR in reported systems. In this timeline, it belongs to the regulation and plasticity phase.
-- `Christina Li-Ping Thio first-author, 2019`: the TLR9-dependent interferon source serves here as a source-reviewed anchor for a negative regulatory pathway in which TLR9/type I IFN/NK-cell IFN-gamma/STAT1 signaling suppresses ILC2-driven AHR.
+- `Christina Li-Ping Thio first-author, 2019`: the TLR9-dependent interferon source anchors a negative regulatory pathway in which TLR9/type I IFN/NK-cell IFN-gamma/STAT1 signaling suppresses ILC2-driven AHR.
 - `Jheng-Syuan Shao first-author, 2025`: the pulmonary fibroblast-derived SCF study anchors a modern stromal-niche mechanism for ILC3-driven neutrophilic asthma-like inflammation. In this timeline, it belongs to the disease-endotype and tissue-niche mechanism phase.
 
 ## Beginner Reading Path

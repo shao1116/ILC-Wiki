@@ -12,9 +12,11 @@ theme:
     text: Inter
     code: JetBrains Mono
   features:
+    - navigation.sections
     - navigation.tracking
     - navigation.top
     - search.highlight
+    - search.suggest
     - content.code.copy
     - toc.follow
 
@@ -30,26 +32,26 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
-  - assets/javascripts/mermaid-init.js?v=20260424
+  - assets/javascripts/mermaid-init.js?v=20260513
 extra_css:
-  - assets/stylesheets/notion.css?v=20260424
-  - assets/stylesheets/mermaid.css?v=20260424
+  - assets/stylesheets/notion.css?v=20260513
+  - assets/stylesheets/mermaid.css?v=20260513
 
 nav:
   - Home: index.md
   - Start Here:
       - ILC In Lung: topics/ILC_in_lung.md
-      - ILC Research Trend: digests/2026-04-20_ILC_research_trend_then_to_now.md
-      - Lung ILC Core Evidence Synthesis: digests/2026-04-22_lung_ILC_core_evidence_synthesis.md
+      - Research Trend: digests/2026-04-20_ILC_research_trend_then_to_now.md
+      - Core Evidence: digests/2026-04-22_lung_ILC_core_evidence_synthesis.md
   - Cell Hubs:
       - ILC2: entities/ILC2.md
       - ILC3: entities/ILC3.md
   - Disease Topics:
-      - ILC2 Roles In Pulmonary Disease: topics/ILC2_roles_in_pulmonary_disease.md
-      - ILC3 Roles In Pulmonary Disease: topics/ILC3_roles_in_pulmonary_disease.md
+      - ILC2 Disease Roles: topics/ILC2_roles_in_pulmonary_disease.md
+      - ILC3 Disease Roles: topics/ILC3_roles_in_pulmonary_disease.md
   - Mechanism Topics:
-      - ILC2 Functional Regulation Mechanisms: topics/ILC2_functional_regulation_mechanisms.md
-      - ILC3 Functional Regulation Mechanisms: topics/ILC3_functional_regulation_mechanisms.md
-      - ILC Regulation Of Adaptive Immunity: topics/ILC_regulation_of_adaptive_immunity.md
+      - ILC2 Regulation: topics/ILC2_functional_regulation_mechanisms.md
+      - ILC3 Regulation: topics/ILC3_functional_regulation_mechanisms.md
+      - Adaptive Immunity: topics/ILC_regulation_of_adaptive_immunity.md
   - Reference Library:
       - Source Index: sources/source_index.md

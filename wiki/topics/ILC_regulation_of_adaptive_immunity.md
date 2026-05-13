@@ -109,6 +109,38 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
 - ILC-T-cell crosstalk can amplify effector immunity or restrain adaptive responses depending on tissue, subset, mediator, and timing.
 - For lung synthesis, use review sources to orient the reader and use primary sources for durable claims.
 
+## Adaptive-Immunity Evidence Tables
+
+These tables separate the adaptive partners and tissue contexts. They are intended to keep lung-direct mouse ILC2 evidence distinct from gut, tonsil, blood, and lymphoid-tissue ILC3 mechanisms.
+
+### ILC2 -> Th2 / Treg
+
+| Mechanism | ILC subset | Adaptive partner | Tissue / compartment | Species | Perturbation | Main output | Caveat |
+|---|---|---|---|---|---|---|---|
+| [PD-L1-PD-1 checkpoint contact](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md) | IL-33/ST2-activated ILC2 | Th2 / CD4 T cell | Lung in primary helminth-associated type 2 immunity | Mouse | ILC-lineage Cd274 deletion and adoptive-transfer logic | CD4 T-cell GATA3, IL-5/IL-13, eosinophil recruitment, worm clearance | Direction is context specific because PD-1-linked pathways can also restrain ILC2 metabolism in other settings. |
+| [OX40L-OX40 costimulation](../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on.md) | IL-33-induced ILC2 | Th2 and Treg | Lung and adipose tissue | Mouse | ILC2-targeted OX40L loss | Tissue-restricted Th2 and Treg expansion during type 2 inflammation | Strong mouse tissue evidence; not direct proof of human asthma therapeutic effect. |
+| [CCL1-CCR8 and OX40L-OX40 feedback](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md) | ILC2 | Gata3high Treg and effector-memory Th2 | Lung and mediastinal lymph node | Mouse | Ccr8 deficiency, Treg-intrinsic OX40 deletion, anti-OX40L, ILC2 perturbation | Gata3high Treg accumulation; reduced effector-memory Th2 expansion through OX40L tuning | This is a local restraint circuit, not a claim that all Tregs depend on ILC2s. |
+| [Gut ILC2-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md) | Regulatory ILC2 state | Regulatory immune environment | Gut | Mouse | ILC-derived IL-10 source mapping in intestinal context | ILC2s are a major intestinal source of ILC-derived IL-10 | Useful for ILC2 state diversity; should not be converted into a lung ILC2-Treg mechanism. |
+
+### ILC3 -> CD4 T Cell / Treg
+
+| Mechanism | ILC subset | Adaptive partner | Tissue / compartment | Species | Perturbation | Main output | Caveat |
+|---|---|---|---|---|---|---|---|
+| [MHCII-linked restraint of commensal-specific CD4 T cells](../sources/2013_innate_lymphoid_cells_regulate_cd4_t_cell_responses_to_intestinal_commensal_bacteria.md) | RORgammat-lineage ILC3-like cells | CD4 T cell | Gut | Mouse, with human mucosal relevance | ILC-lineage MHCII loss | Dysregulated commensal-specific CD4 T-cell responses and intestinal inflammation | Gut tolerance evidence; not lung T-cell regulation. |
+| [Selection of commensal-specific CD4 T cells](../sources/2015_group_3_innate_lymphoid_cells_mediate_intestinal_selection_of_commensal_bacteria_specific_cd4_t_cells.md) | MHCII+ ILC3 | CD4 T cell | Gut / intestine-associated lymphoid tissue | Mouse, with pediatric IBD association | ILC3 MHCII perturbation | Selection or restraint of commensal-specific CD4 T-cell responses | Output is tolerance/selection, not broad T-cell priming. |
+| [Activated peripheral ILC3 antigen presentation](../sources/2014_activated_group_3_innate_lymphoid_cells_promote_t_cell_mediated_immune_responses.md) | Activated NCR- ILC3 | CD4 T cell | Spleen / peripheral lymphoid tissue | Mouse | RORgammat-lineage ILC3 MHCII deletion; antigen-specific T-cell assays | OT-II CD4 T-cell proliferation and T-cell-mediated immune responses | This contrasts with gut tolerogenic ILC3-MHCII outputs and is not lung evidence. |
+| [ILC3-derived IL-2 support](../sources/2019_innate_lymphoid_cells_support_regulatory_t_cells_in_the_intestine_through_interleukin.md) | Intestinal ILC3 | Treg | Gut | Mouse, with human Crohn-associated context | ILC3 / IL-2 axis perturbation in intestinal tolerance systems | Local Treg maintenance and oral tolerance | IL-2 support is gut-context evidence; pulmonary Treg regulation remains untested here. |
+| [Microbiota-specific Treg selection](../sources/2022_ilc3s_select_microbiota_specific_regulatory_t_cells_to_establish_tolerance_in_the_gut.md) | LTi-like MHCII+ ILC3 | RORgammat+ Treg | Gut-draining lymphoid tissue | Mouse, with human IBD context | MHCII, alphaV integrin, and IL-2-competition logic | Selection of microbiota-specific Tregs and restraint of inflammatory Th17 diversion | This is not general Treg expansion; it is microbiota-specific tolerance. |
+| [STING-linked upstream tolerance circuit](../sources/2025_ilc3s_sense_gut_microbiota_through_sting_to_initiate_immune_tolerance.md) | ILC3 | Microbiota-specific Treg | Gut and gut-draining lymphoid tissue | Mouse | ILC3-intrinsic STING perturbation | ILC3 migration and initiation of microbiota-specific immune tolerance | Upstream sensing/migration mechanism; not direct lung adaptive regulation. |
+| [CTLA-4+ regulatory ILC3 branch](../sources/2024_ctla_4_expressing_ilc3s_restrain_interleukin_23_mediated_inflammation.md) | CTLA-4+ ILC3 | Inflammatory T-cell programs | Gut | Mouse, with human IBD-associated mucosal evidence | CTLA-4-linked ILC3 perturbation in IL-23-driven inflammation | Restraint of IL-23-mediated intestinal inflammation | Adaptive-cell effects are inflammatory-context linked and extrapulmonary. |
+
+### ILC3 -> B Cell / Regulatory B Cell
+
+| Mechanism | ILC subset | Adaptive partner | Tissue / compartment | Species | Perturbation | Main output | Caveat |
+|---|---|---|---|---|---|---|---|
+| [CD40L / BAFF / IL-15 regulatory B-cell help](../sources/2018_human_cd40_ligand_expressing_type_3_innate_lymphoid_cells_induce_il_10_producing_immature_transitional_regulator.md) | CD40L+ ILC3 | IL-10+ PD-L1+ immature transitional regulatory B cell | Tonsil and blood | Human | IL-15 activation, ILC3-B-cell coculture, CD40L / BAFF-linked blocking logic | B-cell survival, proliferation, and regulatory B-cell differentiation | Human tonsil/blood evidence; not direct pulmonary compartment causality. |
+| [Activated ILC3 support of T-dependent antibody responses](../sources/2014_activated_group_3_innate_lymphoid_cells_promote_t_cell_mediated_immune_responses.md) | Activated NCR- ILC3 | B cell through T-dependent antibody response | Spleen / peripheral lymphoid tissue | Mouse | ILC3 MHCII deletion in immunization / antigen-presentation assays | Support of T-dependent antibody responses | B-cell output is linked to cognate CD4 T-cell activation rather than isolated direct B-cell help. |
+
 ## Mechanism maps
 
 ### Lung anchor and gut T-cell tolerance
@@ -126,8 +158,8 @@ flowchart TB
     treg_lung -.-> ox40l_tune["OX40L tuning"]
     ox40l_tune -.-> th2
     spleen["Peripheral spleen"] --> act_ilc3["Activated ILC3"]
-    act_ilc3 --> priming["CD4 priming"]
-    priming --> td_bcell["TD B-cell help"]
+    act_ilc3 --> cd4_prolif["CD4 proliferation"]
+    cd4_prolif --> td_bcell["TD antibody response"]
     gut["Gut / LN"] --> ilc3_mhcii["MHCII+ ILC3"]
     ilc3_mhcii --> cd4["CD4 restraint"]
     ilc3_mhcii --> treg_gut["Treg selection"]
@@ -138,7 +170,7 @@ flowchart TB
     classDef adaptive fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
     class lung,gut,spleen tissue
     class pdl1,ilc2,ilc3_mhcii,act_ilc3 ilc
-    class th2_pol,th2,treg_lung,ox40l_tune,cd4,treg_gut,tolerance,priming,td_bcell adaptive
+    class th2_pol,th2,treg_lung,ox40l_tune,cd4,treg_gut,tolerance,cd4_prolif,td_bcell adaptive
 ```
 
 ### B-cell and checkpoint branches
