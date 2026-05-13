@@ -3,6 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
+  document.querySelectorAll("pre.mermaid > code").forEach((code) => {
+    const pre = code.parentElement;
+    pre.textContent = code.textContent;
+  });
+
   window.mermaid.initialize({
     startOnLoad: false,
     securityLevel: "loose",
