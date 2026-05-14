@@ -22,11 +22,11 @@ This topic page organizes mechanisms that regulate `ILC2` function in the curren
 
 This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md).
 
-## Evidence tags
+## Evidence Tags
 
 `#cell/ILC2` `#tissue/lung` `#assay/flow` `#assay/scRNAseq` `#assay/in_vivo` `#assay/in_vitro` `#outcome/airway_hyperresponsiveness` `#outcome/infection` `#outcome/repair` `#axis/ILC_airway_inflammation` `#axis/ILC_lung_infection` `#axis/ILC_plasticity`
 
-## Confidence snapshot
+## Confidence Snapshot
 
 - High confidence:
   epithelial alarmins, especially IL-33 and IL-25, are central organizing signals for many ILC2 lung/asthma models in this source set.
@@ -41,7 +41,7 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - Medium confidence:
   extrapulmonary ILC2 regulatory context includes aryl-hydrocarbon-receptor/AHR and RXRgamma nuclear-receptor restraint, RORalpha developmental lineage boundaries, ADM2 tissue-protective neuroimmune signaling, and tuft-cell IL-17RB control of IL-25 bioavailability; these refine regulatory vocabulary but should stay tissue-labeled.
 
-## Established observations
+## Established Observations
 
 ### Epithelial alarmins and cytokine activation
 
@@ -338,7 +338,7 @@ flowchart TB
     class type17,ilc1like,specialized state
 ```
 
-## Contradiction and supersession
+## Contradiction And Supersession
 
 - Contradiction:
   some pathways activate ILC2s in one context but restrain them in another. For example, neuroimmune inputs include both NMU activation and beta2-adrenergic, dopamine, or PAC1/CGRP inhibitory branches.
@@ -349,7 +349,7 @@ flowchart TB
 - Supersession:
   no single regulatory pathway supersedes the others. The working model is multi-layered and context-specific.
 
-## Open questions
+## Open Questions
 
 - Which regulatory layer is most measurable in the user's data: cytokines, receptor expression, metabolism, neuroimmune genes, or plasticity markers?
 - Does the project have protein-level evidence for ILC2 cytokine output, or only transcript/marker evidence?
@@ -357,7 +357,7 @@ flowchart TB
 - Are neuroimmune signals measured in ILC2s, neurons, epithelial cells, or tissue-level ligand expression?
 - Which regulatory node should be prioritized experimentally: IL-33/ST2, lipid mediators, PD-1, HIF-1alpha/glycolysis, mTORC1, BATF, or GM-CSF?
 
-## Related pages
+## Related Pages
 
 - [ILC2](../entities/ILC2.md)
 - [ILC2 Roles In Pulmonary Disease](./ILC2_roles_in_pulmonary_disease.md)

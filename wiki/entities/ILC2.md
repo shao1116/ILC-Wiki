@@ -16,11 +16,11 @@ This entity page defines group 2 innate lymphoid cells (ILC2s) as they are used 
 
 Use this page when the question is "what is the current source-aware ILC2 model in lung biology?" Then move to disease or regulation topics when you need a narrower branch.
 
-## Evidence tags
+## Evidence Tags
 
 `#entity/cell_type` `#cell/ILC2` `#tissue/lung` `#topic/pulmonary_disease` `#topic/regulation` `#status/working`
 
-## At a glance
+## At A Glance
 
 | Lens | Current take |
 |---|---|
@@ -29,20 +29,26 @@ Use this page when the question is "what is the current source-aware ILC2 model 
 | Strongest regulatory layers | Epithelial alarmins, lipid mediators, neuroimmune signals, stromal niches, interorgan trafficking, adaptive costimulation, interferon brakes, and metabolic/checkpoint programs. |
 | Main caution | `ILC2 activation` is too broad to be a reusable claim; interpretation should preserve tissue compartment, upstream cue, dominant output, and disease readout. |
 
-## How to use this page
+## Beginner Translation
 
-- Start with `Integrated working model` and `Review map` for the fastest orientation.
-- Use `Major biological branches` when the question is disease- or context-specific.
-- Use `Regulatory architecture` when the question is mechanistic.
-- Use `Interpretation guardrails` and `Claim-level confidence boundaries` before lifting claims into figures, digests, or manuscripts.
+For a new ILC reader, the central point is that ILC2s are not simply "innate Th2 cells." That shortcut is useful for remembering IL-5, IL-13, GATA3, IL-33, IL-25, and TSLP, but it misses the biology that makes lung ILC2s interesting: they are tissue-positioned cells whose output changes with epithelial injury, stromal niche cues, viral timing, interferon exposure, lipid mediators, neural signals, and macrophage feedback.
 
-## Integrated working model
+When reading any ILC2 claim, first ask whether the paper is describing allergic amplification, post-viral repair, macrophage or stromal niche remodeling, adaptive T-cell crosstalk, or plasticity toward ILC1-like or IL-17-producing states. Those branches can coexist in the field without being contradictions because they are usually tested in different models, compartments, or time points.
+
+## How To Use This Page
+
+- Start with `Integrated Working Model` and `Review Map` for the fastest orientation.
+- Use `Major Biological Branches` when the question is disease- or context-specific.
+- Use `Regulatory Architecture` when the question is mechanistic.
+- Use `Interpretation Guardrails` and `Claim-Level Confidence Boundaries` before lifting claims into figures, digests, or manuscripts.
+
+## Integrated Working Model
 
 Lung and airway ILC2s are best modeled as tissue-positioned response modules rather than as one fixed type 2 effector population. In one setting they amplify allergic airway disease through IL-5, IL-13, lipid mediators, epithelial alarmins, and memory-like amplification. In another they support epithelial repair, macrophage-niche reprogramming, or tissue homeostasis after respiratory viral injury. Their output is shaped by stromal niches, neuroimmune inputs, metabolism, checkpoint pathways, interferon-mediated brakes, and inflammatory plasticity.
 
 The practical implication is that "ILC2 activation" is not a sufficient biological description. The reusable unit in this wiki is an ILC2 state defined by tissue compartment, upstream cue, dominant output, and disease readout. Selective mouse ILC2-deficiency systems further support the idea that ILC2s can have non-redundant immune functions rather than simply duplicating adaptive Th2 activity, but those findings should still be interpreted within their genetic and tissue-model boundaries ([Non-redundant functions of group 2 innate lymphoid cells](../sources/2022_non_redundant_functions_of_group_2_innate_lymphoid_cells.md)).
 
-## Review map
+## Review Map
 
 ```mermaid
 flowchart TD
@@ -70,7 +76,7 @@ flowchart TD
     class guardrails caution
 ```
 
-## Major biological branches
+## Major Biological Branches
 
 ### Human lung baseline
 
@@ -100,7 +106,7 @@ flowchart TD
 
 - Systemic macrophage crosstalk: elevated IL-33 can expand splenic ILC2s and red pulp macrophages in mice, with ILC2-derived IL-4/IL-13 and GM-CSF supporting RPM proliferation; keep this as spleen/systemic type 2 context rather than lung macrophage causality ([IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages](../sources/2026_il_33_induced_ilc2_effector_cytokine_responses_promote_the_expansion_of_red_pulp_macr.md)).
 
-## Regulatory architecture
+## Regulatory Architecture
 
 ### Activation and amplification layer
 
@@ -139,31 +145,31 @@ flowchart TD
 - Medium-high confidence: ILC2s participate in noncanonical lung contexts including eosinophil feedback, tumor/NK antagonism, obesity-exacerbated allergic airway disease, silicosis-associated fibroblast/mechanics-driven ILC2-to-ILC1-like plasticity, and tissue-imprinted anticipatory states ([Eosinophils promote effector functions of lung group 2 innate lymphoid cells in allergic airway inflammation in mice](../sources/2023_eosinophils_promote_effector_functions_of_lung_group_2_innate_lymphoid_cells_in_aller.md); [ILC2-driven innate immune checkpoint mechanism antagonizes NK cell antimetastatic function in the lung](../sources/2020_ilc2_driven_innate_immune_checkpoint_mechanism_antagonizes_nk_cell_antimetastatic_fun.md); [Innate lymphoid cells contribute to allergic airway disease exacerbation by obesity](../sources/2016_innate_lymphoid_cells_contribute_to_allergic_airway_disease_exacerbation_by_obesity.md); [Mechanics-activated fibroblasts promote pulmonary group 2 innate lymphoid cell plasticity propelling silicosis progression](../sources/2024_mechanics_activated_fibroblasts_promote_pulmonary_group_2_innate_lymphoid_cell_plasti.md); [Tissue signals imprint ILC2 identity with anticipatory function](../sources/2018_tissue_signals_imprint_ilc2_identity_with_anticipatory_function.md)).
 - Medium-high confidence: c-Kit+ CCR6+ ILC2s with ILC3-like IL-17-producing potential should be treated as a boundary-state warning when interpreting IL-17+ ILC populations ([c-Kit-positive ILC2s exhibit an ILC3-like signature that may contribute to IL-17-mediated pathologies](../sources/2019_c_kit_positive_ilc2s_exhibit_an_ilc3_like_signature_that_may_contribute_to_il_17_medi.md)).
 
-## Claim-level confidence boundaries
+## Claim-Level Confidence Boundaries
 
 - `High confidence` is used for ILC2 claims supported by direct lung or airway evidence linking ILC2 identity to cytokine output, repair activity, airway physiology, macrophage imprinting, or spatial niche behavior.
 - `Medium-high confidence` is used for regulatory and plasticity mechanisms that are experimentally supported but still need tighter lower-lung, human, or disease-general mapping.
 - Human nasal, sputum, blood, and lung tissue findings should remain compartment-labeled; they should not be promoted to pan-lung causal claims without matched functional evidence.
 
-## Interpretation guardrails
+## Interpretation Guardrails
 
 ILC2s should be modeled as lung and airway signal integrators rather than a single fixed type 2 effector cell. In one context they drive IL-5/IL-13 allergic pathology and AHR; in another they support epithelial repair, imprint macrophages, become memory-like, acquire ILC1-like features during COPD-associated inflammation, or enter IL-17-producing boundary states. Entity-level claims should always preserve species, tissue compartment, stimulus, timing, and outcome readout.
 
-## Contradiction and supersession
+## Contradiction And Supersession
 
 - Pathogenic and protective ILC2 roles are not contradictions unless they are compared in the same disease model, time point, tissue compartment, and perturbation.
 - COPD-associated ILC2-to-ILC1-like conversion, allergen-experienced memory-like ILC2s, and IL-17-producing ST2+ ILC2s are distinct plasticity branches.
 - Human nasal ILC2-to-IL-17 evidence should not supersede lower-lung or sputum data; keep the tissue label visible. Human sputum intermediate ILC2 evidence should likewise stay compartment-labeled and should not be treated as definitive in vivo lineage tracing.
 - SCF/c-Kit effects on ILC2 should be kept separate from fibroblast SCF/KIT effects on ILC3 unless a source directly compares them.
 
-## Open questions
+## Open Questions
 
 - Which ILC2 regulatory axes are conserved between mouse allergic airway models and human asthma phenotypes?
 - When do viral infections drive protective wound-healing ILC2 states versus pathogenic type 2 inflammation?
 - Are IL-17-producing ST2+ ILC2-like states stable lineages, transient activation states, or mixed-gate artifacts in some settings?
 - Which ILC2 mechanisms are actionable in steroid-resistant, neutrophilic, or mixed-granulocytic asthma?
 
-## Confidence snapshot
+## Confidence Snapshot
 
 - High confidence: human lung tissue contains identifiable ILC2s within the broader CD45+ Lin- CD127+ pulmonary ILC compartment, giving the entity page a direct human lung anchor beyond mouse models ([Characterization and Quantification of Innate Lymphoid Cell Subsets in Human Lung](../sources/2016_characterization_and_quantification_of_innate_lymphoid_cell_subsets_in_human_lung.md)).
 - High confidence: ILC2s can drive airway type 2 pathology and AHR in lung/allergy models through IL-33/IL-13 and lipid-mediator pathways, including functional CysLT1R/LTD4 signaling ([Innate lymphoid cells mediate influenza-induced airway hyper-reactivity independently of adaptive immunity](../sources/2011_innate_lymphoid_cells_mediate_influenza_induced_airway_hyper_reactivity_independently.md); [Lung type 2 innate lymphoid cells express cysteinyl leukotriene receptor 1 which regulates TH2 cytokine production](../sources/2013_lung_type_2_innate_lymphoid_cells_express_cysteinyl_leukotriene_receptor_1_which_regu.md)).
@@ -183,7 +189,7 @@ ILC2s should be modeled as lung and airway signal integrators rather than a sing
 
 - Medium-high confidence: in a mouse systemic/splenic type 2 setting, high IL-33 can activate splenic ILC2s to expand red pulp macrophages through IL-4/IL-13 and GM-CSF; this broadens ILC2-macrophage crosstalk but is not direct lung evidence ([IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages](../sources/2026_il_33_induced_ilc2_effector_cytokine_responses_promote_the_expansion_of_red_pulp_macr.md)).
 
-## Reading routes
+## Reading Routes
 
 - For disease-first reading, go next to [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md).
 - For mechanism-first reading, go next to [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md).
@@ -191,7 +197,7 @@ ILC2s should be modeled as lung and airway signal integrators rather than a sing
 
 - For cross-subset synthesis, go next to [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md).
 
-## Related pages
+## Related Pages
 
 - [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md)
 - [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md)

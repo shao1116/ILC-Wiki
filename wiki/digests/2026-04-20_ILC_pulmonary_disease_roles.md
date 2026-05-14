@@ -18,11 +18,11 @@ This page is a companion page to [Lung ILC Core Evidence Synthesis](./2026-04-22
 
 Use the core evidence page as the main cross-subset synthesis. Use this companion when you want the same biology rearranged by disease context rather than by cell state.
 
-## Evidence tags
+## Evidence Tags
 
 `#tissue/lung` `#cell/ILC1` `#cell/ILC2` `#cell/ILC3` `#digest/companion_page` `#disease/asthma` `#disease/infection` `#disease/ARDS`
 
-## Disease-first map
+## Disease-First Map
 
 ```mermaid
 flowchart TD
@@ -50,7 +50,7 @@ flowchart TD
     class ilc2a,ilc2b,ilc3a,ilc3b,ilc3c cell_class
 ```
 
-## Disease-oriented reading guide
+## Disease-Oriented Reading Guide
 
 | Disease question | Dominant ILC branch | Best next page | Representative anchors |
 |---|---|---|---|
@@ -61,7 +61,7 @@ flowchart TD
 | ARDS-like injury or neutrophilic inflammation | ILC3-linked IL-17A and neutrophil programs | [ILC3 Roles In Pulmonary Disease](../topics/ILC3_roles_in_pulmonary_disease.md) | [Innate Lymphoid Cells Are the Predominant Source of IL-17A during the Early Pathogenesis of Acute Respiratory Distress Syndrome](../sources/2016_innate_lymphoid_cells_are_the_predominant_source_of_il_17a_during_the_early_pathogene.md), [Group 3 innate lymphoid cells secret neutrophil chemoattractants and are insensitive to glucocorticoid via aberrant GR phosphorylation](../sources/2023_group_3_innate_lymphoid_cells_secret_neutrophil_chemoattractants_and_are_insensitive.md) |
 | Smoke-associated, neutrophilic, or steroid-resistant asthma | ILC3 memory-like, SCF/KIT, glucocorticoid-insensitive, and obesity-associated IL-17 branches | [ILC3 Functional Regulation Mechanisms](../topics/ILC3_functional_regulation_mechanisms.md) | [Cigarette smoke aggravates asthma by inducing memory-like type 3 innate lymphoid cells](../sources/2022_cigarette_smoke_aggravates_asthma_by_inducing_memory_like_type_3_innate_lymphoid_cell.md), [Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s](../sources/2025_pulmonary_fibroblast_derived_stem_cell_factor_promotes_neutrophilic_asthma_by_augment.md), [Interleukin-17-producing innate lymphoid cells and the NLRP3 inflammasome facilitate obesity-associated airway hyperreactivity](../sources/2014_interleukin_17_producing_innate_lymphoid_cells_and_the_nlrp3_inflammasome_facilitate.md) |
 
-## Interpretation boundaries
+## Interpretation Boundaries
 
 - Asthma should not be treated as one ILC disease. The wiki separates at least a type 2/eosinophilic ILC2-dominant branch and a neutrophilic/steroid-resistant ILC3-associated branch.
 - Viral lung disease should not be collapsed into one effect. Some ILC2 programs drive airway physiology, whereas others support tissue repair or macrophage-state remodeling.

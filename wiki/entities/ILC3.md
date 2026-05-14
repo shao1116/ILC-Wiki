@@ -16,11 +16,11 @@ This entity page defines group 3 innate lymphoid cells (ILC3s) as they are used 
 
 Use this page when the question is "what is the current source-aware ILC3 model in lung biology?" Then move to disease or regulation topics when you need a narrower branch.
 
-## Evidence tags
+## Evidence Tags
 
 `#entity/cell_type` `#cell/ILC3` `#tissue/lung` `#topic/pulmonary_disease` `#topic/regulation` `#status/working`
 
-## At a glance
+## At A Glance
 
 | Lens                         | Current take                                                                                                                                                           |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -29,14 +29,20 @@ Use this page when the question is "what is the current source-aware ILC3 model 
 | Strongest regulatory layers  | Stromal licensing, cytokine-driven IL-17 programs, glucocorticoid resistance, tissue identity control, and boundary-state taxonomy.                                    |
 | Main caution                 | `ILC3` is not shorthand for either protection or pathology; interpretation depends on mediator, compartment, model, and whether the data are human, mouse, or ex vivo. |
 
-## How to use this page
+## Beginner Translation
 
-- Start with `Integrated working model` and `Review map` for orientation.
-- Use `Major biological branches` for disease or developmental context.
-- Use `Regulatory architecture` for mechanism and identity questions.
-- Use `Interpretation guardrails` before promoting ILC3 claims into broader synthesis or translational framing.
+For a new ILC reader, the central point is that ILC3s are best understood by their output and context, not by a single moral label such as "protective" or "pathogenic." IL-22-producing ILC3 responses can support barrier defense and tissue integrity, whereas IL-17A-, neutrophil-, smoke-, or steroid-resistance-associated programs can align with inflammatory lung disease.
 
-## Confidence snapshot
+The hardest beginner mistake is to treat every IL-17-positive innate lymphoid population as the same cell type. In this wiki, IL-17-producing ILC-like cells are handled cautiously because some sources point to bona fide ILC3 biology, while others point to ILC2/ILC3-like boundary states, sputum compartment findings, or model-specific plasticity.
+
+## How To Use This Page
+
+- Start with `Integrated Working Model` and `Review Map` for orientation.
+- Use `Major Biological Branches` for disease or developmental context.
+- Use `Regulatory Architecture` for mechanism and identity questions.
+- Use `Interpretation Guardrails` before promoting ILC3 claims into broader synthesis or translational framing.
+
+## Confidence Snapshot
 
 - High confidence: human lung tissue contains identifiable ILC3 subsets, including NCR+ and NCR- ILC3 compartments, with inducible IL-17A, IL-22, and GM-CSF potential after stimulation ([Characterization and Quantification of Innate Lymphoid Cell Subsets in Human Lung](../sources/2016_characterization_and_quantification_of_innate_lymphoid_cell_subsets_in_human_lung.md)).
 - High confidence: lung ILC3 biology splits into protective/developmental and inflammatory branches, including IL-22 during Streptococcus pneumoniae infection, fibroblast-derived IGF1 support of neonatal pulmonary ILC3s, and IL-17A-associated ARDS-like injury ([Activation of Type 3 innate lymphoid cells and interleukin 22 secretion in the lungs during Streptococcus pneumoniae infection](../sources/2014_activation_of_type_3_innate_lymphoid_cells_and_interleukin_22_secretion_in_the_lungs.md); [Insulin-like Growth Factor 1 Supports a Pulmonary Niche that Promotes Type 3 Innate Lymphoid Cell Development in Newborn Lungs](../sources/2020_insulin_like_growth_factor_1_supports_a_pulmonary_niche_that_promotes_type_3_innate_lymphoid_cell_development_in.md); [Innate Lymphoid Cells Are the Predominant Source of IL-17A during the Early Pathogenesis of Acute Respiratory Distress Syndrome](../sources/2016_innate_lymphoid_cells_are_the_predominant_source_of_il_17a_during_the_early_pathogene.md)).
@@ -60,13 +66,13 @@ Use this page when the question is "what is the current source-aware ILC3 model 
 - Medium-high confidence: BACH2-PPARgamma and LINGO4-linked pathways add gut ILC3 metabolic/homeostatic guardrails, while pulmonary fungal infection and streptomycin dysbiosis sources add direct lung type 3 infection/inflammation branches ([BACH2 controls ILC3 function via PPARgamma-dependent mitochondrial metabolism](../sources/2026_bach2_controls_ilc3_function_via_ppargamma_dependent_mitochondrial_metabolism.md); [LINGO4 coordinates ILC3-intrinsic IL-22 production and microbiota-mediated ILC3 homeostasis](../sources/2026_lingo4_coordinates_ilc3_intrinsic_il_22_production_and_microbiota_mediated_ilc3_homeostasis.md); [Innate lymphoid cells integrate sensing and plasticity to control fungal infections](../sources/2026_innate_lymphoid_cells_integrate_sensing_and_plasticity_to_control_fungal_infections.md); [Microbial dysbiosis sculpts a systemic ILC3/IL-17 axis governing lung inflammatory responses and central hematopoiesis](../sources/2025_microbial_dysbiosis_sculpts_a_systemic_ilc3_il_17_axis_governing_lung_inflammatory_re.md)).
 - Medium-high confidence: human severe-asthma blood and induced-sputum data support a sex- and compartment-aware ILC3 interpretation, with increased blood ILC3/IL-17+/IL-22+ signals in females with severe asthma and increased sputum RORgammat+ ILC3s in severe asthma; these are clinical association data rather than causal ILC3 proof ([Severe asthma is characterized by a sex-specific ILC landscape and aberrant airway profile that is suppressed by anti-IL-5/5Ralpha biologics](../sources/2025_severe_asthma_is_characterized_by_a_sex_specific_ilc_landscape_and_aberrant_airway_pr.md)).
 
-## Integrated working model
+## Integrated Working Model
 
 The lung ILC3 model in this wiki has three durable branches. The first is a human pulmonary baseline branch: human lung tissue contains identifiable NCR+ and NCR- ILC3-like compartments with inducible IL-17A, IL-22, and GM-CSF potential. The second is a protective/developmental branch, where ILC3s contribute IL-22-mediated antibacterial defense and IGF1-supported neonatal pulmonary niche biology. The third is an inflammatory pathology branch, where IL-17A-, neutrophil-, smoke-, stromal-, and glucocorticoid-resistance-associated programs become central in ARDS-like injury and severe asthma endotypes.
 
 The practical rule is to avoid treating ILC3 as automatically protective or pathogenic. The relevant biological unit is an ILC3-associated output in a defined lung context: IL-22 defense, IL-17A/neutrophilic inflammation, developmental niche support, or a noncanonical mediator branch such as acetylcholine. Around those branches sits an identity-support layer, mostly defined in gut or mucosal sources, in which AHR, WASH, vitamin D, nutrient handling, and ER-stress programs shape how durable or inflammatory an ILC3 state can become.
 
-## Review map
+## Review Map
 
 ```mermaid
 flowchart TD
@@ -92,7 +98,7 @@ flowchart TD
     class guardrails caution
 ```
 
-## Major biological branches
+## Major Biological Branches
 
 ### Human lung baseline
 
@@ -117,7 +123,7 @@ flowchart TD
 - Stromal and noncanonical mediator branch: pulmonary fibroblast-derived SCF/KIT augments ILC3 IL-17A and neutrophilic asthma-like inflammation, while ILC3-derived acetylcholine promotes protease-driven allergic lung pathology in a separate mediator branch ([Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s](../sources/2025_pulmonary_fibroblast_derived_stem_cell_factor_promotes_neutrophilic_asthma_by_augment.md); [ILC3-derived acetylcholine promotes protease-driven allergic lung pathology](../sources/2021_ilc3_derived_acetylcholine_promotes_protease_driven_allergic_lung_pathology.md)).
 - Human airway crosstalk: induced-sputum asthma data associate ILC1/ILC3s with M1-like macrophage polarization and ILC2s with M2-like polarization, helping separate eosinophilic and noneosinophilic asthma branches ([Innate immune crosstalk in asthmatic airways Innate lymphoid cells coordinate polarization of lung macrophages](../sources/2019_innate_immune_crosstalk_in_asthmatic_airways_innate_lymphoid_cells_coordinate_polarization_of_lung_macrophages.md)).
 
-## Regulatory architecture
+## Regulatory Architecture
 
 ### Adaptive-immunity regulation
 
@@ -156,31 +162,31 @@ flowchart TD
 - Medium-high confidence: helper-like ILC lineage and tissue-residency sources support conservative taxonomy for lung ILC3 interpretation: helper-like ILCs are developmentally distinct from conventional NK cells, and tissue ILCs can be resident sentinel populations ([Differentiation of type 1 ILCs from a common progenitor to all helper-like innate lymphoid cell lineages](../sources/2014_differentiation_of_type_1_ilcs_from_a_common_progenitor_to_all_helper_like_innate_lymphoid_cell_lineages.md); [Tissue residency of innate lymphoid cells in lymphoid and nonlymphoid organs](../sources/2015_tissue_residency_of_innate_lymphoid_cells_in_lymphoid_and_nonlymphoid_organs.md)).
 - Medium-high confidence: IL-17-producing ILC-like cells require careful classification because c-Kit+ ILC2s can acquire ILC3-like IL-17-producing features, while SCF/KIT can also regulate bona fide pulmonary ILC3 IL-17A in neutrophilic asthma-like inflammation ([c-Kit-positive ILC2s exhibit an ILC3-like signature that may contribute to IL-17-mediated pathologies](../sources/2019_c_kit_positive_ilc2s_exhibit_an_ilc3_like_signature_that_may_contribute_to_il_17_medi.md); [Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s](../sources/2025_pulmonary_fibroblast_derived_stem_cell_factor_promotes_neutrophilic_asthma_by_augment.md)).
 
-## Claim-level confidence boundaries
+## Claim-Level Confidence Boundaries
 
 - `High confidence` is used for ILC3 claims supported by direct lung, airway, or pulmonary disease evidence linking ILC3 identity to IL-22, IL-17A, GM-CSF, neutrophil-associated inflammation, or developmental niche activity.
 - `Medium-high confidence` is used when a mechanism is supported in lung-relevant models but still needs clearer human causality, compartment mapping, or pathway hierarchy.
 - `Medium confidence` is used for therapeutic framing and broad endotype claims when the biology is coherent but primary intervention evidence remains limited.
 
-## Interpretation guardrails
+## Interpretation Guardrails
 
 ILC3s should be modeled as tissue-niche-responsive IL-22/IL-17-capable innate lymphocytes whose lung roles split into defense/development, acute injury, and neutrophilic or steroid-resistant airway disease branches. Protective IL-22 and pathogenic IL-17/neutrophil-associated programs can coexist in the literature; source interpretation depends on disease model, tissue compartment, cytokine program, and whether evidence is human association, ex vivo function, mouse perturbation, or review-level synthesis.
 
-## Contradiction and supersession
+## Contradiction And Supersession
 
 - IL-22-associated protection and IL-17-associated pathology can coexist in the ILC3 literature; interpretation depends on cytokine, disease model, timing, and tissue compartment.
 - Human sputum, blood, BAL, and lung tissue should not be treated as interchangeable ILC3 compartments.
 - ILC3 smoke/steroid-resistant asthma claims should distinguish primary human association, in vitro glucocorticoid resistance, mouse perturbation, and review-level therapeutic framing.
 - IL-17-producing ST2+ ILC2s should not be collapsed into bona fide ILC3s without marker and lineage context.
 
-## Open questions
+## Open Questions
 
 - Which ILC3 IL-17 pathways are conserved across ARDS, neutrophilic asthma, smoke-associated asthma, and infection?
 - Are memory-like ILC3 states durable in human lung disease, or mostly model-specific?
 - Which stromal niche signals, especially IGF1 and SCF/KIT, are shared between development and adult inflammatory lung disease?
 - How should ILC3-derived acetylcholine be integrated with canonical IL-17/IL-22 disease models?
 
-## Reading routes
+## Reading Routes
 
 - For disease-first reading, go next to [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md).
 - For mechanism-first reading, go next to [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md).
@@ -188,7 +194,7 @@ ILC3s should be modeled as tissue-niche-responsive IL-22/IL-17-capable innate ly
 
 - For cross-subset synthesis, go next to [Lung ILC Core Evidence Synthesis](../digests/2026-04-22_lung_ILC_core_evidence_synthesis.md).
 
-## Related pages
+## Related Pages
 
 - [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md)
 - [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md)

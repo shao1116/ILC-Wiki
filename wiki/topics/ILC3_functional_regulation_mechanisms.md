@@ -24,11 +24,11 @@ This topic page organizes mechanisms that regulate `ILC3` function in the curren
 
 For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md).
 
-## Evidence tags
+## Evidence Tags
 
 `#cell/ILC3` `#tissue/lung` `#tissue/gut` `#assay/flow` `#assay/RNAseq` `#assay/scRNAseq` `#assay/in_vivo` `#assay/in_vitro` `#outcome/infection` `#outcome/inflammation` `#outcome/airway_hyperresponsiveness` `#axis/ILC_lung_homeostasis` `#axis/ILC_airway_inflammation` `#axis/ILC_plasticity`
 
-## Confidence snapshot
+## Confidence Snapshot
 
 - High confidence:
   IL-1beta, IL-23, RORgammat-associated identity, IL-22, and IL-17A are central organizing concepts for ILC3 regulation in the source set.
@@ -51,7 +51,7 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 - Low confidence:
   many detailed ILC3 regulatory mechanisms come from gut or mucosal sources and require explicit tissue labels before being applied to lung.
 
-## Established observations
+## Established Observations
 
 ### Cytokine activation and effector output
 
@@ -277,7 +277,7 @@ flowchart TB
     class boundary,bona,ilc2like,mixed warn
 ```
 
-## Contradiction and supersession
+## Contradiction And Supersession
 
 - Contradiction:
   IL-23/IL-1beta pathways can support protective mucosal responses but can also drive neutrophilic inflammation and steroid-resistant asthma.
@@ -288,7 +288,7 @@ flowchart TB
 - Supersession:
   no current source supersedes the full ILC3 regulatory map. The correct approach is to annotate mechanism by tissue, species, and outcome.
 
-## Open questions
+## Open Questions
 
 - Which ILC3 regulatory mechanism is most relevant to the user's lung dataset: IL-23/IL-1beta, SCF/KIT, IGF1, AHR, RORgammat, vitamin D, STING, or glucocorticoid resistance?
 - Are ILC3 outputs measured as cytokine transcripts, intracellular cytokine staining, secreted protein, or downstream neutrophil recruitment?
@@ -296,7 +296,7 @@ flowchart TB
 - Does the project have stromal, epithelial, or macrophage ligand data that could explain ILC3 activation?
 - Is the disease model eosinophilic, neutrophilic, mixed, infection-driven, or injury-driven?
 
-## Related pages
+## Related Pages
 
 - [ILC3](../entities/ILC3.md)
 - [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulmonary_disease.md)

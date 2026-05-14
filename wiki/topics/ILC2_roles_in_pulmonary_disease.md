@@ -19,11 +19,11 @@ This topic page describes how `ILC2s` are represented in the current `ILC_in_lun
 
 This page expands the disease branch of [ILC2](../entities/ILC2.md). Use the entity page for the canonical cell-level model, then use this topic when the question is specifically about disease context and pathology.
 
-## Evidence tags
+## Evidence Tags
 
 `#cell/ILC2` `#tissue/lung` `#outcome/airway_hyperresponsiveness` `#outcome/infection` `#outcome/repair` `#outcome/inflammation` `#axis/ILC_lung_infection` `#axis/ILC_airway_inflammation` `#axis/ILC_plasticity`
 
-## Confidence snapshot
+## Confidence Snapshot
 
 - High confidence:
   the local source set supports ILC2s as major contributors to type 2 airway inflammation, allergic asthma-like responses, and airway hyperresponsiveness.
@@ -36,7 +36,7 @@ This page expands the disease branch of [ILC2](../entities/ILC2.md). Use the ent
 - Low confidence:
   the exact equivalence between mouse lung ILC2 states and human asthma or nasal-polyp ILC2 states remains unresolved in this wiki.
 
-## Established observations
+## Established Observations
 
 ### Asthma and allergic airway inflammation
 
@@ -146,7 +146,7 @@ flowchart TD
     class asthma,virus,niche disease
 ```
 
-## Contradiction and supersession
+## Contradiction And Supersession
 
 - Contradiction:
   ILC2s can worsen airway inflammation in asthma models but support repair after viral injury. These are context-specific roles, not mutually exclusive claims.
@@ -157,7 +157,7 @@ flowchart TD
 - Supersession:
   no current source supersedes the full ILC2 disease model. The working strategy is to partition by disease, species, model, and timepoint.
 
-## Open questions
+## Open Questions
 
 - Which ILC2 disease branch is most relevant to the user's current project: allergic asthma, respiratory virus infection, repair, or macrophage/niche reprogramming?
 - In the project data, are ILC2s measured by flow phenotype, scRNA-seq cluster, cytokine protein, or inferred marker score?
@@ -165,7 +165,7 @@ flowchart TD
 - Does the local dataset distinguish resident lung ILC2s from recruited or tissue-conditioned ILC2s?
 - Which disease endpoint matters most: AHR, mucus, eosinophilia, neutrophilia, epithelial repair, macrophage state, or tissue damage?
 
-## Related pages
+## Related Pages
 
 - [ILC2](../entities/ILC2.md)
 - [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)

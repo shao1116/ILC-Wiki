@@ -28,11 +28,17 @@ This digest provides a biology-first map of the strongest source-linked evidence
 
 The digest is designed as a reusable orientation page: a reader should be able to understand the main lung ILC claims without needing to know the project history behind each source note. Project history remains traceable through project-note and log pages.
 
-## Evidence tags
+## Evidence Tags
 
 `#digest/core_evidence` `#tissue/lung` `#tissue/airway` `#cell/ILC2` `#cell/ILC3` `#cell/ILC1` `#cell/fibroblast` `#cell/eosinophil` `#cell/macrophage` `#disease/asthma` `#disease/infection` `#disease/ARDS` `#disease/COPD` `#axis/ILC_lung_infection` `#axis/ILC_airway_inflammation` `#axis/ILC_plasticity` `#axis/ILC_regulation` `#axis/human_lung_ILC`
 
-## Working model
+## For New Readers
+
+Use this digest as a map of concepts, not as a shortcut around the source notes. The most important pattern is that lung ILC biology is state- and context-dependent. An ILC2 or ILC3 claim becomes scientifically useful only after the tissue compartment, species, stimulus, assay, and disease readout are named.
+
+If you are preparing slides or manuscript text, avoid writing that "ILC2s are pathogenic" or "ILC3s are protective." A stronger and more accurate sentence usually names the branch: IL-33-activated ILC2s can amplify type 2 inflammation, influenza-associated ILCs can support amphiregulin-linked repair, lung ILC3s can produce IL-22 during pneumococcal infection, and ILC3-related IL-17/neutrophil programs can contribute to inflammatory asthma or injury contexts.
+
+## Working Model
 
 The current focused evidence supports a lung ILC model organized around context, not around a single fixed function. ILC2s and ILC3s act as tissue-sensitive immune modules whose outputs depend on disease setting, tissue compartment, stimulus, timing, and regulatory niche.
 
@@ -70,7 +76,7 @@ flowchart TB
     class allergic,viral,regulation,plasticity,defense,injury,stromal,caution branch
 ```
 
-## Core claims
+## Core Claims
 
 - Lung ILC2s can drive airway hyperreactivity through innate, non-adaptive pathways, especially in IL-33/IL-13-linked respiratory viral or allergic contexts.
 - Lung ILC2s can also support repair and niche remodeling, including amphiregulin-linked epithelial repair and GM-CSF-dependent monocyte-derived alveolar macrophage imprinting in infection-conditioned settings.
@@ -104,7 +110,7 @@ flowchart TB
 
 - ILC plasticity is not a side issue: ILC2-to-ILC1-like conversion, memory-like ILC2s, IL-17-producing ST2+ ILC2s, c-Kit+ ILC2/ILC3-like states, severe-asthma sputum intermediate ILC2s, and memory-like ILC3s all shape interpretation.
 
-## Evidence layers
+## Evidence Layers
 
 | Evidence layer | What it supports | Main caution |
 |---|---|---|
@@ -114,7 +120,7 @@ flowchart TB
 | Human nasal airway or polyp systems | Useful airway plasticity comparator | Should not be treated as lower-lung proof |
 | Reviews and pathway syntheses | Field-level framing and therapeutic hypotheses | Need primary-source support before upgrading mechanistic confidence |
 
-## Contradictions to track
+## Contradictions To Track
 
 - ILC2s can be pathogenic, reparative, or niche-modifying depending on virus, allergen, timing, mediator output, and outcome readout.
 - ILC3 IL-22-associated defense and ILC3 IL-17A-associated pathology should not be collapsed into one "ILC3 protective" or "ILC3 pathogenic" model.
@@ -123,7 +129,7 @@ flowchart TB
 - IL-17-producing ILC-like states may reflect bona fide ILC3s, ILC2-derived boundary states, or mixed gating contexts. Marker, lineage, and tissue labels are essential.
 - Human severe-asthma blood and sputum also require sex and compartment labels: female blood ILC/ILCP, ILC1, and ILC3 signals can diverge from male patterns, while airway ILC2 abundance relates more directly to lung function than blood ILC2 abundance ([Severe asthma is characterized by a sex-specific ILC landscape and aberrant airway profile that is suppressed by anti-IL-5/5Ralpha biologics](../sources/2025_severe_asthma_is_characterized_by_a_sex_specific_ilc_landscape_and_aberrant_airway_pr.md)).
 
-## How to use this digest
+## How To Use This Digest
 
 Use this page as the first evidence synthesis layer after the homepage. For cell-specific detail, go to [ILC2](../entities/ILC2.md) or [ILC3](../entities/ILC3.md). For question-specific detail, go to [ILC2 roles in pulmonary disease](../topics/ILC2_roles_in_pulmonary_disease.md), [ILC3 roles in pulmonary disease](../topics/ILC3_roles_in_pulmonary_disease.md), [ILC2 functional regulation mechanisms](../topics/ILC2_functional_regulation_mechanisms.md), or [ILC3 functional regulation mechanisms](../topics/ILC3_functional_regulation_mechanisms.md). For a disease-first rearrangement of the same cross-subset material, use [Lung ILC Disease Roles Companion](./2026-04-20_ILC_pulmonary_disease_roles.md).
 

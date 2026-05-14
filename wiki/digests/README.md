@@ -13,3 +13,5 @@ Digest pages should hold cross-source synthesis after manual review. In the curr
 The core digest remains the main cross-subset synthesis page. The former `ILC2 Working Model` and `ILC3 Working Model` pages have been retired and merged into the entity hubs.
 
 Digest pages should cite representative sources for each claim rather than duplicate the full source library. Use the [reference coverage notes](../audit/2026-04-20_reference_coverage_audit.md) to check which references provide direct topic support, entity background, review context, extrapulmonary mechanism context, or future reading priorities.
+
+For new readers, start with the field-history digest, then the core evidence digest, and only then the disease-first companion. That order makes it easier to see why the same ILC subset can appear reparative in one paper and inflammatory in another without treating the literature as internally inconsistent.

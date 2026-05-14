@@ -1,12 +1,12 @@
 # ILC In Lung Wiki
 
-Last updated: 2026-05-13
+Last updated: 2026-05-14
 
 ## Welcome
 
 I am Jheng-Syuan Shao, a researcher studying innate lymphoid cells (ILCs), with a particular focus on how ILCs shape pulmonary disease. I created this LLM-assisted wiki to help myself and readers who are curious about the ILC field quickly grasp the major conceptual threads, important mechanisms, and key papers that organize current thinking. The wiki is built from research articles that I find important, useful, or especially interesting, and it is structured as a source-aware knowledge map rather than a complete textbook or systematic review. This is a living document that will evolve as new literature and interpretation are added over time.
 
-This homepage is designed as a starting point for browsing. Start with the overview, field history, and core evidence synthesis, then move into cell-specific entity pages, disease topics, regulatory mechanism maps, and source notes when you need traceability.
+This homepage is designed as a starting point for browsing, especially for young immunologists entering the ILC field. Start with the overview, field history, and core evidence synthesis, then move into cell-specific entity pages, disease topics, regulatory mechanism maps, and source notes when you need traceability.
 
 ## Start Here
 
@@ -18,6 +18,12 @@ This homepage is designed as a starting point for browsing. Start with the overv
 | Work by cell type | [ILC2](./entities/ILC2.md) / [ILC3](./entities/ILC3.md) |
 | Compare regulatory mechanisms | [ILC2 Regulation](./topics/ILC2_functional_regulation_mechanisms.md) / [ILC3 Regulation](./topics/ILC3_functional_regulation_mechanisms.md) |
 | Trace references | [Reference Library](./sources/source_index.md) |
+
+## How To Read This Wiki
+
+Read each claim as a source-linked learning note rather than as a textbook statement. A good first pass is to ask four questions: which ILC subset is being discussed, which tissue or airway compartment was sampled, whether the evidence is mouse perturbation, human association, ex vivo stimulation, or review-level framing, and whether the outcome is cytokine production, cell abundance, tissue repair, airway physiology, or disease severity.
+
+The most useful habit for beginners is to keep protective and pathogenic ILC functions in the same mental model. ILC2s and ILC3s can support barrier defense, tissue repair, inflammatory amplification, or immune regulation depending on timing, stimulus, and tissue niche. The wiki therefore emphasizes context labels rather than single-sentence definitions.
 
 ## Core Knowledge Map
 
@@ -87,6 +93,7 @@ The sections below preserve reference structure and project notes. Most readers 
 <details>
 <summary><strong>Project Notes</strong></summary>
 <ul>
+  <li><a href="./audit/2026-05-14_beginner_editorial_polish_source_check/">Beginner Editorial Polish And Source Check</a></li>
   <li><a href="./audit/2026-04-22_topic_entity_integration_audit/">Topic And Entity Integration Notes</a></li>
   <li><a href="./audit/2026-04-23_focused_manual_crystallization_ILC2_niche_interferon_type2/">ILC2 Niche And Interferon Notes</a></li>
   <li><a href="./audit/2026-04-30_focused_manual_ingest_batch6/">Source Review Notes 6</a></li>

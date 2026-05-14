@@ -1,5 +1,14 @@
 # Wiki Log
 
+## 2026-05-14
+
+- Completed a beginner-facing editorial polish pass for the reader-facing LLM wiki.
+- Updated the homepage, main beginner guide, ILC2 and ILC3 entity hubs, core evidence digest, and README navigation to better support young immunologists entering the ILC field.
+- Standardized reader-facing headings across topic, entity, and digest pages to match the wiki naming guide.
+- Fixed the private reference-library link on `index.md`.
+- Spot-checked core beginner-facing claims against representative source notes before revising language, preserving species, compartment, assay, and claim-confidence boundaries.
+- Added audit record `audit/2026-05-14_beginner_editorial_polish_source_check.md`.
+
 ## 2026-05-13
 
 - Added evidence matrices to `ILC2 Functional Regulation Mechanisms` and `ILC3 Functional Regulation Mechanisms` with explicit mechanism, ILC subset, tissue, species, perturbation, output, and caveat columns.

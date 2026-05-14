@@ -20,11 +20,11 @@ This topic page describes how `ILC3s` are represented in the current `ILC_in_lun
 
 This page expands the disease branch of [ILC3](../entities/ILC3.md). Use the entity page for the canonical cell-level model, then use this topic when the question is specifically about disease context and pathology.
 
-## Evidence tags
+## Evidence Tags
 
 `#cell/ILC3` `#tissue/lung` `#tissue/gut` `#outcome/infection` `#outcome/homeostasis` `#outcome/inflammation` `#outcome/airway_hyperresponsiveness` `#axis/ILC_lung_homeostasis` `#axis/ILC_airway_inflammation` `#axis/ILC_plasticity`
 
-## Confidence snapshot
+## Confidence Snapshot
 
 - High confidence:
   the local source set supports lung ILC3 roles in bacterial IL-22 host defense and neonatal pulmonary niche biology.
@@ -37,7 +37,7 @@ This page expands the disease branch of [ILC3](../entities/ILC3.md). Use the ent
 - Low confidence:
   extrapolating gut ILC3 regulatory programs into lung disease should remain hypothesis-level unless pulmonary evidence is present.
 
-## Established observations
+## Established Observations
 
 ### Bacterial infection and mucosal defense
 
@@ -129,7 +129,7 @@ flowchart TD
     class bacteria,newborn,ards,asthma,allergy disease
 ```
 
-## Contradiction and supersession
+## Contradiction And Supersession
 
 - Contradiction:
   ILC3s can be protective in bacterial host defense but pathogenic in IL-17A/neutrophil-rich airway disease.
@@ -140,7 +140,7 @@ flowchart TD
 - Supersession:
   no current source supersedes the overall ILC3 disease model. The model should be partitioned by mediator, tissue, disease model, and species.
 
-## Open questions
+## Open Questions
 
 - In the user's project, are ILC3s measured in lung tissue, BAL, sputum, peripheral blood, or scRNA-seq clusters?
 - Are the relevant ILC3s IL-22-dominant, IL-17A-dominant, or mixed?
@@ -148,7 +148,7 @@ flowchart TD
 - Are ILC3-like signals actually stable ILC3s, plastic ILC2s, Th17 cells, gamma-delta T cells, or mixed innate-like lymphocyte populations?
 - Which markers are available to distinguish ILC3s from NK cells, ILC1s, Th17 cells, and ILC2-like plastic states?
 
-## Related pages
+## Related Pages
 
 - [ILC3](../entities/ILC3.md)
 - [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)

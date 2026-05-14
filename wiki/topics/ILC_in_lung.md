@@ -23,6 +23,12 @@ The wiki emphasizes `ILC2` and `ILC3` biology in pulmonary inflammation, respira
 
 `#guide/beginner` `#axis/ILC_lung_homeostasis` `#axis/ILC_lung_infection` `#axis/ILC_airway_inflammation` `#axis/ILC_plasticity` `#tissue/lung` `#cell/ILC2` `#cell/ILC3` `#cell/ILC1`
 
+## Reader Contract
+
+This page is written for a reader who may already know T cells, epithelial cytokines, asthma, or mucosal immunology, but is new to ILCs. It deliberately separates "what the paper showed" from "how the field interprets it." When a statement is reused for a presentation or manuscript, follow the cited source note back to species, tissue, compartment, assay, perturbation, and confidence level.
+
+For learning, the safest sequence is: identify the subset, identify the tissue compartment, identify the stimulus, identify the effector output, and only then decide whether the ILC state looks protective, pathogenic, regulatory, or ambiguous.
+
 ## Beginner Mental Model
 
 For a first pass, think of lung ILCs as tissue-positioned immune response modules. They do not use antigen-specific receptors like T cells and B cells, but they can rapidly sense epithelial, stromal, microbial, metabolic, and neural cues. Their output depends on subset, tissue compartment, activation state, disease trigger, and timing.
@@ -143,6 +149,7 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 - The local source library currently contains 153 processed references, with 153 source notes carrying model-context evidence summaries and 0 retained as initial catalog notes.
 - Source notes are the preferred evidence layer for reusable biological claims because they preserve model context, assay directness, and caveats.
 - Claims should still be checked against the cited source before being reused in manuscripts, figures, or grant text, especially when extrapolating from mouse, gut, blood, nasal airway, sputum, or review-level evidence to lung disease.
+- The 2026-05-14 editorial pass spot-checked core beginner-facing claims against representative source notes; see [Beginner Editorial Polish And Source Check](../audit/2026-05-14_beginner_editorial_polish_source_check.md).
 
 ## Related Pages
 
@@ -155,3 +162,4 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 - [Lung ILC Disease Roles Companion](../digests/2026-04-20_ILC_pulmonary_disease_roles.md)
 - [ILC Research Trend From Then To Now](../digests/2026-04-20_ILC_research_trend_then_to_now.md)
 - [Reference Coverage Notes](../audit/2026-04-20_reference_coverage_audit.md)
+- [Beginner Editorial Polish And Source Check](../audit/2026-05-14_beginner_editorial_polish_source_check.md)

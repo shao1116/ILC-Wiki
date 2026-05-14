@@ -20,11 +20,11 @@ This topic page organizes evidence that innate lymphoid cells regulate adaptive 
 
 Use this page when the question is "how can ILCs shape adaptive immune responses?" For lung disease claims, prioritize lung or airway sources and keep extrapulmonary mechanisms as context until pulmonary evidence is available.
 
-## Evidence tags
+## Evidence Tags
 
 `#cell/ILC2` `#cell/ILC3` `#cell/T_cell` `#cell/B_cell` `#cell/Treg` `#tissue/lung` `#tissue/gut` `#tissue/tonsil` `#axis/adaptive_immunity` `#axis/ILC_regulation`
 
-## Confidence snapshot
+## Confidence Snapshot
 
 - High confidence:
   mouse lung ILC2s can use IL-33-induced OX40L to license local Th2 and Treg expansion during type 2 inflammation ([Tissue-Restricted Adaptive Type 2 Immunity Is Orchestrated by Expression of the Costimulatory Molecule OX40L on Group 2 Innate Lymphoid Cells](../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on.md)).
@@ -55,7 +55,7 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
 - Low confidence:
   direct lung ILC3 regulation of T cells, Tregs, or B cells remains underdeveloped in the current source library.
 
-## Established observations
+## Established Observations
 
 ### Lung ILC2 costimulation
 
@@ -141,7 +141,7 @@ These tables separate the adaptive partners and tissue contexts. They are intend
 | [CD40L / BAFF / IL-15 regulatory B-cell help](../sources/2018_human_cd40_ligand_expressing_type_3_innate_lymphoid_cells_induce_il_10_producing_immature_transitional_regulator.md) | CD40L+ ILC3 | IL-10+ PD-L1+ immature transitional regulatory B cell | Tonsil and blood | Human | IL-15 activation, ILC3-B-cell coculture, CD40L / BAFF-linked blocking logic | B-cell survival, proliferation, and regulatory B-cell differentiation | Human tonsil/blood evidence; not direct pulmonary compartment causality. |
 | [Activated ILC3 support of T-dependent antibody responses](../sources/2014_activated_group_3_innate_lymphoid_cells_promote_t_cell_mediated_immune_responses.md) | Activated NCR- ILC3 | B cell through T-dependent antibody response | Spleen / peripheral lymphoid tissue | Mouse | ILC3 MHCII deletion in immunization / antigen-presentation assays | Support of T-dependent antibody responses | B-cell output is linked to cognate CD4 T-cell activation rather than isolated direct B-cell help. |
 
-## Mechanism maps
+## Mechanism Maps
 
 ### Lung anchor and gut T-cell tolerance
 
@@ -202,14 +202,14 @@ ILC regulation of adaptive immunity should be modeled as a set of tissue-specifi
 
 The practical rule is to keep lung-direct evidence and extrapulmonary mechanism evidence in separate mental bins. Gut ILC3 tolerance biology is highly informative for how ILCs can shape adaptive immunity, but it should be cited as gut/mucosal context until matching lung, BAL, sputum, bronchial biopsy, or pulmonary lymph-node evidence is available.
 
-## Claim-level confidence boundaries
+## Claim-Level Confidence Boundaries
 
 - `High confidence` is used when the source directly tests an ILC-adaptive cell interaction in its stated tissue/model.
 - `Medium-high confidence` is used when human ex vivo, tissue-localization, or disease-association data support the axis but do not establish lung causality.
 - `Medium confidence` is used for review-level framing or cross-source synthesis.
 - `Low confidence` is used for direct pulmonary extrapolation from gut, tonsil, blood, or review-only evidence.
 
-## Related pages
+## Related Pages
 
 - [ILC2](../entities/ILC2.md)
 - [ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md)
