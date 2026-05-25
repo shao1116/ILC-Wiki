@@ -162,3 +162,8 @@
 - 2026-05-11: Deep-reviewed three newly added RAW PDFs. Added activated peripheral/splenic ILC3 antigen-presentation context for adaptive immunity, gut eosinophil/PGE2/EP4 regulation of ILC3 IL-22, and systemic/splenic IL-33-ILC2 red pulp macrophage crosstalk while preserving non-lung evidence boundaries.
 
 - 2026-05-13: Audited reader-facing claims and mechanism diagrams against the recently reviewed ILC2/ILC3 sources. Corrected ILC2 RPM diagram logic, refined the CGRP/PAC1 and ILC3 PGE2/EP4 diagram labels, tightened activated ILC3 adaptive-immunity wording, and replaced remaining reader-facing curation vocabulary with evidence-facing wording. Added `audit/2026-05-13_reader_facing_claim_and_diagram_audit.md`.
+
+- 2026-05-25: Ingested 1 new PDF files from `ILC_in_lung/RAW/`; created source pages and extracted text files, moved processed PDFs into `RAW/processed/`, and kept these as provisional knowledge-oriented source notes without promoting durable topic/entity/digest claims.
+  - Interleukin-4-producing type 2 innate lymphoid cells in the lymph node promote proallergic Tfh13 cell differentiation
+
+- 2026-05-25: Deep-ingested the new Tfh13/lymph-node ILC2 paper and re-reviewed the duplicate `Tissue signals imprint ILC2 identity with anticipatory function` PDF. Upgraded both source pages to source-reviewed evidence notes, moved the byte-identical duplicate PDF into `RAW/processed/`, corrected tissue-imprinting claims to mouse experimental evidence, and updated ILC2 entity, ILC2 disease/regulation topics, adaptive-immunity topic, and core evidence synthesis with compartment-labeled ILC2-IL-4-Tfh13 and tissue-imprinting claims.

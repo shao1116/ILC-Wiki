@@ -70,8 +70,10 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - [Tissue-Restricted Adaptive Type 2 Immunity Is Orchestrated by Expression of the Costimulatory Molecule OX40L on Group 2 Innate Lymphoid Cells](../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on.md) supports OX40L as a costimulatory ILC2-linked regulator of adaptive type 2 immunity.
 - [ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md) adds an ILC2-to-Th2 checkpoint branch in which IL-33/ST2-activated pulmonary ILC2s use PD-L1:PD-1 contact to promote CD4 T-cell GATA3 and IL-13 in mouse helminth-associated type 2 immunity.
 - [Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md) refines OX40L regulation by showing that ILC2s support Gata3high Treg accumulation, and that these Tregs feed back to tune OX40L bioavailability on ILC2s and restrain effector-memory Th2 expansion.
+- [Interleukin-4-producing type 2 innate lymphoid cells in the lymph node promote proallergic Tfh13 cell differentiation](../sources/2026_interleukin_4_producing_type_2_innate_lymphoid_cells_in_the_lymph_node_promote_proall.md) adds a draining-lymph-node branch in which CCR8-guided ILC2 trafficking and ILC2-derived IL-4 support Tfh13 differentiation, high-affinity IgE, and anaphylaxis-associated outputs after airway allergen sensitization in mice.
 
 - In the adaptive-immunity map, lung-direct ILC2 evidence now separates PD-L1-to-Th2 polarization, OX40L-to-Th2/Treg licensing, and Gata3high Treg feedback; see [ILC Regulation Of Adaptive Immunity](./ILC_regulation_of_adaptive_immunity.md).
+- The Tfh13 branch should be kept as lymph-node adaptive-immunity evidence, not as a direct lung-parenchymal ILC2 output.
 - Gut ILC2-derived IL-10 adds a regulatory cytokine branch distinct from lung OX40L costimulation; it is useful for ILC2 state diversity but should remain gut-labeled ([ILC2s are the predominant source of intestinal ILC-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md)).
 
 - [The Role of the TL1ADR3 Axis in the Activation of Group 2 Innate Lymphoid Cells in Subjects with Eosinophilic Asthma](../sources/2020_the_role_of_the_tl1a_dr3_axis_in_the_activation_of_group_2_innate_lymphoid_cells_in_subjects_with_eosinophilic_a.md) supports TL1A/DR3 as a human eosinophilic-asthma-linked ILC2 activation axis.
@@ -118,7 +120,7 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - [Eosinophils promote effector functions of lung group 2 innate lymphoid cells in allergic airway inflammation in mice](../sources/2023_eosinophils_promote_effector_functions_of_lung_group_2_innate_lymphoid_cells_in_aller.md) supports eosinophils as positive feedback partners that can augment lung ILC2 effector function in allergic airway inflammation.
 
 - [IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages](../sources/2026_il_33_induced_ilc2_effector_cytokine_responses_promote_the_expansion_of_red_pulp_macr.md) broadens cellular-feedback regulation to a spleen/systemic macrophage compartment: short-term high IL-33 activates ILC2s, and IL-4Ralpha plus GM-CSF receptor pathways support red pulp macrophage expansion.
-- [Tissue signals imprint ILC2 identity with anticipatory function](../sources/2018_tissue_signals_imprint_ilc2_identity_with_anticipatory_function.md) supports the broader principle that local tissue cues can imprint ILC2 identity and prepare context-specific effector capacity.
+- [Tissue signals imprint ILC2 identity with anticipatory function](../sources/2018_tissue_signals_imprint_ilc2_identity_with_anticipatory_function.md) supports the broader principle that mouse lung, gut, skin, fat, and bone-marrow ILC2s carry tissue-organized receptor and transcriptional programs; this should be used as tissue-boundary evidence rather than direct asthma causality.
 
 ### Infection-conditioned reprogramming
 
@@ -159,6 +161,7 @@ This matrix links the regulation map to source-bounded evidence. `Perturbation` 
 | [OX40L-OX40 adaptive co-stimulation](../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on.md) | ILC2 | Lung and adipose tissue | Mouse | Helminth infection and allergen-induced type 2 inflammation | ILC2-targeted OX40L loss | Local Th2 and Treg expansion during type 2 immunity | Strong mouse genetic evidence; human chronic-airway relevance remains inferential. |
 | [PD-L1-PD-1 Th2 licensing](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md) | ILC2 | Lung during helminth-linked type 2 immunity | Mouse | N. brasiliensis primary infection / type 2 immunity | ILC-lineage Cd274 deletion and adoptive-transfer logic | CD4 T-cell GATA3, IL-5/IL-13, eosinophil recruitment, worm expulsion | PD-1/PD-L1 can also restrain ILC2s in other settings, so the direction is context specific. |
 | [CCL1-CCR8 and OX40L-OX40 support for Gata3high Tregs](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md) | ILC2 and Gata3high Treg cross-talk | Lung and mediastinal lymph node | Mouse | IL-33-driven and allergen-induced lung type 2 inflammation | Ccr8 deficiency, Treg-intrinsic OX40 deletion, anti-OX40L, ILC2 perturbation | Gata3high Treg accumulation and restraint of effector-memory Th2 responses | This is a local feedback circuit, not a claim that all Tregs are ILC2 dependent. |
+| [CCR8-guided lymph-node ILC2 IL-4 support of Tfh13](../sources/2026_interleukin_4_producing_type_2_innate_lymphoid_cells_in_the_lymph_node_promote_proall.md) | Activated lymph-node ILC2 | Lung-draining lymph node after airway allergen exposure | Mouse | Allergic sensitization, pathogenic IgE, anaphylaxis-associated outputs | ILC2-depletion models, ILC2-restricted IL-4 loss, T-cell IL-4Ralpha deletion, IL-4 rescue, CCR8 perturbation | Tfh13 differentiation and high-affinity IgE-linked allergic output | Draining-lymph-node adaptive branch; not direct human lung tissue evidence. |
 | [TLR9-interferon-STAT1 brake](../sources/2019_toll_like_receptor_9_dependent_interferon_production_prevents_group_2_innate_lymphoid.md) | ILC2 | Lung / airway | Mouse, with humanized or ex vivo support | Allergic airway hyperreactivity / asthma-like inflammation | TLR9 activation and IFN-gamma / STAT1-linked perturbation | Reduced ILC2-driven airway hyperreactivity and type 2 cytokine activity | Whole-immune TLR9 effects should be separated from direct ILC2-intrinsic interferon signaling. |
 | [NMU-NMUR1 neuroimmune activation](../sources/2017_the_neuropeptide_nmu_amplifies_ilc2_driven_allergic_lung_inflammation.md) | ILC2 | Lung / airway | Mouse | Allergic lung inflammation | NMU stimulation and NMUR1-axis perturbation | Amplified ILC2 cytokine responses and allergic airway inflammation | This is an activating neuropeptide axis and should not be conflated with CGRP-PAC1 restraint. |
 | [PAC1-CGRP inhibitory neuroimmune signaling](../sources/2024_pac1_constrains_type_2_inflammation_through_promotion_of_cgrp_signaling_in_ilc2s.md) | ILC2 | Lung / airway; circulating ILC2 association | Mouse; human association | Allergic airway inflammation / type 2 inflammation | ILC2-intrinsic PAC1 deficiency and CGRP stimulation | CGRP-responsive gene program, reduced ILC2 proliferation and IL-13, constrained allergic inflammation | Human evidence is mainly association; the causal perturbation evidence is mouse. |
@@ -166,6 +169,7 @@ This matrix links the regulation map to source-bounded evidence. `Perturbation` 
 | [HIF-1alpha-glycolysis metabolic support](../sources/2025_blocking_the_hif_1alpha_glycolysis_axis_inhibits_allergic_airway_inflammation_by_reducing_ilc2_metabolism_and_fu.md) | ILC2 | Lung / allergic airway | Mouse | Allergic airway inflammation | Conditional HIF-1alpha deficiency or pathway blockade | Reduced ILC2 metabolism, function, and allergic airway inflammation | Metabolic inhibition can affect multiple cell types depending on delivery strategy. |
 | [IL-1beta / IL-18-driven IL-17A-skewed ILC2 state](../sources/2025_a_population_of_c_kit_il_17a_ilc2s_in_sputum_from_individuals_with_severe_asthma_supp.md) | c-kit+ IL-17A+ ILC2-like cells | Sputum; in vitro human ILC2 culture | Human | Severe asthma, especially mixed granulocytic inflammation | IL-1beta and IL-18 stimulation of sorted ILC2s | c-kit and IL-17A induction; association with mixed granulocytic severe asthma | Sputum and in vitro evidence do not prove in vivo lineage conversion. |
 | [IL-33-induced ILC2 support of red pulp macrophages](../sources/2026_il_33_induced_ilc2_effector_cytokine_responses_promote_the_expansion_of_red_pulp_macr.md) | ILC2 | Spleen, not lung | Mouse | N. brasiliensis / systemic type 2 immunity; splenic macrophage expansion | IL-33R / IL-33 deficiency, ILC2-deficient systems, IL-4Ralpha and GM-CSF receptor perturbation | IL-4/IL-13 and GM-CSF support red pulp macrophage expansion | Extrapulmonary evidence; useful for ILC2-macrophage logic but not a pulmonary claim. |
+| [Tissue imprinting of ILC2 receptor programs](../sources/2018_tissue_signals_imprint_ilc2_identity_with_anticipatory_function.md) | Tissue-resident ILC2 | Lung, gut, skin, fat, and bone marrow | Mouse | Homeostatic tissue readiness rather than a single disease | Germ-free comparison, TSLPR / IL-33R / IL-25 pathway deficiency, IL-18 perturbation, bulk RNA-seq, scRNA-seq | Tissue-specific receptor and transcriptional programs, including lung/fat ST2 enrichment and IL-18R-bearing subsets | Strong tissue-boundary evidence; not direct asthma mechanism or human lung causality. |
 
 ### Activation and effector support
 
@@ -178,12 +182,14 @@ flowchart TB
     alarmin["IL-33 / IL-25"]
     lipid["LTE4 / PGD2"]
     costim["ICOS / OX40L / PD-L1"]
+    tfh13cue["LN IL-4 / CCR8"]
     niche["ASC niche"]
     neuro["NMU / CB2"]
     metabolism["HIF-1a / mTORC1"]
     ilc2["ILC2"]
     type2["IL-5 / IL-13"]
     repair["AREG repair"]
+    tfh13["Tfh13 / IgE"]
     macrophage["IL-4/13 + GM-CSF"]
     rpm["RPM expansion"]
     disease["AHR / repair"]
@@ -191,28 +197,32 @@ flowchart TB
     cue --> alarmin
     cue --> lipid
     cue --> costim
+    cue --> tfh13cue
     cue --> niche
     cue --> neuro
     cue --> metabolism
     alarmin --> ilc2
     lipid --> ilc2
     costim --> ilc2
+    tfh13cue --> ilc2
     niche --> ilc2
     neuro --> ilc2
     metabolism --> ilc2
     ilc2 --> type2
     ilc2 --> repair
+    ilc2 --> tfh13
     ilc2 --> macrophage
     macrophage --> rpm
     type2 --> disease
     repair --> disease
+    tfh13 --> disease
 
     classDef cue_class fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
     classDef cell_class fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
     classDef out_class fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
-    class cue,alarmin,lipid,costim,niche,neuro,metabolism cue_class
+    class cue,alarmin,lipid,costim,tfh13cue,niche,neuro,metabolism cue_class
     class ilc2 cell_class
-    class type2,repair,macrophage,rpm,disease out_class
+    class type2,repair,tfh13,macrophage,rpm,disease out_class
 ```
 
 ### Brakes and restraint

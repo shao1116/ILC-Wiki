@@ -146,10 +146,9 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 
 ## Source Library
 
-- The local source library currently contains 153 processed references, with 153 source notes carrying model-context evidence summaries and 0 retained as initial catalog notes.
+- The local source library currently contains 154 processed references, with 152 source notes carrying model-context evidence summaries and 0 retained as initial catalog notes.
 - Source notes are the preferred evidence layer for reusable biological claims because they preserve model context, assay directness, and caveats.
 - Claims should still be checked against the cited source before being reused in manuscripts, figures, or grant text, especially when extrapolating from mouse, gut, blood, nasal airway, sputum, or review-level evidence to lung disease.
-- The 2026-05-14 editorial pass spot-checked core beginner-facing claims against representative source notes; see [Beginner Editorial Polish And Source Check](../audit/2026-05-14_beginner_editorial_polish_source_check.md).
 
 ## Related Pages
 
