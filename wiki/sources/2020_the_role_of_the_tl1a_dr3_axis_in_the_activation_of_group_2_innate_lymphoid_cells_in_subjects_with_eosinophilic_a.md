@@ -4,7 +4,7 @@
 
 - Verified title: The Role of the TL1A/DR3 Axis in the Activation of Group 2 Innate Lymphoid Cells in Subjects with Eosinophilic Asthma
 - Publication year: 2020
-- DOI: 10.1164/rccm.201909-1722OC
+- DOI: 10.1164/rccm.201909-1722oc
 - Metadata source: crossref-doi (confidence: high)
 - Original local title: The Role of the TL1ADR3 Axis in the Activation of Group 2 Innate Lymphoid Cells in Subjects with Eosinophilic Asthma
 

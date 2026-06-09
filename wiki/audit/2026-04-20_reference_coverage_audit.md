@@ -1,7 +1,7 @@
 # Reference Coverage Audit
 
 Created: 2026-04-20
-Refreshed: 2026-05-13
+Refreshed: 2026-06-09
 
 ## Scope
 
@@ -11,11 +11,11 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 
 ## Coverage snapshot
 
-- Ingested paper source pages currently present: 153
-- Source pages in `focused manual crystallization mode`: 153
+- Ingested paper source pages currently present: 156
+- Source pages in `focused manual crystallization mode`: 152
 - Source pages in `provisional bulk-ingest mode`: 0
 - Entity/topic/digest synthesis pages currently scanned for direct source links: 11
-- Paper source pages currently linked directly from scanned synthesis pages: 153
+- Paper source pages currently linked directly from scanned synthesis pages: 156
 - Paper source pages still source-library only: 0
 - All ingested sources remain discoverable through [ingestion_manifest](../sources/source_index.md).
 - Counting note: focused/provisional counts describe source-page review mode; direct-link coverage describes whether a paper is cited from the scanned knowledge-layer pages. These are related but not interchangeable metrics.
@@ -33,9 +33,9 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 | Assigned role | Sources | Currently directly linked | Currently source-library only |
 |---|---:|---:|---:|
 | ILC3; mechanism/regulation | 30 | 30 | 0 |
-| ILC2; pulmonary/disease; mechanism/regulation | 27 | 27 | 0 |
+| ILC2; pulmonary/disease; mechanism/regulation | 28 | 28 | 0 |
 | ILC2; mechanism/regulation | 14 | 14 | 0 |
-| manual-review context | 13 | 13 | 0 |
+| manual-review context | 14 | 14 | 0 |
 | pulmonary/disease | 13 | 13 | 0 |
 | ILC2 | 10 | 10 | 0 |
 | ILC3 | 8 | 8 | 0 |
@@ -44,12 +44,12 @@ The audit now reflects the current architecture: [ILC2](../entities/ILC2.md) and
 | mechanism/regulation | 5 | 5 | 0 |
 | ILC2; ILC3; pulmonary/disease; mechanism/regulation | 4 | 4 | 0 |
 | ILC3; pulmonary/disease; mechanism/regulation | 4 | 4 | 0 |
+| ILC2; ILC3; pulmonary/disease | 2 | 2 | 0 |
 | ILC2; review/context | 2 | 2 | 0 |
 | pulmonary/disease; mechanism/regulation | 2 | 2 | 0 |
 | review/context | 2 | 2 | 0 |
 | ILC2; ILC3 | 1 | 1 | 0 |
 | ILC2; ILC3; mechanism/regulation | 1 | 1 | 0 |
-| ILC2; ILC3; pulmonary/disease | 1 | 1 | 0 |
 | ILC2; pulmonary/disease; review/context | 1 | 1 | 0 |
 | ILC3; pulmonary/disease; review/context | 1 | 1 | 0 |
 | mechanism/regulation; review/context | 1 | 1 | 0 |
@@ -228,6 +228,10 @@ These source pages are present in the library but are not directly linked from t
 | [Activated group 3 innate lymphoid cells promote T-cell-mediated immune responses](../sources/2014_activated_group_3_innate_lymphoid_cells_promote_t_cell_mediated_immune_responses.md) | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently directly cited from synthesis pages |
 | [Eosinophil-derived COX-2 protects against experimental colitis through the PGE2-IL-22 axis](../sources/2026_eosinophil_derived_cox_2_protects_against_experimental_colitis_through_the_pge2_il_22.md) | ILC3; mechanism/regulation | ILC3 entity and mechanism context | currently directly cited from synthesis pages |
 | [IL-33-induced ILC2 effector cytokine responses promote the expansion of red pulp macrophages](../sources/2026_il_33_induced_ilc2_effector_cytokine_responses_promote_the_expansion_of_red_pulp_macr.md) | ILC2; mechanism/regulation | ILC2 entity and mechanism context | currently directly cited from synthesis pages |
+
+| [Systemic Human ILC Precursors Provide a Substrate for Tissue ILC Differentiation](../sources/2017_systemic_human_ilc_precursors_provide_a_substrate_for_tissue_ilc_differentiation.md) | ILC3; human lung ILC taxonomy; development/precursor context | ILC3 entity, ILC3 mechanism topic, main guide, and core synthesis as precursor/taxonomy boundary | currently directly cited from synthesis pages |
+| [Cellular context of IL-33 expression dictates impact on anti-helminth immunity](../sources/2020_cellular_context_of_il_33_expression_dictates_impact_on_anti_helminth_immunity.md) | ILC2; mechanism/regulation; adaptive-immunity context | ILC2 entity, ILC2 mechanism topic, adaptive-immunity topic, main guide, and core synthesis as IL-33 source-cell boundary | currently directly cited from synthesis pages |
+| [Interleukin-4-producing type 2 innate lymphoid cells in the lymph node promote proallergic Tfh13 cell differentiation](../sources/2026_interleukin_4_producing_type_2_innate_lymphoid_cells_in_the_lymph_node_promote_proall.md) | manual-review context | background/manual triage | currently directly cited from synthesis pages |
 
 ## Follow-up manual review priorities
 

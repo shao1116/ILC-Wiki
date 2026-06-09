@@ -36,7 +36,7 @@ For a first pass, think of lung ILCs as tissue-positioned immune response module
 | Subset | Simplest Starting Idea | Lung Disease Meaning | Main Caution |
 |---|---|---|---|
 | ILC2 | Type 2 and repair-capable ILCs | Allergic airway inflammation, viral AHR, epithelial repair, stromal niche feedback, neuroimmune regulation | ILC2s can be pathogenic, reparative, memory-like, or plastic depending on context |
-| ILC3 | IL-22/IL-17-capable ILCs | Bacterial defense, neonatal lung niches, ARDS-like injury, neutrophilic and steroid-resistant asthma | IL-17-producing ILC-like cells require careful marker and lineage interpretation |
+| ILC3 | IL-22/IL-17-capable ILCs plus a precursor boundary | Bacterial defense, neonatal lung niches, ARDS-like injury, neutrophilic and steroid-resistant asthma, human lung ILCP context | IL-17-producing ILC-like cells and CD117+ ILCPs require careful marker, lineage, and maturation-state interpretation |
 | ILC1/NK-like states | Type 1 inflammatory or cytotoxic-adjacent programs | Important for plasticity, infection, tumor, and mixed inflammation interpretation | Do not merge ILC1, NK cells, and ILC2-to-ILC1-like states without source-specific evidence |
 
 ## First Reading Path
@@ -94,6 +94,8 @@ Spatial and regulatory evidence adds an important layer: lung ILC2s can sit in a
 
 The ILC3 source set spans mucosal protection, lung IL-22 responses during bacterial infection, developmental lung niches, ARDS/IL-17A, neutrophilic airway inflammation, steroid-resistant asthma, fibroblast SCF/KIT licensing, and IL-17 classification boundaries. In this wiki, ILC3s should not be labeled simply as protective or pathogenic. Their role depends on whether the relevant output is IL-22 barrier defense, IL-17A/neutrophilic inflammation, chemokine production, or stromal crosstalk.
 
+Human adult lung also contains CD117+ ILC-lineage populations with ILCP activity, which helps separate precursor potential from mature ILC3 effector states. Use this as taxonomy and developmental context rather than as evidence for a pulmonary disease mechanism.
+
 ### 3. Plasticity Is A Feature, Not A Footnote
 
 ILC subset labels are useful but incomplete. ILC2s can acquire memory-like behavior, become ILC1-like under COPD-associated inflammatory pressure, or show IL-17-producing ILC2/ILC3-like boundary states. ILC3s can also show state changes linked to smoking, steroid resistance, tissue stress, and transcriptional remodeling. Any serious claim should preserve marker set, tissue compartment, species, disease model, and assay type.
@@ -105,6 +107,8 @@ ILCs do not use antigen-specific receptors, but selected ILC states can still re
 ### 5. Evidence Type Matters
 
 Mouse perturbation studies are usually strongest for causality. Human lung tissue, sputum, blood, nasal airway, and scRNA-seq studies are essential for relevance but often have different inferential limits. Reviews are useful for conceptual framing, but primary source notes should anchor mechanistic claims.
+
+Alarmin claims also need source-cell context. A mouse intestinal helminth source shows epithelial IL-33 supporting ILC2-associated type 2 protection while CD11c+ APC-derived IL-33 supports ST2+GATA3+Foxp3+ Treg restraint, so "IL-33 activates ILC2s" is too broad unless the tissue and source cell are named.
 
 ## How To Use Claim Confidence
 
@@ -146,7 +150,7 @@ Mouse perturbation studies are usually strongest for causality. Human lung tissu
 
 ## Source Library
 
-- The local source library currently contains 154 processed references, with 152 source notes carrying model-context evidence summaries and 0 retained as initial catalog notes.
+- The local source library currently contains 156 processed references, with 152 source notes carrying model-context evidence summaries and 0 retained as initial catalog notes.
 - Source notes are the preferred evidence layer for reusable biological claims because they preserve model context, assay directness, and caveats.
 - Claims should still be checked against the cited source before being reused in manuscripts, figures, or grant text, especially when extrapolating from mouse, gut, blood, nasal airway, sputum, or review-level evidence to lung disease.
 

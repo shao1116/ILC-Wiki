@@ -1,5 +1,14 @@
 # Wiki Log
 
+## 2026-06-09
+
+- Deep-ingested two newly added PDFs from `RAW/` into source-reviewed evidence notes.
+- Added source-reviewed notes for IL-33 source-cell context in anti-helminth immunity and systemic human ILCP precursor biology.
+- Updated ILC2, ILC3, ILC-in-lung, adaptive-immunity, regulation, and core-synthesis pages with conservative source-bounded claims.
+- Kept IL-33 source-cell conclusions labeled as mouse gut/MLN helminth evidence with human airway expression context only.
+- Kept human ILCP conclusions labeled as precursor/taxonomy evidence rather than pulmonary disease causality.
+- Added audit record `audit/2026-06-09_new_pdf_deep_ingest.md`.
+
 ## 2026-05-14
 
 - Completed a beginner-facing editorial polish pass for the reader-facing LLM wiki.
@@ -167,3 +176,7 @@
   - Interleukin-4-producing type 2 innate lymphoid cells in the lymph node promote proallergic Tfh13 cell differentiation
 
 - 2026-05-25: Deep-ingested the new Tfh13/lymph-node ILC2 paper and re-reviewed the duplicate `Tissue signals imprint ILC2 identity with anticipatory function` PDF. Upgraded both source pages to source-reviewed evidence notes, moved the byte-identical duplicate PDF into `RAW/processed/`, corrected tissue-imprinting claims to mouse experimental evidence, and updated ILC2 entity, ILC2 disease/regulation topics, adaptive-immunity topic, and core evidence synthesis with compartment-labeled ILC2-IL-4-Tfh13 and tissue-imprinting claims.
+
+- 2026-06-09: Ingested 2 new PDF files from `ILC_in_lung/RAW/`; created source pages and extracted text files, moved processed PDFs into `RAW/processed/`, and kept these as provisional knowledge-oriented source notes without promoting durable topic/entity/digest claims.
+  - Cellular context of IL-33 expression dictates impact on anti-helminth immunity
+  - Systemic Human ILC Precursors Provide a Substrate for Tissue ILC Differentiation

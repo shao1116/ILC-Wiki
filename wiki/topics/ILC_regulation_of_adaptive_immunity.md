@@ -32,6 +32,8 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
   mouse lung ILC2s can upregulate PD-L1 after IL-33/ST2-linked activation and promote CD4 T-cell GATA3, IL-13, and Th2 polarization through PD-L1:PD-1 contact in primary helminth-associated type 2 immunity ([ILC2s regulate adaptive Th2 cell functions via PD-L1 checkpoint control](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md)).
 - High confidence:
   mouse lung ILC2s also support a Gata3high Treg feedback arm: ILC2 OX40L-OX40 and CCL1-CCR8 dialogue promotes local Gata3high Treg accumulation, while those Tregs tune ILC2 OX40L availability and restrain effector-memory Th2 expansion after allergen exposure ([Cross-talk between ILC2 and Gata3high Tregs locally constrains adaptive type 2 immunity](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md)).
+- High confidence for the source-specific gut helminth system:
+  CD11c+ APC-derived IL-33 supports ST2+GATA3+Foxp3+ Tregs that restrain anti-helminth type 2 immunity, whereas epithelial IL-33 supports ILC2-associated type 2 protection. This is an IL-33 source-cell-context boundary, not direct lung adaptive-immunity evidence ([Cellular context of IL-33 expression dictates impact on anti-helminth immunity](../sources/2020_cellular_context_of_il_33_expression_dictates_impact_on_anti_helminth_immunity.md)).
 - High confidence:
   in a mouse airway-allergen sensitization system, ILC2s traffic into lung-draining lymph nodes through a CCR8-dependent route and provide IL-4 that selectively promotes Tfh13, high-affinity IgE, and anaphylaxis-associated outputs; this is draining-lymph-node evidence rather than direct human lung-tissue evidence ([Interleukin-4-producing type 2 innate lymphoid cells in the lymph node promote proallergic Tfh13 cell differentiation](../sources/2026_interleukin_4_producing_type_2_innate_lymphoid_cells_in_the_lymph_node_promote_proall.md)).
 
@@ -79,6 +81,7 @@ Use this page when the question is "how can ILCs shape adaptive immune responses
 - In mouse IL-33 and allergen lung models, Gata3high Tregs localize near ILC2-rich adventitial/peribronchovascular niches and depend on CCL1-CCR8 chemotaxis plus OX40L-OX40 costimulation for efficient local accumulation.
 - Treg-intrinsic OX40 loss impairs IL-33-driven Gata3high Treg expansion. After allergen exposure, it reduces relative Gata3high Treg enrichment and shifts the inflamed lung and mediastinal lymph node toward higher Th2/Treg ratios and effector-memory Th2 expansion.
 - This branch should be read as a local restraint circuit, not simply as ILC2 activation: ILC2-derived OX40L can support adaptive type 2 immunity, but Gata3high Tregs feed back to limit OX40L bioavailability on ILC2s and cap the magnitude of the response.
+- A separate gut helminth source adds a source-cell-context boundary for IL-33: epithelial IL-33 supports ILC2-associated type 2 protection, while CD11c+ APC-derived IL-33 supports ST2+GATA3+Foxp3+ Tregs that restrain anti-helminth immunity. This should be cited as intestinal/MLN Treg restraint, not as evidence that APC IL-33 directly regulates pulmonary Tregs.
 
 ### ILC3 control of CD4 T-cell tolerance
 
@@ -129,6 +132,7 @@ These tables separate the adaptive partners and tissue contexts. They are intend
 | [PD-L1-PD-1 checkpoint contact](../sources/2017_ilc2s_regulate_adaptive_th2_cell_functions_via_pd_l1_checkpoint_control.md) | IL-33/ST2-activated ILC2 | Th2 / CD4 T cell | Lung in primary helminth-associated type 2 immunity | Mouse | ILC-lineage Cd274 deletion and adoptive-transfer logic | CD4 T-cell GATA3, IL-5/IL-13, eosinophil recruitment, worm clearance | Direction is context specific because PD-1-linked pathways can also restrain ILC2 metabolism in other settings. |
 | [OX40L-OX40 costimulation](../sources/2018_tissue_restricted_adaptive_type_2_immunity_is_orchestrated_by_expression_of_the_costimulatory_molecule_ox40l_on.md) | IL-33-induced ILC2 | Th2 and Treg | Lung and adipose tissue | Mouse | ILC2-targeted OX40L loss | Tissue-restricted Th2 and Treg expansion during type 2 inflammation | Strong mouse tissue evidence; not direct proof of human asthma therapeutic effect. |
 | [CCL1-CCR8 and OX40L-OX40 feedback](../sources/2024_cross_talk_between_ilc2_and_gata3high_tregs_locally_constrains_adaptive_type_2_immuni.md) | ILC2 | Gata3high Treg and effector-memory Th2 | Lung and mediastinal lymph node | Mouse | Ccr8 deficiency, Treg-intrinsic OX40 deletion, anti-OX40L, ILC2 perturbation | Gata3high Treg accumulation; reduced effector-memory Th2 expansion through OX40L tuning | This is a local restraint circuit, not a claim that all Tregs depend on ILC2s. |
+| [APC IL-33 support of ST2+GATA3+Foxp3+ Treg restraint](../sources/2020_cellular_context_of_il_33_expression_dictates_impact_on_anti_helminth_immunity.md) | ILC2-associated type 2 response with APC/Treg restraint arm | ST2+GATA3+Foxp3+ Treg | Gut / MLN helminth context; human airway expression context only | Mouse primary; human expression context | CD11cCre Il33 deletion, VillinCreER Il33 deletion, Foxp3Cre Gata3 deletion, IL-2 immune complex, ST2+ Treg transfer, Mpeg1/perforin-2 perturbation | Epithelial IL-33 supports ILC2-associated type 2 anti-helminth immunity; CD11c+ APC IL-33 supports Treg restraint | Source-cell IL-33 boundary in intestinal helminth immunity; not direct lung Treg causality. |
 | [ILC2-derived IL-4 support of Tfh13](../sources/2026_interleukin_4_producing_type_2_innate_lymphoid_cells_in_the_lymph_node_promote_proall.md) | Activated lymph-node ILC2 | Tfh13 and IgE-linked humoral response | Lung-draining lymph node after airway allergen exposure | Mouse | ILC2-depletion models, ILC2-restricted IL-4 loss in mixed chimeras, T-cell IL-4Ralpha deletion, IL-4 rescue, CCR8 perturbation | Tfh13 differentiation, high-affinity IgE, and anaphylaxis-associated outputs | Source supports draining-lymph-node Tfh13 instruction; do not convert to direct human lung-tissue evidence. |
 | [Gut ILC2-derived IL-10](../sources/2020_ilc2s_are_the_predominant_source_of_intestinal_ilc_derived_il_10.md) | Regulatory ILC2 state | Regulatory immune environment | Gut | Mouse | ILC-derived IL-10 source mapping in intestinal context | ILC2s are a major intestinal source of ILC-derived IL-10 | Useful for ILC2 state diversity; should not be converted into a lung ILC2-Treg mechanism. |
 
@@ -177,13 +181,18 @@ flowchart TB
     ilc3_mhcii --> cd4["CD4 restraint"]
     ilc3_mhcii --> treg_gut["Treg selection"]
     treg_gut --> tolerance["Tolerance"]
+    gut --> apc_il33["APC IL-33"]
+    apc_il33 --> st2_treg["ST2+ Treg"]
+    st2_treg -.-> type2_restraint["Type 2 restraint"]
 
     classDef tissue fill:#e8f3ff,stroke:#3b6ea8,stroke-width:2px,color:#17324d
     classDef ilc fill:#fff4de,stroke:#b47a1f,stroke-width:2px,color:#4a3108
+    classDef cue fill:#f4f4f4,stroke:#777,stroke-width:1px,color:#222
     classDef adaptive fill:#eef7ed,stroke:#4d8a50,stroke-width:2px,color:#173d1d
     class lung,gut,spleen,ldn tissue
     class pdl1,ilc2,ln_ilc2,ilc3_mhcii,act_ilc3 ilc
-    class th2_pol,th2,treg_lung,ox40l_tune,tfh13,ige,cd4,treg_gut,tolerance,cd4_prolif,td_bcell adaptive
+    class apc_il33 cue
+    class th2_pol,th2,treg_lung,ox40l_tune,tfh13,ige,cd4,treg_gut,tolerance,cd4_prolif,td_bcell,st2_treg,type2_restraint adaptive
 ```
 
 ### B-cell and checkpoint branches
@@ -211,7 +220,7 @@ flowchart TB
 
 ## Interpretation
 
-ILC regulation of adaptive immunity should be modeled as a set of tissue-specific interfaces rather than as one universal function. In lung and lung-draining lymph-node contexts, the clearest current interfaces are ILC2 PD-L1 costimulation of Th2 polarization, ILC2 OX40L licensing of local type 2 adaptive immunity, ILC2-Treg feedback that limits effector-memory Th2 expansion, and lymph-node ILC2-derived IL-4 support of Tfh13 differentiation. In gut and mucosal lymphoid tissues, ILC3s can regulate CD4 T-cell tolerance, Treg maintenance/selection, and regulatory B-cell differentiation through MHCII, IL-2, alphaV integrin, CD40L, BAFF, IL-15, and CTLA-4-linked pathways.
+ILC regulation of adaptive immunity should be modeled as a set of tissue-specific interfaces rather than as one universal function. In lung and lung-draining lymph-node contexts, the clearest current interfaces are ILC2 PD-L1 costimulation of Th2 polarization, ILC2 OX40L licensing of local type 2 adaptive immunity, ILC2-Treg feedback that limits effector-memory Th2 expansion, and lymph-node ILC2-derived IL-4 support of Tfh13 differentiation. In gut and mucosal lymphoid tissues, ILC3s can regulate CD4 T-cell tolerance, Treg maintenance/selection, and regulatory B-cell differentiation through MHCII, IL-2, alphaV integrin, CD40L, BAFF, IL-15, and CTLA-4-linked pathways. Intestinal helminth evidence also shows that APC-derived IL-33 can support ST2+GATA3+Foxp3+ Treg restraint while epithelial IL-33 supports ILC2-associated type 2 protection, reinforcing that upstream alarmin source and tissue context matter.
 
 The practical rule is to keep lung-direct evidence and extrapulmonary mechanism evidence in separate mental bins. Gut ILC3 tolerance biology is highly informative for how ILCs can shape adaptive immunity, but it should be cited as gut/mucosal context until matching lung, BAL, sputum, bronchial biopsy, or pulmonary lymph-node evidence is available.
 
