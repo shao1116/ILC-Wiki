@@ -65,6 +65,9 @@ For disease outcomes, see [ILC3 Roles In Pulmonary Disease](./ILC3_roles_in_pulm
 
 ### Stromal and developmental niche regulation
 
+- **Gut IGF1 restrains a chemokine circuit.** Fibroblast-derived IGF1 and ILC3-associated IGF1R signaling limit IFNγ-induced CXCL10, pDC recruitment, and intestinal injury in mouse colitis. Igf1r/Cxcl10 double-deletion rescue and pDC depletion support the circuit; human IBD associations and ex vivo responses provide more limited conservation evidence. RORγt-Cre is not ILC3-exclusive, and some specificity/human experiments are reported only in the unavailable separate supplement ([Lin et al.](../sources/2026_fibroblasts_restrain_gut_inflammation_by_igf1_dependent_regulation_of_innate_lymphocytes.md), Figures 1–4).
+- This gut mechanism does not replace neonatal lung IGF1 evidence: colitis changes chemokine recruitment without a significant change in displayed ILC3-number or IL-22 readouts, whereas the pulmonary study addresses precursor development and antibacterial defense. Adult lung IGF1–ILC3–CXCL10–pDC activity remains an open hypothesis.
+
 - [Insulin-like Growth Factor 1 Supports a Pulmonary Niche that Promotes Type 3 Innate Lymphoid Cell Development in Newborn Lungs](../sources/2020_insulin_like_growth_factor_1_supports_a_pulmonary_niche_that_promotes_type_3_innate_lymphoid_cell_development_in.md) supports a pulmonary stromal niche mechanism in which alveolar fibroblast-derived IGF1 promotes postnatal lung ILC3 development.
 - [Pulmonary fibroblast-derived stem cell factor promotes neutrophilic asthma by augmenting IL-17A production from ILC3s](../sources/2025_pulmonary_fibroblast_derived_stem_cell_factor_promotes_neutrophilic_asthma_by_augment.md) supports a disease-associated stromal mechanism in which pulmonary fibroblast-derived SCF augments ILC3 IL-17A production.
 - Together, these sources suggest that stromal cells can support either development/homeostasis or inflammatory output depending on context.

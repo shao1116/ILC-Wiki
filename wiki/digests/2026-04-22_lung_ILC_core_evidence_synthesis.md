@@ -117,6 +117,20 @@ flowchart TB
 
 ## Evidence Layers
 
+### Metabolic Permission And Reciprocal Tissue Niches
+
+Three additional sources sharpen the working model without turning cross-tissue analogies into lung facts:
+
+| Evidence context | What advances the story | What remains outside the evidence |
+|---|---|---|
+| [Allergic airway ILC2 redox defense](../sources/2026_tolerance_to_ferroptosis_facilitates_lipid_metabolism_and_pathogenic_type_2_immunity_in_allergic_airway_inflammation.md) | Lipid use requires cystine/GSH and GPX4/TXNRD1 protection against peroxidation; fuel flexibility still has a redox dependency | Exclusive ASCT2 transport, ILC2-only whole-animal effects, established-asthma reversal, or clinical safety |
+| [Mouse pancreatic ILC2–fibroblast niche](../sources/2026_ilc2s_regulate_a_fibroblast_progenitor_niche_in_the_pancreas.md) | ILC2s help regulate fibroblast progenitor abundance and lineage contribution, with positive and negative population control | A universal pro-fibrotic role, a fully resolved OSM/LIF circuit, or the same lineage hierarchy in lung |
+| [Intestinal fibroblast IGF1–ILC3 circuit](../sources/2026_fibroblasts_restrain_gut_inflammation_by_igf1_dependent_regulation_of_innate_lymphocytes.md) | Stromal signals restrain ILC3 chemokine-driven pDC recruitment without changing displayed IL-22/abundance readouts | Direct adult-lung CXCL10–pDC causality or clinical IGF1 treatment efficacy |
+
+ILC function depends on both tolerance of its metabolic environment and reciprocal interactions with a particular tissue niche. This is an organizing interpretation across sources, not one experimentally demonstrated pathway connecting all three studies. Gut IGF1-mediated chemokine restraint and newborn-lung IGF1-mediated development remain separate evidence branches.
+
+### Evidence Directness
+
 | Evidence layer | What it supports | Main caution |
 |---|---|---|
 | Mouse perturbation models | Strongest causal links between mediator, ILC state, and disease readout | Translation to human asthma, COPD, ARDS, or infection requires tissue and disease matching |

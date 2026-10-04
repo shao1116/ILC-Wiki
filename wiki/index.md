@@ -1,6 +1,14 @@
 # ILC In Lung Wiki
 
-Last updated: 2026-06-09
+Last updated: 2026-10-03
+
+## Latest Literature Integration
+
+- [Ferroptosis Tolerance And Pathogenic Type 2 Immunity](./sources/2026_tolerance_to_ferroptosis_facilitates_lipid_metabolism_and_pathogenic_type_2_immunity_in_allergic_airway_inflammation.md): lipid metabolism requires redox protection in allergen-activated ILC2s; mouse airway evidence with human blood-cell context. Published online in December 2025, newly added here in October 2026.
+- [ILC2s And The Pancreatic Fibroblast Progenitor Niche](./sources/2026_ilc2s_regulate_a_fibroblast_progenitor_niche_in_the_pancreas.md): reciprocal stromal population control, retained as a pancreatic comparator.
+- [Fibroblast IGF1 And Intestinal ILC3s](./sources/2026_fibroblasts_restrain_gut_inflammation_by_igf1_dependent_regulation_of_innate_lymphocytes.md): restraint of CXCL10-dependent pDC recruitment, distinct from neonatal pulmonary IGF1 biology.
+
+See the [integrated evidence comparison](./digests/2026-04-22_lung_ILC_core_evidence_synthesis.md#metabolic-permission-and-reciprocal-tissue-niches) for conceptual connections and limits.
 
 ## Welcome
 

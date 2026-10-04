@@ -82,6 +82,8 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 
 ### Metabolic regulation
 
+- **Redox capacity licenses lipid use.** In papain/Alternaria airway models, cystine/GSH and GPX4/TXNRD1 defenses support PUFA-rich membrane lipid acquisition while limiting ferroptosis. Survival rescue, lipidomics, and genetics support this mechanism; ASCT2 transporter attribution remains provisional, and Red5-driven deletion also affects IL-5+ Th2 cells. This extends lipid-droplet biology without making other fuels universally dispensable ([Wientjens et al.](../sources/2026_tolerance_to_ferroptosis_facilitates_lipid_metabolism_and_pathogenic_type_2_immunity_in_allergic_airway_inflammation.md), Figures 1–6).
+
 - [Autophagy is critical for group 2 innate lymphoid cell metabolic homeostasis and effector function](../sources/2020_autophagy_is_critical_for_group_2_innate_lymphoid_cell_metabolic_homeostasis_and_effector_function.md) supports autophagy as a regulator of ILC2 metabolic balance, proliferation, apoptosis, and cytokine secretion.
 - [Dichotomous metabolic networks govern human ILC2 proliferation and function](../sources/2021_dichotomous_metabolic_networks_govern_human_ilc2_proliferation_and_function.md) supports a human baseline-versus-activated metabolic split in which circulating ILC2s rely on amino-acid-supported OXPHOS at rest but use glycolysis and mTOR for IL-33-driven effector activation.
 - [Blocking the HIF-1alpha glycolysis axis inhibits allergic airway inflammation by reducing ILC2 metabolism and function](../sources/2025_blocking_the_hif_1alpha_glycolysis_axis_inhibits_allergic_airway_inflammation_by_reducing_ilc2_metabolism_and_fu.md) supports HIF-1alpha/glycolysis as a pro-inflammatory ILC2 metabolic axis in allergic airway inflammation.
@@ -145,6 +147,14 @@ This page is a regulation map. For disease outcomes, see [ILC2 Roles In Pulmonar
 - [Group 2 innate lymphoid cells promote inhibitory synapse development and social behavior](../sources/2024_group_2_innate_lymphoid_cells_promote_inhibitory_synapse_development_and_social_behav.md) is retained as extrapulmonary neuroimmune ILC2 context; it should not be used as lung neuroimmune or asthma evidence without pulmonary data.
 
 ## Interpretation
+
+### Reciprocal Fibroblast Control In The Pancreas
+
+Mouse pancreatic ILC2s regulate an IL-33-rich Pi16+Dpp4+Ly6c+ fibroblast progenitor niche. Dpp4 lineage tracing supports contribution to Col15a1+ fibroblasts and selected CAF states beyond computational trajectory inference. IL-13 contributes to the growth arm, while resident macrophages constrain fibroblast numbers and may do so through phagocytosis. The mechanism reducing differentiated Ly6c− fibroblasts remains unresolved: OSM/LIF administration is not proof that either ligand is genetically required. These are **pancreatic**, not pulmonary, findings ([Yip et al.](../sources/2026_ilc2s_regulate_a_fibroblast_progenitor_niche_in_the_pancreas.md), Figures 1–6 and main-text supplementary-result reports).
+
+This comparator asks whether ILC2s control stromal population structure as well as receiving stromal signals. It does not establish the same progenitor hierarchy in lung; pancreatic macrophage restraint remains distinct from ILC2-driven alveolar macrophage inflammatory reprogramming.
+
+### Layered Control Of ILC2 State
 
 ILC2 function is regulated by layered controls rather than a single master pathway. Epithelial alarmins and lipid mediators provide rapid activation, costimulatory and checkpoint receptors tune ILC2-adaptive dialogue, metabolism sets effector capacity, neuroimmune inputs provide fast excitatory or inhibitory control, and infection can redirect ILC2 identity toward repair or niche-imprinting roles. The map below separates positive inputs, negative inputs, and state-rerouting signals so the reader can see both accelerating and restraining branches at a glance.
 

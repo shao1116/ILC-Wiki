@@ -1,5 +1,15 @@
 # Wiki Log
 
+## 2026-10-03
+
+- Completed the three-paper focused manual ingest begun on October 2: airway ILC2 ferroptosis tolerance, pancreatic ILC2–fibroblast progenitor regulation, and intestinal fibroblast IGF1–ILC3–CXCL10–pDC restraint.
+- Added three detailed source notes and integrated source-linked claims into six existing entity/topic/digest pages; refreshed homepage and reference registries (159 source records).
+- Independent scientific review: round 1 found one major precision issue, resolved by separating ILC2-dependent fibroblast abundance from separately demonstrated Dpp4-lineage contribution. Round 2 sign-off: **no blocking accuracy issues remain**.
+- Retained model, tissue, genetic-driver, human-validation, and supplementary-coverage limitations. The two Science supplements were not directly available; the Immunity PDF included STAR Methods and supplementary figures.
+- Preserved both the December 2025 online-publication date and February 2026 issue date for the ferroptosis study; it is newly ingested, not newly published after June 2026.
+- Public-export scope excludes source PDFs, extracted full text, and private machine-readable registries; local preparation does not imply GitHub publication.
+- See [batch evidence audit](./audit/2026-10-03_three_paper_deep_ingest.md).
+
 ## 2026-06-09
 
 - Deep-ingested two newly added PDFs from `RAW/` into source-reviewed evidence notes.
